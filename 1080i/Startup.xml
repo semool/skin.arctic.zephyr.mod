@@ -6,12 +6,12 @@
     <onload>SetProperty(SkinInitStarted,1,home)</onload>
     <onload condition="!Skin.HasSetting(TMDbHelper.Service)">Skin.ToggleSetting(TMDbHelper.Service)</onload>
     <controls>
-        <control type="image" description="Background">
+        <!--<control type="image" description="Background">
             <include>Dimensions_Fullscreen</include>
             <texture colordiffuse="$VAR[StartupDiffuse]">$VAR[StartupFanart]</texture>
             <animation effect="fade" start="100" end="0" time="500" tween="quadratic">WindowClose</animation>
             <visible>String.IsEmpty(Skin.String(StartupPlaylist))</visible>
-        </control>
+        </control>-->
         <control type="button" id="9315">
             <visible allowhiddenfocus="true">false</visible>
             <onfocus condition="System.HasAddon(script.skin.info.service)">RunScript(script.skin.info.service)</onfocus>
@@ -19,7 +19,7 @@
             <onfocus condition="!Player.HasVideo + !String.IsEmpty(Skin.String(StartupPlaylist))">ReplaceWindow(Home)</onfocus>
             <onfocus condition="String.IsEmpty(Skin.String(StartupPlaylist))">AlarmClock(GoHome,ReplaceWindow(home),00:03,silent,false)</onfocus>
         </control>
-        <control type="label">
+        <!--<control type="label">
             <description>Loading</description>
             <width>100%</width>
             <height>100%</height>
@@ -41,6 +41,6 @@
             <animation effect="fade" start="0" end="100" time="800" delay="1800" tween="quadratic">WindowOpen</animation>
             <animation effect="fade" start="100" end="0" time="500" tween="quadratic">WindowClose</animation>
             <visible>String.IsEmpty(Skin.String(StartupPlaylist)) + String.IsEmpty(Skin.String(startupfanart.fallback))</visible>
-        </control>
+        </control>-->
     </controls>
 </window>
