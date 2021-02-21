@@ -231,6 +231,14 @@
                             <label2>$VAR[LabelHomeWidgetStyle]</label2>
                             <onclick>ActivateWindow(1255)</onclick>
                         </control>
+                        <control type="radiobutton" id="9804" description="Autocolor">
+                            <width>1310</width>
+                            <visible>ControlGroup(9100).HasFocus(9101)</visible>
+                            <include>DefSettingsButtonGradient</include>
+                            <label>Day/Night Autocolor</label>
+                            <selected>Skin.HasSetting(daynight.autocolor)</selected>
+                            <onclick>Skin.ToggleSetting(daynight.autocolor)</onclick>
+                        </control>
                         <control type="button" id="9803">
                             <visible>ControlGroup(9100).HasFocus(9101)</visible>
                             <include>DefSettingsLabel</include>
