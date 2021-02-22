@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Foundation -->
 <window id="0">
-    <onload condition="System.HasAddon(service.arctic.zephyr.mod.autocolors) + Skin.HasSetting(daynight.autocolor) + System.Time(8:00,20:00)">RunScript(service.arctic.zephyr.mod.autocolors,Light)</onload>
-    <onload condition="System.HasAddon(service.arctic.zephyr.mod.autocolors) + Skin.HasSetting(daynight.autocolor) + !System.Time(8:00,20:00)">RunScript(service.arctic.zephyr.mod.autocolors,SKINDEFAULT)</onload>
     <include condition="![Skin.HasSetting(home.vertical) + Skin.HasSetting(home.vertical.widgets)] + ![Skin.HasSetting(home.modernwidgets) + Skin.HasSetting(home.vertical.widgets)]">defaultcontroltrue</include>
     <include condition="[Skin.HasSetting(home.vertical) + Skin.HasSetting(home.vertical.widgets)] | [Skin.HasSetting(home.modernwidgets) + Skin.HasSetting(home.vertical.widgets)]">defaultcontrolfalse</include>
     <onload>RunScript(script.skinshortcuts,type=buildxml&amp;mainmenuID=300&amp;group=mainmenu|x1111|x1112|x1113|x1114|x1115|x1116|x1117|x1118|x1119|powermenu&amp;levels=6)</onload> 
