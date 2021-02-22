@@ -149,12 +149,13 @@
         <value condition="!String.IsEmpty(ListItem.Art(clearlogo))">$INFO[ListItem.Art(clearlogo)]</value>
     </variable>
 
-    <variable name="PosterImage22">
-        <value condition="!String.IsEmpty(ListItem.Art(season.poster))">$INFO[ListItem.Art(season.poster)]</value>
-        <value condition="Container.Content(seasons)">$INFO[ListItem.Icon]</value>
-        <value condition="!String.IsEmpty(ListItem.Art(tvshow.poster))">$INFO[ListItem.Art(tvshow.poster)]</value>
+    <variable name="PosterImageSquare">
         <value condition="!String.IsEmpty(ListItem.Art(poster))">$INFO[ListItem.Art(poster)]</value>
-        <value>$INFO[ListItem.Icon]</value>
+        <value condition="!String.IsEmpty(ListItem.Art(thumb))">$INFO[ListItem.Art(thumb)]</value>
+        <value condition="!String.IsEmpty(ListItem.Icon)">$INFO[ListItem.Icon]</value>
+        <value condition="String.IsEqual(ListItem.DBTYPE,artist)">DefaultArtist.png</value>
+        <value condition="String.IsEqual(ListItem.DBTYPE,album)">DefaultAlbumCover.png</value>
+        <value condition="String.IsEqual(ListItem.DBTYPE,song)">DefaultMusicSongs.png</value> 
     </variable>
 
     <variable name="Image_HDSD">
