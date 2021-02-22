@@ -3149,19 +3149,22 @@
         </definition>
     </include>
     
-    <include name="DialogInfoOverlay">      
+    <include name="DialogInfoOverlay"> 
+        <param name="ondirection" value="$PARAM[ondirection]" default="9000"/>
+        <param name="visible" value="$PARAM[visible]" default="Control.HasFocus(9601)"/>
+        <definition>
         <control type="scrollbar" id="9601">
             <width>1</width>
             <height>1</height>
             <visible allowhiddenfocus="true">false</visible>
-            <onback>9000</onback>
-            <onup>9000</onup>
-            <ondown>9000</ondown>
-            <onleft>9000</onleft>
-            <onright>9000</onright>
+            <onback>$PARAM[ondirection]</onback>
+            <onup>$PARAM[ondirection]</onup>
+            <ondown>$PARAM[ondirection]</ondown>
+            <onleft>$PARAM[ondirection]</onleft>
+            <onright>$PARAM[ondirection]</onright>
         </control>
         <control type="group">
-            <visible>Control.HasFocus(9601)</visible>
+            <visible>$PARAM[visible]</visible>
             <include>Animation.FadeIn</include>
             <include>Animation.FadeOut</include>
             <control type="image" description="Background">
@@ -3169,13 +3172,22 @@
                 <texture colordiffuse="Background">common/bg.jpg</texture>
                 <animation effect="fade" start="100" end="95" condition="true">Conditional</animation>
             </control>
+            <control type="image" description="clearlogo">
+                <visible>Skin.HasSetting(furniture.logo)</visible>
+                <centertop>120</centertop>
+                <centerleft>50%</centerleft>
+                <width>400</width>
+                <height>100</height>
+                <aspectratio align="center">keep</aspectratio>
+                <texture background="true">$VAR[ClearLogoTopVar]</texture>
+            </control>
         </control>
         <control type="group">
             <left>SidePad</left>
             <right>SidePad</right>
             <top>PosterPad</top>
             <height>630</height>
-            <visible>Control.HasFocus(9601)</visible>
+            <visible>$PARAM[visible]</visible>
             <include>Animation.FadeIn.Slide</include>
             <include>Animation.FadeOut</include>
             <control type="label">
@@ -3198,12 +3210,12 @@
                 <font>Medium</font>
                 <textcolor>Dark1</textcolor>
                 <pagecontrol>9601</pagecontrol>
-                <autoscroll>false</autoscroll>
+                <include>NoScrollTextWidget</include>
                 <label>$PARAM[plotinfo]</label>
             </control>
         </control>
         <control type="group">
-            <visible>Control.HasFocus(9601) + Container(9600).HasNext</visible>
+            <visible>$PARAM[visible] + Container(9600).HasNext</visible>
             <include>Animation.FadeIn</include>
             <include>Animation.FadeOut</include>
             <left>952</left>
@@ -3222,7 +3234,7 @@
             </control>
         </control>        
         <control type="group">
-            <visible>Control.HasFocus(9601) + Container(9600).HasPrevious</visible>
+            <visible>$PARAM[visible] + Container(9600).HasPrevious</visible>
             <include>Animation.FadeIn</include>
             <include>Animation.FadeOut</include>
             <left>952</left>
@@ -3239,6 +3251,7 @@
                 <height>16</height>
                 <texture colordiffuse="Dark2" flipy="true">common/arrow-small.png</texture>
             </control>
-        </control>  
+        </control>
+        </definition> 
     </include>
 </includes>
