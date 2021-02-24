@@ -933,12 +933,12 @@
     </variable>
 
     <variable name="LabelOSDhdr">
-        <value condition="String.Contains(Player.Filenameandpath,.hdr.) | String.Contains(Player.Filenameandpath,hdr)">hdr</value>
+        <value condition="[String.Contains(Player.Filenameandpath,_2160p) + !String.Contains(Player.Filenameandpath,_SDR)] | String.Contains(Player.Filenameandpath,.hdr.) | String.Contains(Player.Filenameandpath,hdr)">hdr</value>
     </variable>
 
     <variable name="LabelFurniturehdr">
-        <value condition="String.Contains(ListItem.Filenameandpath,.hdr.) | String.Contains(ListItem.Filenameandpath,hdr)">hdr</value>
-        <value condition="String.Contains(Container(9500).ListItem.Filenameandpath,.hdr.) | String.Contains(Container(9500).ListItem.Filenameandpath,hdr)">hdr</value>
+        <value condition="[String.Contains(Player.Filenameandpath,_2160p) + !String.Contains(Player.Filenameandpath,_SDR)] | String.Contains(ListItem.Filenameandpath,.hdr.) | String.Contains(ListItem.Filenameandpath,hdr)">hdr</value>
+        <value condition="[String.Contains(Player.Filenameandpath,_2160p) + !String.Contains(Player.Filenameandpath,_SDR)] | String.Contains(Container(9500).ListItem.Filenameandpath,.hdr.) | String.Contains(Container(9500).ListItem.Filenameandpath,hdr)">hdr</value>
     </variable>
 
     <include name="weatherlist">

@@ -640,7 +640,7 @@
                     <centertop>50%</centertop>
                     <texture colordiffuse="Dark1" fallback="flags/fallback.png">flags/other/hdr.png</texture>
                     <aspectratio align="center">keep</aspectratio>
-                    <visible>Skin.HasSetting(furniture.flagicons) + [String.Contains(ListItem.Filenameandpath,.hdr.) | String.Contains(ListItem.Filenameandpath,hdr)]</visible>
+                    <visible>Skin.HasSetting(furniture.flagicons) + [String.Contains(ListItem.Filenameandpath,_2160p) + !String.Contains(ListItem.Filenameandpath,_SDR)] | [String.Contains(ListItem.Filenameandpath,.hdr.) | String.Contains(ListItem.Filenameandpath,hdr)]</visible>
                 </control>
                 <control type="image">
                     <width min="20" max="100">auto</width>
@@ -1017,7 +1017,7 @@
                     <centertop>50%</centertop>
                     <texture fallback="flags/fallback.png">flags/color/other/hdrnew.png</texture>
                     <aspectratio align="center">keep</aspectratio>
-                    <visible>Skin.HasSetting(furniture.flagicons) + [String.Contains(ListItem.Filenameandpath,.hdr.) | String.Contains(ListItem.Filenameandpath,hdr)]</visible>
+                    <visible>Skin.HasSetting(furniture.flagicons) + [String.Contains(ListItem.Filenameandpath,_2160p) + !String.Contains(ListItem.Filenameandpath,_SDR)] | [String.Contains(ListItem.Filenameandpath,.hdr.) | String.Contains(ListItem.Filenameandpath,hdr)]</visible>
                 </control>
                 <control type="image">
                     <width min="20" max="100">auto</width>
@@ -1398,7 +1398,7 @@
                 <centertop>50%</centertop>
                 <texture colordiffuse="Dark1" fallback="flags/fallback.png">flags/other/hdr.png</texture>
                 <aspectratio align="center">keep</aspectratio>
-                <visible>Skin.HasSetting(furniture.flagicons) + !Skin.HasSetting(furniture.flags.hdr) + [String.Contains(ListItem.Filenameandpath,.hdr.) | String.Contains(ListItem.Filenameandpath,hdr)]</visible>
+                <visible>Skin.HasSetting(furniture.flagicons) + !Skin.HasSetting(furniture.flags.hdr) + [String.Contains(ListItem.Filenameandpath,_2160p) + !String.Contains(ListItem.Filenameandpath,_SDR)] | [String.Contains(ListItem.Filenameandpath,.hdr.) | String.Contains(ListItem.Filenameandpath,hdr)]</visible>
             </control>
             <control type="image" description="MPAA">
                 <width min="20" max="100">auto</width>
@@ -1780,7 +1780,7 @@
                 <centertop>50%</centertop>
                 <texture fallback="flags/fallback.png">flags/color/other/hdrnew.png</texture>
                 <aspectratio align="center">keep</aspectratio>
-                <visible>Skin.HasSetting(furniture.flagicons) + !Skin.HasSetting(furniture.flags.hdr) + [String.Contains(ListItem.Filenameandpath,.hdr.) | String.Contains(ListItem.Filenameandpath,hdr)]</visible>
+                <visible>Skin.HasSetting(furniture.flagicons) + !Skin.HasSetting(furniture.flags.hdr) + [String.Contains(ListItem.Filenameandpath,_2160p) + !String.Contains(ListItem.Filenameandpath,_SDR)] | [String.Contains(ListItem.Filenameandpath,.hdr.) | String.Contains(ListItem.Filenameandpath,hdr)]</visible>
             </control>
             <control type="image" description="MPAA">
                 <width min="20" max="100">auto</width>
@@ -2165,7 +2165,7 @@
                 <centertop>50%</centertop>
                 <texture colordiffuse="Dark1" fallback="flags/fallback.png">flags/other/hdr.png</texture>
                 <aspectratio align="center">keep</aspectratio>
-                <visible>String.Contains(Container(9500).ListItem.Filenameandpath,.hdr.) | String.Contains(Container(9500).ListItem.Filenameandpath,hdr)</visible>
+                <visible>[String.Contains(Container(9500).ListItem.Filenameandpath,_2160p) + !String.Contains(Container(9500).ListItem.Filenameandpath,_SDR)] | [String.Contains(Container(9500).ListItem.Filenameandpath,.hdr.) | String.Contains(Container(9500).ListItem.Filenameandpath,hdr)]</visible>
             </control>
             <control type="image">
                 <width min="20" max="100">auto</width>
@@ -2471,7 +2471,7 @@
                 <centertop>50%</centertop>
                 <texture fallback="flags/fallback.png">flags/color/other/hdrnew.png</texture>
                 <aspectratio align="center">keep</aspectratio>
-                <visible>Skin.HasSetting(furniture.flagicons) + [String.Contains(Container(9500).ListItem.Filenameandpath,.hdr.) | String.Contains(Container(9500).ListItem.Filenameandpath,hdr)]</visible>
+                <visible>Skin.HasSetting(furniture.flagicons) + [String.Contains(Container(9500).ListItem.Filenameandpath,_2160p) + !String.Contains(Container(9500).ListItem.Filenameandpath,_SDR)] | [String.Contains(Container(9500).ListItem.Filenameandpath,.hdr.) | String.Contains(Container(9500).ListItem.Filenameandpath,hdr)]</visible>
             </control>
             <control type="image">
                 <width min="20" max="100">auto</width>

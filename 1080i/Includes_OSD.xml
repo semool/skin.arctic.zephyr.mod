@@ -243,7 +243,7 @@
                     <centertop>50%</centertop>
                     <texture colordiffuse="$VAR[OSDPanelWhite70]" fallback="flags/fallback.png">flags/other/hdr.png</texture>
                     <aspectratio align="center">keep</aspectratio>
-                    <visible>Skin.HasSetting(furniture.flagiconsosdnoicons) + [String.Contains(Player.Filename,.hdr.) | String.Contains(Player.Filename,hdr)]</visible>
+                    <visible>Skin.HasSetting(furniture.flagiconsosdnoicons) + [String.Contains(Player.Filename,_2160p) + !String.Contains(Player.Filename,_SDR)] | [String.Contains(Player.Filename,.hdr.) | String.Contains(Player.Filename,hdr)]</visible>
                 </control>
             </control>
             <control type="grouplist">
@@ -311,7 +311,7 @@
                     <centertop>53%</centertop>
                     <texture fallback="flags/fallback.png">flags/color/other/hdrnew.png</texture>
                     <aspectratio align="center">keep</aspectratio>
-                    <visible>Skin.HasSetting(furniture.flagiconsosdnoicons) + [String.Contains(Player.Filenameandpath,.hdr.) | String.Contains(Player.Filenameandpath,hdr)]</visible>
+                    <visible>Skin.HasSetting(furniture.flagiconsosdnoicons) + [String.Contains(Player.Filenameandpath,_2160p) + !String.Contains(Player.Filenameandpath,_SDR)] | [String.Contains(Player.Filenameandpath,.hdr.) | String.Contains(Player.Filenameandpath,hdr)]</visible>
                 </control>
             </control>
 
@@ -577,7 +577,7 @@
                 <centertop>50%</centertop>
                 <texture colordiffuse="$VAR[OSDPanelWhite70]" fallback="flags/fallback.png">flags/other/hdr.png</texture>
                 <aspectratio align="center">keep</aspectratio>
-                <visible>Skin.HasSetting(furniture.flagiconsosd) + Skin.HasSetting(furniture.flagiconsosdnoicons) + [String.Contains(Player.Filenameandpath,.hdr.) | String.Contains(Player.Filenameandpath,hdr)]</visible>
+                <visible>Skin.HasSetting(furniture.flagiconsosd) + Skin.HasSetting(furniture.flagiconsosdnoicons) + [String.Contains(Player.Filenameandpath,_2160p) + !String.Contains(Player.Filenameandpath,_SDR)] | [String.Contains(Player.Filenameandpath,.hdr.) | String.Contains(Player.Filenameandpath,hdr)]</visible>
             </control>
             <include content="Def_Flag">
                 <param name="Star" value="Flagstar199" />
@@ -681,7 +681,7 @@
                 <centertop>53%</centertop>
                 <texture fallback="flags/fallback.png">flags/color/other/hdrnew.png</texture>
                 <aspectratio align="center">keep</aspectratio>
-                <visible>Skin.HasSetting(furniture.flagiconsosd) + Skin.HasSetting(furniture.flagiconsosdnoicons) + [String.Contains(Player.Filenameandpath,.hdr.) | String.Contains(Player.Filenameandpath,hdr)]</visible>
+                <visible>Skin.HasSetting(furniture.flagiconsosd) + Skin.HasSetting(furniture.flagiconsosdnoicons) + [String.Contains(Player.Filenameandpath,_2160p) + !String.Contains(Player.Filenameandpath,_SDR)] | [String.Contains(Player.Filenameandpath,.hdr.) | String.Contains(Player.Filenameandpath,hdr)]</visible>
             </control>            
             <include content="Def_Flag">
                 <param name="Star" value="Flagstar199" />
