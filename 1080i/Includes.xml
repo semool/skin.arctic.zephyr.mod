@@ -353,7 +353,6 @@
         <value condition="Window.IsVisible(home) + !Container(301).IsUpdating + Skin.HasSetting(homemenu.netflix)">common/null.png</value>
         <value condition="Window.IsVisible(home) + !Container(301).IsUpdating">pvr/background.jpg</value>
         <value condition="!String.IsEmpty(Window(Home).Property(SkinHelper.ExtraFanArtPath)) + Skin.HasSetting(SkinHelper.EnableExtraFanart) + System.AddonIsEnabled(script.skin.helper.service) + Window.IsVisible(MyVideoNav.xml)">$INFO[Window(Home).Property(SkinHelper.ExtraFanArtPath)]</value>
-        <value condition="!String.IsEmpty(ListItem.Art(tvshow.fanart))">$INFO[ListItem.Art(tvshow.fanart)]</value>
         <value condition="!String.IsEmpty(ListItem.Art(fanart))">$INFO[ListItem.Art(fanart)]</value>
         <value condition="!String.IsEmpty(Container(9500).ListItem.Art(fanart))">$INFO[Container(9500).ListItem.Art(fanart)]</value>
         <value condition="!String.IsEmpty(ListItem.Property(Fanart_Image))">$INFO[ListItem.Property(Fanart_Image)]</value>
@@ -951,28 +950,18 @@
     </variable>
 
     <variable name="LabelOSDhdr">
-        <value condition="String.Contains(Player.Filenameandpath,.hdr10plus.) | String.Contains(Player.Filenameandpath,hdr10plus)">hdr10+</value>
-        <value condition="String.Contains(Player.Filenameandpath,.hdr10.) | String.Contains(Player.Filenameandpath,hdr10)">hdr10</value>
-        <value condition="String.Contains(Player.Filenameandpath,.hdr.) | String.Contains(Player.Filenameandpath,hdr)">hdr</value>
-        <value condition="String.Contains(Player.Filenameandpath,_2160p) + !String.Contains(Player.Filenameandpath,_SDR)">hdr</value>
-        <value condition="String.Contains(Player.Filenameandpath,.hlg.) | String.Contains(Player.Filenameandpath,hlg)">hlg</value>
+        <value condition="String.Contains(Player.Filenameandpath,.hdr10plus.)">hdr10+</value>
+        <value condition="String.Contains(Player.Filenameandpath,.hdr10.)">hdr10</value>
+        <value condition="String.Contains(Player.Filenameandpath,.hdr.)">hdr</value>
+        <value condition="String.Contains(Player.Filenameandpath,.hlg.)">hlg</value>
         <value condition="String.Contains(Player.Filenameandpath,.dv.) | String.Contains(Player.Filenameandpath,dolbyvision)">dolby vision</value>
     </variable>
 
     <variable name="LabelFurniturehdr">
         <value condition="String.Contains(ListItem.Filenameandpath,.hdr10plus.) | String.Contains(Container(9500).ListItem.Filenameandpath,.hdr10plus.)">hdr10+</value>
-        <value condition="String.Contains(ListItem.Filenameandpath,hdr10plus) | String.Contains(Container(9500).ListItem.Filenameandpath,hdr10plus)">hdr10+</value>
-        
         <value condition="String.Contains(ListItem.Filenameandpath,.hdr10.) | String.Contains(Container(9500).ListItem.Filenameandpath,.hdr10.)">hdr10</value>
-        <value condition="String.Contains(ListItem.Filenameandpath,hdr10) | String.Contains(Container(9500).ListItem.Filenameandpath,hdr10)">hdr10</value>
-
         <value condition="String.Contains(ListItem.Filenameandpath,.hdr.) | String.Contains(Container(9500).ListItem.Filenameandpath,.hdr.)">hdr</value>
-        <value condition="String.Contains(ListItem.Filenameandpath,hdr) | String.Contains(Container(9500).ListItem.Filenameandpath,hdr)">hdr</value>
-        <value condition="[String.Contains(ListItem.Filenameandpath,_2160p) | String.Contains(Container(9500).ListItem.Filenameandpath,_2160p)] + [!String.Contains(ListItem.Filenameandpath,_SDR) | String.Contains(Container(9500).ListItem.Filenameandpath,_SDR)]">hdr</value>
-
         <value condition="String.Contains(ListItem.Filenameandpath,.hlg.) | String.Contains(Container(9500).ListItem.Filenameandpath,.hlg.)">hlg</value>
-        <value condition="String.Contains(ListItem.Filenameandpath,hlg) | String.Contains(Container(9500).ListItem.Filenameandpath,hlg)">hlg</value>
-        
         <value condition="String.Contains(ListItem.Filenameandpath,.dv.) | String.Contains(Container(9500).ListItem.Filenameandpath,.dv.)">dolby vision</value>
         <value condition="String.Contains(ListItem.Filenameandpath,dolbyvision) | String.Contains(Container(9500).ListItem.Filenameandpath,dolbyvision)">dolby vision</value>
     </variable>
