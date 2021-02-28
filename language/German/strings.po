@@ -2360,10 +2360,6 @@ msgctxt "#37962"
 msgid "Audio Channels"
 msgstr "Audio Kanäle"
 
-msgctxt "#37965"
-msgid "Download animated artwork using Skin Helper Service"
-msgstr "Downloade Animierte Poster mit Skin Helper Service"
-
 msgctxt "#31001"
 msgid "Backup / Restore"
 msgstr "Backup / Restore"
