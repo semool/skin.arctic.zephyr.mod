@@ -233,7 +233,7 @@
                         </control>
                         <control type="radiobutton" id="9804" description="Autocolor">
                             <width>1310</width>
-                            <visible>ControlGroup(9100).HasFocus(9101) + System.HasAddon(service.arctic.zephyr.mod.autocolors)</visible>
+                            <visible>ControlGroup(9100).HasFocus(9101) + System.HasAddon(script.arctic.zephyr.mod.autocolors)</visible>
                             <include>DefSettingsButtonGradient</include>
                             <label>Day/Night Autocolor</label>
                             <selected>Skin.HasSetting(daynight.autocolor)</selected>
