@@ -1451,7 +1451,7 @@
                         <include content="DefSkinAddons">
                             <param name="id" value="11023"/>
                             <param name="visible" value="ControlGroup(9100).HasFocus(9113)"/>
-                            <param name="addonname" value="service.arctic.zephyr.mod.autocolors"/>
+                            <param name="addonname" value="script.arctic.zephyr.mod.autocolors"/>
                         </include>
                     </control>
     
