@@ -235,7 +235,7 @@
                             <width>1310</width>
                             <visible>ControlGroup(9100).HasFocus(9101) + System.HasAddon(script.arctic.zephyr.mod.autocolors)</visible>
                             <include>DefSettingsButtonGradient</include>
-                            <label>Day/Night Autocolor</label>
+                            <label>$LOCALIZE[14078] $LOCALIZE[15111] $LOCALIZE[14013] $LOCALIZE[33027]/$LOCALIZE[33028]</label>
                             <selected>Skin.HasSetting(daynight.autocolor)</selected>
                             <onclick>Skin.ToggleSetting(daynight.autocolor)</onclick>
                         </control>
