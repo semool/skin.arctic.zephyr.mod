@@ -1602,7 +1602,7 @@
                 <textureradioofffocus colordiffuse="FFFFFFFF">buttonsdialogs/rating_new.png</textureradioofffocus>
                 <textureradiooffnofocus colordiffuse="FFFFFFFF">buttonsdialogs/rating_new.png</textureradiooffnofocus>
                 <selected>String.IsEmpty(ListItem.UserRating)</selected>
-                <visible>Container.Content(movies) | Container.Content(tvshows) | Container.Content(episodes)</visible>
+                <visible>[String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,episode)] + Control.IsEnabled(7)</visible>
                 <visible>!Skin.HasSetting(hidebutton.video.rating)</visible>
             </control>
             <!--<control type="radiobutton" id="9108">
@@ -3055,5 +3055,13 @@
         <value condition="Control.HasFocus(7)">7</value>
         <value condition="Control.HasFocus(8)">8</value>
         <value>1</value>
+    </variable>
+    
+    <variable name="AlbumPath">
+        <value condition="ListItem.IsFolder + String.IsEqual(ListItem.DBType,album)">$INFO[ListItem.FolderPath]</value>
+    </variable>
+    
+    <variable name="AlbumPath301">
+        <value condition="Container(301).ListItem.IsFolder + String.IsEqual(Container(301).ListItem.DBType,album)">$INFO[Container(301).ListItem.FolderPath]</value>
     </variable>
 </includes>
