@@ -68,7 +68,7 @@
           <onback>50</onback>
           <left>SidePad</left>
           <width>1760</width>
-          <bottom>200</bottom>
+          <bottom>165</bottom>
           <orientation>horizontal</orientation>
           <height>8</height>
           <onup>50</onup>
@@ -112,7 +112,7 @@
         <control type="image">
             <visible>[Control.HasFocus(1615) | Control.HasFocus(1823) | Control.HasFocus(1639) | Control.HasFocus(1623) | Control.HasFocus(1633) | Control.HasFocus(1671)] + Integer.IsGreater(Container(290001).NumItems,0)</visible>
             <left>950</left>
-            <top>885</top>
+            <top>920</top>
             <width>16</width>
             <height>16</height>
             <texture colordiffuse="Dark1" flipx="false">common/arrow-small.png</texture>
