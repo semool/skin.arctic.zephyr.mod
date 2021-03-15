@@ -94,7 +94,7 @@
                 <itemgap>0</itemgap>
                 <usecontrolcoords>true</usecontrolcoords>
                 <scrolltime>0</scrolltime>
-                <include>Def9000MusicSide</include>              
+                <include>Def9000MusicSide</include>
                 <control type="radiobutton" id="9051" description="Low List (57)">
                     <include>DefContextButtonGradient</include>
                     <align>left</align>
@@ -148,7 +148,7 @@
                     <onclick>Skin.Reset(51bigwide.showinfo.alternative)</onclick>
                     <onclick>ReloadSkin()</onclick>
                     <visible>Control.IsVisible(51)</visible>
-                </control>                
+                </control>
                 <control type="radiobutton" id="9055" description="Big Wide Info (51)">
                     <include>DefContextButtonGradient</include>
                     <align>left</align>

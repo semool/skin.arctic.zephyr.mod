@@ -60,7 +60,7 @@
                     <bottom>20</bottom>
                     <aspectratio scalediffuse="false">keep</aspectratio>
                     <texture diffuse="diffuse/wall.png" background="true">$INFO[ListItem.Icon]</texture>
-                    <visible>false</visible><!--default_false-->  
+                    <visible>false</visible><!--default_false-->
                 </control>
                 <control type="label">
                     <align>center</align>
@@ -126,7 +126,7 @@
                     <bottom>20</bottom>
                     <aspectratio scalediffuse="false">keep</aspectratio>
                     <texture diffuse="diffuse/wall.png" background="true">$INFO[ListItem.Icon]</texture>
-                    <visible>false</visible><!--default_false-->  
+                    <visible>false</visible><!--default_false-->
                 </control>
                 <control type="label">
                     <align>center</align>
@@ -262,7 +262,7 @@
                         <height>381</height>
                         <top>14</top>
                         <texture colordiffuse="Fallback" border="4" background="true">common/diffuse_box.png</texture>
-                    </control>                    
+                    </control>
                     <control type="image">
                         <width>662</width>
                         <height>381</height>
@@ -279,7 +279,7 @@
                         <fadetime>PosterFanartFadetime</fadetime>
                         <aspectratio aligny="center" align="center" scalediffuse="false">keep</aspectratio>
                         <texture background="true">$INFO[ListItem.Icon]</texture>
-                        <visible>false</visible><!--default_false-->  
+                        <visible>false</visible><!--default_false-->
                     </control>
                     <control type="image">
                         <left>-1</left>
@@ -330,7 +330,7 @@
                         <fadetime>PosterFanartFadetime</fadetime>
                         <aspectratio aligny="center" align="center" scalediffuse="false">keep</aspectratio>
                         <texture diffuse="diffuse/pvrinfo.png" background="true">$INFO[ListItem.Icon]</texture>
-                        <visible>false</visible><!--default_false-->  
+                        <visible>false</visible><!--default_false-->
                     </control>
                 </control>
             </control>

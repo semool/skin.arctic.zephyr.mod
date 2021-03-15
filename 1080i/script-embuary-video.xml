@@ -123,7 +123,7 @@
                     </control>
                 </control>
                 
-                <!-- Arrows -->                
+                <!-- Arrows -->
                 <include content="ArrowsNavigation">
                     <param name="visible" value="Control.HasFocus(10055) + Integer.IsGreater(10055(100).NumItems,1)" />
                     <param name="centerbottom" value="560" />

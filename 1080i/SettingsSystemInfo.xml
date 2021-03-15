@@ -225,7 +225,7 @@
                         <height>47</height>
                         <left>385</left>
                         <texture>backg/matrix.png</texture>
-                    </control>                        
+                    </control>
                     <control type="button" id="9907">
                         <width>1310</width>
                         <height>279</height>

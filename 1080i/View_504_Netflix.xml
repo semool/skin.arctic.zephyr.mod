@@ -198,7 +198,7 @@
                     <fadetime>PosterFanartFadetime</fadetime>
                     <aspectratio aligny="center" align="center" scalediffuse="false">keep</aspectratio>
                     <texture diffuse="diffuse/listposter.png" background="true">$INFO[ListItem.Icon]</texture>
-                    <visible>false</visible><!--default_false-->  
+                    <visible>false</visible><!--default_false-->
                 </control>
                 <control type="image">
                     <left>-1</left>
@@ -242,7 +242,7 @@
                         <bottom>10</bottom>
                         <height>235</height>
                         <texture colordiffuse="Fallback" border="4" background="true">common/diffuse_box.png</texture>
-                    </control>                    
+                    </control>
                     <control type="image">
                         <left>12</left>
                         <top>10</top>
@@ -261,7 +261,7 @@
                         <height>235</height>
                         <aspectratio scalediffuse="false">keep</aspectratio>
                         <texture diffuse="diffuse/pvrinfo.png" background="true">$INFO[ListItem.Icon]</texture>
-                        <visible>false</visible><!--default_false-->  
+                        <visible>false</visible><!--default_false-->
                     </control>
                     <control type="image">
                         <left>11</left>
@@ -321,7 +321,7 @@
                         <bottom>10</bottom>
                         <height>235</height>
                         <texture colordiffuse="Fallback" border="4" background="true">common/diffuse_box.png</texture>
-                    </control>                    
+                    </control>
                     <control type="image">
                         <left>12</left>
                         <top>10</top>
@@ -340,7 +340,7 @@
                         <height>235</height>
                         <aspectratio scalediffuse="false">keep</aspectratio>
                         <texture diffuse="diffuse/pvrinfo.png" background="true">$INFO[ListItem.Icon]</texture>
-                        <visible>false</visible><!--default_false-->  
+                        <visible>false</visible><!--default_false-->
                     </control>
                     <control type="image">
                         <left>11</left>
@@ -417,7 +417,7 @@
                         <bottom>10</bottom>
                         <height>185</height>
                         <texture colordiffuse="Fallback" border="4" background="true">common/diffuse_box.png</texture>
-                    </control>                    
+                    </control>
                     <control type="image">
                         <left>12</left>
                         <top>10</top>
@@ -436,7 +436,7 @@
                         <height>185</height>
                         <aspectratio scalediffuse="false">keep</aspectratio>
                         <texture diffuse="diffuse/pvrinfo.png" background="true">$INFO[ListItem.Icon]</texture>
-                        <visible>false</visible><!--default_false-->  
+                        <visible>false</visible><!--default_false-->
                     </control>
                     <control type="image">
                         <left>11</left>
@@ -496,7 +496,7 @@
                         <bottom>10</bottom>
                         <height>185</height>
                         <texture colordiffuse="Fallback" border="4" background="true">common/diffuse_box.png</texture>
-                    </control>                    
+                    </control>
                     <control type="image">
                         <left>12</left>
                         <top>10</top>
@@ -515,7 +515,7 @@
                         <height>185</height>
                         <aspectratio scalediffuse="false">keep</aspectratio>
                         <texture diffuse="diffuse/pvrinfo.png" background="true">$INFO[ListItem.Icon]</texture>
-                        <visible>false</visible><!--default_false-->  
+                        <visible>false</visible><!--default_false-->
                     </control>
                     <control type="image">
                         <left>11</left>

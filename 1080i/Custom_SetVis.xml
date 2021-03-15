@@ -104,7 +104,7 @@
                     <label2>$INFO[Visualisation.Preset]</label2>
                     <onclick>ActivateWindow(visualisationpresetlist)</onclick>
                     <enable>Visualisation.HasPresets</enable>
-                </control>                
+                </control>
             </control>
         </control>
     </controls>

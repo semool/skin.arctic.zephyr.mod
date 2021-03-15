@@ -149,7 +149,7 @@
             <aspectratio scalediffuse="false">keep</aspectratio>
             <texture background="true">$VAR[PosterImage]</texture>
             <visible>Skin.HasSetting(global.hidecirles)</visible>
-            <visible>false</visible><!--default_false-->  
+            <visible>false</visible><!--default_false-->
         </control>
         <control type="label">
             <left>130</left>
@@ -224,7 +224,7 @@
             <aspectratio scalediffuse="false">keep</aspectratio>
             <texture background="true">$VAR[PosterImage]</texture>
             <visible>Skin.HasSetting(global.hidecirles)</visible>
-            <visible>false</visible><!--default_false-->  
+            <visible>false</visible><!--default_false-->
         </control>
         <control type="label">
             <left>130</left>

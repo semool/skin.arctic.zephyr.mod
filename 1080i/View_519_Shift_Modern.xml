@@ -48,7 +48,7 @@
                         <height>305</height>
                         <bottom>80</bottom>
                         <texture colordiffuse="Fallback" border="4" background="true">common/diffuse_box.png</texture>
-                    </control>                    
+                    </control>
                     <control type="image">
                         <left>10</left>
                         <width>200</width>
@@ -65,7 +65,7 @@
                         <bottom>80</bottom>
                         <aspectratio scalediffuse="false">keep</aspectratio>
                         <texture diffuse="diffuse/wall.png" background="true">$INFO[ListItem.Icon]</texture>
-                        <visible>false</visible><!--default_false-->  
+                        <visible>false</visible><!--default_false-->
                     </control>
                     <control type="image">
                         <left>9</left>
@@ -114,7 +114,7 @@
                         <height>305</height>
                         <bottom>80</bottom>
                         <texture colordiffuse="Fallback" border="4" background="true">common/diffuse_box.png</texture>
-                    </control>                    
+                    </control>
                     <control type="image">
                         <left>10</left>
                         <width>200</width>
@@ -131,7 +131,7 @@
                         <bottom>80</bottom>
                         <aspectratio scalediffuse="false">keep</aspectratio>
                         <texture diffuse="diffuse/wall.png" background="true">$INFO[ListItem.Icon]</texture>
-                        <visible>false</visible><!--default_false-->  
+                        <visible>false</visible><!--default_false-->
                     </control>
                     <control type="image">
                         <left>9</left>

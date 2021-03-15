@@ -49,7 +49,7 @@
                             <width>PosterShadowW</width>
                             <height>PosterShadowW</height>
                             <texture border="32">common/$VAR[shadow-24]</texture>
-                        </control>                        
+                        </control>
                         <control type="image">
                             <top>2</top>
                             <width>PosterW</width>
@@ -103,7 +103,7 @@
                             <width>PosterShadowW</width>
                             <height>PosterShadowW</height>
                             <texture border="32">common/$VAR[shadow-24]</texture>
-                        </control>                        
+                        </control>
                         <control type="image">
                             <width>PosterW</width>
                             <height>PosterW</height>

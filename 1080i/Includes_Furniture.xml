@@ -122,7 +122,7 @@
             <animation effect="slide" start="0,0" end="-120,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(290000).HasFocus()">Conditional</animation>
             <animation effect="slide" start="0,0" end="32,0" time="400" reversible="true" tween="quadratic" easing="out" condition="ControlGroup(290000).HasFocus()">Conditional</animation>
             <left>1931</left>
-            <top>215</top>            
+            <top>215</top>
             <control type="image">
                 <left>-8</left>
                 <top>-8</top>
@@ -147,7 +147,7 @@
                 <onleft>$VAR[ClickToJump]</onleft>
                 <onright>$VAR[ClickToJump]</onright>
                 <orientation>vertical</orientation>
-                <align>center</align>                
+                <align>center</align>
                 <control type="list" id="290001">
                     <height>615</height>
                     <width>26</width>
@@ -168,7 +168,7 @@
                             <animation effect="fade" start="100" end="33" time="0" condition="!String.IsEmpty(ListItem.Property(NotAvailable))">Conditional</animation>
                         </control>
                     </itemlayout>
-                    <focusedlayout height="55" width="26">                        
+                    <focusedlayout height="55" width="26">
                         <control type="label">
                             <visible>Control.HasFocus(290001) + String.IsEmpty(ListItem.Property(NotAvailable))</visible>
                             <width>100%</width>
@@ -192,7 +192,7 @@
                             <label>[B]$INFO[ListItem.Label][/B]</label>
                             <font>Small33</font>
                             <textcolor>$VAR[ColorHighlight]</textcolor>
-                        </control>                        
+                        </control>
                         <control type="label">
                             <visible>Control.HasFocus(290001) + !String.IsEmpty(ListItem.Property(NotAvailable))</visible>
                             <width>100%</width>
@@ -218,7 +218,7 @@
                             <font>Small33</font>
                             <textcolor>Black70</textcolor>
                             <animation effect="fade" start="100" end="33" time="0" condition="true">Conditional</animation>
-                        </control>                       
+                        </control>
                     </focusedlayout>
                     <include condition="Skin.HasSetting(old.jumpbar)">OldJumpbar</include>
                     <include condition="!Skin.HasSetting(old.jumpbar)">NewJumpbar</include>
@@ -2231,7 +2231,7 @@
                 <param name="Star" value="HubFlagstar" />
                 <param name="visible" value="!Skin.HasSetting(furniture.numericrating)" />
                 <param name="color" value="Dark1" />
-            </include>            
+            </include>
             <control type="label">
                 <left>-16</left>
                 <width min="48">auto</width>
@@ -3414,7 +3414,7 @@
             <visible>!Window.IsVisible(DialogExtendedProgressBar.xml)</visible>
             <visible>String.IsEmpty(Window(10025).Property(TvTunesIsAlive))</visible>
             <visible>!Window.IsActive(DialogNotification.xml)</visible>
-            <visible>Player.HasMedia</visible>            
+            <visible>Player.HasMedia</visible>
             <animation effect="slide" start="0" end="0,-250" time="150" condition="Control.HasFocus(301) + !Skin.HasSetting(home.classicwidgets) + !Skin.HasSetting(home.vertical)">Conditional</animation>
             <top>70</top>
             <right>62</right>

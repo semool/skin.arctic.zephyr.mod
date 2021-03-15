@@ -40,7 +40,7 @@
                         <right>10</right>
                         <height>202</height>
                         <texture colordiffuse="Fallback" border="4" background="true">common/diffuse_box.png</texture>
-                    </control>                    
+                    </control>
                     <control type="image">
                         <left>10</left>
                         <top>10</top>
@@ -83,7 +83,7 @@
                         <right>10</right>
                         <height>202</height>
                         <texture colordiffuse="Fallback" border="4" background="true">common/diffuse_box.png</texture>
-                    </control>                    
+                    </control>
                     <control type="image">
                         <left>10</left>
                         <top>10</top>
@@ -134,7 +134,7 @@
                 <width>PosterH</width>
                 <include content="Fanart_Info">
                     <param name="posx" value="70"/>
-                </include>                
+                </include>
             </control>
         </control>
         <control type="group">
@@ -221,7 +221,7 @@
                         <bottom>3</bottom>
                         <texture border="20" colordiffuse="$VAR[ColorHighlightSelectbox2]">common/gradient-selectbox.png</texture>
                         <include>Animation.SelectBoxHome</include>
-                    </control>                    
+                    </control>
                 </focusedlayout>
             </control>
             <include>Furniture_Scrollbar</include>
@@ -292,7 +292,7 @@
                         <right>10</right>
                         <height>202</height>
                         <texture colordiffuse="Fallback" border="4" background="true">common/diffuse_box.png</texture>
-                    </control>                    
+                    </control>
                     <control type="image">
                         <left>10</left>
                         <top>10</top>

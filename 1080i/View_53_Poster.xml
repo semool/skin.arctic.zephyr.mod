@@ -71,7 +71,7 @@
                     <height>PosterH</height>
                     <aspectratio align="center" aligny="center" scalediffuse="false">keep</aspectratio>
                     <texture diffuse="diffuse/listposter.png" background="true">$INFO[ListItem.Icon]</texture>
-                    <visible>false</visible><!--default_false-->  
+                    <visible>false</visible><!--default_false-->
                 </control>
                 <control type="image">
                     <left>-2</left>
@@ -211,7 +211,7 @@
                     <height>PosterH</height>
                     <aspectratio align="center" aligny="center" scalediffuse="false">keep</aspectratio>
                     <texture diffuse="diffuse/listposter.png" background="true">$INFO[ListItem.Icon]</texture>
-                    <visible>false</visible><!--default_false-->  
+                    <visible>false</visible><!--default_false-->
                 </control>
                 <control type="group">
                     <visible>!Skin.HasSetting(furniture.overlaysnew) + !String.IsEqual(ListItem.Label,..)</visible>

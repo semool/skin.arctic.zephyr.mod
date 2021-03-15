@@ -319,7 +319,7 @@
                     <left>30</left>
                     <right>SidePadNewOSD</right>
                     <top>-870</top>
-                    <bottom>50</bottom>                    
+                    <bottom>50</bottom>
                     <control type="image">
                         <visible>!String.IsEmpty(Player.Art(tvshow.poster)) | !String.IsEmpty(Player.Art(poster))</visible>
                         <left>0</left>
@@ -328,7 +328,7 @@
                         <height>390</height>
                         <texture diffuse="diffuse/listposter.png">$VAR[PlayerPoster]</texture>
                         <aspectratio align="center" aligny="center" scalediffuse="false">scale</aspectratio>
-                    </control>                    
+                    </control>
                     <control type="image">
                         <width>270</width>
                         <left>0</left>

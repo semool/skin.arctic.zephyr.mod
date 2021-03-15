@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
     <defaultcontrol always="true">401</defaultcontrol>
-    <onunload>ClearProperty(Backg,Home)</onunload>    
+    <onunload>ClearProperty(Backg,Home)</onunload>
     <onunload condition="Control.IsVisible(9900)">ClearProperty(custommenu,Home)</onunload>
     <onunload condition="Control.IsVisible(9900)">ClearProperty(Symbols,Home)</onunload>
     <controls>
@@ -221,10 +221,10 @@
                     <width>100%</width>
                     <height>66</height>
                     <texturenofocus colordiffuse="Black12" border="5">common/box.png</texturenofocus>
-                    <align>left</align>                    
+                    <align>left</align>
                     <include>DefDialogButtonsGradient</include>
                     <visible>String.IsEmpty(Window(Home).Property(skinshortcuts-Widget))</visible>
-                </control>                
+                </control>
                 <control type="button" id="307" description="Custom">
                     <width>100%</width>
                     <height>66</height>
@@ -289,7 +289,7 @@
                     <visible>String.IsEmpty(Window(Home).Property(skinshortcuts-Widget))</visible>
                     <onclick condition="String.IsEqual(Container(211).ListItem.Property(widget),mysubmenu)">SetProperty(Symbols,yes,Home)</onclick>
                     <onclick condition="!String.IsEqual(Container(211).ListItem.Property(widget),mysubmenu)">ClearProperty(Symbols,Home)</onclick>
-                </control>                
+                </control>
                 <include content="Defs_Shortcuts_SetHub">
                     <param name="hubid" value="1111"/>
                     <param name="buttonid1" value="9301"/>
@@ -364,9 +364,9 @@
                     <width>100%</width>
                     <height>66</height>
                     <texturenofocus colordiffuse="Black12" border="5">common/box.png</texturenofocus>
-                    <align>left</align>                    
+                    <align>left</align>
                     <include>DefDialogButtonsGradient</include>
-                </control>                
+                </control>
                 <control type="button" id="307" description="Custom">
                     <width>100%</width>
                     <height>66</height>
@@ -401,7 +401,7 @@
                     <texturenofocus colordiffuse="Black12" border="5">common/box.png</texturenofocus>
                     <align>left</align>
                     <include>DefDialogButtonsGradient</include>
-                </control>              
+                </control>
                 <control type="button" id="308" description="Reset">
                     <width>100%</width>
                     <height>66</height>
@@ -426,7 +426,7 @@
                 <height>549</height>
                 <orientation>vertical</orientation>
                 <itemgap>3</itemgap>
-                <visible>String.IsEqual(Window(Home).Property(skinshortcuts-Widget),1)</visible>                
+                <visible>String.IsEqual(Window(Home).Property(skinshortcuts-Widget),1)</visible>
                 <control type="button" id="9451" description="Widget">
                     <width>100%</width>
                     <height>66</height>
@@ -438,7 +438,7 @@
                     <include>DefDialogButtonsGradient</include>
                     <visible allowhiddenfocus="true">String.IsEqual(Window(Home).Property(skinshortcuts-Widget),1)</visible>
                     <onclick>SendClick(312)</onclick>
-                </control>                
+                </control>
                 <control type="button" id="406" description="Set Custom">
                     <width>100%</width>
                     <height>66</height>
@@ -450,7 +450,7 @@
                     <onclick>SetProperty(Backg,yes,Home)</onclick>
                     <onclick>SetProperty(custommenu,yes,Home)</onclick>
                     <onclick>SetProperty(Symbols,yes,Home)</onclick>
-                </control>                    
+                </control>
                 <control type="radiobutton" id="10030" description="Widget Aspect">
                     <radioposx>845</radioposx>
                     <selected>String.IsEqual(Container(211).ListItem.Property(widgetFullscreen),yes) | Skin.HasSetting(homemenu.netflix)</selected>

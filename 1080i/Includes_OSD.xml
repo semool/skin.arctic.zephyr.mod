@@ -1456,7 +1456,7 @@
             <texturefocus colordiffuse="$VAR[ColorHighlight]">osd/timeline.png</texturefocus>
             <texturenofocus colordiffuse="Dark1">osd/timeline.png</texturenofocus>
             <onclick>ActivateWindow(pvrchannelguide)</onclick>
-        </control>        
+        </control>
         <control type="button" id="6">
             <width>48</width>
             <height>48</height>
@@ -2136,7 +2136,7 @@
             <texturefocus colordiffuse="$VAR[ColorHighlight]">osd/stop.png</texturefocus>
             <texturenofocus colordiffuse="Dark1">osd/stop.png</texturenofocus>
             <onclick>PlayerControl(Stop)</onclick>
-        </control>        
+        </control>
         <control type="button" id="16">
             <description>Fast Forward</description>
             <width>48</width>

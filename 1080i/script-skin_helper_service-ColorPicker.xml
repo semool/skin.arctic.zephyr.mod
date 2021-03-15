@@ -8,7 +8,7 @@
             <include>HiddenButton</include>
             <onfocus>SetProperty(currentcolor,$INFO[Window.Property(colorstring)],Home)</onfocus>
             <onfocus>SetFocus(9000)</onfocus>
-        </control>    
+        </control>
         <control type="group">
             <animation effect="fade" start="100" end="0" time="500" delay="0" tween="quadratic">WindowClose</animation>
 

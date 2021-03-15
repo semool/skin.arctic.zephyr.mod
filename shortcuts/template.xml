@@ -9,7 +9,7 @@
         <property name="sort" tag="property" attribute="name|widgetSortDirection"/>
         <property name="aspectratio" tag="property" attribute="name|widgetAspectRatio"/>
         <property name="aspectratio">keep</property>
-        <property name="IsGTO" tag="property" attribute="name|widget" value="GTO">true</property>  
+        <property name="IsGTO" tag="property" attribute="name|widget" value="GTO">true</property>
         <property name="IsGTO">false</property>
         <property name="widgetauto" tag="property" attribute="name|widgetAuto" value="$NUMBER[5000]">5000</property>
         <property name="widgetauto" tag="property" attribute="name|widgetAuto" value="$NUMBER[7000]">7000</property>
@@ -24,7 +24,7 @@
                 <left>70</left>
                 <right>70</right>
                 <top>20</top>
-                <bottom>20</bottom>                
+                <bottom>20</bottom>
                 <onup condition="IsEmpty(Container(300).ListItem.Property(widget))">303</onup>
                 <onup condition="!IsEmpty(Container(300).ListItem.Property(widget))">300</onup>
                 <onclick condition="$SKINSHORTCUTS[IsGTO]">RunPlugin(plugin://script.service.gto?action=info&amp;item=$INFO[ListItem.Property(Item)])</onclick>
@@ -171,7 +171,7 @@
         <property name="target">$VAR[DefWidgetTarget]</property>
         <property name="sortby" tag="property" attribute="name|widgetSortby"/>
         <property name="sort" tag="property" attribute="name|widgetSortDirection"/>
-        <property name="IsGTO" tag="property" attribute="name|widget" value="GTO">true</property>  
+        <property name="IsGTO" tag="property" attribute="name|widget" value="GTO">true</property>
         <property name="IsGTO">false</property>
         <controls>
             <control type="wraplist" id="301">
@@ -649,9 +649,9 @@
         <property name="targetcontent">$VAR[DefWidgetTarget]</property>
         <property name="morevisible" tag="property" attribute="name|widgetTarget" value="system">false</property>
         <property name="morevisible" tag="property" attribute="name|widgetTarget" value="weather">false</property>
-        <property name="morevisible" tag="property" attribute="name|widget" value="mysubmenu">false</property>  
+        <property name="morevisible" tag="property" attribute="name|widget" value="mysubmenu">false</property>
         <property name="morevisible">true</property>
-        <property name="IsGTO" tag="property" attribute="name|widget" value="GTO">true</property>  
+        <property name="IsGTO" tag="property" attribute="name|widget" value="GTO">true</property>
         <property name="IsGTO">false</property>
         <property name="target" tag="property" attribute="name|widgetTarget"/>
         <property name="target">$VAR[DefWidgetTarget]</property>
@@ -813,16 +813,16 @@
         <property name="labelisvisible">true</property>
         <property name="content" tag="property" attribute="name|widgetPath.2"/>
         <property name="content">$VAR[DefWidgetContent]</property>
-        <property name="IsGTO" tag="property" attribute="name|widget.2" value="GTO">true</property>  
+        <property name="IsGTO" tag="property" attribute="name|widget.2" value="GTO">true</property>
         <property name="IsGTO">false</property>
         <!-- more content -->
         <property name="targetcontent" tag="property" attribute="name|widgetTarget.2" value="music">music</property>
         <property name="targetcontent" tag="property" attribute="name|widgetTarget.2" value="videos">videos</property>
-        <property name="targetcontent" tag="property" attribute="name|widgetTarget.2" value="addons">addons</property>  
+        <property name="targetcontent" tag="property" attribute="name|widgetTarget.2" value="addons">addons</property>
         <property name="targetcontent">$VAR[DefWidgetTarget]</property>
         <property name="morevisible" tag="property" attribute="name|widgetTarget.2" value="system">false</property>
         <property name="morevisible" tag="property" attribute="name|widgetTarget.2" value="weather">false</property>
-        <property name="morevisible" tag="property" attribute="name|widget.2" value="mysubmenu">false</property>  
+        <property name="morevisible" tag="property" attribute="name|widget.2" value="mysubmenu">false</property>
         <property name="morevisible">true</property>
         <property name="target" tag="property" attribute="name|widgetTarget.2"/>
         <property name="target">$VAR[DefWidgetTarget]</property>
@@ -969,16 +969,16 @@
         <property name="labelisvisible">true</property>
         <property name="content" tag="property" attribute="name|widgetPath.3"/>
         <property name="content">$VAR[DefWidgetContent]</property>
-        <property name="IsGTO" tag="property" attribute="name|widget.3" value="GTO">true</property>  
+        <property name="IsGTO" tag="property" attribute="name|widget.3" value="GTO">true</property>
         <property name="IsGTO">false</property>
         <!-- more content -->
         <property name="targetcontent" tag="property" attribute="name|widgetTarget.3" value="music">music</property>
         <property name="targetcontent" tag="property" attribute="name|widgetTarget.3" value="videos">videos</property>
-        <property name="targetcontent" tag="property" attribute="name|widgetTarget.3" value="addons">addons</property>  
+        <property name="targetcontent" tag="property" attribute="name|widgetTarget.3" value="addons">addons</property>
         <property name="targetcontent">$VAR[DefWidgetTarget]</property>
         <property name="morevisible" tag="property" attribute="name|widgetTarget.3" value="system">false</property>
         <property name="morevisible" tag="property" attribute="name|widgetTarget.3" value="weather">false</property>
-        <property name="morevisible" tag="property" attribute="name|widget.3" value="mysubmenu">false</property>  
+        <property name="morevisible" tag="property" attribute="name|widget.3" value="mysubmenu">false</property>
         <property name="morevisible">true</property>
         <property name="target" tag="property" attribute="name|widgetTarget.3"/>
         <property name="target">$VAR[DefWidgetTarget]</property>
@@ -1124,16 +1124,16 @@
         <property name="labelisvisible">true</property>
         <property name="content" tag="property" attribute="name|widgetPath.4"/>
         <property name="content">$VAR[DefWidgetContent]</property>
-        <property name="IsGTO" tag="property" attribute="name|widget.4" value="GTO">true</property>  
+        <property name="IsGTO" tag="property" attribute="name|widget.4" value="GTO">true</property>
         <property name="IsGTO">false</property>
         <!-- more content -->
         <property name="targetcontent" tag="property" attribute="name|widgetTarget.4" value="music">music</property>
         <property name="targetcontent" tag="property" attribute="name|widgetTarget.4" value="videos">videos</property>
-        <property name="targetcontent" tag="property" attribute="name|widgetTarget.4" value="addons">addons</property>  
+        <property name="targetcontent" tag="property" attribute="name|widgetTarget.4" value="addons">addons</property>
         <property name="targetcontent">$VAR[DefWidgetTarget]</property>
         <property name="morevisible" tag="property" attribute="name|widgetTarget.4" value="system">false</property>
         <property name="morevisible" tag="property" attribute="name|widgetTarget.4" value="weather">false</property>
-        <property name="morevisible" tag="property" attribute="name|widget.4" value="mysubmenu">false</property>  
+        <property name="morevisible" tag="property" attribute="name|widget.4" value="mysubmenu">false</property>
         <property name="morevisible">true</property>
         <property name="target" tag="property" attribute="name|widgetTarget.4"/>
         <property name="target">$VAR[DefWidgetTarget]</property>
@@ -1279,16 +1279,16 @@
         <property name="labelisvisible">true</property>
         <property name="content" tag="property" attribute="name|widgetPath.5"/>
         <property name="content">$VAR[DefWidgetContent]</property>
-        <property name="IsGTO" tag="property" attribute="name|widget.5" value="GTO">true</property>  
+        <property name="IsGTO" tag="property" attribute="name|widget.5" value="GTO">true</property>
         <property name="IsGTO">false</property>
         <!-- more content -->
         <property name="targetcontent" tag="property" attribute="name|widgetTarget.5" value="music">music</property>
         <property name="targetcontent" tag="property" attribute="name|widgetTarget.5" value="videos">videos</property>
-        <property name="targetcontent" tag="property" attribute="name|widgetTarget.5" value="addons">addons</property>  
+        <property name="targetcontent" tag="property" attribute="name|widgetTarget.5" value="addons">addons</property>
         <property name="targetcontent">$VAR[DefWidgetTarget]</property>
         <property name="morevisible" tag="property" attribute="name|widgetTarget.5" value="system">false</property>
         <property name="morevisible" tag="property" attribute="name|widgetTarget.5" value="weather">false</property>
-        <property name="morevisible" tag="property" attribute="name|widget.5" value="mysubmenu">false</property>  
+        <property name="morevisible" tag="property" attribute="name|widget.5" value="mysubmenu">false</property>
         <property name="morevisible">true</property>
         <property name="target" tag="property" attribute="name|widgetTarget.5"/>
         <property name="target">$VAR[DefWidgetTarget]</property>
@@ -1434,16 +1434,16 @@
         <property name="labelisvisible">true</property>
         <property name="content" tag="property" attribute="name|widgetPath.6"/>
         <property name="content">$VAR[DefWidgetContent]</property>
-        <property name="IsGTO" tag="property" attribute="name|widget.6" value="GTO">true</property>  
+        <property name="IsGTO" tag="property" attribute="name|widget.6" value="GTO">true</property>
         <property name="IsGTO">false</property>
         <!-- more content -->
         <property name="targetcontent" tag="property" attribute="name|widgetTarget.6" value="music">music</property>
         <property name="targetcontent" tag="property" attribute="name|widgetTarget.6" value="videos">videos</property>
-        <property name="targetcontent" tag="property" attribute="name|widgetTarget.6" value="addons">addons</property>  
+        <property name="targetcontent" tag="property" attribute="name|widgetTarget.6" value="addons">addons</property>
         <property name="targetcontent">$VAR[DefWidgetTarget]</property>
         <property name="morevisible" tag="property" attribute="name|widgetTarget.6" value="system">false</property>
         <property name="morevisible" tag="property" attribute="name|widgetTarget.6" value="weather">false</property>
-        <property name="morevisible" tag="property" attribute="name|widget.6" value="mysubmenu">false</property>  
+        <property name="morevisible" tag="property" attribute="name|widget.6" value="mysubmenu">false</property>
         <property name="morevisible">true</property>
         <property name="target" tag="property" attribute="name|widgetTarget.6"/>
         <property name="target">$VAR[DefWidgetTarget]</property>
@@ -1578,7 +1578,7 @@
         <property name="banner" tag="property" attribute="name|widgetBanner"/>
         <property name="aspectratio" tag="property" attribute="name|widgetAspectRatio"/>
         <property name="aspectratio">keep</property>
-        <property name="IsGTO" tag="property" attribute="name|widget" value="GTO">true</property>  
+        <property name="IsGTO" tag="property" attribute="name|widget" value="GTO">true</property>
         <property name="IsGTO">false</property>
         <controls>
             <control type="fixedlist" id="301">

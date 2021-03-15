@@ -68,7 +68,7 @@
                         <height>205</height>
                         <aspectratio scalediffuse="false">keep</aspectratio>
                         <texture diffuse="diffuse/pvrinfo.png" background="true">$INFO[ListItem.Icon]</texture>
-                        <visible>false</visible><!--default_false-->  
+                        <visible>false</visible><!--default_false-->
                     </control>
                     <control type="label">
                         <visible>!String.IsEqual(ListItem.Label,..)</visible>
@@ -171,7 +171,7 @@
                         <height>205</height>
                         <aspectratio scalediffuse="false">keep</aspectratio>
                         <texture diffuse="diffuse/pvrinfo.png" background="true">$INFO[ListItem.Icon]</texture>
-                        <visible>false</visible><!--default_false-->  
+                        <visible>false</visible><!--default_false-->
                     </control>
                     <control type="label">
                         <visible>!String.IsEqual(ListItem.Label,..)</visible>

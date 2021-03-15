@@ -18,7 +18,7 @@
                         <param name="string" value="$LOCALIZE[535]" />
                     </include>
                     <top>PosterPad</top>
-                    <height>PosterH</height>                    
+                    <height>PosterH</height>
                     <include condition="Skin.HasSetting(disable.poster)" content="def_left"><param name="left" value="SidePad" /></include>
                     <include condition="!Skin.HasSetting(disable.poster)" content="def_left"><param name="left" value="ListX" /></include>
                     <include condition="Skin.HasSetting(disable.poster)" content="def_width"><param name="width" value="1760" /></include>
@@ -220,14 +220,14 @@
                 <width>PosterW</width>
                 <height>PosterH</height>
                 <texture border="5" colordiffuse="FF181818">common/box.png</texture>
-            </control>            
+            </control>
             <control type="image">
                 <width>PosterW</width>
                 <height>PosterH</height>
                 <fadetime>PosterFanartFadetime</fadetime>
                 <aspectratio align="center" aligny="center" scalediffuse="false">scale</aspectratio>
                 <texture diffuse="diffuse/listposter2.png" background="true">$VAR[PosterImage]</texture> 
-                <visible>true</visible><!--default_true-->               
+                <visible>true</visible><!--default_true-->
             </control>
             <control type="image">
                 <width>PosterW</width>
@@ -235,7 +235,7 @@
                 <fadetime>PosterFanartFadetime</fadetime>
                 <aspectratio scalediffuse="false">keep</aspectratio>
                 <texture diffuse="diffuse/listposter2.png" background="true">$INFO[ListItem.Icon]</texture> 
-                <visible>false</visible><!--default_false-->                 
+                <visible>false</visible><!--default_false-->
             </control>
             <control type="image">
                 <left>-1</left>
@@ -294,16 +294,16 @@
                 <height>PosterH</height>
                 <fadetime>PosterFanartFadetime</fadetime>
                 <aspectratio align="center" aligny="center" scalediffuse="false">keep</aspectratio>
-                <texture diffuse="diffuse/listposter.png" background="true">$INFO[ListItem.Art(back)]</texture>                
+                <texture diffuse="diffuse/listposter.png" background="true">$INFO[ListItem.Art(back)]</texture>
                 <animation effect="rotatey" end="-180" start="0" center="320,0" time="0" condition="true">Conditional</animation>
                 <animation type="Visible">
                     <effect type="fade" end="100" start="0" time="0" delay="200" />
                 </animation>
                 <animation type="Hidden">
                     <effect type="fade" end="0" start="100" time="50" delay="100" />
-                </animation>                
+                </animation>
                 <visible>String.IsEqual(Window.Property(RotateCover),1) + !String.IsEmpty(ListItem.Art(back))</visible>
-            </control>            
+            </control>
             <control type="image">
                 <left>-1</left>
                 <top>-1</top>
@@ -499,9 +499,9 @@
                     <itemlayout height="341" width="557" condition="Skin.HasSetting(pics.layout.fanart)">
                         <include>Itemlayout_Pics_50</include>
                     </itemlayout>
-                    <focusedlayout height="341" width="372" condition="!Skin.HasSetting(pics.layout.fanart)">                        
+                    <focusedlayout height="341" width="372" condition="!Skin.HasSetting(pics.layout.fanart)">
                         <include>Focuslayout_Pics_50</include>
-                    </focusedlayout>                    
+                    </focusedlayout>
                     <focusedlayout height="341" width="557" condition="Skin.HasSetting(pics.layout.fanart)">
                         <include>Focuslayout_Pics_50</include>
                     </focusedlayout>
@@ -580,8 +580,8 @@
             <bottom>32</bottom>
             <aspectratio scalediffuse="false">keep</aspectratio>
             <texture background="true">$INFO[ListItem.Icon]</texture>
-            <visible>false</visible><!--default_false-->  
-        </control>                        
+            <visible>false</visible><!--default_false-->
+        </control>
         <control type="image">
             <left>14</left>
             <top>10</top>
@@ -640,8 +640,8 @@
             <bottom>32</bottom>
             <aspectratio scalediffuse="false">keep</aspectratio>
             <texture background="true">$INFO[ListItem.Icon]</texture>
-            <visible>false</visible><!--default_false-->  
-        </control>                       
+            <visible>false</visible><!--default_false-->
+        </control>
         <control type="image">
             <left>14</left>
             <top>10</top>

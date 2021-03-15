@@ -86,13 +86,13 @@
                     <height>16</height>
                     <texture colordiffuse="White70" flipy="false">common/arrow-small.png</texture>
                 </control>
-            </control>            
+            </control>
             <include content="Def_Gradient_Settings_Image">
                 <param name="controlid" value="9001"/>
                 <param name="left" value="598"/>
                 <param name="top" value="296"/>
                 <param name="width" value="410"/>
-            </include>            
+            </include>
             <control type="grouplist" id="9001">
                 <height>560</height>
                 <left>598</left>

@@ -238,7 +238,7 @@
                             <right>110</right>
                             <bottom>10</bottom>
                             <texture colordiffuse="Dark1" border="5">common/box.png</texture>
-                        </control>                        
+                        </control>
                         <control type="image">
                             <left>110</left>
                             <top>10</top>
@@ -255,7 +255,7 @@
                             <height>310</height>
                             <aspectratio scalediffuse="false">keep</aspectratio>
                             <texture diffuse="diffuse/cardposter.png" background="true">$INFO[ListItem.Icon]</texture>
-                            <visible>false</visible><!--default_false-->  
+                            <visible>false</visible><!--default_false-->
                         </control>
                         <control type="image">
                             <left>109</left>
@@ -338,7 +338,7 @@
                             <width>1240</width>
                             <height>270</height>
                             <texture border="8" colordiffuse="Dark1">common/box.png</texture>
-                        </control>                        
+                        </control>
                         <control type="image">
                             <left>24</left>
                             <top>24</top>
@@ -355,7 +355,7 @@
                             <height>230</height>
                             <texture diffuse="diffuse/banner.png" background="true">$INFO[ListItem.Icon]</texture>
                             <aspectratio scalediffuse="false">keep</aspectratio>
-                            <visible>false</visible><!--default_false-->  
+                            <visible>false</visible><!--default_false-->
                         </control>
                         <control type="image">
                             <left>23</left>
@@ -428,7 +428,7 @@
                                 <right>24</right>
                                 <height>270</height>
                                 <texture border="8" colordiffuse="Dark1">common/box.png</texture>
-                            </control>                            
+                            </control>
                             <control type="image">
                                 <left>24</left>
                                 <top>24</top>
@@ -445,7 +445,7 @@
                                 <height>270</height>
                                 <texture diffuse="diffuse/banner.png" background="true">$INFO[ListItem.Icon]</texture>
                                 <aspectratio scalediffuse="false">keep</aspectratio>
-                                <visible>false</visible><!--default_false-->  
+                                <visible>false</visible><!--default_false-->
                             </control>
                             <control type="image">
                                 <left>23</left>
@@ -539,7 +539,7 @@
                                 <width>270</width>
                                 <height>270</height>
                                 <texture colordiffuse="Fallback" border="4" background="true">common/box.png</texture>
-                            </control>                            
+                            </control>
                             <control type="image">
                                 <left>24</left>
                                 <top>24</top>
@@ -556,7 +556,7 @@
                                 <height>270</height>
                                 <texture diffuse="diffuse/banner.png" background="true">$INFO[ListItem.Icon]</texture>
                                 <aspectratio scalediffuse="false">keep</aspectratio>
-                                <visible>false</visible><!--default_false-->  
+                                <visible>false</visible><!--default_false-->
                             </control>
                             <control type="image">
                                 <left>23</left>
@@ -661,7 +661,7 @@
                                 <width>270</width>
                                 <height>270</height>
                                 <texture colordiffuse="Fallback" border="4" background="true">common/box.png</texture>
-                            </control>                           
+                            </control>
                             <control type="image">
                                 <left>24</left>
                                 <top>24</top>
@@ -678,7 +678,7 @@
                                 <height>270</height>
                                 <texture diffuse="diffuse/banner.png" background="true">$INFO[ListItem.Icon]</texture>
                                 <aspectratio scalediffuse="false">keep</aspectratio>
-                                <visible>false</visible><!--default_false-->  
+                                <visible>false</visible><!--default_false-->
                             </control>
                             <control type="image">
                                 <left>23</left>

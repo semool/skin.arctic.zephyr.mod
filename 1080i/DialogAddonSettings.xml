@@ -70,7 +70,7 @@
                 <param name="slide" value="69"/>
                 <param name="image" value="common/gradient-box-wide.png"/>
                 <param name="colordiffuse" value="$VAR[ColorHighlightOtherBar]"/>
-            </include>            
+            </include>
             <control type="togglebutton" id="10">
                 <description>Default Category Button</description>
                 <width>387</width>

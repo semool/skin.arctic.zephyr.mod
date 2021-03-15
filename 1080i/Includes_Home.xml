@@ -289,7 +289,7 @@
                         <param name="animation" value="Animation.RotatePlay" />
                     </include>
                 </control>
-                <control type="group">    
+                <control type="group">
                     <include content="NowPlaying_Progress">
                         <param name="id" value="23" />
                         <param name="info" value="PVR.TimeshiftProgressPlayPos" />
@@ -297,7 +297,7 @@
                         <param name="animation" value="Animation.RotatePlay" />
                     </include>
                 </control>
-            </control>            
+            </control>
             <control type="group">
                 <left>104</left>
                 <width>545</width>
@@ -2647,7 +2647,7 @@
                 <height>16</height>
                 <texture colordiffuse="Dark2" flipx="false">common/arrow-small-right.png</texture>
             </control>
-            <control type="list" id="300">                
+            <control type="list" id="300">
                 <include>Animation.FadeIn.Delay</include>
                 <include>Animation.FadeOut</include>
                 <description>Home Wraplist</description>
@@ -3631,7 +3631,7 @@
                         <centerleft>50%</centerleft>
                         <width>90%</width>
                         <height>4</height>
-                        <texture colordiffuse="$VAR[ColorHighlight]">common/box.png</texture>                    
+                        <texture colordiffuse="$VAR[ColorHighlight]">common/box.png</texture>
                     </control>
                     <control type="image">
                         <top>55</top>
@@ -4768,7 +4768,7 @@
                             <textcolor>Dark3</textcolor>
                             <font>Home</font>
                             <label>$INFO[ListItem.Label]</label>
-                            <visible>!Skin.HasSetting(home.showicons)</visible>                            
+                            <visible>!Skin.HasSetting(home.showicons)</visible>
                         </control>
                         <control type="label">
                             <right>100</right>
@@ -4868,7 +4868,7 @@
                             <font>Home</font>
                             <label>$INFO[ListItem.Label]</label>
                             <visible>![Skin.HasSetting(homemenu.only.icons) + Skin.HasSetting(home.showicons)]</visible>
-                        </control>                        
+                        </control>
                         <control type="image">
                             <right>10</right>
                             <top>1</top>
@@ -4876,7 +4876,7 @@
                             <height>80</height>
                             <texture colordiffuse="Dark3">$INFO[ListItem.Icon]</texture>
                             <visible>Skin.HasSetting(homemenu.only.icons) + Skin.HasSetting(home.showicons)</visible>
-                        </control>                        
+                        </control>
                     </itemlayout>
                     <focusedlayout width="427" height="80">
                         <control type="label">
@@ -4889,7 +4889,7 @@
                             <font>Home</font>
                             <label>$INFO[ListItem.Label]</label>
                             <visible>![Skin.HasSetting(homemenu.only.icons) + Skin.HasSetting(home.showicons)]</visible>
-                        </control>                        
+                        </control>
                         <control type="image">
                             <right>10</right>
                             <width>80</width>
@@ -5003,8 +5003,8 @@
                         <!-- Widgets -->
                         <include>Widgets</include>
                         
-                    </control>                    
-                    <include>ExtendedNowPlaying</include>                    
+                    </control>
+                    <include>ExtendedNowPlaying</include>
                 </control>
             </control>
             <control type="button" id="4567">
@@ -5032,7 +5032,7 @@
             <right>9</right>
             <bottom>9</bottom>
             <texture colordiffuse="Fallback" border="4" background="true">common/diffuse_box.png</texture>
-        </control>        
+        </control>
         <control type="image">
             <left>10</left>
             <top>10</top>
@@ -5058,7 +5058,7 @@
             <bottom>10</bottom>
             <aspectratio scalediffuse="false">keep</aspectratio>
             <texture diffuse="diffuse/wall.png" background="true" fallback="DefaultMovies.png">$INFO[ListItem.Icon]</texture>
-            <visible>false</visible><!--default_false-->  
+            <visible>false</visible><!--default_false-->
         </control>
         <control type="image">
             <left>9</left>
@@ -5141,7 +5141,7 @@
             <aspectratio>scale</aspectratio>
             <texture border="5">special://skin/extras/backgrounds/systeminfo.jpg</texture>
             <animation effect="fade" start="100" end="20" condition="true">Conditional</animation>
-        </control>        
+        </control>
         <control type="image">
             <width>150</width>
             <height>150</height>
@@ -5250,7 +5250,7 @@
             <right>9</right>
             <bottom>9</bottom>
             <texture colordiffuse="Fallback" border="4" background="true">common/diffuse_box.png</texture>
-        </control>        
+        </control>
         <control type="image">
             <left>10</left>
             <top>10</top>
@@ -5276,7 +5276,7 @@
             <bottom>10</bottom>
             <aspectratio scalediffuse="false">keep</aspectratio>
             <texture diffuse="diffuse/wall.png" background="true">$INFO[ListItem.Icon]</texture>
-            <visible>false</visible><!--default_false-->  
+            <visible>false</visible><!--default_false-->
         </control>
         <control type="image">
             <left>9</left>
@@ -5286,7 +5286,7 @@
             <texture colordiffuse="BoxWidget" border="4" background="true">common/box21.png</texture>
             <visible>!Skin.HasSetting(thumbnails.white)</visible>
         </control>
-        <include>IndicatorPoster</include>        
+        <include>IndicatorPoster</include>
         <include>more</include>
     </include>
 
@@ -5304,7 +5304,7 @@
             <right>9</right>
             <bottom>9</bottom>
             <texture colordiffuse="Fallback" border="4" background="true">common/diffuse_box.png</texture>
-        </control>        
+        </control>
         <control type="image">
             <left>10</left>
             <top>10</top>
@@ -5321,7 +5321,7 @@
             <bottom>10</bottom>
             <aspectratio scalediffuse="false">keep</aspectratio>
             <texture border="8" background="true" fallback="DefaultMovies.png">$INFO[ListItem.Icon]</texture>
-            <visible>false</visible><!--default_false-->  
+            <visible>false</visible><!--default_false-->
         </control>
         <control type="image">
             <width>500</width>
@@ -5357,7 +5357,7 @@
             <right>9</right>
             <bottom>9</bottom>
             <texture colordiffuse="Fallback" border="4" background="true">common/diffuse_box.png</texture>
-        </control>        
+        </control>
         <control type="image">
             <left>10</left>
             <top>10</top>
@@ -5384,7 +5384,7 @@
             <aspectratio scalediffuse="false">keep</aspectratio>
             <texture diffuse="diffuse/wall.png" background="true" fallback="DefaultMovies.png">$INFO[ListItem.Icon]</texture>
             <visible>false</visible><!--default_false-->  
-        </control>        
+        </control>
         <control type="image">
             <width>200</width>
             <right>30</right>
@@ -5577,7 +5577,7 @@
 
             <!-- Widget -->
             <control type="grouplist" id="301">
-                <include>Animation.NowPlaying.Widget.Fade</include>                
+                <include>Animation.NowPlaying.Widget.Fade</include>
                 <include content="def_height" condition="Skin.HasSetting(homemenu.netflix)">
                     <param name="height" value="765" />
                 </include>
@@ -5600,8 +5600,8 @@
                 <include>Widgets</include>
 
             </control>            
-            <include>ExtendedNowPlaying</include>                           
-        </control>        
+            <include>ExtendedNowPlaying</include>
+        </control>
         <control type="button" id="9605">
             <include>HiddenButton</include>
             <onback>300</onback>
@@ -5609,7 +5609,7 @@
             <ondown>300</ondown>
             <onleft>300</onleft>
             <onright>300</onright>
-        </control>        
+        </control>
         <control type="button" id="4567">
             <include>HiddenButton</include>
             <onfocus>SetFocus($INFO[Window(home).Property(BackToId)])</onfocus>
@@ -5645,13 +5645,13 @@
                     <include content="def_width" condition="!Skin.HasSetting(homemenu.netflix)">
                         <param name="width" value="1322" />
                     </include> 
-                    <orientation>vertical</orientation>                    
+                    <orientation>vertical</orientation>
                     <include content="def_top" condition="Skin.HasSetting(homemenu.netflix)">
                         <param name="top" value="-750" />
                     </include>
                     <include content="def_top" condition="!Skin.HasSetting(homemenu.netflix)">
                         <param name="top" value="-373" />
-                    </include>                    
+                    </include>
                     <itemgap>15</itemgap>
                     <visible>!String.IsEqual(ListItem.Property(LabelMore),more)</visible>
                     <include content="MultiWidgetsHeader" condition="$PARAM[labelisvisible]">
@@ -5675,7 +5675,7 @@
                 </control>
             </control>
         </definition>
-    </include>    
+    </include>
 
     <include name="InfoSubWidgetWeather">
         <include content="def_top" condition="Skin.HasSetting(homemenu.netflix)">
@@ -5716,7 +5716,7 @@
             <align>left</align>
             <textcolor>Dark1</textcolor>
             <label>$PARAM[label]</label>
-            <visible>$PARAM[visible]</visible>            
+            <visible>$PARAM[visible]</visible>
         </control>
         </definition>
     </include>
@@ -6054,7 +6054,7 @@
 
     <include name="HomeWidgetVerticalFlags">
         <control type="group">
-            <animation effect="slide" start="0" end="40,0" time="0" condition="Skin.HasSetting(homemenu.only.icons) + Skin.HasSetting(home.showicons)">Conditional</animation>            
+            <animation effect="slide" start="0" end="40,0" time="0" condition="Skin.HasSetting(homemenu.only.icons) + Skin.HasSetting(home.showicons)">Conditional</animation>
             <include>Animation.FadeIn</include>
             <include>Animation.FadeOut</include>
             <include>Furniture_Flags</include>

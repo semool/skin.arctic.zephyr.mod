@@ -119,7 +119,7 @@
                     <fadetime>PosterFanartFadetime</fadetime>
                     <aspectratio align="center" aligny="center" scalediffuse="false">keep</aspectratio>
                     <texture diffuse="diffuse/listposter.png" background="true">$INFO[ListItem.Icon]</texture>
-                    <visible>false</visible><!--default_false-->  
+                    <visible>false</visible><!--default_false-->
                 </control>
             </control>
             <control type="group" description="Plot et al">

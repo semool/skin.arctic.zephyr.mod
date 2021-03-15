@@ -59,7 +59,7 @@
                             <bottom>40</bottom>
                             <aspectratio scalediffuse="false">keep</aspectratio>
                             <texture diffuse="diffuse/wall.png" background="true">$INFO[ListItem.Icon]</texture>
-                            <visible>false</visible><!--default_false-->  
+                            <visible>false</visible><!--default_false-->
                         </control>
                         <control type="image">
                             <left>11</left>
@@ -133,7 +133,7 @@
                             <bottom>40</bottom>
                             <aspectratio scalediffuse="false">keep</aspectratio>
                             <texture diffuse="diffuse/wall.png" background="true">$INFO[ListItem.Icon]</texture>
-                            <visible>false</visible><!--default_false-->  
+                            <visible>false</visible><!--default_false-->
                         </control>
                         <control type="image">
                             <left>11</left>

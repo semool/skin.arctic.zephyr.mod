@@ -50,7 +50,7 @@
                         <right>10</right>
                         <bottom>22</bottom>
                         <texture colordiffuse="Fallback" border="4" background="true">common/box.png</texture>
-                    </control>                    
+                    </control>
                     <control type="image">
                         <left>12</left>
                         <top>10</top>
@@ -67,7 +67,7 @@
                         <bottom>22</bottom>
                         <aspectratio scalediffuse="false">keep</aspectratio>
                         <texture diffuse="diffuse/wall.png" background="true">$INFO[ListItem.Icon]</texture>
-                        <visible>false</visible><!--default_false-->  
+                        <visible>false</visible><!--default_false-->
                     </control>
                     <control type="image">
                         <left>11</left>
@@ -116,7 +116,7 @@
                         <right>10</right>
                         <bottom>22</bottom>
                         <texture colordiffuse="Fallback" border="4" background="true">common/box.png</texture>
-                    </control>                    
+                    </control>
                     <control type="image">
                         <left>12</left>
                         <top>10</top>
@@ -133,7 +133,7 @@
                         <bottom>22</bottom>
                         <aspectratio scalediffuse="false">keep</aspectratio>
                         <texture diffuse="diffuse/wall.png" background="true">$INFO[ListItem.Icon]</texture>
-                        <visible>false</visible><!--default_false-->  
+                        <visible>false</visible><!--default_false-->
                     </control>
                     <control type="image">
                         <left>11</left>

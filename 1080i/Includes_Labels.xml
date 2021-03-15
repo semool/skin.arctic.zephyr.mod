@@ -1273,7 +1273,7 @@
         <value condition="Control.HasFocus(9005) + Window.IsVisible(DialogMusicInfo.xml)">$LOCALIZE[37696]</value>
         <value condition="Control.HasFocus(9006) + Window.IsVisible(DialogMusicInfo.xml)">$LOCALIZE[39123]</value>
         <value condition="Control.HasFocus(9007) + String.IsEmpty(ListItem.UserRating)">$LOCALIZE[38023]</value>
-        <value condition="Control.HasFocus(9007) + !String.IsEmpty(ListItem.UserRating)">$INFO[ListItem.UserRating,$LOCALIZE[563]: ]</value>        
+        <value condition="Control.HasFocus(9007) + !String.IsEmpty(ListItem.UserRating)">$INFO[ListItem.UserRating,$LOCALIZE[563]: ]</value>
         <value condition="Control.HasFocus(9008) + Window.IsVisible(DialogMusicInfo.xml)">$LOCALIZE[16106]</value>
         <value condition="Control.HasFocus(9029) + Window.IsVisible(DialogMusicInfo.xml)">$LOCALIZE[37781] $INFO[ListItem.Artist]</value>
         <value condition="Control.HasFocus(9001) + Window.IsVisible(DialogVideoInfo.xml)">$LOCALIZE[37551]</value>
@@ -1463,7 +1463,7 @@
         <value condition="!String.IsEmpty(ListItem.Property(Artist_Description)) + Container.Content(artists)">$INFO[ListItem.Property(Artist_Description)]</value>
         <value condition="!String.IsEmpty(ListItem.Property(Album_Description)) + Container.Content(albums)">$INFO[ListItem.Property(Album_Description)]</value>
         <value condition="Container.Content(movies) | Container.Content(tvshows)">$INFO[ListItem.Plot]</value>
-    </variable>    
+    </variable>
     
     <variable name="LabelTagline514">
         <value condition="ListItem.IsCollection">$INFO[Container(44023).NumItems]$INFO[Window(Home).Property(TMDbHelper.ListItem.Set.NumItems),/,] $LOCALIZE[37542]</value>
@@ -1656,7 +1656,7 @@
         <value condition="Container.Content(addons)">$LOCALIZE[24001]</value>
         <value condition="Container.Content(actors)">$LOCALIZE[344]</value>
         <value condition="Container.Content(files)">$LOCALIZE[744]</value>
-        <value condition="Container.Content(videos)">$LOCALIZE[3]</value>        
+        <value condition="Container.Content(videos)">$LOCALIZE[3]</value>
         <value condition="Container.Content(tags)">$LOCALIZE[20459]</value>
         <value condition="Container.Content(years)">$LOCALIZE[652]</value>
         <value condition="Container.Content(genres)">$LOCALIZE[135]</value>
