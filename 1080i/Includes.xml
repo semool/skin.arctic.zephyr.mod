@@ -467,13 +467,13 @@
                 <description>visualisation</description>
                 <include>Dimensions_Fullscreen</include>
             </control>
-            <control type="multiimage">
+            <control type="image">
 
                 <!-- AS 3 -->
                 <aspectratio>scale</aspectratio>
                 <include>Dimensions_Fullscreen</include>
                 <fadetime>BackgroundFanartFadetime</fadetime>
-                <imagepath background="true">$INFO[Window(Visualisation).Property(ArtistSlideshow.Image)]</imagepath>
+                <texture background="true">$INFO[Window(Visualisation).Property(ArtistSlideshow.Image)]</texture>
                 <visible>System.HasAddon(script.artistslideshow) + !Skin.HasSetting(ArtistSlideShow.Disabled)</visible>
                 <animation effect="fade" start="100" end="65" time="0" condition="Skin.HasSetting(OSDVisualisation.ShowFanart)">Conditional</animation>
                 <animation effect="zoom" start="110" end="130" center="auto" time="10000" tween="sine" easing="inout" pulse="true" condition="Skin.HasSetting(ArtistSlideshow.Animate)">Conditional</animation>
@@ -623,7 +623,7 @@
             <timeperimage>HomeTimePerImage</timeperimage>
             <randomize>true</randomize>
             <aspectratio>scale</aspectratio>
-            <imagepath background="true">$VAR[GlobalFanart]</imagepath>
+            <texture background="true">$VAR[GlobalFanart]</texture>
             <animation effect="zoom" start="110" end="120" center="auto" time="10000" tween="sine" easing="inout" pulse="true" condition="Skin.HasSetting(Fanart.Animate)">Conditional</animation>
             <animation effect="slide" start="-20,-20" end="20,20" time="6000" tween="sine" easing="inout" pulse="true" condition="Skin.HasSetting(Fanart.Animate)">Conditional</animation>
         </control>
