@@ -179,7 +179,7 @@
         <texturefocus/>
     </include>
 
-    <include name="HiddenListControl">
+    <include name="HiddenListControl">  
         <top>-3000</top>
         <left>-3000</left>
         <width>1</width>
@@ -374,7 +374,7 @@
         <value condition="Skin.HasSetting(extended.nowplaying) + Window.IsVisible(home) + !ControlGroup(301).HasFocus() + !Skin.HasSetting(home.dontshowfanart) + String.IsEmpty(Container(301).ListItem.Property(backgroundPlaylist)) + !String.IsEmpty(Player.Art(fanart)) + Player.HasMedia">$INFO[Player.Art(fanart)]</value>        
         
         <!-- Custom Widget Background -->
-        <value condition="!Skin.HasSetting(home.dontshowfanart) + [[Skin.HasSetting(home.vertical) + Skin.HasSetting(home.vertical.widgets)] | [!Skin.HasSetting(home.vertical) + !Skin.HasSetting(home.classicwidgets) + Skin.HasSetting(home.vertical.widgets)]] + Window.IsVisible(home) + !String.IsEmpty(ListItem.Property(Background))">$INFO[ListItem.Property(Background)]</value>
+        <value condition="!Skin.HasSetting(home.dontshowfanart) + [[Skin.HasSetting(home.vertical) + Skin.HasSetting(home.vertical.widgets)] | [!Skin.HasSetting(home.vertical) + !Skin.HasSetting(home.classicwidgets) + Skin.HasSetting(home.vertical.widgets)]] + Window.IsVisible(home) + !String.IsEqual(Container(300).ListItem.Property(background),playlistBackground) + !String.IsEmpty(ListItem.Property(Background))">$INFO[ListItem.Property(Background)]</value>
         
         <!--Multi Widget -->
         <value condition="!Skin.HasSetting(home.dontshowfanart) + [[Skin.HasSetting(home.vertical) + Skin.HasSetting(home.vertical.widgets)] | [!Skin.HasSetting(home.vertical) + !Skin.HasSetting(home.classicwidgets) + Skin.HasSetting(home.vertical.widgets)]] + Window.IsVisible(home) + !String.IsEmpty(ListItem.Art(fanart))">$INFO[ListItem.Art(fanart)]</value>
@@ -387,7 +387,7 @@
         <value condition="[Skin.HasSetting(home.vertical) + Skin.HasSetting(home.vertical.widgets)] + Window.IsVisible(home) + !String.IsEmpty(Skin.String(weather.fanart.path)) + [String.IsEqual(Container(300).ListItem.Property(widget),weatherdaily) | String.IsEqual(Container(300).ListItem.Property(widget),weatherhourly)] + !Skin.HasSetting(home.dontshowfanart) + String.Contains(Skin.String(weather.fanart.path),multi)">$INFO[Skin.String(weather.fanart.path)]$INFO[Window(Weather).Property(Current.FanartCode)]/</value>
         <value condition="[Skin.HasSetting(home.vertical) + Skin.HasSetting(home.vertical.widgets)] + Window.IsVisible(home) + !String.IsEmpty(Skin.String(weather.fanart.path)) + [String.IsEqual(Container(300).ListItem.Property(widget),weatherdaily) | String.IsEqual(Container(300).ListItem.Property(widget),weatherhourly)] + !Skin.HasSetting(home.dontshowfanart) + !String.Contains(Skin.String(weather.fanart.path),multi)">$INFO[Skin.String(weather.fanart.path)]$INFO[Window(Weather).Property(Current.FanartCode),,.jpg]</value>
 
-        <!--Multi Widget -->
+        <!--Multi Widget -->  
         <value condition="!Skin.HasSetting(home.dontshowfanart) + [[Skin.HasSetting(home.vertical) + Skin.HasSetting(home.vertical.widgets)] | [!Skin.HasSetting(home.vertical) + !Skin.HasSetting(home.classicwidgets) + Skin.HasSetting(home.vertical.widgets)]] + Window.IsVisible(home) + !String.IsEmpty(Container(30111).ListItem.Property(Background)) + String.IsEmpty(Container(301).ListItem.Property(backgroundPlaylist)) + Control.IsVisible(30111) + !Control.HasFocus(30111)">$INFO[Container(30111).ListItem.Property(Background)]</value>
         <value condition="!Skin.HasSetting(home.dontshowfanart) + [[Skin.HasSetting(home.vertical) + Skin.HasSetting(home.vertical.widgets)] | [!Skin.HasSetting(home.vertical) + !Skin.HasSetting(home.classicwidgets) + Skin.HasSetting(home.vertical.widgets)]] + Window.IsVisible(home) + !String.IsEmpty(Container(30121).ListItem.Property(Background)) + String.IsEmpty(Container(301).ListItem.Property(backgroundPlaylist)) + !String.IsEmpty(Container(30121).ListItem.Property(Background)) + Control.IsVisible(30121) + !Control.HasFocus(30121)">$INFO[Container(30121).ListItem.Property(Background)]</value>
         <value condition="!Skin.HasSetting(home.dontshowfanart) + [[Skin.HasSetting(home.vertical) + Skin.HasSetting(home.vertical.widgets)] | [!Skin.HasSetting(home.vertical) + !Skin.HasSetting(home.classicwidgets) + Skin.HasSetting(home.vertical.widgets)]] + Window.IsVisible(home) + !String.IsEmpty(Container(30131).ListItem.Property(Background)) + String.IsEmpty(Container(301).ListItem.Property(backgroundPlaylist)) + !String.IsEmpty(Container(30131).ListItem.Property(Background)) + Control.IsVisible(30131) + !Control.HasFocus(30131)">$INFO[Container(30131).ListItem.Property(Background)]</value>
@@ -512,11 +512,11 @@
     </variable>
     
     <include name="ImagePathNormal">
-        <texture background="true">$VAR[GlobalFanart]</texture>
+        <imagepath background="true">$VAR[GlobalFanart]</imagepath>
     </include>
     
     <include name="ImagePathBlur">
-        <texture background="true">$VAR[ImageBackG]</texture>
+        <imagepath background="true">$VAR[ImageBackG]</imagepath>
     </include>
 
     <include name="FadetimeNormal">
@@ -545,7 +545,7 @@
             <right>-3000</right>
             <width>10</width>
             <height>10</height>
-            <texture background="true">$VAR[GlobalFanart]</texture>
+            <texture background="true">$VAR[GlobalFanart]</texture>            
         </control>
         <include condition="!Skin.HasSetting(global.showvideo) + Skin.HasSetting(background.video.fix.audio.errors)">HiddenVideoWindow</include>
         <include>GlobalVideoWindow</include>
@@ -610,7 +610,7 @@
         </control>
         
         <!-- Global Fanart -->
-        <control type="image" description="Fanart">
+        <control type="multiimage" description="Fanart">
             <visible>!Skin.HasSetting(BlurEnabled)</visible>
             <include condition="![ [$EXP[HomeIsSpotlight] | $EXP[HomeIsClassic] | $EXP[HomeIsModern]] + Window.IsVisible(home)]">GlobalBackgroundFade</include>
             <visible>!Player.HasMedia | [!Skin.HasSetting(global.showvideo) + Player.HasVideo] | [!Skin.HasSetting(global.showvisualisation) + Player.HasAudio]</visible>
@@ -619,14 +619,16 @@
             <include>Animation.FadeFromHome</include>
             <animation effect="fade" end="0" start="100" time="350" tween="cubic" easing="inout" condition="Window.IsVisible(home)">WindowClose</animation>
             <fadetime>BackgroundFanartFadetime</fadetime>
+            <timeperimage>HomeTimePerImage</timeperimage>
+            <randomize>true</randomize>
             <aspectratio>scale</aspectratio>
-            <texture background="true">$VAR[GlobalFanart]</texture>
+            <imagepath background="true">$VAR[GlobalFanart]</imagepath>
             <animation effect="zoom" start="110" end="120" center="auto" time="10000" tween="sine" easing="inout" pulse="true" condition="Skin.HasSetting(Fanart.Animate)">Conditional</animation>
             <animation effect="slide" start="-20,-20" end="20,20" time="6000" tween="sine" easing="inout" pulse="true" condition="Skin.HasSetting(Fanart.Animate)">Conditional</animation>
         </control>
         
         <!-- BLUR Global Fanart -->
-        <control type="image" description="Fanart">
+        <control type="multiimage" description="Fanart">
             <visible>Skin.HasSetting(BlurEnabled) + Integer.IsGreater(Skin.String(BackgroundBlur),0) + !Window.IsVisible(home)</visible>
             <include>GlobalBackgroundFadeBlur</include>
             <visible>!Player.HasMedia | [!Skin.HasSetting(global.showvideo) + Player.HasVideo] | [!Skin.HasSetting(global.showvisualisation) + Player.HasAudio]</visible>
@@ -641,6 +643,8 @@
             <include condition="Integer.IsEqual(Skin.String(Fadetime),600) | String.IsEmpty(Skin.String(Fadetime))">FadetimeNormal</include>
             <animation effect="fade" end="0" start="100" time="350" tween="cubic" easing="inout" condition="Window.IsVisible(home)">WindowClose</animation>
             <fadetime>BackgroundFanartFadetime</fadetime>
+            <timeperimage>HomeTimePerImage</timeperimage>
+            <randomize>true</randomize>
             <aspectratio>scale</aspectratio>
             <include>ImagePathBlur</include>
             <animation effect="zoom" start="110" end="120" center="auto" time="10000" tween="sine" easing="inout" pulse="true" condition="Skin.HasSetting(Fanart.Animate)">Conditional</animation>
@@ -648,8 +652,8 @@
         </control>
         
         <!-- BLUR Global Fanart Home-->
-        <control type="image" description="Fanart">
-            <visible>Skin.HasSetting(BlurEnabled) + Integer.IsGreater(Skin.String(BackgroundBlur),0) + Window.IsVisible(home)</visible>
+        <control type="multiimage" description="Fanart">
+            <visible>Skin.HasSetting(BlurEnabled) + Integer.IsGreater(Skin.String(BackgroundBlur),0) + Window.IsVisible(home)</visible>            
             <include condition="!Skin.HasSetting(BlurOnHome) + !$EXP[HomeIsSpotlight] + !$EXP[HomeIsClassic] + !$EXP[HomeIsModern]">GlobalBackgroundFade</include>
             <include condition="Skin.HasSetting(BlurOnHome) + !$EXP[HomeIsSpotlight] + !$EXP[HomeIsClassic] + !$EXP[HomeIsModern]">GlobalBackgroundFadeBlur</include>
             <visible>!Player.HasMedia | [!Skin.HasSetting(global.showvideo) + Player.HasVideo] | [!Skin.HasSetting(global.showvisualisation) + Player.HasAudio]</visible>
@@ -664,6 +668,8 @@
             <include condition="Integer.IsEqual(Skin.String(Fadetime),600) | String.IsEmpty(Skin.String(Fadetime))">FadetimeNormal</include>
             <animation effect="fade" end="0" start="100" time="350" tween="cubic" easing="inout" condition="Window.IsVisible(home)">WindowClose</animation>
             <fadetime>BackgroundFanartFadetime</fadetime>
+            <timeperimage>HomeTimePerImage</timeperimage>
+            <randomize>true</randomize>
             <aspectratio>scale</aspectratio>
             <include condition="!Skin.HasSetting(BlurOnHome)">ImagePathNormal</include>
             <include condition="Skin.HasSetting(BlurOnHome)">ImagePathBlur</include>
@@ -685,13 +691,13 @@
         </control>
 
         <!-- Netflix Preview Window -->
-        <control type="image" description="Fanart">
+        <control type="multiimage" description="Fanart">
             <visible>[[Window.IsVisible(Home.xml) + Skin.HasSetting(homemenu.netflix) + Skin.HasSetting(homemenu.netflix.preview) + [$EXP[HomeIsModernMultiWidgets] | $EXP[HomeIsVerticalMultiWidgets]]] | [Control.IsVisible(510) | Control.IsVisible(520)]] + !Window.IsVisible(DialogVideoInfo.xml) + !Window.IsVisible(DialogMusicInfo.xml) + !Window.IsVisible(DialogAddonInfo.xml) + !Window.IsVisible(DialogPVRInfo.xml)</visible>
             <visible>!Player.HasMedia | [!Skin.HasSetting(global.showvideo) + Player.HasVideo] | [!Skin.HasSetting(global.showvisualisation) + Player.HasAudio]</visible>
             <visible>!Skin.HasSetting(global.hidefanart) | Window.IsVisible(home)</visible>
-            <include>Animation.FadeFromHome</include>
+            <include>Animation.FadeFromHome</include>            
             <include>Animation.FadeIn</include>
-            <include>Animation.FadeOut</include>
+            <include>Animation.FadeOut</include>            
             <animation effect="fade" end="0" start="100" time="350" tween="cubic" easing="inout" condition="Window.IsVisible(home) | Window.IsVisible(MyVideoNav.xml)">WindowClose</animation>
             <animation effect="fade" start="40" end="40" time="0" condition="String.IsEmpty(Skin.String(FadeNetflixPreview)) | String.IsEqual(Skin.String(FadeNetflixPreview),default)">Conditional</animation>
             <animation effect="fade" end="50" start="50" time="0" condition="Integer.IsEqual(Skin.String(FadeNetflixPreview),50)">Conditional</animation>
@@ -701,6 +707,8 @@
             <animation effect="fade" end="90" start="90" time="0" condition="Integer.IsEqual(Skin.String(FadeNetflixPreview),90)">Conditional</animation>
             <animation effect="fade" end="100" start="100" time="0" condition="Integer.IsEqual(Skin.String(FadeNetflixPreview),100)">Conditional</animation>
             <fadetime>BackgroundFanartFadetime</fadetime>
+            <timeperimage>HomeTimePerImage</timeperimage>
+            <randomize>true</randomize>
             <aspectratio>scale</aspectratio>
             <include condition="Skin.HasSetting(homemenu.netflix.preview.fullscreen) + Skin.HasSetting(homemenu.netflix.preview) + Skin.HasSetting(BlurEnabled) + Skin.HasSetting(BlurOnHome)">NetflixPreviewWindowFullscreen</include>
             <include condition="!Skin.HasSetting(homemenu.netflix.preview.fullscreen) | [!Skin.HasSetting(BlurEnabled) | [Skin.HasSetting(BlurEnabled) + !Skin.HasSetting(BlurOnHome)]]">NetflixPreviewWindow</include>
@@ -721,19 +729,21 @@
             <include condition="!Skin.HasSetting(home.vertical)">Animation.FadeFromHome</include>
             <texture colordiffuse="Background">common/bg.jpg</texture>
         </control>
-        <control type="image" description="Fanart">
+        <control type="multiimage" description="Fanart">
             <visible>!Skin.HasSetting(BlurEnabled)</visible>
             <include>GlobalBackgroundFade</include>
             <visible>!Skin.HasSetting(global.hidefanart)</visible>
             <include>Dimensions_Fullscreen</include>
             <include condition="!Skin.HasSetting(home.vertical)">Animation.FadeFromHome</include>
             <fadetime>BackgroundFanartFadetime</fadetime>
+            <timeperimage>HomeTimePerImage</timeperimage>
+            <randomize>true</randomize>
             <aspectratio>scale</aspectratio>
-            <texture background="true">$VAR[GlobalFanart]</texture>
+            <imagepath background="true">$VAR[GlobalFanart]</imagepath>
             <animation effect="zoom" start="110" end="120" center="auto" time="10000" tween="sine" easing="inout" pulse="true" condition="Skin.HasSetting(Fanart.Animate)">Conditional</animation>
             <animation effect="slide" start="-20,-20" end="20,20" time="6000" tween="sine" easing="inout" pulse="true" condition="Skin.HasSetting(Fanart.Animate)">Conditional</animation>
         </control>
-        <control type="image" description="Fanart">
+        <control type="multiimage" description="Fanart">
             <visible>Skin.HasSetting(BlurEnabled) + Integer.IsGreater(Skin.String(BackgroundBlur),0)</visible>
             <visible>!Skin.HasSetting(global.hidefanart)</visible>
             <include>Dimensions_Fullscreen</include>
@@ -744,8 +754,10 @@
             <animation effect="fade" end="60" start="60" time="0" condition="Integer.IsEqual(Skin.String(BackgroundBlur),60)">Conditional</animation>
             <animation effect="fade" end="80" start="80" time="0" condition="Integer.IsEqual(Skin.String(BackgroundBlur),80)">Conditional</animation>
             <fadetime>BackgroundFanartFadetime</fadetime>
+            <timeperimage>HomeTimePerImage</timeperimage>
+            <randomize>true</randomize>
             <aspectratio>scale</aspectratio>
-            <texture background="true">$INFO[Window(home).Property(ImageFilterFIVE)]</texture>
+            <imagepath background="true">$INFO[Window(home).Property(ImageFilterFIVE)]</imagepath>
             <animation effect="zoom" start="110" end="120" center="auto" time="10000" tween="sine" easing="inout" pulse="true" condition="Skin.HasSetting(Fanart.Animate)">Conditional</animation>
             <animation effect="slide" start="-20,-20" end="20,20" time="6000" tween="sine" easing="inout" pulse="true" condition="Skin.HasSetting(Fanart.Animate)">Conditional</animation>
         </control>
@@ -1414,7 +1426,7 @@
                     <param name="icon" value="buttonsdialogs/folder.png"/>
                 </include>
                 <visible>String.IsEqual(ListItem.DBType,tvshow)</visible>
-            </control>
+            </control>            
             
             <control type="radiobutton" id="9201">
                 <onfocus>ClearProperty(moviecontent)</onfocus>
@@ -1612,7 +1624,7 @@
                     <param name="icon" value="buttonsdialogs/image.png"/>
                 </include>
                 <visible>!Skin.HasSetting(hidebutton.video.fanart)</visible>
-            </control>
+            </control>            
             <control type="radiobutton" id="9011">
                 <onfocus>ClearProperty(moviecontent)</onfocus>
                 <onfocus>ClearProperty(ShowDisc)</onfocus>
@@ -1903,7 +1915,7 @@
                     <param name="icon" value="buttonsdialogs/similar.png"/>
                 </include>
                 <visible>Window.IsActive(PVRGuideInfo)</visible>
-            </control>
+            </control>            
             <control type="radiobutton" id="6">
                 <include>buttondimensionssquare</include>
                 <include content="buttontextures">
@@ -1979,7 +1991,7 @@
 
     <include name="ExtendedImage">
         <control type="button" id="$PARAM[buttonid]">
-            <include>HiddenButton</include>
+            <include>HiddenButton</include>            
             <onleft>SetFocus($PARAM[containerid])</onleft>
             <onleft>LEFT</onleft>
             <onleft>SetFocus($PARAM[buttonid])</onleft>
@@ -2071,7 +2083,7 @@
                     <orientation>horizontal</orientation>
                     <align>center</align>
                     <itemgap>12</itemgap>
-                    <usecontrolcoords>true</usecontrolcoords>
+                    <usecontrolcoords>true</usecontrolcoords>                    
                     <include content="Def_Flag">
                         <param name="Star" value="FlagstarSelect1" />
                         <param name="width" value="45" />
@@ -2404,8 +2416,8 @@
 
     <include name="WidgetSelector">
         <control type="button" id="4988">
-            <include>DefWidgetSelectorInfo</include>
-            <label>31144</label>
+            <include>DefWidgetSelectorInfo</include>             
+            <label>31144</label>                                   
             <enable>false</enable>
             <visible>String.IsEqual(Window.Property(groupname),mainmenu) + String.IsEmpty(Window(Home).Property(skinshortcuts-Widget))</visible>
         </control>
@@ -2436,7 +2448,7 @@
             <visible>String.IsEmpty(Window(Home).Property(skinshortcuts-Widget))</visible>
             <visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
             <visible>[Skin.HasSetting(home.vertical) + Skin.HasSetting(home.vertical.widgets)] | [Skin.HasSetting(home.modernwidgets)  + Skin.HasSetting(home.vertical.widgets)]</visible>
-        </control>
+        </control>        
         <control type="button" id="9103" description="Custom">
             <width>100%</width>
             <height>66</height>
@@ -2499,7 +2511,7 @@
         </control>
         <control type="button" id="4989">
             <include>DefWidgetSelectorInfo</include>
-            <label>33063</label>
+            <label>33063</label>                                 
             <enable>false</enable>
             <visible>String.IsEqual(Window.Property(groupname),mainmenu) + String.IsEmpty(Window(Home).Property(skinshortcuts-Widget))</visible>
         </control>
@@ -2767,7 +2779,7 @@
             <height>30</height>
             <left>20</left>
             <texture background="true" colordiffuse="Dark1">flags/cc_white.png</texture>
-        </control>
+        </control>            
         <control type="grouplist">
             <centertop>47%</centertop>
             <width>250</width>
@@ -2776,7 +2788,7 @@
             <orientation>horizontal</orientation>
             <visible>Skin.HasSetting(furniture.showsubtitles.enable.labels)</visible>
             <control type="label">
-                <visible>!String.IsEmpty(ListItem.Property(SubtitleLanguage.1))</visible>
+                <visible>!String.IsEmpty(ListItem.Property(SubtitleLanguage.1))</visible>                   
                 <width>auto</width>
                 <height>64</height>
                 <font>Tiny</font>
@@ -2784,7 +2796,7 @@
                 <label>$INFO[ListItem.Property(SubtitleLanguage.1)]</label>
             </control>
             <control type="label">
-                <visible>!String.IsEmpty(ListItem.Property(SubtitleLanguage.2))</visible>
+                <visible>!String.IsEmpty(ListItem.Property(SubtitleLanguage.2))</visible>                   
                 <width>auto</width>
                 <height>64</height>
                 <font>Tiny</font>
@@ -2792,7 +2804,7 @@
                 <label>/ $INFO[ListItem.Property(SubtitleLanguage.2)]</label>
             </control>
             <control type="label">
-                <visible>!String.IsEmpty(ListItem.Property(SubtitleLanguage.3))</visible>
+                <visible>!String.IsEmpty(ListItem.Property(SubtitleLanguage.3))</visible>                   
                 <width>auto</width>
                 <height>64</height>
                 <font>Tiny</font>
@@ -2800,7 +2812,7 @@
                 <label>/ $INFO[ListItem.Property(SubtitleLanguage.3)]</label>
             </control>
             <control type="label">
-                <visible>!String.IsEmpty(ListItem.Property(SubtitleLanguage.4))</visible>
+                <visible>!String.IsEmpty(ListItem.Property(SubtitleLanguage.4))</visible>                   
                 <width>auto</width>
                 <height>64</height>
                 <font>Tiny</font>
@@ -2808,14 +2820,14 @@
                 <label>/ $INFO[ListItem.Property(SubtitleLanguage.4)]</label>
             </control>
             <control type="label">
-                <visible>!String.IsEmpty(ListItem.Property(SubtitleLanguage.5))</visible>
+                <visible>!String.IsEmpty(ListItem.Property(SubtitleLanguage.5))</visible>                   
                 <width>auto</width>
                 <height>64</height>
                 <font>Tiny</font>
                 <textcolor>Dark1</textcolor>
                 <label>/ $INFO[ListItem.Property(SubtitleLanguage.5)]</label>
             </control>
-        </control>
+        </control>      
     </include>
     
     <include name="MusicVisualisationInfoMatrx">
@@ -2944,12 +2956,12 @@
         <height>705</height>
         <right>0</right>
         <top>0</top>
-        <texture background="true" diffuse="common/homediffuse510fs.png">$VAR[GlobalFanart]</texture>
+        <imagepath background="true" diffuse="common/homediffuse510fs.png">$VAR[GlobalFanart]</imagepath>
     </include>
     
     <include name="NetflixPreviewWindow">
         <include>Dimensions_Fullscreen</include>
-        <texture background="true" diffuse="common/homediffuse510.png">$VAR[GlobalFanart]</texture>
+        <imagepath background="true" diffuse="common/homediffuse510.png">$VAR[GlobalFanart]</imagepath>
     </include>
     
     <include name="Widgets">
