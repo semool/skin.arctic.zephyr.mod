@@ -2362,7 +2362,7 @@ msgstr "Audio Kanäle"
 
 msgctxt "#37963"
 msgid "Use old Arctic Zephyr underlined homemenu items"
-msgstr "Benutze alte Arctic Zephyr unterstrichene Hauptmenü Einträge"
+msgstr "Benutze alte Arctic Zephyr unterstrichene Menüpunkte"
 
 msgctxt "#37964"
 msgid "Spotlight widget path"
@@ -2371,6 +2371,18 @@ msgstr "Rampenlicht Widget Pfad"
 msgctxt "#37965"
 msgid "Origin"
 msgstr "Ursprung"
+
+msgctxt "#37966"
+msgid "Trakt"
+msgstr ""
+
+msgctxt "#37967"
+msgid "CPU"
+msgstr ""
+
+msgctxt "#37969"
+msgid "Underlined homemenu items"
+msgstr "Unterstrichene Menüpunkte"
 
 msgctxt "#31001"
 msgid "Backup / Restore"
