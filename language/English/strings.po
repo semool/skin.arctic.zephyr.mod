@@ -2570,10 +2570,6 @@ msgctxt "#37962"
 msgid "Audio Channels"
 msgstr ""
 
-msgctxt "#37963"
-msgid "Use old Arctic Zephyr underlined homemenu items"
-msgstr ""
-
 msgctxt "#37964"
 msgid "Spotlight widget path"
 msgstr ""
@@ -2592,6 +2588,10 @@ msgstr ""
 
 msgctxt "#37969"
 msgid "Underlined homemenu items"
+msgstr ""
+
+msgctxt "#37970"
+msgid "Auto scrolling widget title"
 msgstr ""
 
 msgctxt "#31001"
