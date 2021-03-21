@@ -83,7 +83,7 @@
                 </control>
                 <control type="group">
                     <visible>!Skin.HasSetting(furniture.overlaysnew) + !String.IsEqual(ListItem.Label,..)</visible>
-                    <control type="label">
+                    <!--<control type="label">
                         <top>10</top>
                         <left>375</left>
                         <align>center</align>
@@ -96,7 +96,7 @@
                         <font>SymbolPosterBackground</font>
                         <label>$VAR[WatchedBacking]</label>
                         <visible>!String.IsEqual(ListItem.Label,..)</visible>
-                    </control>
+                    </control>-->
                     <control type="label">
                         <top>10</top>
                         <left>375</left>
@@ -215,7 +215,7 @@
                 </control>
                 <control type="group">
                     <visible>!Skin.HasSetting(furniture.overlaysnew) + !String.IsEqual(ListItem.Label,..)</visible>
-                    <control type="label">
+                    <!--<control type="label">
                         <top>0</top>
                         <left>375</left>
                         <align>center</align>
@@ -228,7 +228,7 @@
                         <font>SymbolPosterBackground</font>
                         <label>$VAR[WatchedBacking]</label>
                         <visible>!String.IsEqual(ListItem.Label,..)</visible>
-                    </control>
+                    </control>-->
                     <control type="label">
                         <top>0</top>
                         <left>375</left>
