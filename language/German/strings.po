@@ -1562,7 +1562,7 @@ msgstr "OSD bei Songtext ausblenden"
 
 msgctxt "#37716"
 msgid "Startup image"
-msgstr "Startbild"
+msgstr ""
 
 msgctxt "#37717"
 msgid "Seasons of"
@@ -1734,11 +1734,11 @@ msgstr "Top 20 benutzerbewertete Filme"
 
 msgctxt "#37766"
 msgid "Reset skin settings to defaults?"
-msgstr "Skin Einstellungen auf Standard zurücksetzen?"
+msgstr ""
 
 msgctxt "#37767"
 msgid "Reset skin settings to defaults? WARNING: This will also reset your home menu to skin defaults!"
-msgstr "Skin Einstellungen auf Standard zurücksetzen? WARNUNG: Auch das Hauptmenü wird zurückgesetzt!"
+msgstr ""
 
 msgctxt "#37768"
 msgid "Random Actors ordered by movies"
@@ -1810,7 +1810,7 @@ msgstr ""
 
 msgctxt "#37799"
 msgid "Rating flag"
-msgstr "Bewertungssymbol"
+msgstr ""
 
 msgctxt "#37800"
 msgid "Show submenu as categories widget"
@@ -1822,19 +1822,19 @@ msgstr "Kleine Kacheln"
 
 msgctxt "#37802"
 msgid "Movie Genre Icons"
-msgstr "Film Genre Symbole"
+msgstr ""
 
 msgctxt "#37803"
 msgid "Studio Icons"
-msgstr "Studio Symbole"
+msgstr ""
 
 msgctxt "#37804"
 msgid "Record Label Icons"
-msgstr "Record Label Symbole"
+msgstr ""
 
 msgctxt "#37805"
 msgid "Show scrollbar"
-msgstr "Zeige Scrollleiste"
+msgstr ""
 
 msgctxt "#37806"
 msgid "Switch to full screen mode when music starts playing"
@@ -1870,7 +1870,7 @@ msgstr "Powermenu anpassen"
 
 msgctxt "#37814"
 msgid "Log off: $INFO[system.profilename]"
-msgstr "Abmelden: $INFO[system.profilename]"
+msgstr ""
 
 msgctxt "#37815"
 msgid "Delete/Disable Settings Menu Item?"
@@ -1890,7 +1890,7 @@ msgstr "Ausschalten in: [B]$INFO[System.Alarmpos][/B]"
 
 msgctxt "#37819"
 msgid "Use IMDB trailers (requires plugin.video.imdb.trailers)"
-msgstr "Benutze IMDB Trailer (erfordert plugin.video.imdb.trailers)"
+msgstr ""
 
 msgctxt "#37820"
 msgid "Show Filenames"
@@ -1934,7 +1934,7 @@ msgstr "zuletzt jetzt gerade"
 
 msgctxt "#37832"
 msgid "Enable blur"
-msgstr "Verwischen einschalten"
+msgstr ""
 
 msgctxt "#37833"
 msgid "Set new multi widgets home menu"
@@ -1942,19 +1942,19 @@ msgstr ""
 
 msgctxt "#37835"
 msgid "Enable colored icon media flags"
-msgstr "Aktiviere farbige Media Symbole"
+msgstr ""
 
 msgctxt "#37836"
 msgid "Enable rotten tomatoes and meta critics count"
-msgstr "Aktiviere Rotten Tomatoes und Meta Critics Bewertungen"
+msgstr ""
 
 msgctxt "#37837"
 msgid "Enable ClearLogo support"
-msgstr "ClearLogo Unterstützung einschalten"
+msgstr ""
 
 msgctxt "#37844"
 msgid "Fallback label for ratings in list views"
-msgstr "Ersatz Titel für Bewertungen in Listenansichten"
+msgstr ""
 
 msgctxt "#37845"
 msgid "Size of Icons"
@@ -2026,7 +2026,7 @@ msgstr "Nur Symbole anzeigen"
 
 msgctxt "#37862"
 msgid "Clear home menu"
-msgstr "Transparentes Hauptmenü"
+msgstr "Transparentes Homemenu"
 
 msgctxt "#37863"
 msgid "Multi-Widgets"
@@ -2098,15 +2098,15 @@ msgstr "Hauptmenu Leiste"
 
 msgctxt "#37885"
 msgid "Fullscreen widget"
-msgstr "Vollbild Widget"
+msgstr ""
 
 msgctxt "#37886"
 msgid " - Fullscreen"
-msgstr " - Vollbild"
+msgstr ""
 
 msgctxt "#37887"
 msgid "Weather location"
-msgstr "Wetter Standort"
+msgstr ""
 
 msgctxt "#37888"
 msgid "Widget 1"
@@ -2130,7 +2130,7 @@ msgstr ""
 
 msgctxt "#37893"
 msgid "Big icons"
-msgstr "Große Symbole"
+msgstr ""
 
 msgctxt "#37894"
 msgid "Lock view for"
@@ -2138,19 +2138,19 @@ msgstr "Ansicht sperren für"
 
 msgctxt "#37895"
 msgid "Images"
-msgstr "Bilder"
+msgstr ""
 
 msgctxt "#37896"
 msgid "Big wide"
-msgstr "Groß breit"
+msgstr ""
 
 msgctxt "#37897"
 msgid "Big list"
-msgstr "Große Liste"
+msgstr ""
 
 msgctxt "#37898"
 msgid "Enable forced views (experimental)"
-msgstr "Erzwungene Ansicht aktivieren (experimentell)"
+msgstr ""
 
 msgctxt "#37899"
 msgid "Seconds"
@@ -2158,15 +2158,15 @@ msgstr "Sekunden"
 
 msgctxt "#37900"
 msgid "Reset forced views"
-msgstr "Erzwungene Ansicht zurücksetzen"
+msgstr ""
 
 msgctxt "#37901"
 msgid "Forced views"
-msgstr "Erzwungene Ansicht"
+msgstr ""
 
 msgctxt "#37902"
 msgid "Big icons"
-msgstr "Große Symbole"
+msgstr ""
 
 msgctxt "#37903"
 msgid "more..."
@@ -2174,7 +2174,7 @@ msgstr "mehr..."
 
 msgctxt "#37904"
 msgid "item"
-msgstr "Artikel"
+msgstr ""
 
 msgctxt "#37905"
 msgid "Show subtitles"
@@ -2194,7 +2194,7 @@ msgstr "Alternatives Layout"
 
 msgctxt "#37909"
 msgid "Smart Shortcuts"
-msgstr "Intelligente Verknüpfungen"
+msgstr ""
 
 msgctxt "#37910"
 msgid "Movies and TV shows"
@@ -2222,7 +2222,7 @@ msgstr "Kapitelmarkierungen"
 
 msgctxt "#37916"
 msgid "Audio data"
-msgstr "Audiodaten"
+msgstr ""
 
 msgctxt "#37917"
 msgid "Label"
@@ -2246,15 +2246,15 @@ msgstr "Untertitel erweiterte Informationen"
 
 msgctxt "#37922"
 msgid "Reminder enabled"
-msgstr "Erinnerung aktiviert"
+msgstr ""
 
 msgctxt "#37923"
 msgid "Reminder Rule enabled"
-msgstr "Erinnerungsregel aktiviert"
+msgstr ""
 
 msgctxt "#37924"
 msgid "German Telecast Offers"
-msgstr "Deutsche Fernsehangebote"
+msgstr ""
 
 msgctxt "#37926"
 msgid "Extended debugging information"
@@ -2306,7 +2306,7 @@ msgstr "Artwork Sektion"
 
 msgctxt "#37940"
 msgid "Landscape"
-msgstr "Landschaft"
+msgstr ""
 
 msgctxt "#37941"
 msgid "Artwork of"
@@ -2360,38 +2360,26 @@ msgctxt "#37962"
 msgid "Audio Channels"
 msgstr "Audio Kanäle"
 
-msgctxt "#37963"
-msgid "Use old Arctic Zephyr underlined homemenu items"
-msgstr "Benutze alte Arctic Zephyr unterstrichene Menüpunkte"
-
-msgctxt "#37964"
-msgid "Spotlight widget path"
-msgstr "Rampenlicht Widget Pfad"
-
-msgctxt "#37965"
-msgid "Origin"
-msgstr "Ursprung"
-
-msgctxt "#37966"
-msgid "Trakt"
-msgstr ""
-
-msgctxt "#37967"
-msgid "CPU"
-msgstr ""
-
 msgctxt "#37969"
 msgid "Underlined homemenu items"
-msgstr "Unterstrichene Menüpunkte"
+msgstr "Unterstrichene Hauptmenu Einträge"
+
+msgctxt "#37970"
+msgid "Auto scrolling widget title"
+msgstr "Widget Titel automatisch scrollen"
 
 msgctxt "#31001"
 msgid "Backup / Restore"
-msgstr "Sicherung / Wiederherstellung"
+msgstr "Backup / Restore"
+
+msgctxt "#37963"
+msgid "Use old Arctic Zephyr underlined homemenu items"
+msgstr ""
 
 msgctxt "#31002"
 msgid "Backup skin settings"
-msgstr "Skin Einstellungen sichern"
+msgstr "Backup skin settings"
 
 msgctxt "#31003"
 msgid "Restore skin settings from file"
-msgstr "Skin Einstellungen aus Datei wiederherstellen"
+msgstr "Restore skin settings from file"
