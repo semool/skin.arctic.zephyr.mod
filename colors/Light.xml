@@ -53,7 +53,7 @@
 	<color name="BoxWidget">E6202020</color>
 	<color name="BoxHomerow">80202020</color>
 	
-	<color name="WatchedIcons">FFDBDBDB</color>
-	<color name="WatchedIconsList">FF808080</color>
-	<color name="WatchedIconsListFocus">FFDBDBDB</color>
+	<color name="WatchedIcons">FFDBDBDB</color>  
+	<color name="WatchedIconsList">FF808080</color> 
+	<color name="WatchedIconsListFocus">FFDBDBDB</color>  
 </colors>
