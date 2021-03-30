@@ -2336,6 +2336,10 @@ msgctxt "#37947"
 msgid "Recommended addons"
 msgstr "Empfohlene Addons"
 
+msgctxt "#37956"
+msgid "Indicators"
+msgstr "Indikatoren"
+
 msgctxt "#37957"
 msgid "Clear home menu bar"
 msgstr "Transparentes Hauptmenu"
@@ -2383,6 +2387,26 @@ msgstr "Unterstrichene Hauptmenu Einträge"
 msgctxt "#37970"
 msgid "Auto scrolling widget title"
 msgstr "Widget Titel automatisch scrollen"
+
+msgctxt "#37972"
+msgid "Paused"
+msgstr "Pausiert"
+
+msgctxt "#37973"
+msgid "Watched"
+msgstr "Gesehen"
+
+msgctxt "#37974"
+msgid "New!"
+msgstr "Neu!"
+
+msgctxt "#37975"
+msgid "Alternative indicators"
+msgstr "Alternative Indikatoren"
+
+msgctxt "#37976"
+msgid "Label"
+msgstr ""
 
 msgctxt "#31001"
 msgid "Backup / Restore"
