@@ -5065,20 +5065,10 @@
             <bottom>9</bottom>
             <texture colordiffuse="BoxWidget" border="4" background="true">common/box21.png</texture>
             <visible>!Skin.HasSetting(thumbnails.white)</visible>
-        </control>        
-        <control type="label">
-            <align>center</align>
-            <aligny>center</aligny>
-            <width>50</width>
-            <right>7</right>
-            <top>6</top>
-            <height>50</height>
-            <textcolor>$VAR[WatchedBackingColor]</textcolor>
-            <font>SymbolPosterBackground</font>
-            <label>$VAR[WatchedBacking]</label>
-            <visible>!String.IsEqual(ListItem.Label,..) + $PARAM[indicatorbackground]</visible>
-        </control>        
-        <include>IndicatorPoster</include>
+        </control>
+        <include content="IndicatorPoster">
+            <param name="indicatorbackground" value="$PARAM[indicatorbackground]" />
+        </include>
         <include>more</include>
         </definition>
     </include>
@@ -5124,7 +5114,9 @@
             <texture colordiffuse="BoxWidget" border="4" background="true">common/box21.png</texture>
             <visible>!Skin.HasSetting(thumbnails.white)</visible>
         </control>
-        <include>IndicatorPoster</include>
+        <include content="IndicatorPoster">
+            <param name="indicatorbackground" value="$PARAM[indicatorbackground]" />
+        </include>
         <include>more</include>
     </include>
 
@@ -5290,19 +5282,9 @@
             <texture colordiffuse="BoxWidget" border="4" background="true">common/box21.png</texture>
             <visible>!Skin.HasSetting(thumbnails.white)</visible>
         </control>
-        <control type="label">
-            <align>center</align>
-            <aligny>center</aligny>
-            <width>50</width>
-            <right>7</right>
-            <top>6</top>
-            <height>50</height>
-            <textcolor>$VAR[WatchedBackingColor]</textcolor>
-            <font>SymbolPosterBackground</font>
-            <label>$VAR[WatchedBacking]</label>
-            <visible>!String.IsEqual(ListItem.Label,..) + $PARAM[indicatorbackground]</visible>
-        </control> 
-        <include>IndicatorPoster</include>        
+        <include content="IndicatorPoster">
+            <param name="indicatorbackground" value="$PARAM[indicatorbackground]" />
+        </include>        
         <include>more</include>
         </definition>
     </include>
@@ -5340,23 +5322,15 @@
             <texture colordiffuse="BoxWidget" border="4" background="true">common/box21.png</texture>
             <visible>!Skin.HasSetting(thumbnails.white)</visible>
         </control>
-        <control type="label">
-            <align>center</align>
-            <aligny>center</aligny>
-            <width>50</width>
-            <right>7</right>
-            <top>6</top>
-            <height>50</height>
-            <textcolor>$VAR[WatchedBackingColor]</textcolor>
-            <font>SymbolPosterBackground</font>
-            <label>$VAR[WatchedBacking]</label>
-            <visible>!String.IsEqual(ListItem.Label,..) + $PARAM[indicatorbackground]</visible>
-        </control> 
-        <include>IndicatorPoster</include>        
+        <include content="IndicatorPoster">
+            <param name="indicatorbackground" value="$PARAM[indicatorbackground]" />
+        </include>        
         </definition>
     </include>
 
     <include name="def_widgetbanner">
+        <param name="indicatorbackground" value="$PARAM[indicatorbackground]" default="false"/>
+        <definition>
         <control type="image">
             <left>0</left>
             <top>0</top>
@@ -5383,6 +5357,7 @@
             <width>500</width>
             <right>30</right>
             <bottom>30</bottom>
+            <top>30</top>
             <aspectratio align="right" aligny="bottom">keep</aspectratio>
             <texture background="true">$VAR[ClearLogoHome]</texture>
             <visible>String.IsEmpty(ListItem.Art(banner)) + String.IsEmpty(ListItem.Art(tvshow.banner))</visible>
@@ -5395,8 +5370,11 @@
             <texture colordiffuse="BoxWidget" border="4" background="true">common/box21.png</texture>
             <visible>!Skin.HasSetting(thumbnails.white)</visible>
         </control>
-        <include>IndicatorPoster</include>
+        <include content="IndicatorPoster">
+            <param name="indicatorbackground" value="$PARAM[indicatorbackground]" />
+        </include>
         <include>more</include>
+        </definition>
     </include>
 
     <include name="def_widgetthumb">
@@ -5451,19 +5429,9 @@
             <texture colordiffuse="BoxWidget" border="4" background="true">common/box21.png</texture>
             <visible>!Skin.HasSetting(thumbnails.white)</visible>
         </control>
-        <control type="label">
-            <align>center</align>
-            <aligny>center</aligny>
-            <width>50</width>
-            <right>7</right>
-            <top>6</top>
-            <height>50</height>
-            <textcolor>$VAR[WatchedBackingColor]</textcolor>
-            <font>SymbolPosterBackground</font>
-            <label>$VAR[WatchedBacking]</label>
-            <visible>!String.IsEqual(ListItem.Label,..) + $PARAM[indicatorbackground]</visible>
-        </control> 
-        <include>IndicatorPoster</include>
+        <include content="IndicatorPoster">
+            <param name="indicatorbackground" value="$PARAM[indicatorbackground]" />
+        </include>
         <include>more</include>
         </definition>
     </include>
@@ -5498,7 +5466,9 @@
     </include>
 
     <include name="include.widget.banner">
-        <include>def_widgetbanner</include>
+        <include content="def_widgetbanner">
+            <param name="indicatorbackground" value="$PARAM[indicatorbackground]" />
+        </include>
     </include>
 
     <include name="include.widget.thumb">
@@ -5553,7 +5523,9 @@
     </include>
 
     <include name="include.widget.banner.focus">
-        <include>def_widgetbanner</include>
+        <include content="def_widgetbanner">
+            <param name="indicatorbackground" value="$PARAM[indicatorbackground]" />
+        </include>
         <include content="def_widgetfocus">
             <param name="id" value="$PARAM[id]"/>
         </include>
