@@ -223,11 +223,11 @@
         <param name="listleft" value="$PARAM[listleft]" default="-250"/>
         <param name="width" value="$PARAM[width]" default="260"/>
         <param name="headerleft" value="$PARAM[headerleft]" default="-15"/>
-        <param name="labelbottom" value="$PARAM[labelbottom]" default="-110"/>
-        <param name="labeltwobottom" value="$PARAM[labeltwobottom]" default="-150"/>
+        <param name="labelbottom" value="$PARAM[labelbottom]" default="-110"/>        
+        <param name="labeltwobottom" value="$PARAM[labeltwobottom]" default="-150"/>        
         <param name="labelleft" value="$PARAM[labelleft]" default="-20"/>
         <param name="labeltwoleft" value="$PARAM[labeltwoleft]" default="130"/>
-        <param name="condition.includecontent" value="$PARAM[condition.includecontent]" default="false"/>
+        <param name="condition.includecontent" value="$PARAM[condition.includecontent]" default="false"/>        
         <param name="condition.isnotsets" value="$PARAM[condition.isnotsets]" default="true"/>
         <param name="condition.issets" value="$PARAM[condition.issets]" default="false"/>
         <definition>
@@ -336,7 +336,9 @@
                     <param name="storageicon.backgroundlist" value="$PARAM[storageicon.backgroundlist]"/>
                     <param name="aspectbox" value="$PARAM[aspectbox]"/>
                     <param name="aspectposter" value="$PARAM[aspectposter]"/>
-                </include>
+                    <param name="poster" value="$PARAM[poster]"/>
+                    <param name="thumb" value="$PARAM[thumb]"/>
+                </include>                
                 <include content="DefSetsIconsBackgroundList" condition="$PARAM[condition.issets]">
                     <param name="id" value="0"/>
                     <param name="fallbackpicture" value="$PARAM[fallbackpicture]"/>
@@ -345,6 +347,8 @@
                     <param name="storageicon.backgroundlist" value="$PARAM[storageicon.backgroundlist]"/>
                     <param name="aspectbox" value="$PARAM[aspectbox]"/>
                     <param name="aspectposter" value="$PARAM[aspectposter]"/>
+                    <param name="poster" value="$PARAM[poster]"/>
+                    <param name="thumb" value="$PARAM[thumb]"/>
                 </include>
             </control>
 
@@ -381,6 +385,8 @@
                         <include content="DefExtendedInfoItemContentWIP" condition="$PARAM[condition.isnotsets]">
                             <param name="aspect" value="$PARAM[aspect]" default="scale"/>
                             <param name="fallbackpicture" value="$PARAM[fallbackpicture]"/>
+                            <param name="poster" value="$PARAM[poster]"/>
+                            <param name="thumb" value="$PARAM[thumb]"/>
                         </include>
                         <include content="DefExtendedInfoSetsContentWIP" condition="$PARAM[condition.issets]">
                             <param name="aspect" value="$PARAM[aspect]" default="scale"/>
@@ -402,6 +408,8 @@
                             <param name="labeltwovisible" value="$PARAM[labeltwovisible]"/>
                             <param name="labeltwobottom" value="$PARAM[labeltwobottom]"/>
                             <param name="labeltwoleft" value="$PARAM[labeltwoleft]"/>
+                            <param name="poster" value="$PARAM[poster]"/>
+                            <param name="thumb" value="$PARAM[thumb]"/>
                         </include>
                         <include content="DefExtendedInfoFocusSetsContentWIP" condition="$PARAM[condition.issets]">
                             <param name="fallbackpicture" value="$PARAM[fallbackpicture]"/>
@@ -420,7 +428,7 @@
                     <param name="target" value="$PARAM[target]" />
                     <param name="sortby" value="$PARAM[sortby]" />
                     <param name="limit" value="$PARAM[limit]" />
-                    <param name="ContentToLoad" value="$PARAM[ContentToLoad]" />
+                    <param name="ContentToLoad" value="$PARAM[ContentToLoad]" />                
                 </include>
             </control>
         </definition>
@@ -444,12 +452,12 @@
         <param name="headerbottom" value="$PARAM[headerbottom]" default="710"/>
         <param name="headerleft" value="$PARAM[headerleft]" default="80"/>
         <param name="labelbottom" value="$PARAM[labelbottom]" default="-115"/>
-        <param name="labelleft" value="$PARAM[labelleft]" default="-40"/>
+        <param name="labelleft" value="$PARAM[labelleft]" default="-40"/>        
         <param name="labeltwobottom" value="$PARAM[labeltwobottom]" default="-155"/>
         <param name="labeltwoleft" value="$PARAM[labeltwoleft]" default="130"/>
         <param name="labeltwovisible" value="$PARAM[labeltwovisible]" default="true"/>
         <param name="arrowtop" value="$PARAM[arrowtop]" default="342"/>
-        <param name="arrowright" value="$PARAM[arrowright]" default="387"/>
+        <param name="arrowright" value="$PARAM[arrowright]" default="387"/>        
         <param name="arrowleft" value="$PARAM[arrowleft]" default="-658"/>
         <param name="alignleft" value="$PARAM[alignleft]" default="500"/>
         <definition>
@@ -614,14 +622,14 @@
                     <param name="controlid" value="$PARAM[controlid]"/>
                     <param name="alignleft" value="580"/>
                     <param name="alignbottom" value="235"/>
-                </include>
+                </include>                   
                 <control type="fixedlist" id="$PARAM[controlid]">
                     <top>-118</top>
                     <left>1</left>
                     <ondown>9000</ondown>
                     <onback>9000</onback>
                     <onup>9000</onup>
-                    <width>1268</width>
+                    <width>1268</width>                        
                     <onright>$PARAM[controlid]</onright>
                     <onleft>$PARAM[controlid]</onleft>
                     <preloaditems>2</preloaditems>
