@@ -132,6 +132,16 @@
             | String.IsEqual(Window(Home).Property(LatestEpisode.8.ShowTitle),ListItem.TvShowTitle)
             | String.IsEqual(Window(Home).Property(LatestEpisode.9.ShowTitle),ListItem.TvShowTitle)
             | String.IsEqual(Window(Home).Property(LatestEpisode.10.ShowTitle),ListItem.TvShowTitle)
+            | String.IsEqual(Window(Home).Property(LatestEpisode.11.ShowTitle),ListItem.TvShowTitle)
+            | String.IsEqual(Window(Home).Property(LatestEpisode.12.ShowTitle),ListItem.TvShowTitle)
+            | String.IsEqual(Window(Home).Property(LatestEpisode.13.ShowTitle),ListItem.TvShowTitle)
+            | String.IsEqual(Window(Home).Property(LatestEpisode.14.ShowTitle),ListItem.TvShowTitle)
+            | String.IsEqual(Window(Home).Property(LatestEpisode.15.ShowTitle),ListItem.TvShowTitle)
+            | String.IsEqual(Window(Home).Property(LatestEpisode.16.ShowTitle),ListItem.TvShowTitle)
+            | String.IsEqual(Window(Home).Property(LatestEpisode.17.ShowTitle),ListItem.TvShowTitle)
+            | String.IsEqual(Window(Home).Property(LatestEpisode.18.ShowTitle),ListItem.TvShowTitle)
+            | String.IsEqual(Window(Home).Property(LatestEpisode.19.ShowTitle),ListItem.TvShowTitle)
+            | String.IsEqual(Window(Home).Property(LatestEpisode.20.ShowTitle),ListItem.TvShowTitle)
           ]
     </expression>
     <expression name="IsNewEpisode">
@@ -147,6 +157,16 @@
             | String.IsEqual(Window(Home).Property(LatestEpisode.8.EpisodeTitle),ListItem.Title)
             | String.IsEqual(Window(Home).Property(LatestEpisode.9.EpisodeTitle),ListItem.Title)
             | String.IsEqual(Window(Home).Property(LatestEpisode.10.EpisodeTitle),ListItem.Title)
+            | String.IsEqual(Window(Home).Property(LatestEpisode.11.EpisodeTitle),ListItem.Title)
+            | String.IsEqual(Window(Home).Property(LatestEpisode.12.EpisodeTitle),ListItem.Title)
+            | String.IsEqual(Window(Home).Property(LatestEpisode.13.EpisodeTitle),ListItem.Title)
+            | String.IsEqual(Window(Home).Property(LatestEpisode.14.EpisodeTitle),ListItem.Title)
+            | String.IsEqual(Window(Home).Property(LatestEpisode.15.EpisodeTitle),ListItem.Title)
+            | String.IsEqual(Window(Home).Property(LatestEpisode.16.EpisodeTitle),ListItem.Title)
+            | String.IsEqual(Window(Home).Property(LatestEpisode.17.EpisodeTitle),ListItem.Title)
+            | String.IsEqual(Window(Home).Property(LatestEpisode.18.EpisodeTitle),ListItem.Title)
+            | String.IsEqual(Window(Home).Property(LatestEpisode.19.EpisodeTitle),ListItem.Title)
+            | String.IsEqual(Window(Home).Property(LatestEpisode.20.EpisodeTitle),ListItem.Title)
           ]
     </expression>
     
