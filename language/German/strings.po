@@ -2408,6 +2408,10 @@ msgctxt "#37976"
 msgid "Label"
 msgstr ""
 
+msgctxt "#37980"
+msgid "Auto scrolling titles"
+msgstr "Titel automatisch scrollen"
+
 msgctxt "#31001"
 msgid "Backup / Restore"
 msgstr "Sicherung / Wiederherstellung"
