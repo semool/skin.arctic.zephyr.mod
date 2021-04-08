@@ -1,0 +1,24 @@
+[B]Own changes which are not included in the original version (https://github.com/semool/skin.arctic.zephyr.mod/compare)[/B]
+- Dont show DialogBusy.xml when play theme.mp3 over emby4kodi
+- Add CDart to View_53_Poster.xml
+- add CDart Rotation Animation (considered play/pause)
+- Bugfix for not showed $INFO[ListItem.Art(tvshow.fanart) when Season is selected
+- Add Setting for script.arctic.zephyr.mod.autocolors (https://github.com/semool/script.arctic.zephyr.mod.autocolors)
+- Make Fanart in Light Theme a little bit more visible
+- Add HDR Logo for my own file naming (ListItem.Filenameandpath,_2160p,Filenameandpath,_SDR)
+- More Space for colored flags
+- Add script.skin.helper.service to Supportet Addons Menu
+- add script.skin.helper.skinbackup, service.arctic.zephyr.mod.autocolors to supportet addons
+- Removed unneded languages
+- Hide "Select Animated Art" in Contextmenu when Animated Posters and Fanarts are disabled in Settings
+- Bugfix ClearLogo: ClearLogoHomeImageContainer
+- View_519_Shift_Modern.xml disable ugly ClearArt Shadow
+- Add Release Year to View_53_Poster.xml and fix a display bug in "LabelGenre" with "•" when "TMDbHelper.ListItem.Set.Years" is empty
+- View_53_Poster.xml make the Plotbox one line bigger
+- Move scrollbar_hor some pixels to the bottom
+- Add Episode Thumb to upnext Notifications (Fanart as Fallback)
+- View_53_Poster.xml disable grey Indicator background
+- Extend "IsNewTVShow" and "IsNewEpisode" from 10 to 20 (Needs XBMC change: xbmc/utils/RecentlyAddedJob.cpp Inrcrease #define NUM_ITEMS 10 to 20)
+- Extended "SubHeaderLabel" for TVShows, Movies, PVR, Weather, Settings, Addons and Power
+- Fade Animation for SubHeaderLabel
+- View_57_ExtraInfo.xml bigger Plotbox
