@@ -2416,6 +2416,10 @@ msgctxt "#37981"
 msgid "Prefer percentage"
 msgstr "Prozent bevorzugen"
 
+msgctxt "#37982"
+msgid "Prefer local list information"
+msgstr "lokale Listeninformationen bevorzugen"
+
 msgctxt "#31001"
 msgid "Backup / Restore"
 msgstr "Sicherung / Wiederherstellung"
