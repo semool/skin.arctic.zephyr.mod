@@ -10,8 +10,10 @@
     <onload condition="!Skin.HasSetting(firststartblurfade)">Skin.SetString(BackgroundBlur,80)</onload>
     <onload condition="!Skin.HasSetting(firststartblurfade)">Skin.SetBool(firststartblurfade)</onload>
     <onunload>ClearProperty(TMDbHelper.WidgetContainer,home)</onunload>
-    <onload condition="!$EXP[HomeIsModernMultiWidgets] + !$EXP[HomeIsVerticalMultiWidgets]">SetProperty(TMDbHelper.WidgetContainer,301,home)</onload>   
+    <onload condition="!$EXP[HomeIsModernMultiWidgets] + !$EXP[HomeIsVerticalMultiWidgets]">SetProperty(TMDbHelper.WidgetContainer,301,home)</onload>
     <onload condition="String.IsEmpty(Skin.String(BlurSaturation)) | !String.IsEqual(Skin.String(BlurSaturation),0)">Skin.SetString(BlurSaturation,0)</onload>
+    <onload condition="!Skin.HasSetting(furniture.animatedposters) + !Skin.HasSetting(furniture.animatedfanarts) + Skin.HasSetting(SkinHelper.EnableAnimatedPosters)">Skin.ToggleSetting(SkinHelper.EnableAnimatedPosters)</onload>
+    <onload condition="[Skin.HasSetting(furniture.animatedposters) | Skin.HasSetting(furniture.animatedfanarts)] + !Skin.HasSetting(SkinHelper.EnableAnimatedPosters)">Skin.ToggleSetting(SkinHelper.EnableAnimatedPosters)</onload>
     <controls>
         <include>GlobalBackground</include>
 
@@ -56,7 +58,7 @@
             <visible>[!Window.IsVisible(DialogVideoInfo.xml) + ![String.IsEqual(Container(300).ListItem.Property(widget),weatherdaily) | String.IsEqual(Container(300).ListItem.Property(widget),weatherhourly)]] | [!Window.IsVisible(DialogVideoInfo.xml) + [String.IsEqual(Container(300).ListItem.Property(widget),weatherdaily) | String.IsEqual(Container(300).ListItem.Property(widget),weatherhourly)] + String.IsEmpty(Skin.String(weather.fanart.path))]</visible>
             <visible>!Window.IsVisible(DialogMusicInfo.xml)</visible>
             <include condition="![Skin.HasSetting(home.vertical) + Skin.HasSetting(home.vertical.widgets)]">HomeClearLogo</include>
-        </control>       
+        </control>
         <!--<control type="label">
             <left>60</left>
             <right>60</right>
