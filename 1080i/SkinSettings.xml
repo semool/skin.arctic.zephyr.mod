@@ -1552,6 +1552,16 @@
                             <param name="visible" value="ControlGroup(9100).HasFocus(9113)"/>
                             <param name="addonname" value="script.arctic.zephyr.mod.autocolors"/>
                         </include>
+                        <include content="DefSkinAddons">
+                            <param name="id" value="11022"/>
+                            <param name="visible" value="ControlGroup(9100).HasFocus(9113)"/>
+                            <param name="addonname" value="script.skin.helper.service"/>
+                        </include>
+                        <include content="DefSkinAddons">
+                            <param name="id" value="11023"/>
+                            <param name="visible" value="ControlGroup(9100).HasFocus(9113)"/>
+                            <param name="addonname" value="script.skin.helper.skinbackup"/>
+                        </include>
                     </control>
     
                     <!-- Furniture -->
