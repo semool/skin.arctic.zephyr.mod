@@ -231,14 +231,6 @@
                             <label2>$VAR[LabelHomeWidgetStyle]</label2>
                             <onclick>ActivateWindow(1255)</onclick>
                         </control>
-                        <control type="radiobutton" id="9804" description="Autocolor">
-                            <width>1310</width>
-                            <visible>ControlGroup(9100).HasFocus(9101) + System.HasAddon(script.arctic.zephyr.mod.autocolors)</visible>
-                            <include>DefSettingsButtonGradient</include>
-                            <label>$LOCALIZE[14078] $LOCALIZE[15111] $LOCALIZE[14013] $LOCALIZE[33027]/$LOCALIZE[33028]</label>
-                            <selected>Skin.HasSetting(daynight.autocolor)</selected>
-                            <onclick>Skin.ToggleSetting(daynight.autocolor)</onclick>
-                        </control>
                         <control type="button" id="9803">
                             <visible>ControlGroup(9100).HasFocus(9101)</visible>
                             <include>DefSettingsLabel</include>
@@ -266,7 +258,7 @@
                         <control type="button" id="9877" description="Fade Netflix preview window">
                             <width>1310</width>
                             <visible>ControlGroup(9100).HasFocus(9101)</visible>
-                            <include>DefSettingsButtonGradient</include>
+                            <include>DefSettingsButtonGradient</include>                            
                             <label>$LOCALIZE[37742]$LOCALIZE[464]</label>
                             <label2>$VAR[FadeNetflixPreviewLabel]</label2>
                             <onclick condition="String.IsEmpty(Skin.String(FadeNetflixPreview))">Skin.SetString(FadeNetflixPreview,100)</onclick>
@@ -529,11 +521,11 @@
                             <include>DefSettingsButtonGradient</include>
                             <label>$LOCALIZE[564]</label>
                             <label2>$VAR[Label_NowPlaying]</label2>
-                            <onclick condition="!Skin.HasSetting(extended.nowplaying) + !Skin.HasSetting(home.hide.nowplaying) + [$EXP[HomeIsModernMultiWidgets] | $EXP[HomeIsVerticalMultiWidgets]]">Skin.ToggleSetting(extended.nowplaying)</onclick>
+                            <onclick condition="!Skin.HasSetting(extended.nowplaying) + !Skin.HasSetting(home.hide.nowplaying) + [$EXP[HomeIsModernMultiWidgets] | $EXP[HomeIsVerticalMultiWidgets]]">Skin.ToggleSetting(extended.nowplaying)</onclick>                            
                             <onclick condition="Skin.HasSetting(extended.nowplaying) | ![$EXP[HomeIsModernMultiWidgets] | $EXP[HomeIsVerticalMultiWidgets]]">Skin.SetBool(home.hide.nowplaying)</onclick>
-                            <onclick condition="Skin.HasSetting(extended.nowplaying) | ![$EXP[HomeIsModernMultiWidgets] | $EXP[HomeIsVerticalMultiWidgets]]">Skin.Reset(extended.nowplaying)</onclick>
+                            <onclick condition="Skin.HasSetting(extended.nowplaying) | ![$EXP[HomeIsModernMultiWidgets] | $EXP[HomeIsVerticalMultiWidgets]]">Skin.Reset(extended.nowplaying)</onclick>                           
                             <onclick condition="Skin.HasSetting(home.hide.nowplaying)">Skin.Reset(extended.nowplaying)</onclick>
-                            <onclick condition="Skin.HasSetting(home.hide.nowplaying)">Skin.Reset(home.hide.nowplaying)</onclick>
+                            <onclick condition="Skin.HasSetting(home.hide.nowplaying)">Skin.Reset(home.hide.nowplaying)</onclick>                            
                         </control>
                         <control type="radiobutton" id="9721">
                             <width>1310</width>
@@ -777,7 +769,7 @@
                             <visible>ControlGroup(9100).HasFocus(9103)</visible>
                             <include>DefSettingsButtonGradient</include>
                             <label>$LOCALIZE[37760]</label>
-                            <label2>$INFO[Skin.String(OSD_Timeout),, $LOCALIZE[37899]]</label2>
+                            <label2>$INFO[Skin.String(OSD_Timeout),, $LOCALIZE[37899]]</label2>                            
                             <onclick condition="!Skin.String(OSD_Timeout)">Skin.SetString(OSD_Timeout,3)</onclick>
                             <onclick condition="Skin.String(OSD_Timeout,3)">Skin.SetString(OSD_Timeout,5)</onclick>
                             <onclick condition="Skin.String(OSD_Timeout,5)">Skin.SetString(OSD_Timeout,10)</onclick>
@@ -1557,16 +1549,6 @@
                         </include>
                         <include content="DefSkinAddons">
                             <param name="id" value="11021"/>
-                            <param name="visible" value="ControlGroup(9100).HasFocus(9113)"/>
-                            <param name="addonname" value="script.skin.helper.service"/>
-                        </include>
-                        <include content="DefSkinAddons">
-                            <param name="id" value="11022"/>
-                            <param name="visible" value="ControlGroup(9100).HasFocus(9113)"/>
-                            <param name="addonname" value="script.skin.helper.skinbackup"/>
-                        </include>
-                        <include content="DefSkinAddons">
-                            <param name="id" value="11023"/>
                             <param name="visible" value="ControlGroup(9100).HasFocus(9113)"/>
                             <param name="addonname" value="script.arctic.zephyr.mod.autocolors"/>
                         </include>
