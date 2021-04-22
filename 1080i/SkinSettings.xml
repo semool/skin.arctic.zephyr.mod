@@ -283,7 +283,6 @@
                             <onclick condition="Skin.HasSetting(home.oldmenuheight)">Skin.ToggleSetting(submenu.compatibility)</onclick>
                             <onclick condition="Skin.HasSetting(submenu.compatibility)">Skin.Reset(home.oldmenuheight)</onclick>
                             <onclick condition="Skin.HasSetting(submenu.compatibility)">Skin.Reset(submenu.compatibility)</onclick>
-                            <visible>[!Skin.HasSetting(home.vertical) + !Skin.HasSetting(home.classicwidgets) + !Skin.HasSetting(home.modernwidgets)] | [Skin.HasSetting(home.modernwidgets) + Skin.HasSetting(home.vertical.widgets)]</visible>
                         </control>
                         <control type="radiobutton" id="9806" description="Flags">
                             <width>1310</width>
@@ -294,11 +293,20 @@
                             <onclick>Skin.ToggleSetting(no.homemenu.clear)</onclick>
                             <visible>$EXP[HomeIsModernMultiWidgets]</visible>
                         </control>
+                        <control type="radiobutton" id="9817">
+                            <width>1310</width>
+                            <visible>ControlGroup(9100).HasFocus(9101)</visible>
+                            <include>DefSettingsButtonGradient</include>
+                            <label>$LOCALIZE[37742]$LOCALIZE[37969]</label>
+                            <selected>Skin.HasSetting(homemenu.items.underlined)</selected>
+                            <onclick>Skin.ToggleSetting(homemenu.items.underlined)</onclick>
+                            <enable>!$EXP[HomeIsVerticalAll] + !Skin.HasSetting(home.showicons)</enable>
+                        </control>
                         <control type="radiobutton" id="98091" description="Dont slide">
                             <width>1310</width>
                             <visible>ControlGroup(9100).HasFocus(9101)</visible>
                             <include>DefSettingsButtonGradient</include>
-                            <label>$LOCALIZE[37968]</label>
+                            <label>$LOCALIZE[37742]$LOCALIZE[37968]</label>
                             <selected>Skin.HasSetting(homemenu.vertical.noslide)</selected>
                             <onclick>Skin.ToggleSetting(homemenu.vertical.noslide)</onclick>
                             <visible>$EXP[HomeIsVerticalMultiWidgets] + !Skin.HasSetting(homemenu.netflix)</visible>
@@ -307,7 +315,7 @@
                             <width>1310</width>
                             <visible>ControlGroup(9100).HasFocus(9101)</visible>
                             <include>DefSettingsButtonGradient</include>
-                            <label>$LOCALIZE[31154]</label>
+                            <label>$LOCALIZE[37742]$LOCALIZE[31154]</label>
                             <selected>!Skin.HasSetting(hide.furniture.flags.vertical.widgets)</selected>
                             <onclick>Skin.ToggleSetting(hide.furniture.flags.vertical.widgets)</onclick>
                             <visible>[Skin.HasSetting(home.vertical) + Skin.HasSetting(home.vertical.widgets)]</visible>
@@ -317,7 +325,7 @@
                             <width>1310</width>
                             <visible>ControlGroup(9100).HasFocus(9101)</visible>
                             <include>DefSettingsButtonGradient</include>
-                            <label>$LOCALIZE[31190]</label>
+                            <label>$LOCALIZE[37742]$LOCALIZE[31190]</label>
                             <selected>Skin.HasSetting(home.showicons)</selected>
                             <onclick>Skin.ToggleSetting(home.showicons)</onclick>
                         </control>
@@ -325,7 +333,7 @@
                             <width>1310</width>
                             <visible>ControlGroup(9100).HasFocus(9101)</visible>
                             <include>DefSettingsButtonGradient</include>
-                            <label>$LOCALIZE[37742]$LOCALIZE[37861]</label>
+                            <label>$LOCALIZE[37742]$LOCALIZE[37742]$LOCALIZE[37861]</label>
                             <selected>Skin.HasSetting(homemenu.only.icons)</selected>
                             <onclick>Skin.ToggleSetting(homemenu.only.icons)</onclick>
                             <visible>Skin.HasSetting(home.showicons) + !$EXP[HomeIsVertical]</visible>
@@ -334,7 +342,7 @@
                             <width>1310</width>
                             <visible>ControlGroup(9100).HasFocus(9101)</visible>
                             <include>DefSettingsButtonGradient</include>
-                            <label>$LOCALIZE[37742]$LOCALIZE[31115]</label>
+                            <label>$LOCALIZE[37742]$LOCALIZE[37742]$LOCALIZE[31115]</label>
                             <selected>Skin.HasSetting(home.show.label)</selected>
                             <onclick>Skin.ToggleSetting(home.show.label)</onclick>
                             <onclick condition="!Skin.HasSetting(home.show.label)">Skin.Reset(home.showheader)</onclick>
@@ -362,15 +370,6 @@
                             <visible>[$EXP[HomeIsModernMultiWidgets] | $EXP[HomeIsVerticalMultiWidgets]] + !Skin.HasSetting(homemenu.netflix)</visible>
                             <enable>![$EXP[HomeIsVerticalMultiWidgets] + Skin.HasSetting(homemenu.vertical.noslide)]</enable>
                         </control>
-                        <control type="radiobutton" id="9817">
-                            <width>1310</width>
-                            <visible>ControlGroup(9100).HasFocus(9101)</visible>
-                            <include>DefSettingsButtonGradient</include>
-                            <label>$LOCALIZE[37969]</label>
-                            <selected>Skin.HasSetting(homemenu.items.underlined)</selected>
-                            <onclick>Skin.ToggleSetting(homemenu.items.underlined)</onclick>
-                            <enable>!$EXP[HomeIsVerticalAll] + !Skin.HasSetting(home.showicons)</enable>
-                        </control>
                         <control type="radiobutton" id="9819">
                             <width>1310</width>
                             <visible>ControlGroup(9100).HasFocus(9101)</visible>
@@ -381,6 +380,15 @@
                             <onclick condition="!Skin.HasSetting(home.widgets.show.reflections) + [$EXP[HomeIsModernMultiWidgets] | $EXP[HomeIsVerticalMultiWidgets]]">Skin.Reset(home.showheader)</onclick>
                             <onclick condition="!Skin.HasSetting(home.widgets.show.reflections) + [$EXP[HomeIsModernMultiWidgets] | $EXP[HomeIsVerticalMultiWidgets]]">Skin.Reset(home.show.label)</onclick>
                             <enable>$EXP[HomeIsModernMultiWidgets] | $EXP[HomeIsVerticalMultiWidgets] | $EXP[HomeIsVertical] | $EXP[HomeIsClassic]</enable>
+                        </control>
+                        <control type="radiobutton" id="9821">
+                            <width>1310</width>
+                            <visible>ControlGroup(9100).HasFocus(9101)</visible>
+                            <include>DefSettingsButtonGradient</include>
+                            <label>$LOCALIZE[37987]</label>
+                            <selected>Skin.HasSetting(homemenu.hide.lines)</selected>
+                            <onclick>Skin.ToggleSetting(homemenu.hide.lines)</onclick>
+                            <enable>$EXP[HomeIsModernMultiWidgets]</enable>
                         </control>
                         <control type="button" id="9818">
                             <visible>ControlGroup(9100).HasFocus(9101)</visible>
@@ -468,14 +476,6 @@
                             <label>37526</label>
                             <selected>Skin.HasSetting(hidewidgettitle)</selected>
                             <onclick>Skin.ToggleSetting(hidewidgettitle)</onclick>
-                        </control>
-                        <control type="radiobutton" id="9849">
-                            <width>1310</width>
-                            <visible>ControlGroup(9100).HasFocus(9101)</visible>
-                            <include>DefSettingsButtonGradient</include>
-                            <label>37527</label>
-                            <selected>Skin.HasSetting(hidewidgetstatusnew)</selected>
-                            <onclick>Skin.ToggleSetting(hidewidgetstatusnew)</onclick>
                         </control>
                         <control type="radiobutton" id="9850">
                             <width>1310</width>

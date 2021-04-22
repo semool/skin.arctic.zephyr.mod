@@ -2342,7 +2342,7 @@ msgstr "Indikatoren"
 
 msgctxt "#37957"
 msgid "Clear home menu bar"
-msgstr "Transparentes Hauptmenu"
+msgstr "Transparentes Menu"
 
 msgctxt "#37958"
 msgid "Homemenu options"
@@ -2382,7 +2382,7 @@ msgstr ""
 
 msgctxt "#37969"
 msgid "Underlined homemenu items"
-msgstr "Unterstrichene Hauptmenu Einträge"
+msgstr "Unterstrichene Einträge"
 
 msgctxt "#37970"
 msgid "Auto scrolling widget title"
