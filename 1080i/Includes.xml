@@ -57,7 +57,6 @@
     <include file="script-skinshortcuts-includes.xml"/>
 
     <!-- Expressions -->
-    <expression name="IsSubHeaderLabel2">[Window.IsVisible(MyVideoNav.xml) + [String.IsEqual(Container.FolderPath,videodb://tvshows/titles/) | String.IsEqual(Container.FolderPath,videodb://movies/titles/)]] | String.IsEqual(Container(300).ListItem.Property(defaultID),tvshows) | String.IsEqual(Container(300).ListItem.Property(defaultID),power) | String.IsEqual(Container(300).ListItem.Property(defaultID),settings) | String.IsEqual(Container(300).ListItem.Property(defaultID),livetv) | [String.IsEqual(Container(300).ListItem.Property(defaultID),movies) + System.HasAddon(script.skin.helper.service)] | [String.IsEqual(Container(300).ListItem.Property(defaultID),programs) + System.HasAddon(script.skin.helper.service)]</expression>
     <expression name="HomeIsModernMultiWidgets">!Skin.HasSetting(home.vertical) + !Skin.HasSetting(home.classicwidgets) + Skin.HasSetting(home.modernwidgets) + Skin.HasSetting(home.vertical.widgets)</expression>
     <expression name="HomeIsVerticalMultiWidgets">Skin.HasSetting(home.vertical) + Skin.HasSetting(home.vertical.widgets)</expression>
     <expression name="HomeIsVerticalAll">Skin.HasSetting(home.vertical)</expression>
@@ -91,8 +90,6 @@
     <expression name="IsVideoHDR">
         String.Contains(ListItem.FileNameAndPath,.hdr.)
         | [VideoPlayer.IsFullscreen + String.Contains(Player.FileNameAndPath,.hdr.)]
-        | [VideoPlayer.IsFullscreen + String.Contains(Player.Filenameandpath,_2160p) + !String.Contains(Player.Filenameandpath,_SDR)]
-        | [String.Contains(ListItem.Filenameandpath,_2160p) + !String.Contains(ListItem.Filenameandpath,_SDR)]
     </expression>
     <expression name="IsVideoHLG">
         String.Contains(ListItem.FileNameAndPath,.hlg.)
@@ -119,11 +116,6 @@
             | String.IsEqual(Window(Home).Property(LatestMovie.8.Title),ListItem.Label)
             | String.IsEqual(Window(Home).Property(LatestMovie.9.Title),ListItem.Label)
             | String.IsEqual(Window(Home).Property(LatestMovie.10.Title),ListItem.Label)
-            | String.IsEqual(Window(Home).Property(LatestMovie.11.Title),ListItem.Label)
-            | String.IsEqual(Window(Home).Property(LatestMovie.12.Title),ListItem.Label)
-            | String.IsEqual(Window(Home).Property(LatestMovie.13.Title),ListItem.Label)
-            | String.IsEqual(Window(Home).Property(LatestMovie.14.Title),ListItem.Label)
-            | String.IsEqual(Window(Home).Property(LatestMovie.15.Title),ListItem.Label)
           ]
     </expression>
     <expression name="IsNewTVShow">
@@ -139,16 +131,6 @@
             | String.IsEqual(Window(Home).Property(LatestEpisode.8.ShowTitle),ListItem.TvShowTitle)
             | String.IsEqual(Window(Home).Property(LatestEpisode.9.ShowTitle),ListItem.TvShowTitle)
             | String.IsEqual(Window(Home).Property(LatestEpisode.10.ShowTitle),ListItem.TvShowTitle)
-            | String.IsEqual(Window(Home).Property(LatestEpisode.11.ShowTitle),ListItem.TvShowTitle)
-            | String.IsEqual(Window(Home).Property(LatestEpisode.12.ShowTitle),ListItem.TvShowTitle)
-            | String.IsEqual(Window(Home).Property(LatestEpisode.13.ShowTitle),ListItem.TvShowTitle)
-            | String.IsEqual(Window(Home).Property(LatestEpisode.14.ShowTitle),ListItem.TvShowTitle)
-            | String.IsEqual(Window(Home).Property(LatestEpisode.15.ShowTitle),ListItem.TvShowTitle)
-            | String.IsEqual(Window(Home).Property(LatestEpisode.16.ShowTitle),ListItem.TvShowTitle)
-            | String.IsEqual(Window(Home).Property(LatestEpisode.17.ShowTitle),ListItem.TvShowTitle)
-            | String.IsEqual(Window(Home).Property(LatestEpisode.18.ShowTitle),ListItem.TvShowTitle)
-            | String.IsEqual(Window(Home).Property(LatestEpisode.19.ShowTitle),ListItem.TvShowTitle)
-            | String.IsEqual(Window(Home).Property(LatestEpisode.20.ShowTitle),ListItem.TvShowTitle)
           ]
     </expression>
     <expression name="IsNewEpisode">
@@ -164,16 +146,6 @@
             | String.IsEqual(Window(Home).Property(LatestEpisode.8.EpisodeTitle),ListItem.Title)
             | String.IsEqual(Window(Home).Property(LatestEpisode.9.EpisodeTitle),ListItem.Title)
             | String.IsEqual(Window(Home).Property(LatestEpisode.10.EpisodeTitle),ListItem.Title)
-            | String.IsEqual(Window(Home).Property(LatestEpisode.11.EpisodeTitle),ListItem.Title)
-            | String.IsEqual(Window(Home).Property(LatestEpisode.12.EpisodeTitle),ListItem.Title)
-            | String.IsEqual(Window(Home).Property(LatestEpisode.13.EpisodeTitle),ListItem.Title)
-            | String.IsEqual(Window(Home).Property(LatestEpisode.14.EpisodeTitle),ListItem.Title)
-            | String.IsEqual(Window(Home).Property(LatestEpisode.15.EpisodeTitle),ListItem.Title)
-            | String.IsEqual(Window(Home).Property(LatestEpisode.16.EpisodeTitle),ListItem.Title)
-            | String.IsEqual(Window(Home).Property(LatestEpisode.17.EpisodeTitle),ListItem.Title)
-            | String.IsEqual(Window(Home).Property(LatestEpisode.18.EpisodeTitle),ListItem.Title)
-            | String.IsEqual(Window(Home).Property(LatestEpisode.19.EpisodeTitle),ListItem.Title)
-            | String.IsEqual(Window(Home).Property(LatestEpisode.20.EpisodeTitle),ListItem.Title)
           ]
     </expression>
     
@@ -464,7 +436,6 @@
         <value condition="Window.IsVisible(home) + !Container(301).IsUpdating + Skin.HasSetting(homemenu.netflix)">common/null.png</value>
         <value condition="Window.IsVisible(home) + !Container(301).IsUpdating">pvr/background.jpg</value>
         <value condition="!String.IsEmpty(Window(Home).Property(SkinHelper.ExtraFanArtPath)) + Skin.HasSetting(SkinHelper.EnableExtraFanart) + System.AddonIsEnabled(script.skin.helper.service) + Window.IsVisible(MyVideoNav.xml)">$INFO[Window(Home).Property(SkinHelper.ExtraFanArtPath)]</value>
-        <value condition="!String.IsEmpty(ListItem.Art(tvshow.fanart))">$INFO[ListItem.Art(tvshow.fanart)]</value>
         <value condition="!String.IsEmpty(ListItem.Art(fanart))">$INFO[ListItem.Art(fanart)]</value>
         <value condition="!String.IsEmpty(Container(9500).ListItem.Art(fanart))">$INFO[Container(9500).ListItem.Art(fanart)]</value>
         <value condition="!String.IsEmpty(ListItem.Property(Fanart_Image))">$INFO[ListItem.Property(Fanart_Image)]</value>

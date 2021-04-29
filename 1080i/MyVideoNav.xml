@@ -147,7 +147,7 @@
                     <align>left</align>
                     <visible>Skin.HasSetting(views.oldselector)</visible>
                 </control>
-                <control type="radiobutton" id="1111">
+                <control type="radiobutton" id="1111">                    
                     <selected>[Container.Content() + !String.IsEmpty(Skin.String(Skin.ForcedView.))] | [Container.Content(tags) + !String.IsEmpty(Skin.String(Skin.ForcedView.tags))] | [Container.Content(years) + !String.IsEmpty(Skin.String(Skin.ForcedView.years))] | [Container.Content(genres) + !String.IsEmpty(Skin.String(Skin.ForcedView.genres))] | [Container.Content(countries) + !String.IsEmpty(Skin.String(Skin.ForcedView.countries))] | [Container.Content(studios) + !String.IsEmpty(Skin.String(Skin.ForcedView.studios))] | [Container.Content(playlists) + !String.IsEmpty(Skin.String(Skin.ForcedView.playlists))] | [Container.Content(movies) + !String.IsEmpty(Skin.String(Skin.ForcedView.movies))] | [Container.Content(sets) + !String.IsEmpty(Skin.String(Skin.ForcedView.sets))] | [Container.Content(tvshows) + !String.IsEmpty(Skin.String(Skin.ForcedView.tvshows))] | [Container.Content(seasons) + !String.IsEmpty(Skin.String(Skin.ForcedView.seasons))] | [Container.Content(episodes) + !String.IsEmpty(Skin.String(Skin.ForcedView.episodes))] | [Container.Content(artists) + !String.IsEmpty(Skin.String(Skin.ForcedView.artists))] | [Container.Content(albums) + !String.IsEmpty(Skin.String(Skin.ForcedView.albums))] | [Container.Content(songs) + !String.IsEmpty(Skin.String(Skin.ForcedView.songs))] | [Container.Content(musicvideos) + !String.IsEmpty(Skin.String(Skin.ForcedView.musicvideos))] | [Container.Content(addons) + !String.IsEmpty(Skin.String(Skin.ForcedView.addons))] | [Container.Content(actors) + !String.IsEmpty(Skin.String(Skin.ForcedView.actors))] | [Container.Content(directors) + !String.IsEmpty(Skin.String(Skin.ForcedView.directors))] | [Container.Content(files) + !String.IsEmpty(Skin.String(Skin.ForcedView.files))] | [Container.Content(mixed) + !String.IsEmpty(Skin.String(Skin.ForcedView.mixed))] | [Container.Content(images) + !String.IsEmpty(Skin.String(Skin.ForcedView.images))] | [Container.Content(games) + !String.IsEmpty(Skin.String(Skin.ForcedView.games))] | [Container.Content(unknown) + !String.IsEmpty(Skin.String(Skin.ForcedView.unknown))] | [Container.Content(videos) + !String.IsEmpty(Skin.String(Skin.ForcedView.videos))]</selected>
                     <include>DefContextButtonGradient</include>
                     <align>left</align>
@@ -221,7 +221,7 @@
                     <selected>Skin.HasSetting(show.plot)</selected>
                     <onclick>Skin.ToggleSetting(show.plot)</onclick>
                     <visible>Control.IsVisible(50) + Skin.HasSetting(511ListInfo) + !Skin.HasSetting(50list.low)</visible>
-                </control>
+                </control>                               
                 <control type="radiobutton" id="9032" description="Low List (50)">
                     <include>DefContextButtonGradient</include>
                     <align>left</align>
@@ -230,8 +230,8 @@
                     <onclick>Skin.ToggleSetting(50list.low)</onclick>
                     <onclick>ReloadSkin()</onclick>
                     <visible>Control.IsVisible(50)</visible>
-                </control>
-                <control type="radiobutton" id="9033" description="No Wrap (53)">
+                </control>                
+                <control type="radiobutton" id="9033" description="No Wrap">
                     <include>DefContextButtonGradient</include>
                     <align>left</align>
                     <label>31148</label>
@@ -308,7 +308,7 @@
                     <onclick>Skin.Reset(51bigwide.showinfo.alternative)</onclick>
                     <onclick>ReloadSkin()</onclick>
                     <visible>Control.IsVisible(51)</visible>
-                </control>
+                </control>                
                 <control type="radiobutton" id="9043" description="Big Wide Info (51)">
                     <include>DefContextButtonGradient</include>
                     <align>left</align>
@@ -422,7 +422,7 @@
                     <onclick>Skin.ToggleSetting(55wall.slideinfo)</onclick>
                     <visible>Control.IsVisible(55)</visible>
                 </control>
-                <control type="radiobutton" id="9060" description="Forschritts anzeigen">
+                <control type="radiobutton" id="9060" description="Show progress">
                     <include>DefContextButtonGradient</include>
                     <align>left</align>
                     <label>37507</label>
@@ -437,9 +437,9 @@
                     <label>37600</label>
                     <selected>Skin.HasSetting(discartfanart)</selected>
                     <onclick>Skin.ToggleSetting(discartfanart)</onclick>
-                    <visible>Control.IsVisible(53) | Control.IsVisible(507) | Control.IsVisible(501) | Control.IsVisible(504)</visible>
+                    <visible>Control.IsVisible(507) | Control.IsVisible(501) | Control.IsVisible(504)</visible>
                 </control>
-                <control type="radiobutton" id="9063" description="Alternatives CD Case">
+                <control type="radiobutton" id="9063" description="Alternative CD Case">
                     <include>DefContextButtonGradient</include>
                     <align>left</align>
                     <label>37504</label>
@@ -447,7 +447,7 @@
                     <onclick>Skin.ToggleSetting(ModernCase)</onclick>
                     <visible>Control.IsVisible(507) | Control.IsVisible(501)</visible>
                 </control>
-                <control type="radiobutton" id="9066" description="Plot">
+                <control type="radiobutton" id="9066" description="Plot left">
                     <include>DefContextButtonGradient</include>
                     <align>left</align>
                     <label>37585</label>
