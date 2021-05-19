@@ -2436,13 +2436,9 @@ msgctxt "#37991"
 msgid "Recent recordings"
 msgstr "Letzte Aufnahmen"
 
-msgctxt "#37996"
-msgid "Show, if not empty"
-msgstr "Anzeigen wenn nicht leer"
-
-msgctxt "#37997"
-msgid "Hide"
-msgstr "Verbergen"
+msgctxt "#38000"
+msgid "Unwatched Tv Shows"
+msgstr "Ungesehene Serien"
 
 msgctxt "#31001"
 msgid "Backup / Restore"
