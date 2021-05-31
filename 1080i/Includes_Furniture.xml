@@ -753,6 +753,16 @@
                     <texture colordiffuse="Dark1">flags/imdb.png</texture>
                     <visible>!String.IsEmpty(ListItem.Top250)</visible>
                 </control>
+                <control type="label" description="IMDB Top 250">
+                    <centertop>50%</centertop>
+                    <width>auto</width>
+                    <height>64</height>
+                    <font>Tiny</font>
+                    <left>-15</left>
+                    <textcolor>Dark2</textcolor>
+                    <label>$INFO[ListItem.Top250,#,]</label>
+                    <visible>!String.IsEmpty(ListItem.Top250) + Skin.HasSetting(furniture.flags.top250.enable.labels)</visible>
+                </control>                
                 <include condition="Skin.HasSetting(furniture.showsubtitles)">Subtitles_Furniture</include>
                 <control type="image">
                     <visible>!String.IsEmpty(ListItem.UserRating) + Skin.HasSetting(furniture.showuserrating) + !Skin.HasSetting(furniture.flagicons)</visible>
@@ -1094,7 +1104,15 @@
                     <centertop>50%</centertop>
                     <texture colordiffuse="$VAR[ColorRating]" fallback="flags/fallback.png">$VAR[RatingFlagVar]</texture>
                     <aspectratio align="center">keep</aspectratio>
-                    <visible>Skin.HasSetting(furniture.flagicons) + !String.IsEmpty(ListItem.MPAA) + Skin.HasSetting(furniture.coloredicons)</visible>
+                    <visible>Skin.HasSetting(furniture.flagicons) + !String.IsEmpty(ListItem.MPAA) + Skin.HasSetting(furniture.coloredicons) + Skin.HasSetting(furniture.disable.default.icons.mpaa)</visible>
+                </control>
+                <control type="image" description="MPAA">
+                    <width min="20" max="100">auto</width>
+                    <height>64</height>
+                    <centertop>50%</centertop>
+                    <texture fallback="flags/fallback.png">flags4/$VAR[RatingFlagVar]</texture>
+                    <aspectratio align="center">keep</aspectratio>
+                    <visible>Skin.HasSetting(furniture.flagicons) + !String.IsEmpty(ListItem.MPAA) + Skin.HasSetting(furniture.coloredicons) + !Skin.HasSetting(furniture.disable.default.icons.mpaa)</visible>
                 </control>
                 <control type="image">
                     <width>48</width>
@@ -1166,6 +1184,16 @@
                     <aspectratio aligny="center" align="center">keep</aspectratio>
                     <texture colordiffuse="Dark1">flags/imdb.png</texture>
                     <visible>!String.IsEmpty(ListItem.Top250)</visible>
+                </control>
+                <control type="label" description="IMDB Top 250">
+                    <centertop>50%</centertop>
+                    <width>auto</width>
+                    <height>64</height>
+                    <font>Tiny</font>
+                    <left>-15</left>
+                    <textcolor>Dark2</textcolor>
+                    <label>$INFO[ListItem.Top250,#,]</label>
+                    <visible>!String.IsEmpty(ListItem.Top250) + Skin.HasSetting(furniture.flags.top250.enable.labels)</visible>
                 </control>
                 <include condition="Skin.HasSetting(furniture.showsubtitles)">Subtitles_Furniture</include>
                 <control type="image">
@@ -1587,6 +1615,16 @@
                 <texture colordiffuse="Dark1">flags/imdb.png</texture>
                 <visible>Skin.HasSetting(furniture.flagicons) + !Skin.HasSetting(furniture.flags.top250) + !String.IsEmpty(ListItem.Top250)</visible>
             </control>
+            <control type="label" description="IMDB Top 250">
+                <centertop>50%</centertop>
+                <width>auto</width>
+                <height>64</height>
+                <font>Tiny</font>
+                <left>-15</left>
+                <textcolor>Dark2</textcolor>
+                <label>$INFO[ListItem.Top250,#,]</label>
+                <visible>Skin.HasSetting(furniture.flagicons) + !Skin.HasSetting(furniture.flags.top250) + !String.IsEmpty(ListItem.Top250) + Skin.HasSetting(furniture.flags.top250.enable.labels)</visible>
+            </control>
             <include condition="Skin.HasSetting(furniture.showsubtitles)">Subtitles_Furniture</include>
             <control type="image" description="User rating">
                 <visible>!String.IsEmpty(ListItem.UserRating) + Skin.HasSetting(furniture.showuserrating) + !Skin.HasSetting(furniture.flagicons)</visible>
@@ -1933,7 +1971,15 @@
                 <centertop>50%</centertop>
                 <texture colordiffuse="$VAR[ColorRating]" fallback="flags/fallback.png">$VAR[RatingFlagVar]</texture>
                 <aspectratio align="center">keep</aspectratio>
-                <visible>Skin.HasSetting(furniture.flagicons) + !Skin.HasSetting(furniture.flags.mpaa) + !String.IsEmpty(ListItem.MPAA) + Skin.HasSetting(furniture.coloredicons)</visible>
+                <visible>Skin.HasSetting(furniture.flagicons) + !Skin.HasSetting(furniture.flags.mpaa) + !String.IsEmpty(ListItem.MPAA) + Skin.HasSetting(furniture.coloredicons) + Skin.HasSetting(furniture.disable.default.icons.mpaa)</visible>
+            </control>
+            <control type="image" description="MPAA">
+                <width min="20" max="100">auto</width>
+                <height>64</height>
+                <centertop>50%</centertop>
+                <texture fallback="flags/fallback.png">flags4/$VAR[RatingFlagVar]</texture>
+                <aspectratio align="center">keep</aspectratio>
+                <visible>Skin.HasSetting(furniture.flagicons) + !Skin.HasSetting(furniture.flags.mpaa) + !String.IsEmpty(ListItem.MPAA) + Skin.HasSetting(furniture.coloredicons) + !Skin.HasSetting(furniture.disable.default.icons.mpaa)</visible>
             </control>
             <control type="image" description="Duration">
                 <width>48</width>
@@ -2006,6 +2052,16 @@
                 <texture colordiffuse="Dark1">flags/imdb.png</texture>
                 <visible>Skin.HasSetting(furniture.flagicons) + !Skin.HasSetting(furniture.flags.top250) + !String.IsEmpty(ListItem.Top250)</visible>
             </control>
+            <control type="label" description="IMDB Top 250">
+                <centertop>50%</centertop>
+                <width>auto</width>
+                <height>64</height>
+                <font>Tiny</font>
+                <left>-15</left>
+                <textcolor>Dark2</textcolor>
+                <label>$INFO[ListItem.Top250,#,]</label>
+                <visible>Skin.HasSetting(furniture.flagicons) + !Skin.HasSetting(furniture.flags.top250) + !String.IsEmpty(ListItem.Top250) + Skin.HasSetting(furniture.flags.top250.enable.labels)</visible>
+            </control>            
             <include condition="Skin.HasSetting(furniture.showsubtitles)">Subtitles_Furniture</include>
             <control type="image" description="User rating">
                 <visible>!String.IsEmpty(ListItem.UserRating) + Skin.HasSetting(furniture.showuserrating) + !Skin.HasSetting(furniture.flagicons)</visible>
@@ -2127,7 +2183,7 @@
                 <texture background="true">$VAR[RottenTomatoesAudienceColored]</texture>
             </control>
             <control type="label" description="Rotten Tomatoes">
-                <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_UserMeter)) + !ListItem.IsCollection  + Skin.HasSetting(furniture.showtomatoesandmetacritics)</visible>
+                <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_UserMeter)) + !ListItem.IsCollection  + Skin.HasSetting(furniture.showtomatoesandmetacritics) + Skin.HasSetting(furniture.flagicons)</visible>
                 <centertop>50%</centertop>
                 <width>auto</width>
                 <height>64</height>
@@ -2376,6 +2432,16 @@
                 <aspectratio aligny="center" align="center">keep</aspectratio>
                 <texture colordiffuse="Dark1">flags/imdb.png</texture>
                 <visible>!String.IsEmpty(Container(9500).ListItem.Top250)</visible>
+            </control>
+            <control type="label" description="IMDB Top 250">
+                <centertop>50%</centertop>
+                <width>auto</width>
+                <height>64</height>
+                <font>Tiny</font>
+                <left>-15</left>
+                <textcolor>Dark2</textcolor>
+                <label>$INFO[Container(9500).ListItem.Top250,#,]</label>
+                <visible>!String.IsEmpty(Container(9500).ListItem.Top250) + Skin.HasSetting(furniture.flags.top250.enable.labels)</visible>
             </control>
             <control type="image">
                 <visible>!String.IsEmpty(Container(9500).ListItem.UserRating) + Skin.HasSetting(furniture.showuserrating)+ !Skin.HasSetting(furniture.flagicons)</visible>
@@ -2657,7 +2723,15 @@
                 <centertop>50%</centertop>
                 <texture colordiffuse="$VAR[ColorRating]" fallback="flags/fallback.png">$VAR[RatingFlagVarHub]</texture>
                 <aspectratio align="center">keep</aspectratio>
-                <visible>Skin.HasSetting(furniture.flagicons) + !String.IsEmpty(Container(9500).ListItem.MPAA) + Skin.HasSetting(furniture.coloredicons)</visible>
+                <visible>Skin.HasSetting(furniture.flagicons) + !String.IsEmpty(Container(9500).ListItem.MPAA) + Skin.HasSetting(furniture.coloredicons) + Skin.HasSetting(furniture.disable.default.icons.mpaa)</visible>
+            </control>
+            <control type="image" description="MPAA">
+                <width min="20" max="100">auto</width>
+                <height>64</height>
+                <centertop>50%</centertop>
+                <texture fallback="flags/fallback.png">flags4/$VAR[RatingFlagVarHub]</texture>
+                <aspectratio align="center">keep</aspectratio>
+                <visible>Skin.HasSetting(furniture.flagicons) + !String.IsEmpty(Container(9500).ListItem.MPAA) + Skin.HasSetting(furniture.coloredicons) + !Skin.HasSetting(furniture.disable.default.icons.mpaa)</visible>
             </control>
             <control type="image">
                 <width>48</width>
@@ -2709,6 +2783,16 @@
                 <aspectratio aligny="center" align="center">keep</aspectratio>
                 <texture colordiffuse="Dark1">flags/imdb.png</texture>
                 <visible>!String.IsEmpty(Container(9500).ListItem.Top250)</visible>
+            </control>
+            <control type="label" description="IMDB Top 250">
+                <centertop>50%</centertop>
+                <width>auto</width>
+                <height>64</height>
+                <font>Tiny</font>
+                <left>-15</left>
+                <textcolor>Dark2</textcolor>
+                <label>$INFO[Container(9500).ListItem.Top250,#,]</label>
+                <visible>!String.IsEmpty(Container(9500).ListItem.Top250) + Skin.HasSetting(furniture.flags.top250.enable.labels)</visible>
             </control>
             <control type="image">
                 <visible>!String.IsEmpty(Container(9500).ListItem.UserRating) + Skin.HasSetting(furniture.showuserrating) + !Skin.HasSetting(furniture.flagicons)</visible>
