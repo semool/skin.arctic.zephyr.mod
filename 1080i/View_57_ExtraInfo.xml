@@ -175,7 +175,7 @@
                 <left>12</left>
                 <right>12</right>
                 <posy>319</posy>
-                <height>330</height>
+                <height>355</height>
                 <control type="label">
                     <top>10</top>
                     <aligny>center</aligny>
@@ -212,7 +212,7 @@
         <param name="width_condition" value="$PARAM[width_condition]" default="Skin.HasSetting(furniture.overlayinfobalken)"/>
         <param name="visible" value="$PARAM[visible]" default="true"/>
         <param name="visible_progress" value="$PARAM[visible_progress]" default="true"/>
-        <param name="infobox_height" value="$PARAM[infobox_height]" default="290"/>
+        <param name="infobox_height" value="$PARAM[infobox_height]" default="355"/>
         <definition>
         <control type="group">
             <left>$PARAM[posx]</left>
