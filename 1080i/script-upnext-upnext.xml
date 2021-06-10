@@ -34,13 +34,6 @@
                 <aspectratio scalediffuse="false">scale</aspectratio>
                 <texture diffuse="diffuse/widgetfanart_new.png">$VAR[UpNextImage]</texture>
             </control>
-            <control type="image" description="fanart">
-                <width>100%</width>
-                <height>100%</height>
-                <fadetime>350</fadetime>
-                <aspectratio scalediffuse="false">scale</aspectratio>
-                <texture>$INFO[Window.Property(thumb)]</texture>
-            </control>
             <control type="image" description="blackline">
                 <width>100%</width>
                 <height>64</height>

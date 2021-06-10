@@ -18,7 +18,6 @@
 - View_510_Minimal.xml add own CDArt Animation
 - View_519_Shift_Modern.xml disable ugly ClearArt Shadow
 - Move scrollbar_hor some pixels to the bottom
-- Add Episode Thumb to upnext Notifications (Fanart as Fallback)
 - Extend "IsNewTVShow" and "IsNewEpisode" from 10 to 20 (Needs XBMC change: xbmc/utils/RecentlyAddedJob.cpp Inrcrease #define NUM_ITEMS 10 to 20)
 - Extended "SubHeaderLabel" for TVShows (with Title View), Movies (with Title View), PVR, Weather, Settings, Addons and Power
 - Fade Animation for SubHeaderLabel
