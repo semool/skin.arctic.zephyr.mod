@@ -4,7 +4,6 @@
 - Add CDart to View_53_Poster.xml
 - add CDart Rotation Animation (considered play/pause)
 - Bugfix for not showed $INFO[ListItem.Art(tvshow.fanart) when Season is selected
-- Make Fanart in Light Theme a little bit more visible
 - Add HDR Logo for my own file naming (ListItem.Filenameandpath,_2160p,Filenameandpath,_SDR)
 - More Space for colored flags
 - Add script.skin.helper.service (https://github.com/semool/script.skin.helper.service) to Supportet Addons Menu
