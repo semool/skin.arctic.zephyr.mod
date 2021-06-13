@@ -465,7 +465,7 @@
         <value condition="Window.IsVisible(home) + !String.IsEmpty(Skin.String(home.slideshowpath)) + [[String.IsEqual(Container(300).ListItem.Property(widget),weatherdaily) | String.IsEqual(Container(300).ListItem.Property(widget),weatherhourly)] | String.IsEmpty(Container(300).ListItem.Property(widget)) | Container(301).IsUpdating |  Skin.HasSetting(home.dontshowfanart)]">$INFO[Skin.String(home.slideshowpath)]</value>
         <value condition="Window.IsVisible(home) + !String.IsEmpty(Skin.String(weather.fanart.path)) + Skin.HasSetting(home.showweatherfanart) + [String.IsEmpty(Container(300).ListItem.Property(widget)) | Container(301).IsUpdating]">$INFO[Skin.String(weather.fanart.path)]$INFO[Window(Weather).Property(Current.FanartCode)]/</value>
         <value condition="Window.IsVisible(home) + !Container(301).IsUpdating + !String.IsEmpty(Skin.String(fanart.fallback))">$INFO[Skin.String(fanart.fallback)]</value>
-        <value condition="Window.IsVisible(home) + String.IsEqual(Container(300).ListItem.Property(widget),system) + !Skin.HasSetting(home.dontshowfanart) + String.IsEmpty(Container(301).ListItem.Property(backgroundPlaylist))">special://skin/extras/backgrounds/systeminfo.jpg</value>
+        <value condition="Window.IsVisible(home) + String.IsEqual(Container(300).ListItem.Property(widgetType),system) + !Skin.HasSetting(home.dontshowfanart) + String.IsEmpty(Container(301).ListItem.Property(backgroundPlaylist))">special://skin/extras/backgrounds/systeminfo.jpg</value>
         <value condition="Window.IsVisible(home) + !Container(301).IsUpdating + !String.IsEmpty(Container(301).ListItem.Property(Background))">$INFO[Container(301).ListItem.Property(Background)]</value>
         <value condition="Window.IsVisible(home) + !Container(301).IsUpdating + Skin.HasSetting(homemenu.netflix)">common/null.png</value>
         <value condition="Window.IsVisible(home) + !Container(301).IsUpdating">pvr/background.jpg</value>
@@ -712,7 +712,7 @@
         
         <!-- BLUR Global Fanart -->
         <control type="multiimage" description="Fanart">
-            <visible>Skin.HasSetting(BlurEnabled) + Integer.IsGreater(Skin.String(BackgroundBrightnessBlur),0) + !Window.IsVisible(home)</visible>
+            <visible>Skin.HasSetting(BlurEnabled) + !Window.IsVisible(home)</visible>
             <include>GlobalBackgroundFadeBlur</include>
             <visible>!Player.HasMedia | [!Skin.HasSetting(global.showvideo) + Player.HasVideo] | [!Skin.HasSetting(global.showvisualisation) + Player.HasAudio]</visible>
             <visible>!Skin.HasSetting(global.hidefanart) | Window.IsVisible(home)</visible>
@@ -730,7 +730,7 @@
         
         <!-- BLUR Global Fanart Home-->
         <control type="multiimage" description="Fanart">
-            <visible>Skin.HasSetting(BlurEnabled) + Integer.IsGreater(Skin.String(BackgroundBrightnessBlur),0) + Window.IsVisible(home)</visible>            
+            <visible>Skin.HasSetting(BlurEnabled) + Window.IsVisible(home)</visible>            
             <include condition="!Skin.HasSetting(BlurOnHome) + !$EXP[HomeIsSpotlight] + !$EXP[HomeIsClassic] + !$EXP[HomeIsModern]">GlobalBackgroundFade</include>
             <include condition="Skin.HasSetting(BlurOnHome)">GlobalBackgroundFadeBlur2</include>
             <visible>!Player.HasMedia | [!Skin.HasSetting(global.showvideo) + Player.HasVideo] | [!Skin.HasSetting(global.showvisualisation) + Player.HasAudio]</visible>
@@ -815,7 +815,7 @@
             <animation effect="slide" start="-20,-20" end="20,20" time="6000" tween="sine" easing="inout" pulse="true" condition="Skin.HasSetting(Fanart.Animate)">Conditional</animation>
         </control>
         <control type="multiimage" description="Fanart">
-            <visible>Skin.HasSetting(BlurEnabled) + Integer.IsGreater(Skin.String(BackgroundBrightnessBlur),0)</visible>
+            <visible>Skin.HasSetting(BlurEnabled)</visible>
             <visible>!Skin.HasSetting(global.hidefanart)</visible>
             <include>Dimensions_Fullscreen</include>
             <include condition="!Skin.HasSetting(home.vertical)">Animation.FadeFromHome</include>
@@ -1801,7 +1801,7 @@
 
     <include name="ExtendedDialogInfoNavigationVideoWIP">
         <control type="grouplist" id="9000">
-            <onup condition="String.IsEqual(Window.Property(videoinfo),1">10053</onup>
+            <onup condition="String.IsEqual(Window.Property(videoinfo),1)">10053</onup>
             <onup condition="String.IsEqual(Window.Property(videoinfo),2)">10054</onup>
             <onup condition="String.IsEqual(Window.Property(videoinfo),3)">10055</onup>
             <onup condition="String.IsEqual(Window.Property(videoinfo),4)">10056</onup>
