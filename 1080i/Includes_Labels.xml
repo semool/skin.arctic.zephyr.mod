@@ -903,36 +903,6 @@
         <value>$LOCALIZE[571]</value>
     </variable>
 
-    <variable name="LabelClearLogoThumb">
-        <value condition="String.IsEqual(Container(211).ListItem.Property(widgetClearLogoThumb),yes)">$LOCALIZE[107]</value>
-        <value condition="String.IsEqual(Container(211).ListItem.Property(widgetClearLogoThumb),no)">$LOCALIZE[106]</value>
-        <value>$LOCALIZE[571]</value>
-    </variable>
-
-    <variable name="LabelClearLogoThumb2">
-        <value condition="String.IsEqual(Container(211).ListItem.Property(widgetClearLogoThumb.2),yes)">$LOCALIZE[107]</value>
-        <value condition="String.IsEqual(Container(211).ListItem.Property(widgetClearLogoThumb.2),no)">$LOCALIZE[106]</value>
-        <value>$LOCALIZE[571]</value>
-    </variable>
-
-    <variable name="LabelClearLogoThumb3">
-        <value condition="String.IsEqual(Container(211).ListItem.Property(widgetClearLogoThumb.3),yes)">$LOCALIZE[107]</value>
-        <value condition="String.IsEqual(Container(211).ListItem.Property(widgetClearLogoThumb.3),no)">$LOCALIZE[106]</value>
-        <value>$LOCALIZE[571]</value>
-    </variable>
-
-    <variable name="LabelClearLogoThumb4">
-        <value condition="String.IsEqual(Container(211).ListItem.Property(widgetClearLogoThumb.4),yes)">$LOCALIZE[107]</value>
-        <value condition="String.IsEqual(Container(211).ListItem.Property(widgetClearLogoThumb.4),no)">$LOCALIZE[106]</value>
-        <value>$LOCALIZE[571]</value>
-    </variable>
-
-    <variable name="LabelClearLogoThumb5">
-        <value condition="String.IsEqual(Container(211).ListItem.Property(widgetClearLogoThumb.5),yes)">$LOCALIZE[107]</value>
-        <value condition="String.IsEqual(Container(211).ListItem.Property(widgetClearLogoThumb.5),no)">$LOCALIZE[106]</value>
-        <value>$LOCALIZE[571]</value>
-    </variable>
-
     <variable name="LabelEdgeDistance">
         <value condition="String.IsEqual(Container(211).ListItem.Property(widgetEdgeDistance),yes)">$LOCALIZE[31454]</value>
         <value>$LOCALIZE[602]</value>
@@ -991,24 +961,6 @@
     <variable name="LabelAspectRatio6">
         <value condition="String.IsEqual(Container(211).ListItem.Property(widgetAspectRatio.6),scale)">$LOCALIZE[31403]</value>
         <value>$LOCALIZE[602]</value>
-    </variable>
-
-    <variable name="LabelBanner">
-        <value condition="String.IsEqual(Container(211).ListItem.Property(widgetBanner),yes)">$LOCALIZE[107]</value>
-        <value condition="String.IsEqual(Container(211).ListItem.Property(widgetBanner),no)">$LOCALIZE[106]</value>
-        <value>no</value>
-    </variable>
-
-    <variable name="LabelBanner2">
-        <value condition="String.IsEqual(Container(211).ListItem.Property(widgetBanner.2),yes)">$LOCALIZE[107]</value>
-        <value condition="String.IsEqual(Container(211).ListItem.Property(widgetBanner.2),no)">$LOCALIZE[106]</value>
-        <value>no</value>
-    </variable>
-
-    <variable name="LabelBanner3">
-        <value condition="String.IsEqual(Container(211).ListItem.Property(widgetBanner.3),yes)">$LOCALIZE[107]</value>
-        <value condition="String.IsEqual(Container(211).ListItem.Property(widgetBanner.3),no)">$LOCALIZE[106]</value>
-        <value>no</value>
     </variable>
     
     <variable name="ItemStatus">
