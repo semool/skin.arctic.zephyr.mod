@@ -279,7 +279,7 @@
                             <control type="image">
                                 <height>70</height>
                                 <width>1256</width>
-                                <texture colordiffuse="$VAR[ColorSelectOtherBar]" border="5">common/white.png</texture> 
+                                <texture colordiffuse="$VAR[ColorSelectOtherBar]" border="5">common/white.png</texture>
                                 <visible>Control.HasFocus(1100)</visible>
                             </control>
                             <control type="image">
@@ -541,7 +541,7 @@
                         <control type="image">
                             <height>100</height>
                             <width>1256</width>
-                            <texture colordiffuse="$VAR[ColorSelectOtherBar]" border="5">common/white.png</texture> 
+                            <texture colordiffuse="$VAR[ColorSelectOtherBar]" border="5">common/white.png</texture>
                             <visible>Control.HasFocus(1200)</visible>
                         </control>
                         <control type="image">
@@ -895,7 +895,7 @@
                             <width>20</width>
                             <height>20</height>
                             <aspectratio>keep</aspectratio>
-                            <visible>IntegerGreaterThan(ListItem.Property(Trusted), 0)</visible>
+                            <visible>Integer.IsGreater(ListItem.Property(Trusted), 0)</visible>
                             <texture>/usr/share/kodi/addons/service.coreelec.settings/resources/skins/Default/media/key.png</texture>
                         </control>
                     </itemlayout>
@@ -908,7 +908,7 @@
                         <control type="image">
                             <height>100</height>
                             <width>1256</width>
-                            <texture colordiffuse="$VAR[ColorSelectOtherBar]" border="5">common/white.png</texture> 
+                            <texture colordiffuse="$VAR[ColorSelectOtherBar]" border="5">common/white.png</texture>
                             <visible>Control.HasFocus(1300)</visible>
                         </control>
                         <control type="image">
@@ -916,7 +916,7 @@
                             <width>1256</width>
                             <texture colordiffuse="$VAR[ColorHighlightOtherBar]" border="5">common/gradient-box-wide-cut.png</texture>
                             <visible>Control.HasFocus(1300)</visible>
-                        </control> 
+                        </control>
                         <!-- default -->
                         <control type="image">
                             <left>40</left>
