@@ -2900,6 +2900,7 @@
         <fadetime>ClearArtFadetime</fadetime>
         <right>SidePad</right>
         <width>350</width>
+        <top>-195</top>
         <aspectratio scalediffuse="true" align="left" aligny="top">keep</aspectratio>
     </include>
 
@@ -3187,7 +3188,7 @@
             <visible>!Skin.HasSetting(furniture.markers.alternative)</visible>
             <right>$PARAM[right]</right>
             <top>$PARAM[top]</top>
-            <control type="label">
+            <!--<control type="label">
                 <align>center</align>
                 <aligny>center</aligny>
                 <width>50</width>
@@ -3198,7 +3199,7 @@
                 <font>SymbolPosterBackground</font>
                 <label>$VAR[WatchedBacking]</label>
                 <visible>$PARAM[indicatorbackground]</visible>
-            </control>
+            </control>-->
             <control type="label">
                 <align>center</align>
                 <aligny>center</aligny>
