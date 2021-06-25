@@ -21,7 +21,7 @@
                     <label>31448</label>
                 </control>
                 <include>Kodi_Logo</include>
-    
+
                 <!-- Lines -->
                 <control type="image">
                     <top>70</top>
@@ -71,7 +71,7 @@
                     <onclick>Skin.ToggleSetting(DebugInfoGrid)</onclick>
                     <selected>Skin.HasSetting(DebugInfoGrid)</selected>
                     <enable>Skin.HasSetting(DebugInfo)</enable>
-                </control> 
+                </control>
                 <control type="radiobutton" id="4">
                     <include>DefContextButtonGradientSelect</include>
                     <label>31450</label>

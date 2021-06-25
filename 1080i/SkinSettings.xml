@@ -259,7 +259,7 @@
                         <control type="button" id="9877" description="Fade Netflix preview window">
                             <width>1310</width>
                             <visible>ControlGroup(9100).HasFocus(9101)</visible>
-                            <include>DefSettingsButtonGradient</include>                            
+                            <include>DefSettingsButtonGradient</include>
                             <label>$LOCALIZE[464]</label>
                             <label2>$VAR[FadeNetflixPreviewLabel]</label2>
                             <onclick>SetProperty(includesetting,FadeNetflixPreview,home)</onclick>
@@ -555,11 +555,11 @@
                             <include>DefSettingsButtonGradient</include>
                             <label>$LOCALIZE[564]</label>
                             <label2>$VAR[Label_NowPlaying]</label2>
-                            <onclick condition="!Skin.HasSetting(extended.nowplaying) + !Skin.HasSetting(home.hide.nowplaying) + [$EXP[HomeIsModernMultiWidgets] | $EXP[HomeIsVerticalMultiWidgets]]">Skin.ToggleSetting(extended.nowplaying)</onclick>                            
+                            <onclick condition="!Skin.HasSetting(extended.nowplaying) + !Skin.HasSetting(home.hide.nowplaying) + [$EXP[HomeIsModernMultiWidgets] | $EXP[HomeIsVerticalMultiWidgets]]">Skin.ToggleSetting(extended.nowplaying)</onclick>
                             <onclick condition="Skin.HasSetting(extended.nowplaying) | ![$EXP[HomeIsModernMultiWidgets] | $EXP[HomeIsVerticalMultiWidgets]]">Skin.SetBool(home.hide.nowplaying)</onclick>
-                            <onclick condition="Skin.HasSetting(extended.nowplaying) | ![$EXP[HomeIsModernMultiWidgets] | $EXP[HomeIsVerticalMultiWidgets]]">Skin.Reset(extended.nowplaying)</onclick>                           
+                            <onclick condition="Skin.HasSetting(extended.nowplaying) | ![$EXP[HomeIsModernMultiWidgets] | $EXP[HomeIsVerticalMultiWidgets]]">Skin.Reset(extended.nowplaying)</onclick>
                             <onclick condition="Skin.HasSetting(home.hide.nowplaying)">Skin.Reset(extended.nowplaying)</onclick>
-                            <onclick condition="Skin.HasSetting(home.hide.nowplaying)">Skin.Reset(home.hide.nowplaying)</onclick>                            
+                            <onclick condition="Skin.HasSetting(home.hide.nowplaying)">Skin.Reset(home.hide.nowplaying)</onclick>
                         </control>
                         <control type="radiobutton" id="9721">
                             <width>1310</width>
@@ -692,7 +692,7 @@
                             <onclick>RunScript(script.skinshortcuts,type=manage&amp;group=powermenu)</onclick>
                         </control>
                     </control>
-    
+
                     <!-- Hintergrund -->
                     <control type="grouplist" id="9300">
                         <description>Control Area</description>
@@ -716,6 +716,31 @@
                             <selected>Skin.HasSetting(BlurEnabled)</selected>
                             <onclick>Skin.ToggleSetting(BlurEnabled)</onclick>
                             <onclick>RunScript(script.embuary.helper,action=restartservice)</onclick>
+                        </control>
+                        <control type="radiobutton" id="97121">
+                            <include>DefSettingsButtonGradient</include>
+                            <align>left</align>
+                            <label>$LOCALIZE[31297]$LOCALIZE[31543]</label>
+                            <visible>ControlGroup(9100).HasFocus(9102) + System.HasAddon(script.colorbox)</visible>
+                            <selected>Skin.HasSetting(blur.use.colorbox)</selected>
+                            <onclick>Skin.ToggleSetting(blur.use.colorbox)</onclick>
+                            <onclick condition="!Skin.String(colorbox_effect)">Skin.SetString(colorbox_effect,blur)</onclick>
+                            <onclick condition="!Skin.String(colorbox_quality)">Skin.SetString(colorbox_quality,4)</onclick>
+                            <onclick condition="!Skin.String(colorbox_blend)">Skin.SetString(colorbox_blend,100)</onclick>
+                            <onclick condition="!Skin.String(colorbox_blursize)">Skin.SetString(colorbox_blursize,30)</onclick>
+                            <onclick condition="!Skin.String(colorbox_bitsize)">Skin.SetString(colorbox_bitsize,1)</onclick>
+                            <onclick condition="!Skin.String(colorbox_pixelsize)">Skin.SetString(colorbox_pixelsize,12)</onclick>
+                            <onclick condition="!Skin.String(colorbox_desat)">Skin.SetString(colorbox_desat,0.3)</onclick>
+                            <onclick condition="!Skin.String(colorbox_black)">Skin.SetString(colorbox_black,000000)</onclick>
+                            <onclick condition="!Skin.String(colorbox_white)">Skin.SetString(colorbox_white,ffffff)</onclick>
+                            <onclick condition="!Skin.String(colorbox_main)">Skin.SetString(colorbox_main,main:fhls*-;0.45;0.9)</onclick>
+                            <onclick condition="!Skin.String(colorbox_comp)">Skin.SetString(colorbox_comp,main:hls*0.75;0;0@fhls*-;0.45;0.9)</onclick>
+                            <onclick condition="!Skin.HasSetting(blur.use.colorbox) + !String.IsEmpty(Skin.String(colorbox_effect))">SetProperty(FIVE_daemon_set,$INFO[Skin.String(colorbox_effect)],home)</onclick>
+                            <onclick condition="!Skin.HasSetting(blur.use.colorbox) + String.IsEmpty(Skin.String(colorbox_effect))">SetProperty(FIVE_daemon_set,blur,home)</onclick>
+                            <onclick condition="!Skin.HasSetting(blur.use.colorbox)">RunScript(script.colorbox,daemon=True)</onclick>
+                            <onclick condition="!Skin.HasSetting(blur.use.colorbox)">AlarmClock(nms1,SetProperty(NINE_manual_set,"var=main,set=$INFO[Skin.String(colorbox_main)]|var=comp,set=$INFO[Skin.String(colorbox_comp)]|var=quality,set=$INFO[Skin.String(colorbox_quality)]|var=blursize,set=$INFO[Skin.String(colorbox_blursize)]|var=bitsize,set=$INFO[Skin.String(colorbox_bitsize)]|var=pixelsize,set=$INFO[Skin.String(colorbox_pixelsize)]|var=black,set=$INFO[Skin.String(colorbox_black)]|var=white,set=$INFO[Skin.String(colorbox_white)]|var=blend,set=$INFO[Skin.String(colorbox_blend)]|var=desat,set=$INFO[Skin.String(colorbox_desat)]",home),00:05,true)</onclick>
+                            <onclick condition="!Skin.HasSetting(blur.use.colorbox)">AlarmClock(nms2,SetProperty(FIVE_daemon_fire,True,home),00:02,silent)</onclick>
+                            <enable>Skin.HasSetting(BlurEnabled) + System.AddonIsEnabled(script.colorbox)</enable>
                         </control>
                         <control type="button" id="9712">
                             <include>DefSettingsButtonGradient</include>
@@ -805,7 +830,7 @@
                             <onclick>Skin.ToggleSetting(global.showvisualisation)</onclick>
                         </control>
                     </control>
-    
+
                     <!-- MUSIC Video OSD -->
                     <control type="grouplist" id="9400">
                         <description>Control Area</description>
@@ -816,23 +841,23 @@
                         <ondown>9400</ondown>
                         <orientation>vertical</orientation>
                         <visible allowhiddenfocus="true">ControlGroup(9100).HasFocus(9103)</visible>
-                        
+
                         <!-- GLOBAL -->
                         <control type="button" id="9201">
                             <visible>ControlGroup(9100).HasFocus(9103)</visible>
                             <include>DefSettingsLabel</include>
                             <label>31078</label>
-                        </control> 
+                        </control>
                         <control type="button" id="9207">
                             <width>1310</width>
                             <visible>ControlGroup(9100).HasFocus(9103)</visible>
                             <include>DefSettingsButtonGradient</include>
                             <label>$LOCALIZE[31312]</label>
-                            <label2>$INFO[Skin.String(OSD_Timeout),, $LOCALIZE[31425]]</label2>                            
+                            <label2>$INFO[Skin.String(OSD_Timeout),, $LOCALIZE[31425]]</label2>
                             <onclick>SetProperty(includesetting,OSD_Timeout,home)</onclick>
                             <onclick>ActivateWindow(1248)</onclick>
                         </control>
-        
+
                         <!-- Video -->
                         <control type="button" id="9208">
                             <visible>ControlGroup(9100).HasFocus(9103)</visible>
@@ -872,7 +897,7 @@
                             <label>$LOCALIZE[31519]</label>
                             <selected>Skin.HasSetting(osd.disable.icon.background.pvr)</selected>
                             <onclick>Skin.ToggleSetting(osd.disable.icon.background.pvr)</onclick>
-                        </control>                        
+                        </control>
                         <control type="radiobutton" id="9212" description="Show clearart">
                             <width>1310</width>
                             <visible>ControlGroup(9100).HasFocus(9103)</visible>
@@ -958,7 +983,7 @@
                             <selected>Skin.HasSetting(pvr.showtechnicalinfo)</selected>
                             <onclick>Skin.ToggleSetting(pvr.showtechnicalinfo)</onclick>
                         </control>
-        
+
                         <!-- AUDIO -->
                         <control type="button" id="9223">
                             <visible>ControlGroup(9100).HasFocus(9103)</visible>
@@ -1076,7 +1101,7 @@
                             <onclick>Skin.ToggleSetting(hideseekbaronlyrics)</onclick>
                         </control>
                     </control>
-                    
+
                     <!-- MUSIC VIDEO INFO -->
                     <control type="grouplist" id="13100">
                         <description>Control Area</description>
@@ -1183,7 +1208,7 @@
                             <onclick>ActivateWindow(1248)</onclick>
                         </control>
                     </control>
-    
+
                     <!-- FARBEN -->
                     <control type="grouplist" id="9600">
                         <description>Control Area</description>
@@ -1384,12 +1409,12 @@
                             <onclick condition="!System.HasAddon(script.skin.helper.colorpicker)">InstallAddon(script.skin.helper.colorpicker)</onclick>
                             <onclick>RunScript(script.skin.helper.colorpicker,skinstring=indicatorcolorbackgroundlabel.name)</onclick>
                             <enable>Skin.HasSetting(furniture.markers.alternative)</enable>
-                        </control>                        
+                        </control>
                         <control type="button" id="9676">
                             <visible>ControlGroup(9100).HasFocus(9110)</visible>
                             <include>DefSettingsLabel</include>
                             <label>33063</label>
-                        </control>                        
+                        </control>
                         <control type="button" id="9670" description="Reset colors?">
                             <width>1310</width>
                             <visible>ControlGroup(9100).HasFocus(9110)</visible>
@@ -1398,7 +1423,7 @@
                             <onclick>ActivateWindow(1298)</onclick>
                         </control>
                     </control>
-    
+
                     <!-- BACKUP -->
                     <control type="grouplist" id="9700">
                         <description>Control Area</description>
@@ -1438,7 +1463,7 @@
                             <onclick>ActivateWindow(1265)</onclick>
                         </control>
                     </control>
-    
+
                     <!-- RESSOURCES -->
                     <control type="grouplist" id="9800">
                         <description>Control Area</description>
@@ -1479,7 +1504,7 @@
                             <onclick>RunScript(script.image.resource.select,property=recordlabel.logos&amp;type=resource.images.recordlabels)</onclick>
                         </control>
                     </control>
-    
+
                     <!-- Reloaded -->
                     <control type="grouplist" id="9900">
                         <description>Control Area</description>
@@ -1556,7 +1581,7 @@
                             <selected>Skin.HasSetting(DebugInfo)</selected>
                         </control>
                     </control>
-    
+
                     <!-- SUPPORTED ADDONS -->
                     <control type="grouplist" id="11000">
                         <description>Control Area</description>
@@ -1633,6 +1658,11 @@
                             <param name="addonname" value="service.upnext"/>
                         </include>
                         <include content="DefSkinAddons">
+                            <param name="id" value="11025"/>
+                            <param name="visible" value="ControlGroup(9100).HasFocus(9113)"/>
+                            <param name="addonname" value="script.colorbox"/>
+                        </include>
+                        <include content="DefSkinAddons">
                             <param name="id" value="11016"/>
                             <param name="visible" value="ControlGroup(9100).HasFocus(9113)"/>
                             <param name="addonname" value="service.library.data.provider"/>
@@ -1663,7 +1693,7 @@
                             <param name="addonname" value="script.skin.helper.skinbackup"/>
                         </include>
                     </control>
-    
+
                     <!-- Furniture -->
                     <control type="grouplist" id="10000">
                         <description>Control Area</description>
@@ -1732,7 +1762,7 @@
                             <selected>Skin.HasSetting(furniture.topweather)</selected>
                             <onclick>Skin.Reset(furniture.weather)</onclick>
                             <onclick>Skin.ToggleSetting(furniture.topweather)</onclick>
-                        </control>                        
+                        </control>
                         <control type="radiobutton" id="9258" description="Show vis in background">
                             <width>1310</width>
                             <visible>ControlGroup(9100).HasFocus(9106)</visible>
@@ -1925,7 +1955,7 @@
                             <selected>Skin.HasSetting(dontuselandscapemovies)</selected>
                             <onclick>Skin.ToggleSetting(dontuselandscapemovies)</onclick>
                         </control>
-                        
+
                         <!-- Indicators -->
                         <control type="button" id="9590">
                             <visible>ControlGroup(9100).HasFocus(9106)</visible>
@@ -1933,11 +1963,11 @@
                             <align>left</align>
                             <label>$LOCALIZE[31478]</label>
                             <label2>$VAR[MarkersTypeLabel]</label2>
-                            <onclick condition="!Skin.HasSetting(hide.markers) + !Skin.HasSetting(furniture.markers.alternative)">Skin.ToggleSetting(furniture.markers.alternative)</onclick>                    
+                            <onclick condition="!Skin.HasSetting(hide.markers) + !Skin.HasSetting(furniture.markers.alternative)">Skin.ToggleSetting(furniture.markers.alternative)</onclick>
                             <onclick condition="!Skin.HasSetting(hide.markers) + Skin.HasSetting(furniture.markers.alternative)">Skin.ToggleSetting(hide.markers)</onclick>
-                            <onclick condition="!Skin.HasSetting(hide.markers) + Skin.HasSetting(furniture.markers.alternative)">Skin.Reset(furniture.markers.alternative)</onclick>                    
+                            <onclick condition="!Skin.HasSetting(hide.markers) + Skin.HasSetting(furniture.markers.alternative)">Skin.Reset(furniture.markers.alternative)</onclick>
                             <onclick condition="Skin.HasSetting(hide.markers)">Skin.Reset(hide.markers)</onclick>
-                        </control>                        
+                        </control>
                         <control type="radiobutton" id="9586">
                             <visible>ControlGroup(9100).HasFocus(9106)</visible>
                             <include>DefSettingsButtonGradient</include>
@@ -1998,7 +2028,7 @@
                             <onclick>Skin.ToggleSetting(hub.showplot)</onclick>
                         </control>
                     </control>
-    
+
                     <!-- Extras -->
                     <control type="grouplist" id="12000">
                         <description>Control Area</description>
@@ -2013,15 +2043,6 @@
                             <visible>ControlGroup(9100).HasFocus(9107)</visible>
                             <include>DefSettingsLabel</include>
                             <label>31078</label>
-                        </control>
-                        <control type="radiobutton" id="12002" description="">
-                            <include>DefSettingsButtonGradient</include>
-                            <width>1310</width>
-                            <align>left</align>
-                            <label>31437</label>
-                            <visible>ControlGroup(9100).HasFocus(9107)</visible>
-                            <selected>Skin.HasSetting(old.jumpbar)</selected>
-                            <onclick>Skin.ToggleSetting(old.jumpbar)</onclick>
                         </control>
                         <control type="radiobutton" id="12003" description="Big Wide Info (51)">
                             <width>1310</width>

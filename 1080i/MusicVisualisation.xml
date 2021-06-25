@@ -297,7 +297,7 @@
                     <label>$INFO[Player.Time]$INFO[Player.Duration,  /  ,]</label>
                 </control>
                 <include content="MusicVisualisation_RatingStars">
-                    <param name="height" value="30" /> 
+                    <param name="height" value="30" />
                 </include>
                 <control type="label">
                     <width>auto</width>
@@ -403,7 +403,7 @@
                     <effect type="slide" start="-130,0" end="0,0" tween="sine" easing="out" time="600" delay="700"/>
                 </animation>
                 <include>DefDiscArt</include>
-            </control>            
+            </control>
             <control type="group">
                 <top>627</top>
                 <left>70</left>

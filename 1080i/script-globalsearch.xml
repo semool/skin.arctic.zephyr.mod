@@ -500,7 +500,7 @@
                             <bottom>94</bottom>
                             <texture colordiffuse="$VAR[ColorHighlightSelectbox2]" border="20">common/gradient-selectbox.png</texture>
                             <include>Animation.SelectBoxHome</include>
-                        </control> 
+                        </control>
                         <control type="label">
                             <font>Tiny</font>
                             <left>15</left>
