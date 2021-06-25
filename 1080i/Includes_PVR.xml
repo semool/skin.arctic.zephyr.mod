@@ -204,7 +204,7 @@
                     <animation type="WindowClose" reversible="false">
                         <effect type="zoom" center="auto" start="100" end="0" time="0" />
                     </animation>
-                    
+
                     <visible>Player.HasVideo</visible>
                     <aspectratio align="center" aligny="center" scalediffuse="false">scale</aspectratio>
                 </control>

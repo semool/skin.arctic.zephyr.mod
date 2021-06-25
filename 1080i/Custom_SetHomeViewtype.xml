@@ -21,7 +21,7 @@
                     <label>31247</label>
                 </control>
                 <include>Kodi_Logo</include>
-    
+
                 <!-- Lines -->
                 <control type="image">
                     <top>70</top>
@@ -129,15 +129,15 @@
                 <height>24</height>
                 <texture colordiffuse="Dark1">osd/minicheck_big.png</texture>
                 <animation effect="slide" end="0,66" time="0" condition="Skin.HasSetting(home.modernwidgets) + Skin.HasSetting(home.vertical.widgets) + Skin.HasSetting(homemenu.netflix)">Conditional</animation>
-                <animation effect="slide" end="0,132" time="0" condition="!Skin.HasSetting(home.classicwidgets) + Skin.HasSetting(home.vertical) + Skin.HasSetting(home.vertical.widgets) + !Skin.HasSetting(homemenu.netflix)">Conditional</animation>                
+                <animation effect="slide" end="0,132" time="0" condition="!Skin.HasSetting(home.classicwidgets) + Skin.HasSetting(home.vertical) + Skin.HasSetting(home.vertical.widgets) + !Skin.HasSetting(homemenu.netflix)">Conditional</animation>
                 <animation effect="slide" end="0,198" time="0" condition="Skin.HasSetting(home.modernwidgets) + Skin.HasSetting(home.vertical.widgets) + !Skin.HasSetting(homemenu.netflix)">Conditional</animation>
                 <animation effect="slide" end="0,330" time="0" condition="Skin.HasSetting(home.modernwidgets) + !Skin.HasSetting(home.vertical.widgets) + !Skin.HasSetting(homemenu.netflix)">Conditional</animation>
-                
-                <animation effect="slide" end="0,198" time="0" condition="Skin.HasSetting(homemenu.clean.flix)">Conditional</animation>                
+
+                <animation effect="slide" end="0,198" time="0" condition="Skin.HasSetting(homemenu.clean.flix)">Conditional</animation>
                 <animation effect="slide" end="0,396" time="0" condition="!Skin.HasSetting(home.classicwidgets) + !Skin.HasSetting(home.vertical) + !Skin.HasSetting(homemenu.netflix) + !Skin.HasSetting(home.modernwidgets)">Conditional</animation>
                 <animation effect="slide" end="0,462" time="0" condition="!Skin.HasSetting(home.classicwidgets) + Skin.HasSetting(home.vertical) + !Skin.HasSetting(home.vertical.widgets)">Conditional</animation>
-                <animation effect="slide" end="0,528" time="0" condition="Skin.HasSetting(home.classicwidgets)">Conditional</animation>                
-            </control> 
+                <animation effect="slide" end="0,528" time="0" condition="Skin.HasSetting(home.classicwidgets)">Conditional</animation>
+            </control>
             <control type="image">
                 <posx>460</posx>
                 <top>115</top>

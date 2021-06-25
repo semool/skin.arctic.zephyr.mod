@@ -540,7 +540,7 @@
                             <label fallback="19055">$INFO[Window(Home).Property(TMDbHelper.ListItem.Country)]</label>
                             <aligny>center</aligny>
                             <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Country))</visible>
-                        </control>						
+                        </control>
                         <control type="grouplist">
                             <visible>String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,episode)</visible>
                             <orientation>horizontal</orientation>
@@ -626,7 +626,7 @@
                             <usecontrolcoords>true</usecontrolcoords>
                             <visible>String.IsEqual(ListItem.DBType,tvshow) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Provider.1.Icon))</visible>
                             <orientation>horizontal</orientation>
-                            <height>48</height>                         
+                            <height>48</height>
                             <include content="TvShowProviderIcon"><param name="icon" value="1" /></include>
                             <include content="TvShowProviderIcon"><param name="icon" value="2" /></include>
                             <include content="TvShowProviderIcon"><param name="icon" value="3" /></include>
@@ -636,7 +636,7 @@
                             <include content="TvShowProviderIcon"><param name="icon" value="7" /></include>
                             <include content="TvShowProviderIcon"><param name="icon" value="8" /></include>
                             <include content="TvShowProviderIcon"><param name="icon" value="9" /></include>
-                        </control>                        
+                        </control>
                     </control>
                     <control type="image" description="clearlogo">
                         <fadetime>ClearArtFadetime</fadetime>
@@ -686,7 +686,7 @@
                     <right>SidePad</right>
                     <bottom>224</bottom>
                     <top>205</top>
-                    <control type="group"> 
+                    <control type="group">
                         <control type="grouplist">
                             <visible>String.IsEqual(ListItem.DBType,set)</visible>
                             <orientation>horizontal</orientation>
@@ -882,7 +882,7 @@
                 <control type="group">
                     <top>200</top>
                     <left>788</left>
-    
+
                     <!-- Cast -->
                     <include content="VideoListCast" condition="!String.IsEqual(ListItem.DBType,set)">
                         <param name="arrowleft" value="-598"/>
@@ -899,7 +899,7 @@
                         <param name="listleft" value="-840"/>
                         <param name="labeltwovisible" value="true"/>
                     </include>
-                    
+
                     <!-- Sets -->
                     <include content="VideoListCast" condition="String.IsEqual(ListItem.DBType,set)">
                         <param name="arrowleft" value="-598"/>
@@ -916,13 +916,13 @@
                         <param name="listleft" value="-840"/>
                         <param name="labeltwovisible" value="true"/>
                     </include>
-                    
+
                     <!-- By Director -->
                     <include content="VideoListCast" condition="String.IsEqual(ListItem.DBType,movie) + !String.IsEqual(ListItem.DBType,set)">
                         <param name="arrowleft" value="-598"/>
                         <param name="arrowtop" value="342"/>
-                        <param name="arrowright" value="155"/>                        
-                        <param name="condition.includecontent" value="true"/>                        
+                        <param name="arrowright" value="155"/>
+                        <param name="condition.includecontent" value="true"/>
                         <param name="fallbackpicture" value="pbtmdb.png"/>
                         <param name="visi" value="String.IsEqual(Window.Property(moviecontent),7)"/>
                         <param name="animation" value="Animation.cast"/>
@@ -941,13 +941,13 @@
                         <param name="controlid" value="9506"/>
                         <param name="alignleft" value="450"/>
                     </include>
-    
+
                     <!-- By Sets -->
                     <include content="VideoListCast" condition="String.IsEqual(ListItem.DBType,movie) + !String.IsEqual(ListItem.DBType,set)">
                         <param name="arrowleft" value="-598"/>
                         <param name="arrowtop" value="342"/>
-                        <param name="arrowright" value="155"/>                        
-                        <param name="condition.includecontent" value="true"/>                        
+                        <param name="arrowright" value="155"/>
+                        <param name="condition.includecontent" value="true"/>
                         <param name="fallbackpicture" value="pbtmdb.png"/>
                         <param name="visi" value="String.IsEqual(Window.Property(moviecontent),8)"/>
                         <param name="animation" value="Animation.cast"/>
@@ -987,7 +987,7 @@
                         <param name="poster" value="true" />
                         <param name="thumb" value="false" />
                     </include>
-    
+
                     <!-- Similar TV Shows -->
                     <include content="VideoListCast" condition="String.IsEqual(ListItem.DBType,tvshow) + !String.IsEqual(ListItem.DBType,set)">
                         <param name="arrowleft" value="-598"/>
@@ -1044,8 +1044,8 @@
                     <include content="VideoListCast" condition="String.IsEqual(ListItem.DBType,tvshow) + !String.IsEqual(ListItem.DBType,set)">
                         <param name="arrowleft" value="-598"/>
                         <param name="arrowtop" value="342"/>
-                        <param name="arrowright" value="155"/>                        
-                        <param name="condition.includecontent" value="true"/>                        
+                        <param name="arrowright" value="155"/>
+                        <param name="condition.includecontent" value="true"/>
                         <param name="fallbackpicture" value="pbtmdb.png"/>
                         <param name="visi" value="String.IsEqual(Window.Property(moviecontent),3)"/>
                         <param name="animation" value="Animation.cast"/>
