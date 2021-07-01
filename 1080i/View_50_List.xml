@@ -847,6 +847,7 @@
             <aspectratio aligny="top">keep</aspectratio>
             <texture colordiffuse="$VAR[ColorHighlight]">indicator/playlist.png</texture>
             <visible>ListItem.IsPlaying</visible>
+            <animation effect="slide" start="0" end="0,-3" time="0" condition="!Skin.HasSetting(No50ListInfo)">Conditional</animation>
         </control>
         <control type="label">
             <visible>String.IsEqual(Container.SortMethod,$LOCALIZE[31527])</visible>
@@ -859,6 +860,7 @@
             <textcolor>Dark1</textcolor>
             <selectedcolor>Dark1</selectedcolor>
             <visible>!ListItem.IsPlaying</visible>
+            <animation effect="slide" start="0" end="0,-5" time="0" condition="!Skin.HasSetting(No50ListInfo)">Conditional</animation>
         </control>
         <control type="label">
             <visible>String.IsEqual(Container.SortMethod,$LOCALIZE[31527])</visible>
@@ -871,6 +873,7 @@
             <textcolor>Dark1</textcolor>
             <selectedcolor>Dark1</selectedcolor>
             <visible>ListItem.IsPlaying</visible>
+            <animation effect="slide" start="0" end="0,-5" time="0" condition="!Skin.HasSetting(No50ListInfo)">Conditional</animation>
         </control>
         <control type="label">
             <visible>!String.IsEqual(Container.SortMethod,$LOCALIZE[31527])</visible>
@@ -883,6 +886,7 @@
             <textcolor>Dark1</textcolor>
             <selectedcolor>Dark1</selectedcolor>
             <visible>!ListItem.IsPlaying</visible>
+            <animation effect="slide" start="0" end="0,-5" time="0" condition="!Skin.HasSetting(No50ListInfo)">Conditional</animation>
         </control>
         <control type="label">
             <visible>!String.IsEqual(Container.SortMethod,$LOCALIZE[31527])</visible>
@@ -895,6 +899,7 @@
             <textcolor>Dark1</textcolor>
             <selectedcolor>Dark1</selectedcolor>
             <visible>ListItem.IsPlaying</visible>
+            <animation effect="slide" start="0" end="0,-5" time="0" condition="!Skin.HasSetting(No50ListInfo)">Conditional</animation>
         </control>
         <control type="label">
             <right>30</right>
@@ -908,6 +913,7 @@
             <label>$INFO[ListItem.Duration]</label>
             <visible>Container.Content(songs)</visible>
             <animation effect="slide" start="0" end="-130" time="0" condition="String.IsEqual(Container.SortMethod,$LOCALIZE[31527])">Conditional</animation>
+            <animation effect="slide" start="0" end="0,-5" time="0" condition="!Skin.HasSetting(No50ListInfo)">Conditional</animation>
         </control>
         <control type="image">
             <right>97</right>
@@ -1006,6 +1012,7 @@
             <aspectratio aligny="top">keep</aspectratio>
             <texture colordiffuse="Light1">indicator/playlist.png</texture>
             <visible>ListItem.IsPlaying</visible>
+            <animation effect="slide" start="0" end="0,-3" time="0" condition="!Skin.HasSetting(No50ListInfo)">Conditional</animation>
         </control>
         <control type="label">
             <visible>String.IsEqual(Container.SortMethod,$LOCALIZE[31527])</visible>
@@ -1018,6 +1025,7 @@
             <textcolor>Light1</textcolor>
             <selectedcolor>Light1</selectedcolor>
             <visible>!ListItem.IsPlaying</visible>
+            <animation effect="slide" start="0" end="0,-5" time="0" condition="!Skin.HasSetting(No50ListInfo)">Conditional</animation>
         </control>
         <control type="label">
             <visible>String.IsEqual(Container.SortMethod,$LOCALIZE[31527])</visible>
@@ -1030,6 +1038,7 @@
             <textcolor>Light1</textcolor>
             <selectedcolor>Light1</selectedcolor>
             <visible>ListItem.IsPlaying</visible>
+            <animation effect="slide" start="0" end="0,-5" time="0" condition="!Skin.HasSetting(No50ListInfo)">Conditional</animation>
         </control>
         <control type="label">
             <visible>!String.IsEqual(Container.SortMethod,$LOCALIZE[31527])</visible>
@@ -1042,6 +1051,7 @@
             <textcolor>Light1</textcolor>
             <selectedcolor>Light1</selectedcolor>
             <visible>!ListItem.IsPlaying</visible>
+            <animation effect="slide" start="0" end="0,-5" time="0" condition="!Skin.HasSetting(No50ListInfo)">Conditional</animation>
         </control>
         <control type="label">
             <visible>!String.IsEqual(Container.SortMethod,$LOCALIZE[31527])</visible>
@@ -1054,6 +1064,7 @@
             <textcolor>Light1</textcolor>
             <selectedcolor>Light1</selectedcolor>
             <visible>ListItem.IsPlaying</visible>
+            <animation effect="slide" start="0" end="0,-5" time="0" condition="!Skin.HasSetting(No50ListInfo)">Conditional</animation>
         </control>
         <control type="label">
             <right>30</right>
@@ -1067,6 +1078,7 @@
             <label>$INFO[ListItem.Duration]</label>
             <visible>Container.Content(songs)</visible>
             <animation effect="slide" start="0" end="-130" time="0" condition="String.IsEqual(Container.SortMethod,$LOCALIZE[31527])">Conditional</animation>
+            <animation effect="slide" start="0" end="0,-5" time="0" condition="!Skin.HasSetting(No50ListInfo)">Conditional</animation>
         </control>
         <control type="image">
             <right>97</right>
@@ -1126,8 +1138,8 @@
             <height>64</height>
             <font>Small24</font>
             <label>$VAR[50ListExtendedMusic]</label>
-            <textcolor>Light1</textcolor>
-            <selectedcolor>Light1</selectedcolor>
+            <textcolor>Light2</textcolor>
+            <selectedcolor>Light2</selectedcolor>
             <visible>!Skin.HasSetting(No50ListInfo) + [Container.Content(songs) | Container.Content(albums) | Container.Content(artists)]</visible>
         </control>
         <control type="label">
@@ -1177,7 +1189,7 @@
             <visible>ListItem.IsPlaying</visible>
         </control>
         <control type="label">
-            <right>45</right>
+            <right>30</right>
             <width>500</width>
             <aligny>center</aligny>
             <height>64</height>
@@ -1234,7 +1246,7 @@
             <visible>ListItem.IsPlaying</visible>
         </control>
         <control type="label">
-            <right>45</right>
+            <right>30</right>
             <width>500</width>
             <aligny>center</aligny>
             <height>64</height>
@@ -1249,7 +1261,7 @@
     <include name="50itemlayout_square_playlist_info">
         <control type="image">
             <left>25</left>
-            <centertop>27</centertop>
+            <centertop>29</centertop>
             <width>32</width>
             <height>32</height>
             <aspectratio aligny="top">keep</aspectratio>
@@ -1281,7 +1293,7 @@
             <visible>ListItem.IsPlaying</visible>
         </control>
         <control type="label">
-            <right>45</right>
+            <right>30</right>
             <top>-5</top>
             <width>500</width>
             <aligny>center</aligny>
@@ -1334,7 +1346,7 @@
         </control>
         <control type="image">
             <left>25</left>
-            <centertop>27</centertop>
+            <centertop>29</centertop>
             <width>32</width>
             <height>32</height>
             <aspectratio aligny="top">keep</aspectratio>
@@ -1366,7 +1378,7 @@
             <visible>ListItem.IsPlaying</visible>
         </control>
         <control type="label">
-            <right>45</right>
+            <right>30</right>
             <top>-5</top>
             <width>500</width>
             <aligny>center</aligny>
