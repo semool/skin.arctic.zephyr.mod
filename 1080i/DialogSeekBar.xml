@@ -144,7 +144,7 @@
                         <animation type="WindowOpen" reversible="false">
                             <effect type="slide" start="0,100" end="0,-130" tween="sine" easing="out" time="600" delay="500"/>
                         </animation>
-                        <animation effect="rotate" center="auto" time="6000" end="-360" condition="true" loop="true">Conditional</animation>
+                        <include>Animation.CDart</include>
                         <aspectratio align="center" aligny="center">stretch</aspectratio>
                         <animation effect="slide" delay="10" tween="sine" easing="out" start="-70" end="0" time="200">WindowOpen</animation>
                     </control>
@@ -237,7 +237,7 @@
                             <aspectratio align="center" aligny="center">stretch</aspectratio>
                             <animation effect="slide" delay="10" tween="sine" easing="out" start="-70" end="0" time="200">WindowOpen</animation>
                             <animation effect="slide" start="0,0" end="0,30" time="150" condition="Window.IsVisible(videoosd)">Conditional</animation>
-                            <animation effect="rotate" center="auto" time="6000" end="-360" condition="true" loop="true">Conditional</animation>
+                            <include>Animation.CDart</include>
                         </control>
                     </control>
                     <control type="image">
