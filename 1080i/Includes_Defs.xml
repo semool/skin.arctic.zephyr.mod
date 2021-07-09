@@ -91,6 +91,7 @@
         <value condition="!String.IsEmpty(Skin.String(home.slideshowpath)) + String.IsEmpty(Container(300).ListItem.Property(widget))">noop</value>
         <value condition="!String.IsEmpty(Skin.String(home.fallbackwidget))">$INFO[Skin.String(home.fallbackwidget)]</value>
         <value condition="!String.IsEmpty(Skin.String(widgetSpotlightPath)) + String.IsEmpty(Skin.String(home.slideshowpath)) + !String.IsEqual(Skin.String(home.slideshowpath),pvr/background.jpg)">$INFO[Skin.String(widgetSpotlightPath)]</value>
+        <value condition="!Library.HasContent(Movies) + !Library.HasContent(TVShows)">plugin://plugin.video.themoviedb.helper/?info=popular&amp;tmdb_type=movie&amp;widget=true&amp;reload=$INFO[Window(Home).Property(widgetreload-movies)]</value>
         <value>special://skin/extras/playlists/RandomMovies.xsp</value>
     </variable>
 
@@ -2915,7 +2916,7 @@
             <aspectratio align="center" aligny="center">keep</aspectratio>
             <texture colordiffuse="Dark1">progress/play.png</texture>
             <animation effect="fade" start="0" end="100" time="150">VisibleChange</animation>
-            <visible>!Player.Paused</visible>
+            <visible>!Player.Paused + !Player.Forwarding + !Player.Forwarding</visible>
             <include>$PARAM[animation]</include>
         </control>
         <control type="image" description="Pause">
@@ -2927,7 +2928,27 @@
             <texture colordiffuse="Dark1">progress/pause.png</texture>
             <animation effect="fade" start="0" end="100" time="150">VisibleChange</animation>
             <visible>Player.Paused</visible>
+        </control>        
+        <control type="image" description="Forwarding">
+            <left>-3</left>
+            <centertop>50%</centertop>
+            <width>100</width>
+            <height>100</height>
+            <aspectratio align="center" aligny="center">keep</aspectratio>
+            <texture colordiffuse="Dark1">progress/ff.png</texture>
+            <animation effect="fade" start="0" end="100" time="150">VisibleChange</animation>
+            <visible>Player.Forwarding</visible>
         </control>
+        <control type="image" description="Rewinding">
+            <left>-3</left>
+            <centertop>50%</centertop>
+            <width>100</width>
+            <height>100</height>
+            <aspectratio align="center" aligny="center">keep</aspectratio>
+            <texture colordiffuse="Dark1">progress/rw.png</texture>
+            <animation effect="fade" start="0" end="100" time="150">VisibleChange</animation>
+            <visible>Player.Rewinding</visible>
+        </control>        
         <control type="progress" id="$PARAM[id]">
             <texturebg />
             <lefttexture />
