@@ -21,4 +21,5 @@
 - Extend "IsNewTVShow" and "IsNewEpisode" from 10 to 20 (Needs XBMC change: xbmc/utils/RecentlyAddedJob.cpp Inrcrease #define NUM_ITEMS 10 to 20)
 - Extended "SubHeaderLabel" for TVShows (with Title View), Movies (with Title View), PVR, Weather, Settings, Addons and Power
 - Fade Animation for SubHeaderLabel
+- rearange PowerMenu
 
