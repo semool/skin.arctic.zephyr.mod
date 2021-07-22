@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.arctic.zephyr.mod" version="1.1.55" name="Arctic: Zephyr - Reloaded" provider-name="jurialmunkey, beatmasterrs">
+<addon id="skin.arctic.zephyr.mod" version="19.1.55" name="Arctic: Zephyr - Reloaded" provider-name="jurialmunkey, beatmasterrs, semool">
     <requires>
         <import addon="xbmc.gui" version="5.15.0"/>
-        <import addon="script.skinshortcuts" version="0.4.0"/>
-        <import addon="script.globalsearch" version="5.0.0"/>
-        <import addon="script.image.resource.select" version="0.0.5"/>
+        <import addon="resource.uisounds.nebula" version="1.0.1"/>
+        <import addon="script.skinshortcuts" version="1.1.4"/>
+        <import addon="script.globalsearch" version="9.0.5"/>
+        <import addon="script.image.resource.select" version="3.0.2"/>
         <import addon="resource.images.weathericons.white" version="0.0.6"/>
-        <import addon="script.skin.helper.colorpicker" version="1.0.11"/>
-        <import addon="script.embuary.info" version="0.0.1"/>
-        <import addon="script.embuary.helper" version="1.2.14"/>
-        <import addon="plugin.video.themoviedb.helper" version="0.0.1"/>
+        <import addon="script.skin.helper.service" version="1.1.35+matrix.1"/>
+        <import addon="script.skin.helper.skinbackup" version="1.0.28+matrix.1"/>
+        <import addon="script.skin.helper.colorpicker" version="2.0.1"/>
+        <import addon="script.embuary.info" version="2.0.7"/>
+        <import addon="script.embuary.helper" version="2.0.6"/>
+        <import addon="plugin.video.themoviedb.helper" version="4.2.23"/>
+        <import addon="script.litebox" version="1.0.0"/>
     </requires>
     <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="false" effectslowdown="1">
         <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
@@ -19,6 +23,7 @@
         <license>Creative Commons Non Commercial 3.0 License</license>
         <forum>https://forum.kodi.tv/showthread.php?tid=337862</forum>
         <source>https://github.com/beatmasterRS/skin.arctic.zephyr.mod</source>
+        <!--<source>https://github.com/semool/skin.arctic.zephyr.mod</source>-->
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
