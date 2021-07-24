@@ -76,41 +76,16 @@
                     <texture colordiffuse="Fallback" border="4" background="true">common/box.png</texture>
                 </control>
                 <control type="image">
-                    <left>-1</left>
-                    <top>-1</top>
-                    <right>-129</right>
-                    <bottom>319</bottom>
-                    <texture colordiffuse="Box2" border="4" background="true">common/box21.png</texture>
-                    <visible>!Skin.HasSetting(thumbnails.white)</visible>
-                </control>
-                <control type="image">
-                    <visible>!String.IsEmpty(ListItem.Art(discart)) + Skin.HasSetting(discartfanart)</visible>
-                    <posx>220</posx>
-                    <posy>40</posy>
-                    <width>424</width>
-                    <height>424</height>
-                    <texture>$INFO[ListItem.Art(discart)]</texture>
-                    <aspectratio align="center" aligny="center">stretch</aspectratio>
-                    <fadetime>1000</fadetime>
-                    <animation type="Conditional" condition="!Container(53).OnNext + !Container(53).OnPrevious">
-                       <effect type="fade" start="0" end="100" time="50" delay="1000"/>
-                    </animation>
-                    <animation type="Conditional" condition="!Container(53).OnNext + !Container(53).OnPrevious">
-                       <effect type="slide" start="-220" end="0" time="1000" delay="2000" tween="cubic"/>
-                    </animation>
-                    <animation type="Visible" reversible="false">
-                       <effect type="fade" start="0" end="100" time="1500" tween="cubic"/>
-                    </animation>
-                    <animation type="Hidden" reversible="false">
-                       <effect type="fade" start="100" end="0" time="500" tween="cubic"/>
-                    </animation>
-                    <include>Animation.CDart</include>
-                </control>
-                <control type="image">
                     <width>PosterW</width>
                     <height>PosterH</height>
                     <aspectratio align="center" aligny="center" scalediffuse="false">scale</aspectratio>
                     <texture diffuse="diffuse/listposter.png" background="true">$VAR[PosterImage]</texture>
+                </control>
+                <control type="image">
+                    <width>PosterW</width>
+                    <height>PosterH</height>
+                    <texture colordiffuse="Box2" border="4" background="true">common/box21.png</texture>
+                    <visible>!Skin.HasSetting(thumbnails.white)</visible>
                 </control>
                 <include content="IndicatorPoster">
                     <param name="right" value="-138" />
@@ -160,32 +135,18 @@
                     <height>40</height>
                     <aligny>top</aligny>
                 </control>
-                <control type="grouplist">
+                <control type="label">
+                    <font>Tiny</font>
+                    <label>$VAR[LabelGenre]</label>
+                    <textcolor>Dark1</textcolor>
                     <height>42</height>
-                    <orientation>horizontal</orientation>
-                    <control type="label">
-                        <font>Tiny</font>
-                        <label>$INFO[ListItem.Year]  •  </label>
-                        <textcolor>Dark1</textcolor>
-                        <height>42</height>
-                        <width>87</width>
-                        <aligny>top</aligny>
-                        <visible>!ListItem.IsCollection + !String.IsEmpty(ListItem.Year)</visible>
-                    </control>
-                    <control type="label">
-                        <font>Tiny</font>
-                        <label>$VAR[LabelGenre]</label>
-                        <textcolor>Dark1</textcolor>
-                        <height>42</height>
-                        <aligny>top</aligny>
-                    </control>
                     <aligny>top</aligny>
                 </control>
                 <control type="textbox">
                     <font>Tiny</font>
                     <label>$VAR[LabelPlotBox]</label>
                     <textcolor>Dark2</textcolor>
-                    <height>112</height>
+                    <height>68</height>
                     <align>justify</align>
                 </control>
             </control>
