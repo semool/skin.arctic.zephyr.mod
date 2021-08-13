@@ -7,15 +7,14 @@ msgstr ""
 "Project-Id-Version: XBMC Skins\n"
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-06-06 09:09+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kodi Translation Team\n"
-"Language-Team: English (http://www.transifex.com/projects/p/xbmc-skins/language/en/)\n"
+"Language-Team: Lithuanian (http://www.transifex.com/projects/p/xbmc-skins/language/lt/)\n"
+"Language: lt_LT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: en_GB\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 msgctxt "#31000"
 msgid "Limit number of items in widget"
@@ -423,31 +422,31 @@ msgstr ""
 
 msgctxt "#31101"
 msgid "items"
-msgstr ""
+msgstr "elementai"
 
 msgctxt "#31102"
 msgid "min"
-msgstr ""
+msgstr "min"
 
 msgctxt "#31103"
 msgid "Live TV"
-msgstr ""
+msgstr "Televizija"
 
 msgctxt "#31104"
 msgid "Used Memory"
-msgstr ""
+msgstr "Naudojama atminties"
 
 msgctxt "#31105"
 msgid "Spotlight"
-msgstr ""
+msgstr "Apžvalga"
 
 msgctxt "#31106"
 msgid "Finishes at"
-msgstr ""
+msgstr "Baigiasi"
 
 msgctxt "#31107"
 msgid "Video Stream"
-msgstr ""
+msgstr "Vaizdo srautas"
 
 msgctxt "#31108"
 msgid "Show original"
@@ -455,23 +454,23 @@ msgstr ""
 
 msgctxt "#31109"
 msgid "Customise home menu"
-msgstr ""
+msgstr "Pritaikyti pagrindinį meniu"
 
 msgctxt "#31110"
 msgid "Background"
-msgstr ""
+msgstr "Fonas"
 
 msgctxt "#31111"
 msgid "Show now playing video in background"
-msgstr ""
+msgstr "Rodyti šiuo metu atkuriamą vaizdo įrašą fone"
 
 msgctxt "#31112"
 msgid "Submenu"
-msgstr ""
+msgstr "Submeniu"
 
 msgctxt "#31113"
 msgid "No Timer"
-msgstr ""
+msgstr "Nėra laikmačio"
 
 msgctxt "#31114"
 msgid "Show effect"
@@ -479,31 +478,31 @@ msgstr ""
 
 msgctxt "#31115"
 msgid "Show header"
-msgstr ""
+msgstr "Rodyti antraštę"
 
 msgctxt "#31116"
 msgid "DVD Menu"
-msgstr ""
+msgstr "DVD meniu"
 
 msgctxt "#31117"
 msgid "3D Mode"
-msgstr ""
+msgstr "3D režimas"
 
 msgctxt "#31118"
 msgid "Show artist slideshow"
-msgstr ""
+msgstr "Rodyti atlikėjo skaidrių peržiūrą"
 
 msgctxt "#31119"
 msgid "Show visualisation behind slideshow"
-msgstr ""
+msgstr "Rodyti vizualizaciją už skaidrių"
 
 msgctxt "#31120"
 msgid "Animate artist slideshow"
-msgstr ""
+msgstr "Animuoti atlikėjo skaidrių peržiūrą"
 
 msgctxt "#31121"
 msgid "Show fanart"
-msgstr ""
+msgstr "Rodyti Fanart"
 
 msgctxt "#31122"
 msgid "     Settings"
@@ -551,7 +550,7 @@ msgstr ""
 
 msgctxt "#31133"
 msgid "Hide watched"
-msgstr ""
+msgstr "Slėpti peržiūrėtus"
 
 msgctxt "#31134"
 msgid "reset colors?"
@@ -571,7 +570,7 @@ msgstr ""
 
 msgctxt "#31138"
 msgid "Content Loading"
-msgstr ""
+msgstr "Įkeliamas turinys"
 
 msgctxt "#31139"
 msgid "Play trailer in windowed mode"
@@ -583,35 +582,35 @@ msgstr ""
 
 msgctxt "#31141"
 msgid "Youtube"
-msgstr ""
+msgstr "Youtube"
 
 msgctxt "#31142"
 msgid "Use low list"
-msgstr ""
+msgstr "Naudoti žemą sąrašą"
 
 msgctxt "#31143"
 msgid "Set weather fanart"
-msgstr ""
+msgstr "Nustatyti orų Fanart"
 
 msgctxt "#31144"
 msgid "Widgets"
-msgstr ""
+msgstr "Valdikliai"
 
 msgctxt "#31145"
 msgid "Show weather"
-msgstr ""
+msgstr "Rodyti orus"
 
 msgctxt "#31146"
 msgid "Animate fanart"
-msgstr ""
+msgstr "Animuoti Fanart"
 
 msgctxt "#31147"
 msgid "Extra Info"
-msgstr ""
+msgstr "Papildoma informacija"
 
 msgctxt "#31148"
 msgid "Wrap list"
-msgstr ""
+msgstr "Apgaubtas sąrašas"
 
 msgctxt "#31149"
 msgid "Replace widget fanart with background"
@@ -619,7 +618,7 @@ msgstr ""
 
 msgctxt "#31150"
 msgid "Set fallback image"
-msgstr ""
+msgstr "Nustatyti atsarginį atvaizdą"
 
 msgctxt "#31151"
 msgid "Power Menu"
@@ -627,19 +626,19 @@ msgstr ""
 
 msgctxt "#31152"
 msgid "Furniture"
-msgstr ""
+msgstr "Furnitūra"
 
 msgctxt "#31153"
 msgid "Show clock"
-msgstr ""
+msgstr "Rodyti laikrodį"
 
 msgctxt "#31154"
 msgid "Show media flags"
-msgstr ""
+msgstr "Rodyti media vėliavas"
 
 msgctxt "#31155"
 msgid "Show now playing info"
-msgstr ""
+msgstr "Rodyti dabar atkuriamo įrašo informaciją"
 
 msgctxt "#31156"
 msgid "[COLOR=$VAR[ColorHighlight]]Reloaded[/COLOR] Skin-Settings"
@@ -663,43 +662,43 @@ msgstr ""
 
 msgctxt "#31161"
 msgid "[B]Configure System Settings[/B][CR][CR] •     Setup and calibrate displays[CR] •     Configure audio output[CR] •     Setup remote controls[CR] •     Set power saving options[CR] •     Enable debugging[CR] •     Setup master lock"
-msgstr ""
+msgstr "[B]Konfigūruoti sistemos nustatymus[/B][CR][CR] •     Nustatyti ir kalibruoti ekranus[CR] •     Konfigūruoti garso išvestį[CR] •     Nustatyti nuotolinį valdymą[CR] •     Nustatyti energijos taupymo parinktis[CR] •     Įjungti derinimą[CR] •     Nustatyti valdytojo užraktą"
 
 msgctxt "#31162"
 msgid "[B]Configure Add-Ons[/B][CR][CR] •     Manage your installed Add-ons[CR] •     Install Add-ons from kodi.tv[CR] •     Modify Add-on settings"
-msgstr ""
+msgstr "[B]Konfigūruoti priedus[/B][CR][CR] •     Tvarkyti įdiegtus priedus[CR] •     Įdiegti priedus iš kodi.tv[CR] •     Modifikuoti priedų nustatymus"
 
 msgctxt "#31163"
 msgid "[B]Configure TV Settings[/B][CR][CR] •     Change full screen info[CR] •     Manage EPG data settings"
-msgstr ""
+msgstr "[B]Konfigūruoti TV nustatymus[/B][CR][CR] •     Pakeisti viso ekrano informaciją[CR] •     Tvarkyti EPG duomenų nustatymus"
 
 msgctxt "#31164"
 msgid "[B]Configure Service Settings[/B][CR][CR] •     Control via UPnP and HTTP[CR] •     Configure file sharing[CR] •     Enable Zeroconf[CR] •     Configure AirPlay"
-msgstr ""
+msgstr "[B]Konfigūruoti paslaugų nustatymus[/B][CR][CR] •     Valdyti per UPnP ir HTTP[CR] •     Konfigūruoti failų bendrinimą[CR] •     Įjungti Zeroconf[CR] •     Konfigūruoti AirPlay"
 
 msgctxt "#31165"
 msgid "[B]Configure Profile Settings[/B][CR][CR] •     Setup user profiles[CR] •     Enable login screen[CR] •     Set master locks[CR] •     Control access to content"
-msgstr ""
+msgstr "[B]Konfigūruoti profilio nustatymus[/B][CR][CR] •     Nustatyti vartotojo profilius[CR] •     Įjungti prisijungimo ekraną[CR] •     Nustatyti valdytojo užraktus[CR] •     Valdyti prieigą prie turinio"
 
 msgctxt "#31166"
 msgid "[B]Configure Skin Settings[/B][CR][CR] •     Customise the home screen[CR] •     Set background options[CR] •     Configure OSD options[CR] •     Enable add-on support[CR] •     Disable screen elements"
-msgstr ""
+msgstr "[B]Konfigūruoti teminės išvaizdos nustatymus[/B][CR][CR] •     Pritaikyti pradinį ekraną[CR] •     Nustatyti fono parinktis[CR] •     Konfigūruoti OSD parinktis[CR] •     Įjungti priedų palaikymą[CR] •     Išjungti ekrano elementus"
 
 msgctxt "#31167"
 msgid "[B]View System Information[/B][CR][CR] •     Summary[CR] •     Storage[CR] •     Network[CR] •     Video[CR] •     Hardware[CR] •     PVR Backend"
-msgstr ""
+msgstr "[B]Peržiūrėti sistemos informaciją[/B][CR][CR] •     Suvestinė[CR] •     Vieta[CR] •     Tinklas[CR] •     Vaizdas[CR] •     Aparatinė įranga[CR] •     PVR posistemė"
 
 msgctxt "#31168"
 msgid "Startup video or music playlist"
-msgstr ""
+msgstr "Paleidimo vaizdo įrašas arba muzikinis grojaraštis"
 
 msgctxt "#31169"
 msgid "Extras"
-msgstr ""
+msgstr "Priedai"
 
 msgctxt "#31170"
 msgid "Cinema Experience"
-msgstr ""
+msgstr "Cinema Experience"
 
 msgctxt "#31171"
 msgid "Movies by"
@@ -707,35 +706,35 @@ msgstr ""
 
 msgctxt "#31172"
 msgid "Show music visualisation in background"
-msgstr ""
+msgstr "Rodyti muzikos vizualizaciją fone"
 
 msgctxt "#31173"
 msgid "Recently added"
-msgstr ""
+msgstr "Neseniai pridėti"
 
 msgctxt "#31174"
 msgid "Recently played"
-msgstr ""
+msgstr "Neseniai atkurti"
 
 msgctxt "#31175"
 msgid "Play random"
-msgstr ""
+msgstr "Atkurti atsitiktinai"
 
 msgctxt "#31176"
 msgid "Delete Settings Shortcut"
-msgstr ""
+msgstr "Pašalinti nustatymų nuorodą"
 
 msgctxt "#31177"
 msgid "Are you sure you want to remove the settings shortcut?[CR]Please ensure that you have an alternative method of accessing settings before you remove this shortcut."
-msgstr ""
+msgstr "Ar tikrai norite pašalinti sistemos nuorodą?[CR]Įsitikinkite, kad turite alternatyvų būdą kaip pasiekti sistemos nustatymus, prieš pašalinant šią nuorodą."
 
 msgctxt "#31178"
 msgid "Hub items"
-msgstr ""
+msgstr "Šakotuvo elementai"
 
 msgctxt "#31179"
 msgid "Show clearlogo"
-msgstr ""
+msgstr "Rodyti skaidrų logotipą"
 
 msgctxt "#31180"
 msgid "Cast of"
@@ -759,11 +758,11 @@ msgstr ""
 
 msgctxt "#31185"
 msgid "Big poster"
-msgstr ""
+msgstr "Didelis plakatas"
 
 msgctxt "#31186"
 msgid "Use circular icons in dialogs"
-msgstr ""
+msgstr "Naudoti apvalias piktogramas dialoguose"
 
 msgctxt "#31187"
 msgid "Filmography of"
@@ -779,27 +778,27 @@ msgstr ""
 
 msgctxt "#31190"
 msgid "Show icons"
-msgstr ""
+msgstr "Rodyti piktogramas"
 
 msgctxt "#31191"
 msgid "Directed by"
-msgstr ""
+msgstr "Režisavo"
 
 msgctxt "#31192"
 msgid "Movie Hub"
-msgstr ""
+msgstr "Filmų šakotuvas"
 
 msgctxt "#31193"
 msgid "TV Hub"
-msgstr ""
+msgstr "TV šakotuvas"
 
 msgctxt "#31194"
 msgid "View Options"
-msgstr ""
+msgstr "Rodinio parinktys"
 
 msgctxt "#31195"
 msgid "Reload Skin"
-msgstr ""
+msgstr "Iš naujo įkelti teminę išvaizdą"
 
 msgctxt "#31196"
 msgid "Content of"
@@ -807,27 +806,27 @@ msgstr ""
 
 msgctxt "#31197"
 msgid "Show weather with clock"
-msgstr ""
+msgstr "Rodyti orus su laikrodžiu"
 
 msgctxt "#31198"
 msgid "Cards"
-msgstr ""
+msgstr "Kortelės"
 
 msgctxt "#31199"
 msgid "Kiosk mode"
-msgstr ""
+msgstr "Kiosko režimas"
 
 msgctxt "#31200"
 msgid "Only display widgets when pressing up"
-msgstr ""
+msgstr "Valdiklius rodyti tik paspaudus aukštyn"
 
 msgctxt "#31201"
 msgid "Show detailed info when video is paused"
-msgstr ""
+msgstr "Rodyti išsamią informaciją, kai vaizdo įrašo atkūrimas pristabdytas"
 
 msgctxt "#31202"
 msgid "Use horizontal submenu"
-msgstr ""
+msgstr "Naudoti horizontalų submeniu"
 
 msgctxt "#31203"
 msgid "Artwork Beef"
@@ -835,15 +834,15 @@ msgstr ""
 
 msgctxt "#31204"
 msgid "Similar to"
-msgstr ""
+msgstr "Panašu į"
 
 msgctxt "#31205"
 msgid "Released by"
-msgstr ""
+msgstr "Išleido"
 
 msgctxt "#31206"
 msgid "Similar"
-msgstr ""
+msgstr "Panašus"
 
 msgctxt "#31207"
 msgid "Movies by"
@@ -851,35 +850,35 @@ msgstr ""
 
 msgctxt "#31208"
 msgid "In Cinemas"
-msgstr ""
+msgstr "Kino teatruose"
 
 msgctxt "#31209"
 msgid "Upcoming"
-msgstr ""
+msgstr "Artimiausi"
 
 msgctxt "#31210"
 msgid "Popular"
-msgstr ""
+msgstr "Populiarūs"
 
 msgctxt "#31211"
 msgid "Top Rated"
-msgstr ""
+msgstr "Geriausiai įvertinti"
 
 msgctxt "#31212"
 msgid "Airing"
-msgstr ""
+msgstr "Transliuojama"
 
 msgctxt "#31213"
 msgid "Today"
-msgstr ""
+msgstr "Šiandien"
 
 msgctxt "#31214"
 msgid "Show plot"
-msgstr ""
+msgstr "Rodyti siužetą"
 
 msgctxt "#31215"
 msgid "Unwatched"
-msgstr ""
+msgstr "Neperžiūrėta"
 
 msgctxt "#31216"
 msgid "Tracklist of"
@@ -887,19 +886,19 @@ msgstr ""
 
 msgctxt "#31217"
 msgid "Show clearart with video information"
-msgstr ""
+msgstr "Rodyti skaidrią iliustraciją su vaizdo įrašo informacija"
 
 msgctxt "#31218"
 msgid "Show numeric rating"
-msgstr ""
+msgstr "Rodyti reitingą skaičiais"
 
 msgctxt "#31219"
 msgid "Show reflections"
-msgstr ""
+msgstr "Rodyti atspindžius"
 
 msgctxt "#31220"
 msgid "Next Aired"
-msgstr ""
+msgstr "Kita transliacija"
 
 msgctxt "#31221"
 msgid "Studio"
@@ -955,7 +954,7 @@ msgstr ""
 
 msgctxt "#31234"
 msgid "Fanart overlay"
-msgstr ""
+msgstr "Fanart perdanga"
 
 msgctxt "#31235"
 msgid "Show banner?"
@@ -963,19 +962,19 @@ msgstr ""
 
 msgctxt "#31236"
 msgid "Now playing..."
-msgstr ""
+msgstr "Dabar atkuriama..."
 
 msgctxt "#31237"
 msgid "Use minimal busy loader in header"
-msgstr ""
+msgstr "Naudoti minimalų užimtumo indikatorių antraštėje"
 
 msgctxt "#31238"
 msgid "Select highlight color"
-msgstr ""
+msgstr "Pasirinkti pažymėjimo spalvą"
 
 msgctxt "#31239"
 msgid "Current Color"
-msgstr ""
+msgstr "Dabartinė spalva"
 
 msgctxt "#31240"
 msgid "Square Light"
@@ -987,7 +986,7 @@ msgstr ""
 
 msgctxt "#31242"
 msgid "Provided by themoviedb.org"
-msgstr ""
+msgstr "Pateikė themoviedb.org"
 
 msgctxt "#31243"
 msgid "Hide OSD on lyrics"
@@ -995,7 +994,7 @@ msgstr ""
 
 msgctxt "#31244"
 msgid "Banner Wall"
-msgstr ""
+msgstr "Reklamjuosčių siena"
 
 msgctxt "#31245"
 msgid "Startup image"
@@ -1003,23 +1002,23 @@ msgstr ""
 
 msgctxt "#31246"
 msgid "Show icon media flags"
-msgstr ""
+msgstr "Rodyti piktogramų media vėliavas"
 
 msgctxt "#31247"
 msgid "Home menu style"
-msgstr ""
+msgstr "Pagrindinio meniu stilius"
 
 msgctxt "#31248"
 msgid "Featured"
-msgstr ""
+msgstr "Rekomenduojama"
 
 msgctxt "#31249"
 msgid "Classic"
-msgstr ""
+msgstr "Klasikinis"
 
 msgctxt "#31250"
 msgid "Vertical"
-msgstr ""
+msgstr "Vertikalus"
 
 msgctxt "#31251"
 msgid "Seasons of"
@@ -1031,11 +1030,11 @@ msgstr ""
 
 msgctxt "#31253"
 msgid "Always display info and osd controls on music visualisation"
-msgstr ""
+msgstr "Visada rodyti informaciją ir OSD valdiklius muzikos vizualizacijoje"
 
 msgctxt "#31254"
 msgid "Show plot overlay after 3 second delay"
-msgstr ""
+msgstr "Rodyti siužeto perdangą po 3 sekundžių uždelsimo"
 
 msgctxt "#31255"
 msgid "Collections"
@@ -1051,11 +1050,11 @@ msgstr ""
 
 msgctxt "#31258"
 msgid "Fanart Thumbs"
-msgstr ""
+msgstr "Fanart miniatiūros"
 
 msgctxt "#31259"
 msgid "Extra fanart"
-msgstr ""
+msgstr "Papildomas Fanart"
 
 msgctxt "#31260"
 msgid "Set weather icons"
@@ -2344,3 +2343,7 @@ msgstr ""
 msgctxt "#31588"
 msgid "high"
 msgstr ""
+
+#~ msgctxt "#31149"
+#~ msgid "Replace widget fanart with home background slideshow"
+#~ msgstr "Pakeisti valdiklio Fanart pradinio ekrano fono skaidrių peržiūra"
