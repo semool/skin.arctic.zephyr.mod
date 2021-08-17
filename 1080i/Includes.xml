@@ -4167,6 +4167,7 @@
             <height>$PARAM[height]</height>
             <include content="def_widgetlandscape">
                 <param name="indicatorbackground" value="$PARAM[indicatorbackground]" />
+                <param name="clearlogo" value="$PARAM[clearlogo]" />
             </include>
         </control>
         <control type="group">
@@ -4445,6 +4446,7 @@
             <height>$PARAM[height]</height>
             <include content="def_widgetlandscape">
                 <param name="indicatorbackground" value="$PARAM[indicatorbackground]" />
+                <param name="clearlogo" value="$PARAM[clearlogo]" />
             </include>
             <include content="def_widgetfocus">
                 <param name="id" value="$PARAM[id]"/>
