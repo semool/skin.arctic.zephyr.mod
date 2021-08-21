@@ -22,4 +22,4 @@
 - Extended "SubHeaderLabel" for TVShows (with Title View), Movies (with Title View), PVR, Weather, Settings, Addons and Power
 - Fade Animation for SubHeaderLabel
 - rearange PowerMenu
-
+- readd textures.xbt
