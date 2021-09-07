@@ -13,6 +13,8 @@
     <onload condition="!$EXP[HomeIsModernMultiWidgets] + !$EXP[HomeIsVerticalMultiWidgets]">SetProperty(TMDbHelper.WidgetContainer,301,home)</onload>
     <onload condition="System.AddonIsEnabled(script.favourites)">RunScript(script.favourites)</onload>
     <onunload condition="Skin.HasSetting(home.netflix.autoplay.trailer)">ClearProperty(listitem.trailer,home)</onunload>
+    <onload condition="!Skin.HasSetting(furniture.animatedposters) + !Skin.HasSetting(furniture.animatedfanarts) + Skin.HasSetting(SkinHelper.EnableAnimatedPosters)">Skin.ToggleSetting(SkinHelper.EnableAnimatedPosters)</onload>
+    <onload condition="[Skin.HasSetting(furniture.animatedposters) | Skin.HasSetting(furniture.animatedfanarts)] + !Skin.HasSetting(SkinHelper.EnableAnimatedPosters)">Skin.ToggleSetting(SkinHelper.EnableAnimatedPosters)</onload>
     <controls>
         <include>GlobalBackground</include>
 
