@@ -7,31 +7,31 @@ msgstr ""
 "Project-Id-Version: XBMC Skins\n"
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-06-06 09:09+0200\n"
-"Last-Translator: Kodi Translation Team\n"
-"Language-Team: English (http://www.transifex.com/projects/p/xbmc-skins/language/en/)\n"
+"PO-Revision-Date: 2021-07-14 09:28+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Finnish <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-arctic-zephyr-mod/fi_fi/>\n"
+"Language: fi_fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: en_GB\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.7.1\n"
 
 msgctxt "#31000"
 msgid "Limit number of items in widget"
-msgstr ""
+msgstr "Rajoita kohteiden määrää widgetissä"
 
 msgctxt "#31001"
 msgid "Backup / Restore"
-msgstr ""
+msgstr "Varmuuskopioi / Palauta"
 
 msgctxt "#31002"
 msgid "Animated posters"
-msgstr ""
+msgstr "Animoidut julisteet"
 
 msgctxt "#31003"
 msgid "Animated fanarts"
-msgstr ""
+msgstr "Animoidut fanitaiteet"
 
 msgctxt "#31004"
 msgid "Show discart (fanart views)"
@@ -59,19 +59,19 @@ msgstr ""
 
 msgctxt "#31010"
 msgid "Alternate case"
-msgstr ""
+msgstr "Vaihtoehtoinen kotelo"
 
 msgctxt "#31011"
 msgid "Show CD and case"
-msgstr ""
+msgstr "Näytä CD ja kotelo"
 
 msgctxt "#31012"
 msgid "Hide border"
-msgstr ""
+msgstr "Piilota reunus"
 
 msgctxt "#31013"
 msgid "Feature ends at"
-msgstr ""
+msgstr "Video päättyy"
 
 msgctxt "#31014"
 msgid "Netflix"
@@ -79,39 +79,39 @@ msgstr ""
 
 msgctxt "#31015"
 msgid "Modern Fanart"
-msgstr ""
+msgstr "Moderni fanitaide"
 
 msgctxt "#31016"
 msgid "Old view selector"
-msgstr ""
+msgstr "Vanha näkymävalitsin"
 
 msgctxt "#31017"
 msgid "Colored icon media flags"
-msgstr ""
+msgstr "Värilliset mediatunnuksien kuvakkeet"
 
 msgctxt "#31018"
 msgid "Arctic: Zephyr - Reloaded"
-msgstr ""
+msgstr "Arctic: Zephyr - Reloaded"
 
 msgctxt "#31019"
 msgid "Supported Addons"
-msgstr ""
+msgstr "Tuetut lisäosat"
 
 msgctxt "#31020"
 msgid "Resources"
-msgstr ""
+msgstr "Resurssit"
 
 msgctxt "#31021"
 msgid "Hide widget title"
-msgstr ""
+msgstr "Piilota widgetin nimi"
 
 msgctxt "#31022"
 msgid "Video Infodialog"
-msgstr ""
+msgstr "Video infodialogi"
 
 msgctxt "#31023"
 msgid "Awards"
-msgstr ""
+msgstr "Palkinnot"
 
 msgctxt "#31024"
 msgid "Show clearlogo left bottom position (classic view only)"
@@ -119,11 +119,11 @@ msgstr ""
 
 msgctxt "#31025"
 msgid "Show clearLogo"
-msgstr ""
+msgstr "Näytä clearlogo"
 
 msgctxt "#31026"
 msgid "Videolyrics"
-msgstr ""
+msgstr "Videosanoitukset"
 
 msgctxt "#31027"
 msgid "Shifted"
@@ -131,15 +131,15 @@ msgstr ""
 
 msgctxt "#31028"
 msgid "Widgets fade animation"
-msgstr ""
+msgstr "Widgettien häivytysanimaatio"
 
 msgctxt "#31029"
 msgid "Autoscrolling widget plot"
-msgstr ""
+msgstr "Widgetin juonen automaattinen vieritys"
 
 msgctxt "#31030"
 msgid "movies in the library"
-msgstr ""
+msgstr "elokuvaa kirjastossa"
 
 msgctxt "#31031"
 msgid "Use fanart instead of landscape on tvshows"
@@ -163,7 +163,7 @@ msgstr ""
 
 msgctxt "#31036"
 msgid "Fullscreen Fanart"
-msgstr ""
+msgstr "Kokoruudun fanitaide"
 
 msgctxt "#31037"
 msgid "Extended Info"
@@ -171,115 +171,115 @@ msgstr ""
 
 msgctxt "#31038"
 msgid "Hide filename and path"
-msgstr ""
+msgstr "Piilota tiedostonimi ja sijainti"
 
 msgctxt "#31039"
 msgid "IPTV Recorder"
-msgstr ""
+msgstr "IPTV tallennin"
 
 msgctxt "#31040"
 msgid "Recordings"
-msgstr ""
+msgstr "Tallenteet"
 
 msgctxt "#31041"
 msgid "Hide actor images"
-msgstr ""
+msgstr "Piilota näyttelijän kuva"
 
 msgctxt "#31042"
 msgid "Add-On Widgets"
-msgstr ""
+msgstr "Lisäosa widgetit"
 
 msgctxt "#31043"
 msgid "Last Played Channels"
-msgstr ""
+msgstr "Viimeksi toistetut kanavat"
 
 msgctxt "#31044"
 msgid "All Channels"
-msgstr ""
+msgstr "Kaikki kanavat"
 
 msgctxt "#31045"
 msgid "New Movies"
-msgstr ""
+msgstr "Uudet elokuvat"
 
 msgctxt "#31046"
 msgid "Recently Played Movies"
-msgstr ""
+msgstr "Viimeksi toistetut elokuvat"
 
 msgctxt "#31047"
 msgid "Random Movies"
-msgstr ""
+msgstr "Satunnaiset elokuvat"
 
 msgctxt "#31048"
 msgid "In Progress Movies"
-msgstr ""
+msgstr "Osittain katsotut elokuvat"
 
 msgctxt "#31049"
 msgid "Top Rated Movies"
-msgstr ""
+msgstr "Parhaiten arvioidut elokuvat"
 
 msgctxt "#31050"
 msgid "Top 250 Movies"
-msgstr ""
+msgstr "Top 250 elokuvat"
 
 msgctxt "#31051"
 msgid "Unwatched Movies"
-msgstr ""
+msgstr "Katsomattomat elokuvat"
 
 msgctxt "#31052"
 msgid "Movie Sets"
-msgstr ""
+msgstr "Elokuvaryhmät"
 
 msgctxt "#31053"
 msgid "New Tv Shows"
-msgstr ""
+msgstr "Uudet Tv-sarjat"
 
 msgctxt "#31054"
 msgid "Recently Watched TV Shows"
-msgstr ""
+msgstr "Viimeksi katsotut Tv-sarjat"
 
 msgctxt "#31055"
 msgid "In Progress"
-msgstr ""
+msgstr "Katselu kesken"
 
 msgctxt "#31056"
 msgid "Random Tv Shows"
-msgstr ""
+msgstr "Satunnaiset Tv-sarjat"
 
 msgctxt "#31057"
 msgid "Top Rated Tv Shows"
-msgstr ""
+msgstr "Parhaiten arvioidut Tv-sarjat"
 
 msgctxt "#31058"
 msgid "New Episodes"
-msgstr ""
+msgstr "Uudet jaksot"
 
 msgctxt "#31059"
 msgid "Recently Played Episodes"
-msgstr ""
+msgstr "Viimeksi toistetut jaksot"
 
 msgctxt "#31060"
 msgid "Random Episodes"
-msgstr ""
+msgstr "Satunnaiset jaksot"
 
 msgctxt "#31061"
 msgid "Unwatched Episodes"
-msgstr ""
+msgstr "Katsomattomat jaksot"
 
 msgctxt "#31062"
 msgid "In Progress Episodes"
-msgstr ""
+msgstr "Osittain katsotut jaksot"
 
 msgctxt "#31063"
 msgid "Top Rated Episodes"
-msgstr ""
+msgstr "Parhaiten arvioidut jaksot"
 
 msgctxt "#31064"
 msgid "New Albums"
-msgstr ""
+msgstr "Uudet albumit"
 
 msgctxt "#31065"
 msgid "Recently Played Albums"
-msgstr ""
+msgstr "Viimeksi toistetut albumit"
 
 msgctxt "#31066"
 msgid "Top Albums"
@@ -287,19 +287,19 @@ msgstr ""
 
 msgctxt "#31067"
 msgid "Random Albums"
-msgstr ""
+msgstr "Satunnaiset albumit"
 
 msgctxt "#31068"
 msgid "Random Artists"
-msgstr ""
+msgstr "Satunnaiset esittäjät"
 
 msgctxt "#31069"
 msgid "Plot-align: left"
-msgstr ""
+msgstr "Juonen kohdistus: vasen"
 
 msgctxt "#31070"
 msgid "Hide votes"
-msgstr ""
+msgstr "Piilota äänet"
 
 msgctxt "#31071"
 msgid "Show fanart/landscape view"
@@ -323,19 +323,19 @@ msgstr ""
 
 msgctxt "#31076"
 msgid "This view"
-msgstr ""
+msgstr "Tämä näkymä"
 
 msgctxt "#31077"
 msgid "Misc"
-msgstr ""
+msgstr "Sekalaiset"
 
 msgctxt "#31078"
 msgid "Global options"
-msgstr ""
+msgstr "Yleiset asetukset"
 
 msgctxt "#31079"
 msgid "Show discart"
-msgstr ""
+msgstr "Näytä levytaide"
 
 msgctxt "#31080"
 msgid "Fullsize fanart"
@@ -359,7 +359,7 @@ msgstr ""
 
 msgctxt "#31085"
 msgid "Fanart & poster 2"
-msgstr ""
+msgstr "Fanitaide & juliste 2"
 
 msgctxt "#31086"
 msgid "Show extended infos on list"
@@ -367,19 +367,19 @@ msgstr ""
 
 msgctxt "#31087"
 msgid "episodes watched"
-msgstr ""
+msgstr "jaksoa katsottu"
 
 msgctxt "#31088"
 msgid "h"
-msgstr ""
+msgstr "t"
 
 msgctxt "#31089"
 msgid "m"
-msgstr ""
+msgstr "m"
 
 msgctxt "#31090"
 msgid "New time format"
-msgstr ""
+msgstr "Uusi aikaformaatti"
 
 msgctxt "#31091"
 msgid "Double-Flix Banner"
@@ -391,15 +391,15 @@ msgstr ""
 
 msgctxt "#31093"
 msgid "Hourly forecast"
-msgstr ""
+msgstr "Tunneittainen ennuste"
 
 msgctxt "#31094"
 msgid "Next days forecast"
-msgstr ""
+msgstr "Seuraavien päivien ennuste"
 
 msgctxt "#31095"
 msgid "Show RSS Feed on home menu"
-msgstr ""
+msgstr "Näytä RSS-syöte koti-valikossa"
 
 msgctxt "#31096"
 msgid "Show RSS Feed on top instead on bottom"
@@ -407,7 +407,7 @@ msgstr ""
 
 msgctxt "#31097"
 msgid "RSS Feed"
-msgstr ""
+msgstr "RSS-syöte"
 
 msgctxt "#31098"
 msgid "Flip list and info"
@@ -419,31 +419,31 @@ msgstr ""
 
 msgctxt "#31100"
 msgid "Defaults"
-msgstr ""
+msgstr "Oletukset"
 
 msgctxt "#31101"
 msgid "items"
-msgstr ""
+msgstr "kohteet"
 
 msgctxt "#31102"
 msgid "min"
-msgstr ""
+msgstr "min"
 
 msgctxt "#31103"
 msgid "Live TV"
-msgstr ""
+msgstr "TV-lähetys"
 
 msgctxt "#31104"
 msgid "Used Memory"
-msgstr ""
+msgstr "Käytetty muisti"
 
 msgctxt "#31105"
 msgid "Spotlight"
-msgstr ""
+msgstr "Näyteikkuna"
 
 msgctxt "#31106"
 msgid "Finishes at"
-msgstr ""
+msgstr "Päättyy"
 
 msgctxt "#31107"
 msgid "Video Stream"
@@ -451,67 +451,67 @@ msgstr ""
 
 msgctxt "#31108"
 msgid "Show original"
-msgstr ""
+msgstr "Näytä alkuperäinen"
 
 msgctxt "#31109"
 msgid "Customise home menu"
-msgstr ""
+msgstr "Mukauta kotivalikkoa"
 
 msgctxt "#31110"
 msgid "Background"
-msgstr ""
+msgstr "Tausta"
 
 msgctxt "#31111"
 msgid "Show now playing video in background"
-msgstr ""
+msgstr "Näytä nyt toistettava video taustalla"
 
 msgctxt "#31112"
 msgid "Submenu"
-msgstr ""
+msgstr "Alivalikko"
 
 msgctxt "#31113"
 msgid "No Timer"
-msgstr ""
+msgstr "Ei ajastinta"
 
 msgctxt "#31114"
 msgid "Show effect"
-msgstr ""
+msgstr "Näytä tehoste"
 
 msgctxt "#31115"
 msgid "Show header"
-msgstr ""
+msgstr "Näytä otsikko"
 
 msgctxt "#31116"
 msgid "DVD Menu"
-msgstr ""
+msgstr "DVD Valikko"
 
 msgctxt "#31117"
 msgid "3D Mode"
-msgstr ""
+msgstr "3D-tila"
 
 msgctxt "#31118"
 msgid "Show artist slideshow"
-msgstr ""
+msgstr "Näytä artistin diaesitys"
 
 msgctxt "#31119"
 msgid "Show visualisation behind slideshow"
-msgstr ""
+msgstr "Näytä visualisointi diaesityksen takana"
 
 msgctxt "#31120"
 msgid "Animate artist slideshow"
-msgstr ""
+msgstr "Animoi artistin diaesitys"
 
 msgctxt "#31121"
 msgid "Show fanart"
-msgstr ""
+msgstr "Näytä fanitaide"
 
 msgctxt "#31122"
 msgid "     Settings"
-msgstr ""
+msgstr "     Asetukset"
 
 msgctxt "#31123"
 msgid "Change image"
-msgstr ""
+msgstr "Vaihda kuva"
 
 msgctxt "#31124"
 msgid "Blur radius"
@@ -527,7 +527,7 @@ msgstr ""
 
 msgctxt "#31127"
 msgid "default"
-msgstr ""
+msgstr "oletus"
 
 msgctxt "#31128"
 msgid "Rating stars (media flags section)"
@@ -551,11 +551,11 @@ msgstr ""
 
 msgctxt "#31133"
 msgid "Hide watched"
-msgstr ""
+msgstr "Piilota katsotut"
 
 msgctxt "#31134"
 msgid "reset colors?"
-msgstr ""
+msgstr "nollaa värit?"
 
 msgctxt "#31135"
 msgid "Hide scrolling text"
@@ -563,7 +563,7 @@ msgstr ""
 
 msgctxt "#31136"
 msgid "All colors are reset to their default values"
-msgstr ""
+msgstr "Kaikki värit nollataan oletusarvoihin"
 
 msgctxt "#31137"
 msgid "[CR]Arctic: Zephyr - Reloaded is based on the third iteration of the Arctic skin created by jurialmunkey. [CR]Arctic focuses on being simple, clean and minimalistic with a light spin.[CR]If you have any thoughts on this Skin, feel free to let me know at [CR][CR]https://forum.kodi.tv/showthread.php?tid=337862"
@@ -571,15 +571,15 @@ msgstr ""
 
 msgctxt "#31138"
 msgid "Content Loading"
-msgstr ""
+msgstr "Sisältöä ladataan"
 
 msgctxt "#31139"
 msgid "Play trailer in windowed mode"
-msgstr ""
+msgstr "Toista traileri ikkunassa"
 
 msgctxt "#31140"
 msgid "Kodi logo"
-msgstr ""
+msgstr "Kodi logo"
 
 msgctxt "#31141"
 msgid "Youtube"
@@ -587,23 +587,23 @@ msgstr ""
 
 msgctxt "#31142"
 msgid "Use low list"
-msgstr ""
+msgstr "Käytä matalaa listaa"
 
 msgctxt "#31143"
 msgid "Set weather fanart"
-msgstr ""
+msgstr "Aseta sään fanitaide"
 
 msgctxt "#31144"
 msgid "Widgets"
-msgstr ""
+msgstr "Widgetit"
 
 msgctxt "#31145"
 msgid "Show weather"
-msgstr ""
+msgstr "Näytä sää"
 
 msgctxt "#31146"
 msgid "Animate fanart"
-msgstr ""
+msgstr "Animoi fanitaide"
 
 msgctxt "#31147"
 msgid "Extra Info"
@@ -623,27 +623,27 @@ msgstr ""
 
 msgctxt "#31151"
 msgid "Power Menu"
-msgstr ""
+msgstr "Virtavalikko"
 
 msgctxt "#31152"
 msgid "Furniture"
-msgstr ""
+msgstr "Kalusteet"
 
 msgctxt "#31153"
 msgid "Show clock"
-msgstr ""
+msgstr "Näytä kello"
 
 msgctxt "#31154"
 msgid "Show media flags"
-msgstr ""
+msgstr "Näytä mediatunnukset"
 
 msgctxt "#31155"
 msgid "Show now playing info"
-msgstr ""
+msgstr "Näytä nyt toistettavan tiedot"
 
 msgctxt "#31156"
 msgid "[COLOR=$VAR[ColorHighlight]]Reloaded[/COLOR] Skin-Settings"
-msgstr ""
+msgstr "[COLOR=$VAR[ColorHighlight]]Reloaded[/COLOR] Ulkoasu-Asetukset"
 
 msgctxt "#31157"
 msgid "Extended info of"
@@ -663,31 +663,31 @@ msgstr ""
 
 msgctxt "#31161"
 msgid "[B]Configure System Settings[/B][CR][CR] •     Setup and calibrate displays[CR] •     Configure audio output[CR] •     Setup remote controls[CR] •     Set power saving options[CR] •     Enable debugging[CR] •     Setup master lock"
-msgstr ""
+msgstr "[B]Määritä järjestelmän asetukset[/B][CR][CR] •     Kalibroi näytöt[CR] •     Määritä äänilähde[CR] •     Määritä kaukosäätimet[CR] •     Määritä virranhallinta-asetukset[CR] •     Määritä suoritusloki[CR] •     Määritä pääsykoodi"
 
 msgctxt "#31162"
 msgid "[B]Configure Add-Ons[/B][CR][CR] •     Manage your installed Add-ons[CR] •     Install Add-ons from kodi.tv[CR] •     Modify Add-on settings"
-msgstr ""
+msgstr "[B]Määritä lisäosat[/B][CR][CR] •     Hallitse asennettuja lisäosia[CR] •     Asenna lisäosia kodi.tv:stä[CR] •     Muokkaa lisäosien asetuksia"
 
 msgctxt "#31163"
 msgid "[B]Configure TV Settings[/B][CR][CR] •     Change full screen info[CR] •     Manage EPG data settings"
-msgstr ""
+msgstr "[B]Määritä TV:n asetukset[/B][CR][CR] •     Vaihda kokoruudun tiedot[CR] •     Hallitse EPG datan asetuksia"
 
 msgctxt "#31164"
 msgid "[B]Configure Service Settings[/B][CR][CR] •     Control via UPnP and HTTP[CR] •     Configure file sharing[CR] •     Enable Zeroconf[CR] •     Configure AirPlay"
-msgstr ""
+msgstr "[B]Määritä palveluasetukset[/B][CR][CR] •     UPnP ja HTTP[CR] •     Määritä tiedostojako[CR] •     Ota käyttöön Zeroconf[CR] •     Määritä AirPlay"
 
 msgctxt "#31165"
 msgid "[B]Configure Profile Settings[/B][CR][CR] •     Setup user profiles[CR] •     Enable login screen[CR] •     Set master locks[CR] •     Control access to content"
-msgstr ""
+msgstr "[B]Määritä profiiliasetukset[/B][CR][CR] •     Määritä käyttäjäprofiilit[CR] •     Ota käyttöön kirjautumisruutu[CR] •     Aseta lukituskoodi[CR] •     Hallitse pääsyä sisältöön"
 
 msgctxt "#31166"
 msgid "[B]Configure Skin Settings[/B][CR][CR] •     Customise the home screen[CR] •     Set background options[CR] •     Configure OSD options[CR] •     Enable add-on support[CR] •     Disable screen elements"
-msgstr ""
+msgstr "[B]Määritä ulkoasun asetukset[/B][CR][CR] •     Mukauta koti-valikkoa[CR] •     Aseta taustan asetukset[CR] •     Määritä OSD asetukset[CR] •     Ota käyttöön lisäosien tuki[CR] •     Poista näytön elementtejä"
 
 msgctxt "#31167"
 msgid "[B]View System Information[/B][CR][CR] •     Summary[CR] •     Storage[CR] •     Network[CR] •     Video[CR] •     Hardware[CR] •     PVR Backend"
-msgstr ""
+msgstr "[B]Katsele järjestelmän tietoja[/B][CR][CR] •     Yhteenveto[CR] •     Asemat[CR] •     Verkko[CR] •     Video[CR] •     Laitteisto[CR] •     PVR-taustaosa"
 
 msgctxt "#31168"
 msgid "Startup video or music playlist"
@@ -707,15 +707,15 @@ msgstr ""
 
 msgctxt "#31172"
 msgid "Show music visualisation in background"
-msgstr ""
+msgstr "Näytä musiikin visualisointi taustalla"
 
 msgctxt "#31173"
 msgid "Recently added"
-msgstr ""
+msgstr "Viimeksi lisätyt"
 
 msgctxt "#31174"
 msgid "Recently played"
-msgstr ""
+msgstr "Viimeksi toistettu"
 
 msgctxt "#31175"
 msgid "Play random"
@@ -723,7 +723,7 @@ msgstr ""
 
 msgctxt "#31176"
 msgid "Delete Settings Shortcut"
-msgstr ""
+msgstr "Poista asetusten pikavalinta"
 
 msgctxt "#31177"
 msgid "Are you sure you want to remove the settings shortcut?[CR]Please ensure that you have an alternative method of accessing settings before you remove this shortcut."
@@ -731,11 +731,11 @@ msgstr ""
 
 msgctxt "#31178"
 msgid "Hub items"
-msgstr ""
+msgstr "Hubin kohteet"
 
 msgctxt "#31179"
 msgid "Show clearlogo"
-msgstr ""
+msgstr "Näytä clearlogo"
 
 msgctxt "#31180"
 msgid "Cast of"
@@ -743,7 +743,7 @@ msgstr ""
 
 msgctxt "#31181"
 msgid "Similar to"
-msgstr ""
+msgstr "Samanlaisia kuin"
 
 msgctxt "#31182"
 msgid "Fanart of"
@@ -759,11 +759,11 @@ msgstr ""
 
 msgctxt "#31185"
 msgid "Big poster"
-msgstr ""
+msgstr "Iso juliste"
 
 msgctxt "#31186"
 msgid "Use circular icons in dialogs"
-msgstr ""
+msgstr "Käytä pyöreitä kuvakkeita dialogeissa"
 
 msgctxt "#31187"
 msgid "Filmography of"
@@ -779,27 +779,27 @@ msgstr ""
 
 msgctxt "#31190"
 msgid "Show icons"
-msgstr ""
+msgstr "Näytä kuvakkeet"
 
 msgctxt "#31191"
 msgid "Directed by"
-msgstr ""
+msgstr "Ohjaus"
 
 msgctxt "#31192"
 msgid "Movie Hub"
-msgstr ""
+msgstr "Elokuva hub"
 
 msgctxt "#31193"
 msgid "TV Hub"
-msgstr ""
+msgstr "TV hub"
 
 msgctxt "#31194"
 msgid "View Options"
-msgstr ""
+msgstr "Näkymän asetukset"
 
 msgctxt "#31195"
 msgid "Reload Skin"
-msgstr ""
+msgstr "Lataa ulkoasu uudelleen"
 
 msgctxt "#31196"
 msgid "Content of"
@@ -807,15 +807,15 @@ msgstr ""
 
 msgctxt "#31197"
 msgid "Show weather with clock"
-msgstr ""
+msgstr "Näytä sää kellon kanssa"
 
 msgctxt "#31198"
 msgid "Cards"
-msgstr ""
+msgstr "Kortit"
 
 msgctxt "#31199"
 msgid "Kiosk mode"
-msgstr ""
+msgstr "Kiosk -tila"
 
 msgctxt "#31200"
 msgid "Only display widgets when pressing up"
@@ -827,7 +827,7 @@ msgstr ""
 
 msgctxt "#31202"
 msgid "Use horizontal submenu"
-msgstr ""
+msgstr "Käytä vaakasuoraa alivalikkoa"
 
 msgctxt "#31203"
 msgid "Artwork Beef"
@@ -835,15 +835,15 @@ msgstr ""
 
 msgctxt "#31204"
 msgid "Similar to"
-msgstr ""
+msgstr "Samanlaisia kuin"
 
 msgctxt "#31205"
 msgid "Released by"
-msgstr ""
+msgstr "Julkaisija"
 
 msgctxt "#31206"
 msgid "Similar"
-msgstr ""
+msgstr "Samanlaisia"
 
 msgctxt "#31207"
 msgid "Movies by"
@@ -851,19 +851,19 @@ msgstr ""
 
 msgctxt "#31208"
 msgid "In Cinemas"
-msgstr ""
+msgstr "Teattereissa"
 
 msgctxt "#31209"
 msgid "Upcoming"
-msgstr ""
+msgstr "Tuleva"
 
 msgctxt "#31210"
 msgid "Popular"
-msgstr ""
+msgstr "Suosittu"
 
 msgctxt "#31211"
 msgid "Top Rated"
-msgstr ""
+msgstr "Parhaimmiksi arvioidut"
 
 msgctxt "#31212"
 msgid "Airing"
@@ -871,15 +871,15 @@ msgstr ""
 
 msgctxt "#31213"
 msgid "Today"
-msgstr ""
+msgstr "Tänään"
 
 msgctxt "#31214"
 msgid "Show plot"
-msgstr ""
+msgstr "Näytä juoni"
 
 msgctxt "#31215"
 msgid "Unwatched"
-msgstr ""
+msgstr "Katsomatta"
 
 msgctxt "#31216"
 msgid "Tracklist of"
@@ -895,15 +895,15 @@ msgstr ""
 
 msgctxt "#31219"
 msgid "Show reflections"
-msgstr ""
+msgstr "Näytä heijastukset"
 
 msgctxt "#31220"
 msgid "Next Aired"
-msgstr ""
+msgstr "Seuraavaksi esitetään"
 
 msgctxt "#31221"
 msgid "Studio"
-msgstr ""
+msgstr "Studio"
 
 msgctxt "#31222"
 msgid "Sorry, we don't have any data for that."
@@ -911,19 +911,19 @@ msgstr ""
 
 msgctxt "#31223"
 msgid "Cast"
-msgstr ""
+msgstr "Näyttelijät"
 
 msgctxt "#31224"
 msgid "Similar"
-msgstr ""
+msgstr "Samanlaisia"
 
 msgctxt "#31225"
 msgid "Fanart"
-msgstr ""
+msgstr "Fanitaide"
 
 msgctxt "#31226"
 msgid "Youtube"
-msgstr ""
+msgstr "Youtube"
 
 msgctxt "#31227"
 msgid "Crew"
@@ -935,11 +935,11 @@ msgstr ""
 
 msgctxt "#31229"
 msgid "Discography"
-msgstr ""
+msgstr "Diskografia"
 
 msgctxt "#31230"
 msgid "Tracklist"
-msgstr ""
+msgstr "Kappalelista"
 
 msgctxt "#31231"
 msgid "Screenshots of"
@@ -951,7 +951,7 @@ msgstr ""
 
 msgctxt "#31233"
 msgid "died on"
-msgstr ""
+msgstr "kuoli"
 
 msgctxt "#31234"
 msgid "Fanart overlay"
@@ -959,11 +959,11 @@ msgstr ""
 
 msgctxt "#31235"
 msgid "Show banner?"
-msgstr ""
+msgstr "Näytä banneri?"
 
 msgctxt "#31236"
 msgid "Now playing..."
-msgstr ""
+msgstr "Nyt toistetaan..."
 
 msgctxt "#31237"
 msgid "Use minimal busy loader in header"
@@ -971,11 +971,11 @@ msgstr ""
 
 msgctxt "#31238"
 msgid "Select highlight color"
-msgstr ""
+msgstr "Valitse korostusväri"
 
 msgctxt "#31239"
 msgid "Current Color"
-msgstr ""
+msgstr "Nykyinen väri"
 
 msgctxt "#31240"
 msgid "Square Light"
@@ -987,7 +987,7 @@ msgstr ""
 
 msgctxt "#31242"
 msgid "Provided by themoviedb.org"
-msgstr ""
+msgstr "Tarjoaa themoviedb.org"
 
 msgctxt "#31243"
 msgid "Hide OSD on lyrics"
@@ -995,31 +995,31 @@ msgstr ""
 
 msgctxt "#31244"
 msgid "Banner Wall"
-msgstr ""
+msgstr "Banneriseinä"
 
 msgctxt "#31245"
 msgid "Startup image"
-msgstr ""
+msgstr "Käynnistyskuva"
 
 msgctxt "#31246"
 msgid "Show icon media flags"
-msgstr ""
+msgstr "Näytä mediatunnuksien kuvakkeet"
 
 msgctxt "#31247"
 msgid "Home menu style"
-msgstr ""
+msgstr "Koti-valikon tyyli"
 
 msgctxt "#31248"
 msgid "Featured"
-msgstr ""
+msgstr "Esillä"
 
 msgctxt "#31249"
 msgid "Classic"
-msgstr ""
+msgstr "Perinteinen"
 
 msgctxt "#31250"
 msgid "Vertical"
-msgstr ""
+msgstr "Pysty"
 
 msgctxt "#31251"
 msgid "Seasons of"
@@ -1035,7 +1035,7 @@ msgstr ""
 
 msgctxt "#31254"
 msgid "Show plot overlay after 3 second delay"
-msgstr ""
+msgstr "Näytä juoni 3 sekunnin viiveen jälkeen"
 
 msgctxt "#31255"
 msgid "Collections"
@@ -1055,43 +1055,43 @@ msgstr ""
 
 msgctxt "#31259"
 msgid "Extra fanart"
-msgstr ""
+msgstr "Lisäfanitaide"
 
 msgctxt "#31260"
 msgid "Set weather icons"
-msgstr ""
+msgstr "Aseta sään kuvakkeet"
 
 msgctxt "#31261"
 msgid "Widget aspect"
-msgstr ""
+msgstr "Widgetin kuvasuhde"
 
 msgctxt "#31262"
 msgid "Poster"
-msgstr ""
+msgstr "Juliste"
 
 msgctxt "#31263"
 msgid "Square"
-msgstr ""
+msgstr "Neliö"
 
 msgctxt "#31264"
 msgid "Extended List"
-msgstr ""
+msgstr "Laajennettu lista"
 
 msgctxt "#31265"
 msgid "Fanart"
-msgstr ""
+msgstr "Fanitaide"
 
 msgctxt "#31266"
 msgid "Widget"
-msgstr ""
+msgstr "Widgetti"
 
 msgctxt "#31267"
 msgid "Action"
-msgstr ""
+msgstr "Toiminto"
 
 msgctxt "#31268"
 msgid "Label"
-msgstr ""
+msgstr "Nimi"
 
 msgctxt "#31269"
 msgid "Fallback widget"
@@ -1099,7 +1099,7 @@ msgstr ""
 
 msgctxt "#31270"
 msgid "Video / Music OSD"
-msgstr ""
+msgstr "Video / Musiikki OSD"
 
 msgctxt "#31271"
 msgid "Single Image"
@@ -1111,7 +1111,7 @@ msgstr ""
 
 msgctxt "#31273"
 msgid "Hub widget"
-msgstr ""
+msgstr "Hub widgetti"
 
 msgctxt "#31274"
 msgid "Most played Song"
@@ -1119,15 +1119,15 @@ msgstr ""
 
 msgctxt "#31275"
 msgid "[B]Configure Interface Settings[/B][CR][CR] •     Skin[CR] •     Region[CR] •     Control[CR] •     Screensaver[CR] •     Master Lock[CR]"
-msgstr ""
+msgstr "[B]Määritä käyttöliittymän asetukset[/B][CR][CR] •     Ulkoasu[CR] •     Alue[CR] •     Käynnistys[CR] •     Näytönsäästäjä[CR] •     Käytön esto[CR]"
 
 msgctxt "#31276"
 msgid "[B]Configure Library Settings[/B][CR][CR] •     Display[CR] •     Navigation[CR] •     Media Database[CR]"
-msgstr ""
+msgstr "[B]Määritä kirjaston asetukset[/B][CR][CR] •     Näyttö[CR] •     Navigointi[CR] •     Mediatietokanta[CR]"
 
 msgctxt "#31277"
 msgid "[B]Configure Player Settings[/B][CR][CR] •     Playback Actions[CR] •     How Content is Played[CR]"
-msgstr ""
+msgstr "[B]Määritä soittimen asetukset[/B][CR][CR] •     Toiston toiminnot[CR] •     Miten sisältöä toistetaan[CR]"
 
 msgctxt "#31278"
 msgid "Download all artwork"
@@ -1143,7 +1143,7 @@ msgstr ""
 
 msgctxt "#31281"
 msgid "Play Speed"
-msgstr ""
+msgstr "Toistonopeus"
 
 msgctxt "#31282"
 msgid "Special Features"
@@ -1163,19 +1163,19 @@ msgstr ""
 
 msgctxt "#31286"
 msgid "Random Songs"
-msgstr ""
+msgstr "Satunnaiset kappaleet"
 
 msgctxt "#31287"
 msgid "Modern"
-msgstr ""
+msgstr "Moderni"
 
 msgctxt "#31288"
 msgid "Weather - daily"
-msgstr ""
+msgstr "Sää - päivittäinen"
 
 msgctxt "#31289"
 msgid "Weather - hourly"
-msgstr ""
+msgstr "Sää - tunneittain"
 
 msgctxt "#31290"
 msgid "Open Player Process Information"
@@ -1187,11 +1187,11 @@ msgstr ""
 
 msgctxt "#31292"
 msgid "Channel List"
-msgstr ""
+msgstr "Kanavalista"
 
 msgctxt "#31293"
 msgid "Reloaded"
-msgstr ""
+msgstr "Reloaded"
 
 msgctxt "#31294"
 msgid "Side"
@@ -1199,7 +1199,7 @@ msgstr ""
 
 msgctxt "#31295"
 msgid "OSD view mode:"
-msgstr ""
+msgstr "OSD näyttötapa:"
 
 msgctxt "#31296"
 msgid "This is your personal rating and will not be published."
@@ -1207,43 +1207,43 @@ msgstr ""
 
 msgctxt "#31297"
 msgid "       "
-msgstr ""
+msgstr "       "
 
 msgctxt "#31298"
 msgid "Video / Music Infodialog"
-msgstr ""
+msgstr "Video / Musiikki Infodialogi"
 
 msgctxt "#31299"
 msgid "Show plot on HUB"
-msgstr ""
+msgstr "Näytä juoni hubissa"
 
 msgctxt "#31300"
 msgid "Colors"
-msgstr ""
+msgstr "Värit"
 
 msgctxt "#31301"
 msgid "Video OSD"
-msgstr ""
+msgstr "Video OSD"
 
 msgctxt "#31302"
 msgid "Music OSD"
-msgstr ""
+msgstr "Musiikki OSD"
 
 msgctxt "#31303"
 msgid "Widgets"
-msgstr ""
+msgstr "Widgetit"
 
 msgctxt "#31304"
 msgid "Views"
-msgstr ""
+msgstr "Näkymät"
 
 msgctxt "#31305"
 msgid "HUBs"
-msgstr ""
+msgstr "Hubit"
 
 msgctxt "#31306"
 msgid "Global options"
-msgstr ""
+msgstr "Yleiset asetukset"
 
 msgctxt "#31307"
 msgid "ClearArt"
@@ -1255,7 +1255,7 @@ msgstr ""
 
 msgctxt "#31309"
 msgid "Media-Flags"
-msgstr ""
+msgstr "Mediatunnukset"
 
 msgctxt "#31310"
 msgid "Enable grid"
@@ -1267,7 +1267,7 @@ msgstr ""
 
 msgctxt "#31312"
 msgid "Auto close OSD after delay (in seconds)"
-msgstr ""
+msgstr "Sulje OSD automaattisesti viiveen jälkeen (sekunneissa)"
 
 msgctxt "#31313"
 msgid "Random Artists with biography only"
@@ -1275,11 +1275,11 @@ msgstr ""
 
 msgctxt "#31314"
 msgid "People"
-msgstr ""
+msgstr "Ihmiset"
 
 msgctxt "#31315"
 msgid "Recently added Artists"
-msgstr ""
+msgstr "Viimeksi lisätyt artistit"
 
 msgctxt "#31316"
 msgid "Recently added Artists with biography only"
@@ -1291,11 +1291,11 @@ msgstr ""
 
 msgctxt "#31318"
 msgid "Reset skin settings to defaults?"
-msgstr ""
+msgstr "Nollaa ulkoasun asetukset oletusarvoihin?"
 
 msgctxt "#31319"
 msgid "Reset skin settings to defaults? WARNING: This will also reset your home menu to skin defaults!"
-msgstr ""
+msgstr "Nollaa ulkoasun asetukset oletusarvoihin? VAROITUS: Myös koti-valikko nollautuu oletusarvoihin!"
 
 msgctxt "#31320"
 msgid "Random Actors ordered by movies"
@@ -1303,19 +1303,19 @@ msgstr ""
 
 msgctxt "#31321"
 msgid "New Unwatched Movies"
-msgstr ""
+msgstr "Uudet katsomattomat elokuvat"
 
 msgctxt "#31322"
 msgid "New Unwatched Episodes"
-msgstr ""
+msgstr "Uudet katsomattomat jaksot"
 
 msgctxt "#31323"
 msgid "New Unwatched Tv Shows"
-msgstr ""
+msgstr "Uudet katsomattomat tv-Sarjat"
 
 msgctxt "#31324"
 msgid "Search results for"
-msgstr ""
+msgstr "Hakutulokset haulle"
 
 msgctxt "#31325"
 msgid "Side Cards"
@@ -1323,7 +1323,7 @@ msgstr ""
 
 msgctxt "#31326"
 msgid "Show temperature and icon"
-msgstr ""
+msgstr "Näytä lämpötila ja kuvake"
 
 msgctxt "#31327"
 msgid "Seasons Info"
@@ -1331,7 +1331,7 @@ msgstr ""
 
 msgctxt "#31328"
 msgid "Deeper shadows"
-msgstr ""
+msgstr "Syvemmät varjot"
 
 msgctxt "#31329"
 msgid "ClearArt"
@@ -1343,7 +1343,7 @@ msgstr ""
 
 msgctxt "#31331"
 msgid "Show ClearLogo/Art"
-msgstr ""
+msgstr "Näytä ClearLogo/Art"
 
 msgctxt "#31332"
 msgid "More of"
@@ -1375,11 +1375,11 @@ msgstr ""
 
 msgctxt "#31339"
 msgid "Auto-scrolling widgets (seconds)"
-msgstr ""
+msgstr "Widgettien automaattinen vieritys (sekuntia)"
 
 msgctxt "#31340"
 msgid "Auto-scrolling"
-msgstr ""
+msgstr "Automaattinen vieritys"
 
 msgctxt "#31341"
 msgid "Widget-listtype"
@@ -1387,7 +1387,7 @@ msgstr ""
 
 msgctxt "#31342"
 msgid "List"
-msgstr ""
+msgstr "Lista"
 
 msgctxt "#31343"
 msgid "Fixed list"
@@ -1439,27 +1439,27 @@ msgstr ""
 
 msgctxt "#31355"
 msgid "Normal"
-msgstr ""
+msgstr "Normaali"
 
 msgctxt "#31356"
 msgid "Slow"
-msgstr ""
+msgstr "Hidas"
 
 msgctxt "#31357"
 msgid "Very slow"
-msgstr ""
+msgstr "Todella hidas"
 
 msgctxt "#31358"
 msgid "Fadetime"
-msgstr ""
+msgstr "Häivytysaika"
 
 msgctxt "#31359"
 msgid "Customise power menu"
-msgstr ""
+msgstr "Mukauta virtavalikkoa"
 
 msgctxt "#31360"
 msgid "Log off: $INFO[system.profilename]"
-msgstr ""
+msgstr "Kirjaudu ulos: $INFO[system.profilename]"
 
 msgctxt "#31361"
 msgid "Delete/Disable Settings Menu Item?"
@@ -1471,7 +1471,7 @@ msgstr ""
 
 msgctxt "#31363"
 msgid "Power menu"
-msgstr ""
+msgstr "Virtavalikko"
 
 msgctxt "#31364"
 msgid "Shutdown in: [B]$INFO[System.Alarmpos][/B]"
@@ -1479,11 +1479,11 @@ msgstr ""
 
 msgctxt "#31365"
 msgid "Use IMDB trailers (requires plugin.video.imdb.trailers)"
-msgstr ""
+msgstr "Käytä IMDB trailereita (vaatii plugin.video.imdb.trailers)"
 
 msgctxt "#31366"
 msgid "Show Filenames"
-msgstr ""
+msgstr "Näytä tiedostonimet"
 
 msgctxt "#31367"
 msgid "Focus Bars (List Views)"
@@ -1491,7 +1491,7 @@ msgstr ""
 
 msgctxt "#31368"
 msgid "Show unwatched episodes count"
-msgstr ""
+msgstr "Näytä katsomattomien jaksojen määrä"
 
 msgctxt "#31369"
 msgid "Shifted ClearArt"
@@ -1503,7 +1503,7 @@ msgstr ""
 
 msgctxt "#31371"
 msgid "total"
-msgstr ""
+msgstr "yhteensä"
 
 msgctxt "#31372"
 msgid "last on"
@@ -1559,7 +1559,7 @@ msgstr ""
 
 msgctxt "#31385"
 msgid "Also use for widgets"
-msgstr ""
+msgstr "Käytä myös widgeteissä"
 
 msgctxt "#31386"
 msgid "Also use for system-icons"
@@ -1587,11 +1587,11 @@ msgstr ""
 
 msgctxt "#31392"
 msgid "Limit number of items in hub"
-msgstr ""
+msgstr "Rajoita kohteiden määrää hubissa"
 
 msgctxt "#31393"
 msgid "Show icons only"
-msgstr ""
+msgstr "Näytä vain kuvakkeet"
 
 msgctxt "#31394"
 msgid "Multi-Widgets"
@@ -1611,11 +1611,11 @@ msgstr ""
 
 msgctxt "#31398"
 msgid "RAM"
-msgstr ""
+msgstr "Keskusmuisti"
 
 msgctxt "#31399"
 msgid "Skin-Version:"
-msgstr ""
+msgstr "Ulkoasun versio:"
 
 msgctxt "#31400"
 msgid "Scroll behavior"
@@ -1623,7 +1623,7 @@ msgstr ""
 
 msgctxt "#31401"
 msgid "Aspect ratio"
-msgstr ""
+msgstr "Kuvasuhde"
 
 msgctxt "#31402"
 msgid "Select aspect ratio for square widget"
@@ -1631,15 +1631,15 @@ msgstr ""
 
 msgctxt "#31403"
 msgid "Scale"
-msgstr ""
+msgstr "Skaalaus"
 
 msgctxt "#31404"
 msgid "Sunrise at"
-msgstr ""
+msgstr "Auringonnousu klo"
 
 msgctxt "#31405"
 msgid "Sunset at"
-msgstr ""
+msgstr "Auringonlasku klo"
 
 msgctxt "#31406"
 msgid "Square small"
@@ -1663,47 +1663,47 @@ msgstr ""
 
 msgctxt "#31411"
 msgid "Fullscreen widget"
-msgstr ""
+msgstr "Kokoruudun widgetti"
 
 msgctxt "#31412"
 msgid " - Fullscreen"
-msgstr ""
+msgstr " - Kokoruutu"
 
 msgctxt "#31413"
 msgid "Weather location"
-msgstr ""
+msgstr "Sääsijainti"
 
 msgctxt "#31414"
 msgid "Widget 1"
-msgstr ""
+msgstr "Widgetti 1"
 
 msgctxt "#31415"
 msgid "Widget 2"
-msgstr ""
+msgstr "Widgetti 2"
 
 msgctxt "#31416"
 msgid "Widget 3"
-msgstr ""
+msgstr "Widgetti 3"
 
 msgctxt "#31417"
 msgid "Widget 4"
-msgstr ""
+msgstr "Widgetti 4"
 
 msgctxt "#31418"
 msgid "Widget 5"
-msgstr ""
+msgstr "Widgetti 5"
 
 msgctxt "#31419"
 msgid "Big Poster"
-msgstr ""
+msgstr "Isot kuvakkeet"
 
 msgctxt "#31420"
 msgid "Lock view for"
-msgstr ""
+msgstr "Lukitse näkymä sisällölle"
 
 msgctxt "#31421"
 msgid "Images"
-msgstr ""
+msgstr "Kuvat"
 
 msgctxt "#31422"
 msgid "Big wide"
@@ -1711,35 +1711,35 @@ msgstr ""
 
 msgctxt "#31423"
 msgid "Big list"
-msgstr ""
+msgstr "Isolista"
 
 msgctxt "#31424"
 msgid "Enable forced views (experimental)"
-msgstr ""
+msgstr "Ota käyttöön pakotetut näkymät (kokeellinen)"
 
 msgctxt "#31425"
 msgid "Seconds"
-msgstr ""
+msgstr "Sekuntia"
 
 msgctxt "#31426"
 msgid "Reset forced views"
-msgstr ""
+msgstr "Nollaa pakotetut näkymät"
 
 msgctxt "#31427"
 msgid "Forced views"
-msgstr ""
+msgstr "Pakotetut näkymät"
 
 msgctxt "#31428"
 msgid "Big icons"
-msgstr ""
+msgstr "Isot kuvakkeet"
 
 msgctxt "#31429"
 msgid "more..."
-msgstr ""
+msgstr "lisää..."
 
 msgctxt "#31430"
 msgid "item"
-msgstr ""
+msgstr "kohde"
 
 msgctxt "#31431"
 msgid "Use old Arctic Zephyr window animation"
@@ -1747,7 +1747,7 @@ msgstr ""
 
 msgctxt "#31432"
 msgid "Alternative layout"
-msgstr ""
+msgstr "Vaihtoehtoinen näkymä"
 
 msgctxt "#31433"
 msgid "Smart Shortcuts"
@@ -1755,11 +1755,11 @@ msgstr ""
 
 msgctxt "#31434"
 msgid "Movies and TV shows"
-msgstr ""
+msgstr "Elokuvat ja Tv-sarjat"
 
 msgctxt "#31435"
 msgid "Recently added Songs"
-msgstr ""
+msgstr "Viimeksi lisätyt kappaleet"
 
 msgctxt "#31436"
 msgid "Most played Songs"
@@ -1771,7 +1771,7 @@ msgstr ""
 
 msgctxt "#31438"
 msgid "Genre Poster"
-msgstr ""
+msgstr "Genre juliste"
 
 msgctxt "#31439"
 msgid "Chapter markers"
@@ -1787,11 +1787,11 @@ msgstr ""
 
 msgctxt "#31442"
 msgid "Select media flags"
-msgstr ""
+msgstr "Valitse mediatunnukset"
 
 msgctxt "#31443"
 msgid "Subtitle icon"
-msgstr ""
+msgstr "Tekstityksen kuvake"
 
 msgctxt "#31444"
 msgid "Subtitle extended info"
@@ -1823,11 +1823,11 @@ msgstr ""
 
 msgctxt "#31451"
 msgid "Play next episode"
-msgstr ""
+msgstr "Toista seuraava jakso"
 
 msgctxt "#31452"
 msgid "Widget"
-msgstr ""
+msgstr "Widgetti"
 
 msgctxt "#31453"
 msgid "Edge distance"
@@ -1839,11 +1839,11 @@ msgstr ""
 
 msgctxt "#31455"
 msgid "Path intros"
-msgstr ""
+msgstr "Introjen sijainti"
 
 msgctxt "#31456"
 msgid "Trailer count"
-msgstr ""
+msgstr "Trailerien määrä"
 
 msgctxt "#31457"
 msgid "Some other"
@@ -1851,7 +1851,7 @@ msgstr ""
 
 msgctxt "#31458"
 msgid "Video preview"
-msgstr ""
+msgstr "Videoesikatselu"
 
 msgctxt "#31459"
 msgid "DiscArt"
@@ -1875,31 +1875,31 @@ msgstr ""
 
 msgctxt "#31464"
 msgid "Movies and episodes"
-msgstr ""
+msgstr "Elokuvat ja jaksot"
 
 msgctxt "#31465"
 msgid "Random movies and episodes"
-msgstr ""
+msgstr "Satunnaiset elokuvat ja jaksot"
 
 msgctxt "#31466"
 msgid "Recent movies and episodes"
-msgstr ""
+msgstr "Viimeisimmät elokuvat ja jaksot"
 
 msgctxt "#31467"
 msgid "disabled"
-msgstr ""
+msgstr "pois käytöstä"
 
 msgctxt "#31468"
 msgid "Required addons"
-msgstr ""
+msgstr "Vaaditut lisäosat"
 
 msgctxt "#31469"
 msgid "Recommended addons"
-msgstr ""
+msgstr "Suositellut lisäosat"
 
 msgctxt "#31470"
 msgid "Fixes"
-msgstr ""
+msgstr "Korjaukset"
 
 msgctxt "#31471"
 msgid "Hidden video window to prevent audio errors"
@@ -1907,19 +1907,19 @@ msgstr ""
 
 msgctxt "#31472"
 msgid "CoreELEC Settings"
-msgstr ""
+msgstr "CoreELEC asetukset"
 
 msgctxt "#31473"
 msgid "Custom widget"
-msgstr ""
+msgstr "Mukautettu widgetti"
 
 msgctxt "#31474"
 msgid "Configure custom widget"
-msgstr ""
+msgstr "Määritä mukautettu widgetti"
 
 msgctxt "#31475"
 msgid "Netflix fanart window"
-msgstr ""
+msgstr "Netflix fanitaide ikkuna"
 
 msgctxt "#31476"
 msgid "Boxed Set"
@@ -1931,7 +1931,7 @@ msgstr ""
 
 msgctxt "#31478"
 msgid "Indicators"
-msgstr ""
+msgstr "Indikaattorit"
 
 msgctxt "#31479"
 msgid "Clear home menu bar"
@@ -1951,7 +1951,7 @@ msgstr ""
 
 msgctxt "#31483"
 msgid "Audio Channels"
-msgstr ""
+msgstr "Äänikanavat"
 
 msgctxt "#31484"
 msgid "Spotlight widget path"
@@ -1967,7 +1967,7 @@ msgstr ""
 
 msgctxt "#31487"
 msgid "CPU"
-msgstr ""
+msgstr "Prosessori"
 
 msgctxt "#31488"
 msgid "On focus don't slide left"
@@ -1979,7 +1979,7 @@ msgstr ""
 
 msgctxt "#31490"
 msgid "Auto scrolling widget title"
-msgstr ""
+msgstr "Widgetin nimen automaattinen vieritys"
 
 msgctxt "#31491"
 msgid "Poster Flix v2"
@@ -1987,27 +1987,27 @@ msgstr ""
 
 msgctxt "#31492"
 msgid "Paused"
-msgstr ""
+msgstr "Tauko"
 
 msgctxt "#31493"
 msgid "Watched"
-msgstr ""
+msgstr "Katsottu"
 
 msgctxt "#31494"
 msgid "New!"
-msgstr ""
+msgstr "Uusi!"
 
 msgctxt "#31495"
 msgid "Alternative indicators"
-msgstr ""
+msgstr "Vaihtoehtoiset indikaattorit"
 
 msgctxt "#31496"
 msgid "Label"
-msgstr ""
+msgstr "Nimi"
 
 msgctxt "#31497"
 msgid "Movies by this director"
-msgstr ""
+msgstr "Elokuvat tältä ohjaajalta"
 
 msgctxt "#31498"
 msgid "Collection"
@@ -2015,7 +2015,7 @@ msgstr ""
 
 msgctxt "#31499"
 msgid "Auto scrolling titles"
-msgstr ""
+msgstr "Nimen automaattinen vieritys"
 
 msgctxt "#31500"
 msgid "Prefer percentage"
@@ -2392,3 +2392,7 @@ msgstr ""
 msgctxt "#31600"
 msgid "Use old widget position"
 msgstr ""
+
+#~ msgctxt "#31311"
+#~ msgid "Hide play/tauko info"
+#~ msgstr "Piilota toisto/pysäytys info"
