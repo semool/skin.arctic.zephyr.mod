@@ -7,15 +7,14 @@ msgstr ""
 "Project-Id-Version: XBMC Skins\n"
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-06-06 09:09+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kodi Translation Team\n"
-"Language-Team: English (http://www.transifex.com/projects/p/xbmc-skins/language/en/)\n"
+"Language-Team: Bulgarian (http://www.transifex.com/projects/p/xbmc-skins/language/bg/)\n"
+"Language: bg_BG\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: en_GB\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0\n"
 
 msgctxt "#31000"
 msgid "Limit number of items in widget"
@@ -423,31 +422,31 @@ msgstr ""
 
 msgctxt "#31101"
 msgid "items"
-msgstr ""
+msgstr "Елемента"
 
 msgctxt "#31102"
 msgid "min"
-msgstr ""
+msgstr "мин"
 
 msgctxt "#31103"
 msgid "Live TV"
-msgstr ""
+msgstr "Телевизия"
 
 msgctxt "#31104"
 msgid "Used Memory"
-msgstr ""
+msgstr "Памет в употреба"
 
 msgctxt "#31105"
 msgid "Spotlight"
-msgstr ""
+msgstr "Представени"
 
 msgctxt "#31106"
 msgid "Finishes at"
-msgstr ""
+msgstr "Ще свърши в:"
 
 msgctxt "#31107"
 msgid "Video Stream"
-msgstr ""
+msgstr "Видео поток"
 
 msgctxt "#31108"
 msgid "Show original"
@@ -455,19 +454,19 @@ msgstr ""
 
 msgctxt "#31109"
 msgid "Customise home menu"
-msgstr ""
+msgstr "Персонализиране на началното меню"
 
 msgctxt "#31110"
 msgid "Background"
-msgstr ""
+msgstr "Фон"
 
 msgctxt "#31111"
 msgid "Show now playing video in background"
-msgstr ""
+msgstr "Показвай текущо възпроизвежданото видео на заден план"
 
 msgctxt "#31112"
 msgid "Submenu"
-msgstr ""
+msgstr "Подменю"
 
 msgctxt "#31113"
 msgid "No Timer"
@@ -483,11 +482,11 @@ msgstr ""
 
 msgctxt "#31116"
 msgid "DVD Menu"
-msgstr ""
+msgstr "DVD меню"
 
 msgctxt "#31117"
 msgid "3D Mode"
-msgstr ""
+msgstr "3D режим"
 
 msgctxt "#31118"
 msgid "Show artist slideshow"
@@ -499,11 +498,11 @@ msgstr ""
 
 msgctxt "#31120"
 msgid "Animate artist slideshow"
-msgstr ""
+msgstr "Анимирай презентацията с изпълнителя"
 
 msgctxt "#31121"
 msgid "Show fanart"
-msgstr ""
+msgstr "Показвай фен-арт"
 
 msgctxt "#31122"
 msgid "     Settings"
@@ -551,7 +550,7 @@ msgstr ""
 
 msgctxt "#31133"
 msgid "Hide watched"
-msgstr ""
+msgstr "Без изгледаните"
 
 msgctxt "#31134"
 msgid "reset colors?"
@@ -571,7 +570,7 @@ msgstr ""
 
 msgctxt "#31138"
 msgid "Content Loading"
-msgstr ""
+msgstr "Съдържанието се зарежда"
 
 msgctxt "#31139"
 msgid "Play trailer in windowed mode"
@@ -583,7 +582,7 @@ msgstr ""
 
 msgctxt "#31141"
 msgid "Youtube"
-msgstr ""
+msgstr "Youtube"
 
 msgctxt "#31142"
 msgid "Use low list"
@@ -595,11 +594,11 @@ msgstr ""
 
 msgctxt "#31144"
 msgid "Widgets"
-msgstr ""
+msgstr "Джаджа"
 
 msgctxt "#31145"
 msgid "Show weather"
-msgstr ""
+msgstr "Показвай текущите метеорологични условия"
 
 msgctxt "#31146"
 msgid "Animate fanart"
@@ -607,7 +606,7 @@ msgstr ""
 
 msgctxt "#31147"
 msgid "Extra Info"
-msgstr ""
+msgstr "Допълнителна инф."
 
 msgctxt "#31148"
 msgid "Wrap list"
@@ -631,7 +630,7 @@ msgstr ""
 
 msgctxt "#31153"
 msgid "Show clock"
-msgstr ""
+msgstr "Показвай часовник"
 
 msgctxt "#31154"
 msgid "Show media flags"
@@ -663,31 +662,31 @@ msgstr ""
 
 msgctxt "#31161"
 msgid "[B]Configure System Settings[/B][CR][CR] •     Setup and calibrate displays[CR] •     Configure audio output[CR] •     Setup remote controls[CR] •     Set power saving options[CR] •     Enable debugging[CR] •     Setup master lock"
-msgstr ""
+msgstr "[B]КОНФИГУРИРАЙТЕ СИСТЕМАТА[/B][CR][CR] •     Настройте и калибрирайте екраните[CR] •     Конфигурирайте аудио изхода[CR] •     Настройте дистанционните[CR] •     Настройте компютъра да пести енергия[CR] •     Включете режима \"дебъг\"[CR] •     Задайте код за заключване"
 
 msgctxt "#31162"
 msgid "[B]Configure Add-Ons[/B][CR][CR] •     Manage your installed Add-ons[CR] •     Install Add-ons from kodi.tv[CR] •     Modify Add-on settings"
-msgstr ""
+msgstr "[B]КОНФИГУРИРАЙТЕ ДОБАВКИТЕ[/B][CR][CR] •     Управлявайте инсталираните добавки[CR] •     Инсталирайте добавки от kodi.tv[CR] •     Променяйте настройките на добавките"
 
 msgctxt "#31163"
 msgid "[B]Configure TV Settings[/B][CR][CR] •     Change full screen info[CR] •     Manage EPG data settings"
-msgstr ""
+msgstr "[B]КОНФИГУРИРАЙТЕ ТЕЛЕВИЗИЯТА[/B][CR][CR] •     Change full screen info[CR] •     Manage EPG data settings"
 
 msgctxt "#31164"
 msgid "[B]Configure Service Settings[/B][CR][CR] •     Control via UPnP and HTTP[CR] •     Configure file sharing[CR] •     Enable Zeroconf[CR] •     Configure AirPlay"
-msgstr ""
+msgstr "[B]КОНФИГУРИРАЙТЕ УСЛУГИТЕ[/B][CR][CR] •     Настройте контрола над Kodi чрез UPnP и HTTP[CR] •     Настройте споделянето на файлове[CR] •     Включете Zeroconf[CR] •     Настройте AirPlay"
 
 msgctxt "#31165"
 msgid "[B]Configure Profile Settings[/B][CR][CR] •     Setup user profiles[CR] •     Enable login screen[CR] •     Set master locks[CR] •     Control access to content"
-msgstr ""
+msgstr "[B]Конфигурирайте профилите[/B][CR][CR] •     Настройте профили[CR] •     Включете екрана за влизане[CR] •     Задайте код за заключване[CR] •     Ограничете достъпа до съдържанието"
 
 msgctxt "#31166"
 msgid "[B]Configure Skin Settings[/B][CR][CR] •     Customise the home screen[CR] •     Set background options[CR] •     Configure OSD options[CR] •     Enable add-on support[CR] •     Disable screen elements"
-msgstr ""
+msgstr "[B]Конфигурирайте облика[/B][CR][CR] •     Персонализирайте началния екран[CR] •     Настройте фона[CR] •     Настройте екранното меню[CR] •     Включете поддръжката за някои добавки[CR] •     Изключете елементи от екрана"
 
 msgctxt "#31167"
 msgid "[B]View System Information[/B][CR][CR] •     Summary[CR] •     Storage[CR] •     Network[CR] •     Video[CR] •     Hardware[CR] •     PVR Backend"
-msgstr ""
+msgstr "[B]Преглед на системната информация[/B][CR][CR] •     Обобщение[CR] •     Памет[CR] •     Мрежа[CR] •     Видео[CR] •     Хардуер[CR] •     ПВР сървър"
 
 msgctxt "#31168"
 msgid "Startup video or music playlist"
@@ -695,11 +694,11 @@ msgstr ""
 
 msgctxt "#31169"
 msgid "Extras"
-msgstr ""
+msgstr "Екстри"
 
 msgctxt "#31170"
 msgid "Cinema Experience"
-msgstr ""
+msgstr "Cinema Experience"
 
 msgctxt "#31171"
 msgid "Movies by"
@@ -707,15 +706,15 @@ msgstr ""
 
 msgctxt "#31172"
 msgid "Show music visualisation in background"
-msgstr ""
+msgstr "Показвай музикалната визуализация като фон"
 
 msgctxt "#31173"
 msgid "Recently added"
-msgstr ""
+msgstr "Последно добавени"
 
 msgctxt "#31174"
 msgid "Recently played"
-msgstr ""
+msgstr "Последно възпроизвеждани"
 
 msgctxt "#31175"
 msgid "Play random"
@@ -779,11 +778,11 @@ msgstr ""
 
 msgctxt "#31190"
 msgid "Show icons"
-msgstr ""
+msgstr "Показвай икони"
 
 msgctxt "#31191"
 msgid "Directed by"
-msgstr ""
+msgstr "Режисиран от"
 
 msgctxt "#31192"
 msgid "Movie Hub"
@@ -795,11 +794,11 @@ msgstr ""
 
 msgctxt "#31194"
 msgid "View Options"
-msgstr ""
+msgstr "Визуални настройки"
 
 msgctxt "#31195"
 msgid "Reload Skin"
-msgstr ""
+msgstr "Презареди облика"
 
 msgctxt "#31196"
 msgid "Content of"
@@ -815,7 +814,7 @@ msgstr ""
 
 msgctxt "#31199"
 msgid "Kiosk mode"
-msgstr ""
+msgstr "Kiosk режим"
 
 msgctxt "#31200"
 msgid "Only display widgets when pressing up"
@@ -827,7 +826,7 @@ msgstr ""
 
 msgctxt "#31202"
 msgid "Use horizontal submenu"
-msgstr ""
+msgstr "Ползвай хоризонтално подменю"
 
 msgctxt "#31203"
 msgid "Artwork Beef"
@@ -843,7 +842,7 @@ msgstr ""
 
 msgctxt "#31206"
 msgid "Similar"
-msgstr ""
+msgstr "Подобни"
 
 msgctxt "#31207"
 msgid "Movies by"
@@ -851,7 +850,7 @@ msgstr ""
 
 msgctxt "#31208"
 msgid "In Cinemas"
-msgstr ""
+msgstr "В кината"
 
 msgctxt "#31209"
 msgid "Upcoming"
@@ -859,27 +858,27 @@ msgstr ""
 
 msgctxt "#31210"
 msgid "Popular"
-msgstr ""
+msgstr "Популярни"
 
 msgctxt "#31211"
 msgid "Top Rated"
-msgstr ""
+msgstr "Най-високо оценените"
 
 msgctxt "#31212"
 msgid "Airing"
-msgstr ""
+msgstr "Излъчващи се"
 
 msgctxt "#31213"
 msgid "Today"
-msgstr ""
+msgstr "Днес"
 
 msgctxt "#31214"
 msgid "Show plot"
-msgstr ""
+msgstr "Покажи сюжета"
 
 msgctxt "#31215"
 msgid "Unwatched"
-msgstr ""
+msgstr "Неизгледани"
 
 msgctxt "#31216"
 msgid "Tracklist of"
@@ -963,7 +962,7 @@ msgstr ""
 
 msgctxt "#31236"
 msgid "Now playing..."
-msgstr ""
+msgstr "Сега се възпроизвежда..."
 
 msgctxt "#31237"
 msgid "Use minimal busy loader in header"
@@ -971,11 +970,11 @@ msgstr ""
 
 msgctxt "#31238"
 msgid "Select highlight color"
-msgstr ""
+msgstr "Изберете цвят за отличаване"
 
 msgctxt "#31239"
 msgid "Current Color"
-msgstr ""
+msgstr "Текущ цвят"
 
 msgctxt "#31240"
 msgid "Square Light"
@@ -1007,19 +1006,19 @@ msgstr ""
 
 msgctxt "#31247"
 msgid "Home menu style"
-msgstr ""
+msgstr "Стил на началното меню"
 
 msgctxt "#31248"
 msgid "Featured"
-msgstr ""
+msgstr "Представени"
 
 msgctxt "#31249"
 msgid "Classic"
-msgstr ""
+msgstr "Класически"
 
 msgctxt "#31250"
 msgid "Vertical"
-msgstr ""
+msgstr "Вертикален"
 
 msgctxt "#31251"
 msgid "Seasons of"
@@ -2403,16 +2402,4 @@ msgstr ""
 
 msgctxt "#31603"
 msgid "Auto playing trailers"
-msgstr ""
-
-msgctxt "#31604"
-msgid "None"
-msgstr ""
-
-msgctxt "#31605"
-msgid "Medium"
-msgstr ""
-
-msgctxt "#31606"
-msgid "Maximal"
 msgstr ""

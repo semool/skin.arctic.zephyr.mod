@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: XBMC Skins\n"
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-06-06 09:09+0200\n"
-"Last-Translator: Kodi Translation Team\n"
-"Language-Team: English (http://www.transifex.com/projects/p/xbmc-skins/language/en/)\n"
+"PO-Revision-Date: 2021-07-14 09:28+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Turkish <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-arctic-zephyr-mod/tr_tr/>\n"
+"Language: tr_tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: en_GB\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.7.1\n"
 
 msgctxt "#31000"
 msgid "Limit number of items in widget"
@@ -423,31 +423,31 @@ msgstr ""
 
 msgctxt "#31101"
 msgid "items"
-msgstr ""
+msgstr "Öğeler"
 
 msgctxt "#31102"
 msgid "min"
-msgstr ""
+msgstr "dakika"
 
 msgctxt "#31103"
 msgid "Live TV"
-msgstr ""
+msgstr "Canlı TV"
 
 msgctxt "#31104"
 msgid "Used Memory"
-msgstr ""
+msgstr "Kullanılan Hafıza"
 
 msgctxt "#31105"
 msgid "Spotlight"
-msgstr ""
+msgstr "Spotlight"
 
 msgctxt "#31106"
 msgid "Finishes at"
-msgstr ""
+msgstr "Bitiş:"
 
 msgctxt "#31107"
 msgid "Video Stream"
-msgstr ""
+msgstr "Video Akışı"
 
 msgctxt "#31108"
 msgid "Show original"
@@ -455,23 +455,23 @@ msgstr ""
 
 msgctxt "#31109"
 msgid "Customise home menu"
-msgstr ""
+msgstr "Ana menüyü özelleştir"
 
 msgctxt "#31110"
 msgid "Background"
-msgstr ""
+msgstr "Arka Plan"
 
 msgctxt "#31111"
 msgid "Show now playing video in background"
-msgstr ""
+msgstr "Arkaplanda oynatılan videoyu göster"
 
 msgctxt "#31112"
 msgid "Submenu"
-msgstr ""
+msgstr "Alt menü"
 
 msgctxt "#31113"
 msgid "No Timer"
-msgstr ""
+msgstr "Zamanlayıcı Yok"
 
 msgctxt "#31114"
 msgid "Show effect"
@@ -479,31 +479,31 @@ msgstr ""
 
 msgctxt "#31115"
 msgid "Show header"
-msgstr ""
+msgstr "Başlığı göster"
 
 msgctxt "#31116"
 msgid "DVD Menu"
-msgstr ""
+msgstr "DVD Menüsü"
 
 msgctxt "#31117"
 msgid "3D Mode"
-msgstr ""
+msgstr "3B Modu"
 
 msgctxt "#31118"
 msgid "Show artist slideshow"
-msgstr ""
+msgstr "Sanatçı slayt gösterisini göster"
 
 msgctxt "#31119"
 msgid "Show visualisation behind slideshow"
-msgstr ""
+msgstr "Slayt gösterisi arkasında görselleştirme"
 
 msgctxt "#31120"
 msgid "Animate artist slideshow"
-msgstr ""
+msgstr "Sanatçı slayt gösterisini canlandır"
 
 msgctxt "#31121"
 msgid "Show fanart"
-msgstr ""
+msgstr "Fanart Göster"
 
 msgctxt "#31122"
 msgid "     Settings"
@@ -551,7 +551,7 @@ msgstr ""
 
 msgctxt "#31133"
 msgid "Hide watched"
-msgstr ""
+msgstr "İzlenenleri gizle"
 
 msgctxt "#31134"
 msgid "reset colors?"
@@ -571,7 +571,7 @@ msgstr ""
 
 msgctxt "#31138"
 msgid "Content Loading"
-msgstr ""
+msgstr "İçerik Yükleniyor"
 
 msgctxt "#31139"
 msgid "Play trailer in windowed mode"
@@ -583,35 +583,35 @@ msgstr ""
 
 msgctxt "#31141"
 msgid "Youtube"
-msgstr ""
+msgstr "Youtube"
 
 msgctxt "#31142"
 msgid "Use low list"
-msgstr ""
+msgstr "Alt liste kullan"
 
 msgctxt "#31143"
 msgid "Set weather fanart"
-msgstr ""
+msgstr "Hava durumu fanart'ını kur"
 
 msgctxt "#31144"
 msgid "Widgets"
-msgstr ""
+msgstr "Bileşenler"
 
 msgctxt "#31145"
 msgid "Show weather"
-msgstr ""
+msgstr "Hava durumunu göster"
 
 msgctxt "#31146"
 msgid "Animate fanart"
-msgstr ""
+msgstr "Fanartı canlandır"
 
 msgctxt "#31147"
 msgid "Extra Info"
-msgstr ""
+msgstr "Ekstra Bilgi"
 
 msgctxt "#31148"
 msgid "Wrap list"
-msgstr ""
+msgstr "Listede başa dön"
 
 msgctxt "#31149"
 msgid "Replace widget fanart with background"
@@ -619,7 +619,7 @@ msgstr ""
 
 msgctxt "#31150"
 msgid "Set fallback image"
-msgstr ""
+msgstr "Yedek resimi belirle"
 
 msgctxt "#31151"
 msgid "Power Menu"
@@ -627,19 +627,19 @@ msgstr ""
 
 msgctxt "#31152"
 msgid "Furniture"
-msgstr ""
+msgstr "Döşeme"
 
 msgctxt "#31153"
 msgid "Show clock"
-msgstr ""
+msgstr "Saati göster"
 
 msgctxt "#31154"
 msgid "Show media flags"
-msgstr ""
+msgstr "Ortam işaretlemelerini göster"
 
 msgctxt "#31155"
 msgid "Show now playing info"
-msgstr ""
+msgstr "Oynatılanın bilgisini göster"
 
 msgctxt "#31156"
 msgid "[COLOR=$VAR[ColorHighlight]]Reloaded[/COLOR] Skin-Settings"
@@ -663,31 +663,31 @@ msgstr ""
 
 msgctxt "#31161"
 msgid "[B]Configure System Settings[/B][CR][CR] •     Setup and calibrate displays[CR] •     Configure audio output[CR] •     Setup remote controls[CR] •     Set power saving options[CR] •     Enable debugging[CR] •     Setup master lock"
-msgstr ""
+msgstr "[B]Sistem Ayarlarını Yapılandır[/B][CR][CR] • Ekran ayarlarını yapılandır[CR] • Ses çıkışını yapılandır[CR] • Uzaktan kumandaları ayarla[CR] • Güç tasarrufu seçeneklerini ayarla[CR] • Hata ayıklamayı etkinleştir[CR] • Yönetici kilidini kur"
 
 msgctxt "#31162"
 msgid "[B]Configure Add-Ons[/B][CR][CR] •     Manage your installed Add-ons[CR] •     Install Add-ons from kodi.tv[CR] •     Modify Add-on settings"
-msgstr ""
+msgstr "[B]Eklentileri Yapılandır[/B][CR][CR] • Yüklenmiş eklentileri yönet[CR] • kodi.tv'den eklenti kur[CR] • Eklenti ayarlarını düzenle"
 
 msgctxt "#31163"
 msgid "[B]Configure TV Settings[/B][CR][CR] •     Change full screen info[CR] •     Manage EPG data settings"
-msgstr ""
+msgstr "[B]TV Ayarlarını Yapılandır[/B][CR][CR] • Tam ekran bilgisini değiştir[CR] • EPG veri ayarlarını yönet"
 
 msgctxt "#31164"
 msgid "[B]Configure Service Settings[/B][CR][CR] •     Control via UPnP and HTTP[CR] •     Configure file sharing[CR] •     Enable Zeroconf[CR] •     Configure AirPlay"
-msgstr ""
+msgstr "[B]Hizmet Ayarlarını Yapılandır[/B][CR][CR] • UPnP ve HTTP üzerinden kontrol[CR] • Dosya paylaşımını yapılandır[CR] • Zeroconf'u etkinleştir[CR] • AirPlay'i yapılandır"
 
 msgctxt "#31165"
 msgid "[B]Configure Profile Settings[/B][CR][CR] •     Setup user profiles[CR] •     Enable login screen[CR] •     Set master locks[CR] •     Control access to content"
-msgstr ""
+msgstr "[B]Profil Seçeneklerini Yapılandır[/B][CR][CR] • Kullanıcı profilleri kurulumu[CR] • Kullanıcı girişi ekranını etkinleştir[CR] •      Yönetici kilitlerini ayarla[CR] • İçeriğe erişim kontrolü"
 
 msgctxt "#31166"
 msgid "[B]Configure Skin Settings[/B][CR][CR] •     Customise the home screen[CR] •     Set background options[CR] •     Configure OSD options[CR] •     Enable add-on support[CR] •     Disable screen elements"
-msgstr ""
+msgstr "[B]Dış Görünüm Ayarlarını Yapılandır[/B][CR][CR] • Ana ekranı özelleştir[CR] • Arkaplan seçeneklerini belirle[CR] • OSD seçeneklerini yapılandır[CR] • Eklenti desteğini etkinleştirt[CR] • Ekrran öğelerini devre dışı bırak"
 
 msgctxt "#31167"
 msgid "[B]View System Information[/B][CR][CR] •     Summary[CR] •     Storage[CR] •     Network[CR] •     Video[CR] •     Hardware[CR] •     PVR Backend"
-msgstr ""
+msgstr "[B]Sistem Bilgisini Görüntüle[/B][CR][CR] • Özet[CR] • Depolama[CR] • Ağ[CR] • Video[CR] • Donanım[CR] • PVR Altaypısı"
 
 msgctxt "#31168"
 msgid "Startup video or music playlist"
@@ -695,11 +695,11 @@ msgstr ""
 
 msgctxt "#31169"
 msgid "Extras"
-msgstr ""
+msgstr "Ekstralar"
 
 msgctxt "#31170"
 msgid "Cinema Experience"
-msgstr ""
+msgstr "Sinema Deneyimi"
 
 msgctxt "#31171"
 msgid "Movies by"
@@ -707,35 +707,35 @@ msgstr ""
 
 msgctxt "#31172"
 msgid "Show music visualisation in background"
-msgstr ""
+msgstr "Müzik görselleştirmesini arkaplanda göster"
 
 msgctxt "#31173"
 msgid "Recently added"
-msgstr ""
+msgstr "Son eklenenler"
 
 msgctxt "#31174"
 msgid "Recently played"
-msgstr ""
+msgstr "Son Oynatılanlar"
 
 msgctxt "#31175"
 msgid "Play random"
-msgstr ""
+msgstr "Rastgele oynat"
 
 msgctxt "#31176"
 msgid "Delete Settings Shortcut"
-msgstr ""
+msgstr "Ayarlar Kısayolunu Sil"
 
 msgctxt "#31177"
 msgid "Are you sure you want to remove the settings shortcut?[CR]Please ensure that you have an alternative method of accessing settings before you remove this shortcut."
-msgstr ""
+msgstr "Ayarlar kısayolunu kaldırmak istediğinize eminmisiniz?[CR]Bu kısayolu kaldırmadan önce ayarlara alternatif bir erişim metodunuz olduğuna emin olun."
 
 msgctxt "#31178"
 msgid "Hub items"
-msgstr ""
+msgstr "Merkez öğeleri"
 
 msgctxt "#31179"
 msgid "Show clearlogo"
-msgstr ""
+msgstr "Clearlogo göster"
 
 msgctxt "#31180"
 msgid "Cast of"
@@ -759,11 +759,11 @@ msgstr ""
 
 msgctxt "#31185"
 msgid "Big poster"
-msgstr ""
+msgstr "Büyük poster"
 
 msgctxt "#31186"
 msgid "Use circular icons in dialogs"
-msgstr ""
+msgstr "Yuvarlak simgeleri kullan"
 
 msgctxt "#31187"
 msgid "Filmography of"
@@ -779,27 +779,27 @@ msgstr ""
 
 msgctxt "#31190"
 msgid "Show icons"
-msgstr ""
+msgstr "Simgeleri göster"
 
 msgctxt "#31191"
 msgid "Directed by"
-msgstr ""
+msgstr "Yöneten"
 
 msgctxt "#31192"
 msgid "Movie Hub"
-msgstr ""
+msgstr "Film Merkezi"
 
 msgctxt "#31193"
 msgid "TV Hub"
-msgstr ""
+msgstr "TV Merkezi"
 
 msgctxt "#31194"
 msgid "View Options"
-msgstr ""
+msgstr "Görünüm Seçenekleri"
 
 msgctxt "#31195"
 msgid "Reload Skin"
-msgstr ""
+msgstr "Dış görünümü yeniden yükle"
 
 msgctxt "#31196"
 msgid "Content of"
@@ -807,27 +807,27 @@ msgstr ""
 
 msgctxt "#31197"
 msgid "Show weather with clock"
-msgstr ""
+msgstr "Saati hava durumuyla birlikte göster"
 
 msgctxt "#31198"
 msgid "Cards"
-msgstr ""
+msgstr "Kartlar"
 
 msgctxt "#31199"
 msgid "Kiosk mode"
-msgstr ""
+msgstr "Kiosk modu"
 
 msgctxt "#31200"
 msgid "Only display widgets when pressing up"
-msgstr ""
+msgstr "Bileşenleri sadece yukarıya basıldığında göster"
 
 msgctxt "#31201"
 msgid "Show detailed info when video is paused"
-msgstr ""
+msgstr "Video duraklatıldığında detaylı bilgiyi göster"
 
 msgctxt "#31202"
 msgid "Use horizontal submenu"
-msgstr ""
+msgstr "Yatay altmenü kullan"
 
 msgctxt "#31203"
 msgid "Artwork Beef"
@@ -835,15 +835,15 @@ msgstr ""
 
 msgctxt "#31204"
 msgid "Similar to"
-msgstr ""
+msgstr "Benzer"
 
 msgctxt "#31205"
 msgid "Released by"
-msgstr ""
+msgstr "Yayınlayan"
 
 msgctxt "#31206"
 msgid "Similar"
-msgstr ""
+msgstr "Benzer"
 
 msgctxt "#31207"
 msgid "Movies by"
@@ -851,35 +851,35 @@ msgstr ""
 
 msgctxt "#31208"
 msgid "In Cinemas"
-msgstr ""
+msgstr "Sinemalarda"
 
 msgctxt "#31209"
 msgid "Upcoming"
-msgstr ""
+msgstr "Yakında"
 
 msgctxt "#31210"
 msgid "Popular"
-msgstr ""
+msgstr "Popüler"
 
 msgctxt "#31211"
 msgid "Top Rated"
-msgstr ""
+msgstr "En Yüksek Oylananlar"
 
 msgctxt "#31212"
 msgid "Airing"
-msgstr ""
+msgstr "Yayınlanan"
 
 msgctxt "#31213"
 msgid "Today"
-msgstr ""
+msgstr "Bugün"
 
 msgctxt "#31214"
 msgid "Show plot"
-msgstr ""
+msgstr "Özeti göster"
 
 msgctxt "#31215"
 msgid "Unwatched"
-msgstr ""
+msgstr "İzlenmedi"
 
 msgctxt "#31216"
 msgid "Tracklist of"
@@ -891,15 +891,15 @@ msgstr ""
 
 msgctxt "#31218"
 msgid "Show numeric rating"
-msgstr ""
+msgstr "Nümerik puan göster"
 
 msgctxt "#31219"
 msgid "Show reflections"
-msgstr ""
+msgstr "Yansımaları göster"
 
 msgctxt "#31220"
 msgid "Next Aired"
-msgstr ""
+msgstr "Sonraki Yayınlanacaklar"
 
 msgctxt "#31221"
 msgid "Studio"
@@ -955,7 +955,7 @@ msgstr ""
 
 msgctxt "#31234"
 msgid "Fanart overlay"
-msgstr ""
+msgstr "Fanart kaplama"
 
 msgctxt "#31235"
 msgid "Show banner?"
@@ -963,19 +963,19 @@ msgstr ""
 
 msgctxt "#31236"
 msgid "Now playing..."
-msgstr ""
+msgstr "Şimdi yürütülüyor..."
 
 msgctxt "#31237"
 msgid "Use minimal busy loader in header"
-msgstr ""
+msgstr "Başlıkta minimal yükleyi meşgul kullan"
 
 msgctxt "#31238"
 msgid "Select highlight color"
-msgstr ""
+msgstr "Vurgulama rengini seç"
 
 msgctxt "#31239"
 msgid "Current Color"
-msgstr ""
+msgstr "Mevcut Renk"
 
 msgctxt "#31240"
 msgid "Square Light"
@@ -1011,7 +1011,7 @@ msgstr ""
 
 msgctxt "#31248"
 msgid "Featured"
-msgstr ""
+msgstr "Öne"
 
 msgctxt "#31249"
 msgid "Classic"
@@ -1019,7 +1019,7 @@ msgstr ""
 
 msgctxt "#31250"
 msgid "Vertical"
-msgstr ""
+msgstr "Dikey"
 
 msgctxt "#31251"
 msgid "Seasons of"
@@ -1055,7 +1055,7 @@ msgstr ""
 
 msgctxt "#31259"
 msgid "Extra fanart"
-msgstr ""
+msgstr "Ekstra fanart"
 
 msgctxt "#31260"
 msgid "Set weather icons"
@@ -2403,16 +2403,4 @@ msgstr ""
 
 msgctxt "#31603"
 msgid "Auto playing trailers"
-msgstr ""
-
-msgctxt "#31604"
-msgid "None"
-msgstr ""
-
-msgctxt "#31605"
-msgid "Medium"
-msgstr ""
-
-msgctxt "#31606"
-msgid "Maximal"
 msgstr ""
