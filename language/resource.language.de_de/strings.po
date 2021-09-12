@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: XBMC Skins\n"
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-08-18 18:48+0200\n"
+"PO-Revision-Date: 2021-06-06 09:10+0200\n"
 "Last-Translator: Kodi Translation Team\n"
 "Language-Team: German (http://www.transifex.com/projects/p/xbmc-skins/language/de/)\n"
 "Language: de_DE\n"
@@ -2135,11 +2135,11 @@ msgstr "Kleine Vorschau"
 
 msgctxt "#31529"
 msgid "Small Poster Thumbnail"
-msgstr "Kleines Poster Vorschaubild"
+msgstr ""
 
 msgctxt "#31530"
 msgid "Seasons Info v2"
-msgstr "Staffel Info v2"
+msgstr ""
 
 msgctxt "#31531"
 msgid "Up Next Addon"
@@ -2151,51 +2151,51 @@ msgstr "Benutze Vorschaubild anstelle des Hintergrundbildes"
 
 msgctxt "#31533"
 msgid "Clean and minimal"
-msgstr "Sauber und minimal"
+msgstr ""
 
 msgctxt "#31534"
 msgid "Home menu slide animation"
-msgstr "Hauptmenü gleiten Animation"
+msgstr ""
 
 msgctxt "#31535"
 msgid "Hide plot, when widget is not focused"
-msgstr "Plot ausblenden wenn Widget nicht selektiert ist"
+msgstr ""
 
 msgctxt "#31536"
 msgid "Audio streams"
-msgstr "Audio Streams"
+msgstr ""
 
 msgctxt "#31537"
 msgid "Info slider"
-msgstr "Info slider"
+msgstr ""
 
 msgctxt "#31538"
 msgid "Blur radius"
-msgstr "Blur radius"
+msgstr ""
 
 msgctxt "#31539"
 msgid "Blend (0-100%)"
-msgstr "Blend (0-100%)"
+msgstr ""
 
 msgctxt "#31540"
 msgid "Image quality"
-msgstr "Bild Qualität"
+msgstr ""
 
 msgctxt "#31541"
 msgid "Bitsize"
-msgstr "Bitsize"
+msgstr ""
 
 msgctxt "#31542"
 msgid "Blur quality"
-msgstr "Unschärfe Qualität"
+msgstr ""
 
 msgctxt "#31543"
 msgid "Use colorbox script"
-msgstr "Farbbox Script benutzen"
+msgstr ""
 
 msgctxt "#31550"
 msgid "Additional fanart"
-msgstr "Zusätzliche Fankunst"
+msgstr ""
 
 msgctxt "#31551"
 msgid "Try to lock skin colors/theme/fonts"
@@ -2203,7 +2203,7 @@ msgstr "Versuche Farben/Thema/Schriftarten des Skins beizubehalten"
 
 msgctxt "#31553"
 msgid "Show logo AZR in settings"
-msgstr "Zeige AZR Logo in den Einstellungen"
+msgstr ""
 
 msgctxt "#31554"
 msgid "HD Movies"
@@ -2263,7 +2263,7 @@ msgstr "Standardbild"
 
 msgctxt "#31568"
 msgid "ClearLogo/Art"
-msgstr "ClearLogo/Art"
+msgstr ""
 
 msgctxt "#31569"
 msgid "Clearlogo instead of title"
@@ -2307,19 +2307,19 @@ msgstr "Widget Bezeichnung verstecken"
 
 msgctxt "#31579"
 msgid "Pixelsize"
-msgstr "Pixelgrösse"
+msgstr ""
 
 msgctxt "#31580"
 msgid "Effect settings"
-msgstr "Effekt Einstellungen"
+msgstr ""
 
 msgctxt "#31581"
 msgid "Enable blur / twotone / pixelate"
-msgstr "Unschärfe / Twotone / Pixelate aktivieren"
+msgstr ""
 
 msgctxt "#31582"
 msgid "Effect"
-msgstr "Effekt"
+msgstr ""
 
 msgctxt "#31583"
 msgid "Show behind slideshow"
@@ -2327,81 +2327,92 @@ msgstr "Hinter der Slideshow anzeigen"
 
 msgctxt "#31584"
 msgid "Make focused items glow"
-msgstr "Strahlende Umrandung bei markierten Objekten"
+msgstr ""
 
 msgctxt "#31585"
 msgid "Zoom focused items"
-msgstr "Ausgewählte Objekte zoomen"
+msgstr ""
 
 msgctxt "#31586"
 msgid "low"
-msgstr "Wenig"
+msgstr ""
 
 msgctxt "#31587"
 msgid "medium"
-msgstr "Mittel"
+msgstr ""
 
 msgctxt "#31588"
 msgid "high"
-msgstr "Stark"
+msgstr ""
 
 msgctxt "#31589"
 msgid "Enable auto scrolling for titles"
-msgstr "Aktiviere Auto Scrolling für Titel"
+msgstr ""
 
 msgctxt "#31590"
 msgid "Glow intensity of focused items"
-msgstr "Stärke der strahlenden Umrandung bei Auswahl"
+msgstr ""
 
 msgctxt "#31591"
 msgid "V2"
-msgstr "V2"
+msgstr ""
 
 msgctxt "#31592"
 msgid "List type"
-msgstr "Listentyp"
-
+msgstr ""
 
 msgctxt "#31593"
 msgid "Enable auto playing trailers in flix views"
-msgstr "Aktiviere Trailer in den Flix Ansichten"
+msgstr ""
 
 msgctxt "#31594"
 msgid "Stop playback on next"
-msgstr "Stoppe Wiedergabe bei weiter"
+msgstr ""
 
 msgctxt "#31595"
 msgid "Try to hide black bars"
-msgstr "Versuche schwarze Balken zu verbergen"
+msgstr ""
 
 msgctxt "#31596"
 msgid "playing"
-msgstr "Wiedergabe"
+msgstr ""
 
 msgctxt "#31597"
 msgid "paused"
-msgstr "Pausiert"
+msgstr ""
 
 msgctxt "#31598"
 msgid "caching"
-msgstr "Zwischenspeicherung"
+msgstr ""
 
 msgctxt "#31599"
 msgid "Auto start delay"
-msgstr "Auto Wiedergabe Verzögerung"
+msgstr ""
 
 msgctxt "#31600"
-msgid "Use old widget position"
-msgstr "Nutze alte Widget Position"
+msgid "Use new widget position (experimental)"
+msgstr ""
 
 msgctxt "#31601"
 msgid "Pause playback when video info dialog is shown"
-msgstr "Wiedergabe pausieren wenn Info Dialog geöffnet ist"
+msgstr ""
 
 msgctxt "#31602"
 msgid "Stop playback when video info dialog is shown"
-msgstr "Wiedergabe stopen wenn Info Dialog geöffnet ist"
+msgstr ""
 
 msgctxt "#31603"
 msgid "Auto playing trailers"
-msgstr "Trailer automatisch abspielen"
+msgstr ""
+
+msgctxt "#31604"
+msgid "None"
+msgstr ""
+
+msgctxt "#31605"
+msgid "Medium"
+msgstr ""
+
+msgctxt "#31606"
+msgid "Maximal"
+msgstr ""
