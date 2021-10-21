@@ -18,7 +18,7 @@
                     <posy>0</posy>
                     <include>FontTop</include>
                     <textcolor>Dark2</textcolor>
-                    <label>31442</label>
+                    <label>$LOCALIZE[31442] ($LOCALIZE[3])</label>
                 </control>
                 <include>Kodi_Logo</include>
 
