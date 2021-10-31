@@ -830,14 +830,14 @@
                             <control type="image">
                                 <width>100%</width>
                                 <height>100%</height>
-                                <texture background="true" diffuse="diffuse/bigwiderolodex_new.png" border="5">$VAR[FanartImage]</texture>
+                                <texture background="true" diffuse="diffuse/bigwiderolodex.png" border="5">$VAR[FanartImage]</texture>
                             </control>
                         </itemlayout>
                         <focusedlayout width="1122" height="640">
                             <control type="image">
                                 <width>100%</width>
                                 <height>100%</height>
-                                <texture background="true" diffuse="diffuse/bigwiderolodex_new.png" border="5">$VAR[FanartImage]</texture>
+                                <texture background="true" diffuse="diffuse/bigwiderolodex.png" border="5">$VAR[FanartImage]</texture>
                             </control>
                         </focusedlayout>
                         <content limit="$VAR[DefHubLimit]" target="$VAR[DefHubWidgetTarget]">$VAR[DefHubWidget]</content>
@@ -1053,7 +1053,12 @@
                                 <control type="image">
                                     <width>100%</width>
                                     <height>100%</height>
-                                    <texture border="15" colordiffuse="Dark1">common/box.png</texture>
+                                    <texture border="8" colordiffuse="$VAR[ColorSelectBar]">common/box.png</texture>
+                                </control>
+                                <control type="image">
+                                    <width>100%</width>
+                                    <height>100%</height>
+                                    <texture border="8" colordiffuse="$VAR[ColorHighlight2]">common/gradient-box-wide.png</texture>
                                 </control>
                                 <control type="image">
                                     <right>0</right>
@@ -2469,6 +2474,8 @@
                 <include>DefContextButtonGradient</include>
                 <label>33003</label>
                 <onclick>ActivateWindow(SubtitleSearch)</onclick>
+                <onfocus>SetProperty(dontautoclose,1,home)</onfocus>
+                <onunfocus>ClearProperty(dontautoclose,home)</onunfocus>
             </control>
             <control type="button" id="9302">
                 <width>100%</width>
@@ -2476,6 +2483,8 @@
                 <include>DefContextButtonGradient</include>
                 <label>$LOCALIZE[10004]</label>
                 <onclick>ActivateWindow(osdsubtitlesettings)</onclick>
+                <onfocus>SetProperty(dontautoclose,1,home)</onfocus>
+                <onunfocus>ClearProperty(dontautoclose,home)</onunfocus>
             </control>
             <control type="button" id="9304">
                 <width>100%</width>
@@ -2484,6 +2493,8 @@
                 <label>$LOCALIZE[22006]</label>
                 <onclick>SubtitleDelay</onclick>
                 <enable>VideoPlayer.HasSubtitles + VideoPlayer.SubtitlesEnabled</enable>
+                <onfocus>SetProperty(dontautoclose,1,home)</onfocus>
+                <onunfocus>ClearProperty(dontautoclose,home)</onunfocus>
             </control>
             <control type="togglebutton" id="9303" description="Enable Subs">
                 <width>100%</width>
@@ -2493,6 +2504,8 @@
                 <altlabel>13106</altlabel>
                 <onclick>NextSubtitle</onclick>
                 <usealttexture>!VideoPlayer.SubtitlesEnabled</usealttexture>
+                <onfocus>SetProperty(dontautoclose,1,home)</onfocus>
+                <onunfocus>ClearProperty(dontautoclose,home)</onunfocus>
             </control>
         </control>
     </include>
@@ -3385,6 +3398,11 @@
             <ondown>$PARAM[ondirection]</ondown>
             <onleft>$PARAM[ondirection]</onleft>
             <onright>$PARAM[ondirection]</onright>
+            <onback>ClearProperty(dontautoclose,home)</onback>
+            <onup>ClearProperty(dontautoclose,home)</onup>
+            <ondown>ClearProperty(dontautoclose,home)</ondown>
+            <onleft>ClearProperty(dontautoclose,home)</onleft>
+            <onright>ClearProperty(dontautoclose,home)</onright>
         </control>
         <control type="group">
             <visible>$PARAM[visible]</visible>
