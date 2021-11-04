@@ -526,6 +526,7 @@
 
     <variable name="LabelAudioChannels">
         <value condition="String.IsEqual(ListItem.AudioChannels,8)">7.1</value>
+        <value condition="String.IsEqual(ListItem.AudioChannels,7)">6.1</value>
         <value condition="String.IsEqual(ListItem.AudioChannels,6)">5.1</value>
         <value condition="String.IsEqual(ListItem.AudioChannels,5)">4.1</value>
         <value condition="String.IsEqual(ListItem.AudioChannels,4)">4.0</value>
@@ -537,6 +538,7 @@
 
     <variable name="LabelMusicChannels">
         <value condition="String.IsEqual(ListItem.MusicChannels,8)">7.1</value>
+        <value condition="String.IsEqual(ListItem.MusicChannels,7)">6.1</value>
         <value condition="String.IsEqual(ListItem.MusicChannels,6)">5.1</value>
         <value condition="String.IsEqual(ListItem.MusicChannels,5)">4.1</value>
         <value condition="String.IsEqual(ListItem.MusicChannels,4)">4.0</value>
@@ -547,6 +549,7 @@
 
     <variable name="LabelHubAudioChannels">
         <value condition="String.IsEqual(Container(9500).ListItem.AudioChannels,8)">7.1</value>
+        <value condition="String.IsEqual(Container(9500).ListItem.AudioChannels,7)">6.1</value>
         <value condition="String.IsEqual(Container(9500).ListItem.AudioChannels,6)">5.1</value>
         <value condition="String.IsEqual(Container(9500).ListItem.AudioChannels,5)">4.1</value>
         <value condition="String.IsEqual(Container(9500).ListItem.AudioChannels,4)">4.0</value>
@@ -558,6 +561,7 @@
 
     <variable name="LabelHomeAudioChannels">
         <value condition="String.IsEqual(Container(301).ListItem.AudioChannels,8)">7.1</value>
+        <value condition="String.IsEqual(Container(301).ListItem.AudioChannels,7)">6.1</value>
         <value condition="String.IsEqual(Container(301).ListItem.AudioChannels,6)">5.1</value>
         <value condition="String.IsEqual(Container(301).ListItem.AudioChannels,5)">4.1</value>
         <value condition="String.IsEqual(Container(301).ListItem.AudioChannels,4)">4.0</value>
@@ -569,6 +573,7 @@
 
     <variable name="LabelOSDAudioChannels">
         <value condition="String.IsEqual(VideoPlayer.AudioChannels,8)">7.1</value>
+        <value condition="String.IsEqual(VideoPlayer.AudioChannels,7)">6.1</value>
         <value condition="String.IsEqual(VideoPlayer.AudioChannels,6)">5.1</value>
         <value condition="String.IsEqual(VideoPlayer.AudioChannels,5)">4.1</value>
         <value condition="String.IsEqual(VideoPlayer.AudioChannels,4)">4.0</value>
@@ -1451,10 +1456,6 @@
         <value condition="String.IsEmpty(ListItem.Tagline) + !Skin.HasSetting(show.tagline.never) + !Skin.HasSetting(show.tagline.notempty)">$LOCALIZE[19055]</value>
     </variable>
 
-    <variable name="ListInfoUpdatingLabel">
-        <value>$LOCALIZE[31222]</value>
-    </variable>
-
     <variable name="LabelExtendedVideoInfoLabel2">
         <value condition="Control.IsVisible(9508) + !String.IsEmpty(Container(9508).ListItem.Album)">$INFO[Container(9508).ListItem.Album]</value>
         <value condition="!String.IsEmpty(Container(10052).ListItem.Property(Role))">$INFO[Container(10052).ListItem.Property(Role),$LOCALIZE[20347] ,]</value>
@@ -1826,5 +1827,10 @@
         <value condition="Skin.HasSetting(trailer.stop.on.dialogvideoinfo)">$LOCALIZE[36044]</value>
         <value condition="Skin.HasSetting(trailer.pause.on.dialogvideoinfo)">$LOCALIZE[36045]</value>
         <value>$LOCALIZE[231]</value>
+    </variable>
+    
+    <variable name="Label_OSD_Timeout">
+        <value condition="!String.IsEmpty(Skin.String(OSD_Timeout))">$INFO[Skin.String(OSD_Timeout),, $LOCALIZE[31425]]</value>
+        <value>$LOCALIZE[591]</value>
     </variable>
 </includes>
