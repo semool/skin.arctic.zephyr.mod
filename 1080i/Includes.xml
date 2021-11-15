@@ -4240,7 +4240,6 @@
             <include content="def_widgetposter">
                 <param name="indicatorbackground" value="$PARAM[indicatorbackground]" />
                 <param name="visible_title_overlay" value="$PARAM[visible_title_overlay]"/>
-                <param name="forceoldindicators" value="$PARAM[forceoldindicators]"/>
             </include>
         </control>
         <control type="group">
@@ -4313,7 +4312,6 @@
             <include content="def_widgetsquare">
                 <param name="aspectratio" value="$PARAM[aspectratio]"/>
                 <param name="distance" value="$PARAM[distance]"/>
-                <param name="forceoldindicators" value="$PARAM[forceoldindicators]" />
             </include>
         </control>
         <control type="group">
@@ -4375,7 +4373,6 @@
             <include content="def_widgetlandscape">
                 <param name="indicatorbackground" value="$PARAM[indicatorbackground]" />
                 <param name="clearlogo" value="$PARAM[clearlogo]" />
-                <param name="forceoldindicators" value="$PARAM[forceoldindicators]" />
             </include>
         </control>
         <control type="group">
@@ -4479,7 +4476,6 @@
             <include content="def_widgetposter">
                 <param name="indicatorbackground" value="$PARAM[indicatorbackground]" />
                 <param name="visible_title_overlay" value="$PARAM[visible_title_overlay]" />
-                <param name="forceoldindicators" value="$PARAM[forceoldindicators]"/>
             </include>
             <include content="def_widgetfocus">
                 <param name="id" value="$PARAM[id]"/>
@@ -4569,7 +4565,6 @@
             <include content="def_widgetsquare">
                 <param name="aspectratio" value="$PARAM[aspectratio]"/>
                 <param name="distance" value="$PARAM[distance]"/>
-                <param name="forceoldindicators" value="$PARAM[forceoldindicators]" />
             </include>
             <include content="def_widgetfocus">
                 <param name="id" value="$PARAM[id]"/>
@@ -4660,7 +4655,6 @@
             <include content="def_widgetlandscape">
                 <param name="indicatorbackground" value="$PARAM[indicatorbackground]" />
                 <param name="clearlogo" value="$PARAM[clearlogo]" />
-                <param name="forceoldindicators" value="$PARAM[forceoldindicators]" />
             </include>
             <include content="def_widgetfocus">
                 <param name="id" value="$PARAM[id]"/>
