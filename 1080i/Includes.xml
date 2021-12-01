@@ -871,7 +871,6 @@
             <visible>!Skin.HasSetting(global.hidefanart) | Window.IsVisible(home)</visible>
             <include>Dimensions_Fullscreen</include>
             <include>Animation.FadeFromHome</include>
-            <animation effect="fade" end="0" start="100" time="350" condition="Window.IsVisible(home)">WindowClose</animation>
             <include>BackgroundFanartFadetime</include>
             <timeperimage>HomeTimePerImage</timeperimage>
             <randomize>true</randomize>
@@ -925,8 +924,8 @@
             <visible>!Player.HasMedia | [!Skin.HasSetting(global.showvideo) + Player.HasVideo] | [!Skin.HasSetting(global.showvisualisation) + Player.HasAudio]</visible>
             <visible>!Skin.HasSetting(global.hidefanart) | Window.IsVisible(home)</visible>
             <include>Animation.FadeFromHome</include>
-            <include>Animation.FadeIn</include>
-            <include>Animation.FadeOut</include>
+            <animation effect="fade" start="0" end="100" time="350" tween="cubic" easing="inout">Visible</animation>
+            <animation effect="fade" end="0" start="100" time="150">Hidden</animation>
             <animation effect="fade" end="0" start="100" time="350" tween="cubic" easing="inout" condition="Window.IsVisible(home) | Window.IsVisible(MyVideoNav.xml)">WindowClose</animation>
             <animation effect="fade" start="40" end="40" time="0" condition="String.IsEmpty(Skin.String(FadeNetflixPreview)) | String.IsEqual(Skin.String(FadeNetflixPreview),default)">Conditional</animation>
             <animation effect="fade" end="50" start="50" time="0" condition="Integer.IsEqual(Skin.String(FadeNetflixPreview),50)">Conditional</animation>
@@ -948,14 +947,14 @@
         <control type="image" description="FanartOverlay">
             <visible>!Skin.HasSetting(homemenu.clean.flix) + [!$EXP[HomeIsSpotlight] + !$EXP[HomeIsClassic] + !$EXP[HomeIsModern]] | !Window.IsVisible(Home.xml)</visible>
             <include>Dimensions_Fullscreen</include>
-            <include condition="!Skin.HasSetting(home.vertical)">Animation.FadeFromHome</include>
+            <include condition="!Skin.HasSetting(home.vertical) + !Skin.HasSetting(EnableEffects)">Animation.FadeFromHome</include>
             <texture colordiffuse="FloorFade">common/floor.png</texture>
             <include>Animation.AutoTrailer.FadeOut.Background</include>
         </control>
         <control type="image" description="FanartOverlay">
             <visible>Skin.HasSetting(homemenu.clean.flix) + Window.IsVisible(Home.xml)</visible>
             <include>Dimensions_Fullscreen</include>
-            <include condition="!Skin.HasSetting(home.vertical)">Animation.FadeFromHome</include>
+            <include condition="!Skin.HasSetting(home.vertical) + !Skin.HasSetting(EnableEffects)">Animation.FadeFromHome</include>
             <texture colordiffuse="FloorFade">common/floor2.png</texture>
         </control>
     </include>
