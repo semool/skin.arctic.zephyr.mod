@@ -137,8 +137,8 @@
 
         <!-- Vertical > bottomright > Without Header  -->
         <control type="image" description="clearlogo">
-            <visible>[Skin.HasSetting(home.showclearlogo) + !Skin.HasSetting(home.showclearlogotopright)] + [Skin.HasSetting(home.vertical) + Skin.HasSetting(furniture.header)] + !Skin.HasSetting(home.modernwidgets)</visible>
-            <visible>!Player.HasVideo | !Skin.HasSetting(global.showvideo)</visible>
+            <visible>[[Skin.HasSetting(home.showclearlogo) + !Skin.HasSetting(home.showclearlogotopright)] + [Skin.HasSetting(home.vertical) + Skin.HasSetting(furniture.header)] + !Skin.HasSetting(home.modernwidgets)</visible>
+            <visible>!Player.HasVideo | !Skin.HasSetting(global.showvideo)] + ![String.IsEqual(Container(300).ListItem.Property(widget),weatherdaily) | String.IsEqual(Container(300).ListItem.Property(widget),weatherhourly)]</visible>
             <animation effect="fade" start="100" end="0" time="0" condition="Player.HasAudio + Skin.HasSetting(global.showvisualisation)">Conditional</animation>
             <include>Animation.FadeIn</include>
             <fadetime>ClearArtFadetime</fadetime>
@@ -153,8 +153,8 @@
 
         <!-- Vertical > TopRight Header > With Header  -->
         <control type="image" description="clearlogo">
-            <visible>[Skin.HasSetting(home.showclearlogo) + !Skin.HasSetting(home.showclearlogotopright)] + [Skin.HasSetting(home.vertical) + !Skin.HasSetting(furniture.header)] + !Skin.HasSetting(home.modernwidgets)</visible>
-            <visible>!Player.HasVideo | !Skin.HasSetting(global.showvideo)</visible>
+            <visible>[[Skin.HasSetting(home.showclearlogo) + !Skin.HasSetting(home.showclearlogotopright)] + [Skin.HasSetting(home.vertical) + !Skin.HasSetting(furniture.header)] + !Skin.HasSetting(home.modernwidgets)</visible>
+            <visible>!Player.HasVideo | !Skin.HasSetting(global.showvideo)] + ![String.IsEqual(Container(300).ListItem.Property(widget),weatherdaily) | String.IsEqual(Container(300).ListItem.Property(widget),weatherhourly)]</visible>
             <animation effect="fade" start="100" end="0" time="0" condition="Player.HasAudio + Skin.HasSetting(global.showvisualisation)">Conditional</animation>
             <include>Animation.FadeIn</include>
             <fadetime>ClearArtFadetime</fadetime>
@@ -2860,7 +2860,7 @@
 
                     <!-- Widget Text -->
                     <control type="label">
-                        <visible>!String.IsEqual(Container(300).ListItem.Property(widget),system) + !Skin.HasSetting(hidewidgettitle) + ![String.IsEqual(Container(300).ListItem.Property(widget),weatherdaily) | String.IsEqual(Container(300).ListItem.Property(widget),weatherhourly)] + !String.IsEqual(Container(300).ListItem.Property(widgetBanner),yes)</visible>
+                        <visible>!String.IsEqual(Container(300).ListItem.Property(widget),system) + !Skin.HasSetting(hidewidgettitle) + !String.IsEqual(Container(300).ListItem.Property(widgetBanner),yes)</visible>
                         <font>TinyBold</font>
                         <right>70</right>
                         <width>1422</width>
@@ -2868,15 +2868,15 @@
                         <align>left</align>
                         <textcolor>Dark1</textcolor>
                         <label>$VAR[WidgetLabel]</label>
-                        <include>Animation.FadeIn</include>
-                        <include>Animation.FadeOut</include>
+                        <animation effect="fade" start="0" end="100" time="350" tween="cubic" easing="inout">WindowOpen</animation>
+                        <animation effect="fade" end="0" start="100" time="150">WindowClose</animation>
                         <animation effect="fade" start="100" end="33" time="400" condition="!Control.HasFocus(301) + !Skin.HasSetting(widgets.fade)">Conditional</animation>
                     </control>
                     <control type="grouplist">
                         <visible>!String.IsEqual(Container(300).ListItem.Property(widget),system) + ![String.IsEqual(Container(300).ListItem.Property(widget),weatherdaily) | String.IsEqual(Container(300).ListItem.Property(widget),weatherhourly)] + !String.IsEqual(Container(300).ListItem.Property(widgetBanner),yes)</visible>
                         <animation effect="fade" start="100" end="33" time="400" condition="!Control.HasFocus(301) + !Control.HasFocus(4752) + !Skin.HasSetting(widgets.fade)">Conditional</animation>
-                        <include>Animation.FadeIn</include>
-                        <include>Animation.FadeOut</include>
+                        <animation effect="fade" start="0" end="100" time="350" tween="cubic" easing="inout">WindowOpen</animation>
+                        <animation effect="fade" end="0" start="100" time="150">WindowClose</animation>
                         <right>70</right>
                         <width>1422</width>
                         <orientation>vertical</orientation>

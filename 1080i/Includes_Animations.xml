@@ -543,6 +543,14 @@
             <effect type="slide" start="0,48" end="0" center="auto" tween="back" easing="out" time="400" delay="0"/>
         </animation>
     </include>
+    
+    <include name="Animation.SlideOutOSDNew">
+        <animation effect="slide" start="0,0" end="0,110" time="150" delay="0">WindowClose</animation>
+    </include>
+    
+    <include name="Animation.SlideOutOSD">
+        <animation effect="slide" start="0,0" end="0,110" time="150" delay="100">WindowClose</animation>
+    </include>
 
     <include name="Animation.FadeOut">
         <animation effect="fade" end="0" start="100" time="150">Hidden</animation>
@@ -711,7 +719,7 @@
             <effect type="fade" start="100" end="0" tween="cubic" reversible="false" easing="out" delay="0" time="500"/>
         </animation>
         <animation type="Conditional" reversible="false" condition="![Skin.HasSetting(extended.nowplaying) + !ControlGroup(301).HasFocus() + !Control.HasFocus(4567) + !Control.HasFocus(8888) + Player.HasMedia]">
-            <effect type="fade" start="0" end="100" tween="cubic" reversible="false" easing="out" delay="450" time="350"/>
+            <effect type="fade" start="0" end="100" tween="sine" reversible="false" easing="in" delay="350" time="450"/>
         </animation>
     </include>
 
