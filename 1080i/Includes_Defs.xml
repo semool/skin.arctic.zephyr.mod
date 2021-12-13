@@ -226,6 +226,7 @@
 
     <include name="DefDialogBackground">
         <include>Animation.ZoomIn</include>
+        <include>Animation.FadeOut</include>
         <centerleft>50%</centerleft>
         <centertop>50%</centertop>
         <height>900</height>
@@ -1305,7 +1306,7 @@
                 <top>0</top>
                 <right>20</right>
                 <bottom>0</bottom>
-                <texture border="10">common/$VAR[nofocus-shadow10]</texture>
+                <texture border="10" background="true">common/$VAR[nofocus-shadow10]</texture>
             </control>
             <control type="image">
                 <left>10</left>
@@ -1380,7 +1381,7 @@
                 <top>0</top>
                 <right>20</right>
                 <bottom>0</bottom>
-                <texture border="10">common/$VAR[nofocus-shadow10]</texture>
+                <texture border="10" background="true">common/$VAR[nofocus-shadow10]</texture>
             </control>
             <control type="image">
                 <left>10</left>
@@ -1632,7 +1633,7 @@
                     <bottom>0</bottom>
                     <visible>$PARAM[visibleshadow]</visible>
                     <animation effect="fade" end="0" start="70" time="350" delay="300">Hidden</animation>
-                    <texture border="10">common/$VAR[nofocus-shadow10]</texture>
+                    <texture border="10" background="true">common/$VAR[nofocus-shadow10]</texture>
                 </control>
                 <control type="image">
                     <left>10</left>
@@ -1648,14 +1649,7 @@
                     <bottom>10</bottom>
                     <aspectratio scalediffuse="false">scale</aspectratio>
                     <texture diffuse="diffuse/wall.png" background="true" fallback="$PARAM[fallbackpicture]">$INFO[Container($PARAM[controlid]).ListItemNoWrap($PARAM[id]).Art(poster)]</texture>
-                </control>
-                <control type="image">
-                    <left>10</left>
-                    <top>10</top>
-                    <right>30</right>
-                    <bottom>10</bottom>
-                    <visible>!Skin.HasSetting(thumbnails.white)</visible>
-                    <texture colordiffuse="Box2" border="4">common/box21.png</texture>
+                    <include condition="!Skin.HasSetting(thumbnails.white)" content="border_texture"><param name="colordiffuse" value="Box2" /></include>
                 </control>
                 <control type="group">
                     <visible>!String.IsEmpty(Container($PARAM[controlid]).ListItemNoWrap($PARAM[id]).DBID) + $PARAM[storageicon.backgroundlist]</visible>
@@ -1716,7 +1710,7 @@
                     <bottom>0</bottom>
                     <visible>$PARAM[visibleshadow]</visible>
                     <animation effect="fade" end="0" start="70" time="350" delay="300">Hidden</animation>
-                    <texture border="10">common/$VAR[nofocus-shadow10]</texture>
+                    <texture border="10" background="true">common/$VAR[nofocus-shadow10]</texture>
                 </control>
                 <control type="image">
                     <left>10</left>
@@ -1732,6 +1726,7 @@
                     <bottom>10</bottom>
                     <aspectratio scalediffuse="false">scale</aspectratio>
                     <texture diffuse="diffuse/wall.png" background="true" fallback="$PARAM[fallbackpicture]">$INFO[Container($PARAM[controlid]).ListItemNoWrap($PARAM[id]).Thumb]</texture>
+                    <include condition="!Skin.HasSetting(thumbnails.white)" content="border_texture"><param name="colordiffuse" value="Box2" /></include>
                     <visible>$PARAM[thumb]</visible>
                 </control>
                 <control type="image">
@@ -1741,6 +1736,7 @@
                     <bottom>10</bottom>
                     <aspectratio scalediffuse="false">scale</aspectratio>
                     <texture diffuse="diffuse/wall.png" background="true" fallback="$PARAM[fallbackpicture]">$INFO[Container($PARAM[controlid]).ListItemNoWrap($PARAM[id]).Art(poster)]</texture>
+                    <include condition="!Skin.HasSetting(thumbnails.white)" content="border_texture"><param name="colordiffuse" value="Box2" /></include>
                     <visible>$PARAM[poster] + !String.IsEmpty(Container($PARAM[controlid]).ListItemNoWrap($PARAM[id]).Art(poster))</visible>
                 </control>
                 <control type="image">
@@ -1750,15 +1746,8 @@
                     <bottom>10</bottom>
                     <aspectratio scalediffuse="false">scale</aspectratio>
                     <texture diffuse="diffuse/wall.png" background="true" fallback="$PARAM[fallbackpicture]">$INFO[Container($PARAM[controlid]).ListItemNoWrap($PARAM[id]).Icon]</texture>
+                    <include condition="!Skin.HasSetting(thumbnails.white)" content="border_texture"><param name="colordiffuse" value="Box2" /></include>
                     <visible>$PARAM[poster] + String.IsEmpty(Container($PARAM[controlid]).ListItemNoWrap($PARAM[id]).Art(poster))</visible>
-                </control>
-                <control type="image">
-                    <left>10</left>
-                    <top>10</top>
-                    <right>30</right>
-                    <bottom>10</bottom>
-                    <visible>!Skin.HasSetting(thumbnails.white)</visible>
-                    <texture colordiffuse="Box2" border="4">common/box21.png</texture>
                 </control>
             </control>
             <control type="group">
@@ -1776,7 +1765,7 @@
                     <bottom>0</bottom>
                     <visible>$PARAM[visibleshadow]</visible>
                     <animation effect="fade" end="0" start="70" time="350" delay="300">Hidden</animation>
-                    <texture border="10">common/$VAR[nofocus-shadow10]</texture>
+                    <texture border="10" background="true">common/$VAR[nofocus-shadow10]</texture>
                 </control>
                 <control type="image">
                     <left>10</left>
@@ -1818,7 +1807,7 @@
                     <top>0</top>
                     <right>20</right>
                     <bottom>0</bottom>
-                    <texture border="10">common/$VAR[nofocus-shadow10]</texture>
+                    <texture border="10" background="true">common/$VAR[nofocus-shadow10]</texture>
                 </control>
                 <control type="image">
                     <left>10</left>
@@ -1915,7 +1904,7 @@
                     <top>0</top>
                     <right>20</right>
                     <bottom>0</bottom>
-                    <texture border="10">common/$VAR[nofocus-shadow10]</texture>
+                    <texture border="10" background="true">common/$VAR[nofocus-shadow10]</texture>
                 </control>
                 <control type="image">
                     <left>10</left>
@@ -2294,9 +2283,9 @@
         <control type="image">
             <visible>!Window.IsVisible(DialogBusy.xml)</visible>
             <visible>!Skin.HasSetting(osd.music.disc.fake.cd)</visible>
-            <width>250</width>
-            <height>250</height>
-            <top>642</top>
+            <width>254</width>
+            <height>254</height>
+            <top>641</top>
             <left>100</left>
             <texture>$VAR[MusicDiscart]</texture>
             <animation effect="rotate" center="auto" time="6000" end="-360" condition="true" loop="true">Conditional</animation>
@@ -2304,9 +2293,9 @@
         <control type="image">
             <visible>!Window.IsVisible(DialogBusy.xml)</visible>
             <visible>Skin.HasSetting(osd.music.disc.fake.cd)</visible>
-            <width>250</width>
-            <height>250</height>
-            <top>642</top>
+            <width>254</width>
+            <height>254</height>
+            <top>641</top>
             <left>100</left>
             <texture diffuse="diffuse/diffuse_cd.png">$VAR[MusicDiscart]</texture>
             <animation effect="rotate" center="auto" time="6000" end="-360" condition="true" loop="true">Conditional</animation>
@@ -3533,7 +3522,7 @@
     </include>
 
     <include name="DefDiscArtNowPlaying">
-        <param name="width" value="$PARAM[width]" default="300"/>
+        <param name="width" value="$PARAM[width]" default="296"/>
         <param name="visible" value="$PARAM[visible]" default="true"/>
         <param name="discart" value="$PARAM[discart]" default="$VAR[MusicDiscart]"/>
         <param name="diffuse" value="$PARAM[diffuse]" default="diffuse/diffuse_cd_full.png"/>
@@ -3723,7 +3712,7 @@
                  <top>8</top>
                  <width>100</width>
                  <height>100</height>
-                 <texture colordiffuse="$VAR[ColorIndicatorBackgroundIsPlaying]">misc/overlaywatched.png</texture>
+                 <texture colordiffuse="$VAR[ColorIndicatorBackgroundIsPlaying]" background="true">misc/overlaywatched.png</texture>
                  <visible>!Skin.HasSetting(hide.markers) + ListItem.IsPlaying + !Skin.HasSetting(hide.markers.isplaying)</visible>
             </control>
             <control type="image">
@@ -3731,7 +3720,7 @@
                  <top>8</top>
                  <width>100</width>
                  <height>100</height>
-                 <texture colordiffuse="$VAR[ColorIndicatorBackgroundInprogress]">misc/overlaywatched.png</texture>
+                 <texture colordiffuse="$VAR[ColorIndicatorBackgroundInprogress]" background="true">misc/overlaywatched.png</texture>
                  <visible>!Skin.HasSetting(hide.markers) + ListItem.IsResumable + !ListItem.IsPlaying + !Skin.HasSetting(hide.markers.inprogress)</visible>
             </control>
             <control type="image">
@@ -3739,7 +3728,7 @@
                  <top>8</top>
                  <width>100</width>
                  <height>100</height>
-                 <texture colordiffuse="$VAR[ColorIndicatorBackgroundWatched]">misc/overlaywatched.png</texture>
+                 <texture colordiffuse="$VAR[ColorIndicatorBackgroundWatched]" background="true">misc/overlaywatched.png</texture>
                  <visible>!Skin.HasSetting(hide.markers) + !ListItem.IsResumable + !ListItem.IsPlaying + String.IsEqual(ListItem.Overlay,OverlayWatched.png) + !Skin.HasSetting(hide.markers.watched)</visible>
             </control>
             <control type="image">
@@ -3747,7 +3736,7 @@
                  <top>8</top>
                  <width>100</width>
                  <height>100</height>
-                 <texture colordiffuse="$VAR[ColorIndicatorBackgroundNew]">misc/overlaywatched.png</texture>
+                 <texture colordiffuse="$VAR[ColorIndicatorBackgroundNew]" background="true">misc/overlaywatched.png</texture>
                  <visible>!Skin.HasSetting(hide.markers) + !ListItem.IsResumable + !ListItem.IsPlaying + [[String.IsEqual(ListItem.Overlay,OverlayUnwatched.png) + [$EXP[IsNewMovie] | $EXP[IsNewTVShow] | $EXP[IsNewEpisode]]]] + !Skin.HasSetting(hide.markers.newcontent)</visible>
             </control>
             <control type="label">
@@ -4036,7 +4025,7 @@
             <top>0</top>
             <right>0</right>
             <bottom>0</bottom>
-            <texture border="11">common/$VAR[nofocus-shadow10]</texture>
+            <texture border="11" background="true">common/$VAR[nofocus-shadow10]</texture>
         </control>
         <include>def_weatherfanart.widgets</include>
         <control type="image">
@@ -4111,7 +4100,7 @@
             <top>0</top>
             <right>0</right>
             <bottom>0</bottom>
-            <texture border="11">common/$VAR[nofocus-shadow10]</texture>
+            <texture border="11" background="true">common/$VAR[nofocus-shadow10]</texture>
         </control>
         <include>def_weatherfanart.widgets</include>
         <control type="image">
@@ -4197,11 +4186,7 @@
 
     <include name="def_weatherfanart">
         <control type="image">
-            <left>0</left>
-            <top>0</top>
-            <right>0</right>
-            <bottom>0</bottom>
-            <texture border="11">common/$VAR[nofocus-shadow10]</texture>
+            <texture border="11" background="true">common/$VAR[nofocus-shadow10]</texture>
         </control>
         <include>def_weatherfanart.widgets</include>
         <control type="image">
@@ -4293,11 +4278,7 @@
         <param name="visible_title_overlay" value="$PARAM[visible_title_overlay]" default="false"/>
         <definition>
         <control type="image">
-            <left>0</left>
-            <top>0</top>
-            <right>0</right>
-            <bottom>0</bottom>
-            <texture border="11">common/$VAR[nofocus-shadow10]</texture>
+            <texture border="11" background="true">common/$VAR[nofocus-shadow10]</texture>
         </control>
         <control type="image">
             <left>10</left>
@@ -4313,30 +4294,13 @@
             <bottom>10</bottom>
             <aspectratio scalediffuse="false">scale</aspectratio>
             <texture diffuse="diffuse/widgetposter_new.png" background="true" fallback="DefaultMovies.png">$VAR[PosterImage]</texture>
-            <visible>!String.IsEqual(ListItem.DBType,genre) + !String.EndsWith(Container.FolderPath,Genres)</visible>
-        </control>
-        <control type="image">
-            <left>10</left>
-            <top>10</top>
-            <right>10</right>
-            <bottom>10</bottom>
-            <aspectratio scalediffuse="false">scale</aspectratio>
-            <texture diffuse="diffuse/widgetposter_new.png" background="true" fallback="DefaultMovies.png">$VAR[ThumbImageGenres]</texture>
-            <visible>String.IsEqual(ListItem.DBType,genre) | String.EndsWith(Container.FolderPath,Genres)</visible>
+            <include condition="!Skin.HasSetting(thumbnails.white)">border_texture</include>
         </control>
         <include condition="$PARAM[visible_title_overlay]">Alternative_Title_Overlay</include>
-        <control type="image">
-            <left>10</left>
-            <top>10</top>
-            <right>10</right>
-            <bottom>10</bottom>
-            <texture colordiffuse="BoxWidget" border="4" background="true">common/box21.png</texture>
-            <visible>!Skin.HasSetting(thumbnails.white)</visible>
-        </control>
         <include content="IndicatorPoster">
             <param name="indicatorbackground" value="$PARAM[indicatorbackground]" />
         </include>
-        <include>more</include>
+        <include condition="Skin.HasSetting(enable.morewidget)">more</include>
         </definition>
     </include>
 
@@ -4345,11 +4309,7 @@
         <param name="visible_title_overlay" value="$PARAM[visible_title_overlay]" default="false"/>
         <definition>
         <control type="image">
-            <left>0</left>
-            <top>0</top>
-            <right>0</right>
-            <bottom>0</bottom>
-            <texture border="11">common/$VAR[nofocus-shadow10]</texture>
+            <texture border="11" background="true">common/$VAR[nofocus-shadow10]</texture>
         </control>
         <control type="image">
             <left>10</left>
@@ -4391,11 +4351,7 @@
 
     <include name="def_widgetsquare">
         <control type="image">
-            <left>0</left>
-            <top>0</top>
-            <right>0</right>
-            <bottom>0</bottom>
-            <texture border="11">common/$VAR[nofocus-shadow10]</texture>
+            <texture border="11" background="true">common/$VAR[nofocus-shadow10]</texture>
         </control>
         <control type="image">
             <left>10</left>
@@ -4433,16 +4389,12 @@
         <include content="IndicatorPoster">
             <param name="indicatorbackground" value="$PARAM[indicatorbackground]" />
         </include>
-        <include>more</include>
+        <include condition="Skin.HasSetting(enable.morewidget)">more</include>
     </include>
 
     <include name="def_widgetsquare_system">
         <control type="image">
-            <left>0</left>
-            <top>0</top>
-            <right>0</right>
-            <bottom>0</bottom>
-            <texture border="11">common/$VAR[nofocus-shadow10]</texture>
+            <texture border="11" background="true">common/$VAR[nofocus-shadow10]</texture>
         </control>
         <control type="image">
             <top>10</top>
@@ -4554,11 +4506,7 @@
         <param name="small" value="$PARAM[smallfanart]" default="false"/>
         <definition>
         <control type="image">
-            <left>0</left>
-            <top>0</top>
-            <right>0</right>
-            <bottom>0</bottom>
-            <texture border="11">common/$VAR[nofocus-shadow10]</texture>
+            <texture border="11" background="true">common/$VAR[nofocus-shadow10]</texture>
         </control>
         <control type="image">
             <left>10</left>
@@ -4630,7 +4578,7 @@
         <include content="IndicatorPoster">
             <param name="indicatorbackground" value="$PARAM[indicatorbackground]" />
         </include>
-        <include>more</include>
+        <include condition="Skin.HasSetting(enable.morewidget)">more</include>
         </definition>
     </include>
 
@@ -4639,11 +4587,7 @@
         <param name="clearlogo" value="$PARAM[clearlogo]" default="false"/>
         <definition>
         <control type="image">
-            <left>0</left>
-            <top>0</top>
-            <right>0</right>
-            <bottom>0</bottom>
-            <texture border="11">common/$VAR[nofocus-shadow10]</texture>
+            <texture border="11" background="true">common/$VAR[nofocus-shadow10]</texture>
         </control>
         <control type="image">
             <left>10</left>
@@ -4693,11 +4637,7 @@
         <param name="indicatorbackground" value="$PARAM[indicatorbackground]" default="false"/>
         <definition>
         <control type="image">
-            <left>0</left>
-            <top>0</top>
-            <right>0</right>
-            <bottom>0</bottom>
-            <texture border="11">common/$VAR[nofocus-shadow10]</texture>
+            <texture border="11" background="true">common/$VAR[nofocus-shadow10]</texture>
         </control>
         <control type="image">
             <left>10</left>
@@ -4744,7 +4684,7 @@
         <include content="IndicatorPoster">
             <param name="indicatorbackground" value="$PARAM[indicatorbackground]" />
         </include>
-        <include>more</include>
+        <include condition="Skin.HasSetting(enable.morewidget)">more</include>
         </definition>
     </include>
 
@@ -4755,11 +4695,7 @@
         <param name="poster" value="$PARAM[poster]" default="false"/>
         <definition>
         <control type="image">
-            <left>0</left>
-            <top>0</top>
-            <right>0</right>
-            <bottom>0</bottom>
-            <texture border="11">common/$VAR[nofocus-shadow10]</texture>
+            <texture border="11" background="true">common/$VAR[nofocus-shadow10]</texture>
         </control>
         <control type="image">
             <left>10</left>
@@ -4864,7 +4800,7 @@
         <include content="IndicatorPoster">
             <param name="indicatorbackground" value="$PARAM[indicatorbackground]" />
         </include>
-        <include>more</include>
+        <include condition="Skin.HasSetting(enable.morewidget)">more</include>
         </definition>
     </include>
     
