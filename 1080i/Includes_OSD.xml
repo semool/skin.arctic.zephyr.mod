@@ -2674,7 +2674,7 @@
                             <animation type="Visible" reversible="false">
                                 <effect type="fade" start="100" end="0" time="0"/>
                             </animation>
-                            <animation effect="rotate" center="auto" time="6000" end="-360" condition="true" loop="true">Conditional</animation>
+                            <include>Animation.CDart</include>
                         </control>                    
                         <control type="image">
                             <visible>Skin.HasSetting(discartOSD) + !String.IsEmpty(Player.Art(discart)) + !String.IsEmpty(Player.Art(poster)) + Player.ShowInfo</visible>
@@ -2688,7 +2688,7 @@
                                 <effect type="slide" start="0,100" end="0,-130" tween="sine" easing="out" time="600" delay="200"/>
                                 <effect type="fade" start="0" end="100" delay="300"/>
                             </animation>
-                            <animation effect="rotate" center="auto" time="6000" end="-360" condition="true" loop="true">Conditional</animation>
+                            <include>Animation.CDart</include>
                         </control>
                     </control>
                     <control type="image">
@@ -2928,7 +2928,7 @@
                             <animation type="Visible" reversible="false">
                                 <effect type="fade" start="100" end="0" time="0"/>
                             </animation>
-                            <animation effect="rotate" center="auto" time="6000" end="-360" condition="true" loop="true">Conditional</animation>
+                            <include>Animation.CDart</include>
                         </control>                    
                         <control type="image">
                             <visible>Skin.HasSetting(discartOSD) + !String.IsEmpty(Player.Art(discart)) + !String.IsEmpty(Player.Art(poster)) + Player.ShowInfo</visible>
@@ -2942,7 +2942,7 @@
                                 <effect type="slide" start="0,100" end="0,-130" tween="sine" easing="out" time="600" delay="200"/>
                                 <effect type="fade" start="0" end="100" delay="300"/>
                             </animation>
-                            <animation effect="rotate" center="auto" time="6000" end="-360" condition="true" loop="true">Conditional</animation>
+                            <include>Animation.CDart</include>
                         </control>
                     </control>
                     <control type="image">
