@@ -4969,6 +4969,7 @@
                     <effect type="slide" start="0" end="117" tween="sine" easing="out" time="250"/>
                     <effect type="fade" start="100" end="0" time="150"/>
                 </animation>
+                <include>Animation.CDart</include>
             </control>
             <control type="image">
                 <width>242</width>
