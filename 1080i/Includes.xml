@@ -922,9 +922,10 @@
             <include>Animation.Background.OpenClose</include>
             <animation effect="fade" start="0" end="100" time="350" tween="sine" easing="in" reversible="false">Visible</animation>
             <animation effect="fade" end="0" start="100" time="150">Hidden</animation>
-            <animation effect="fade" start="40" end="40" time="0" condition="String.IsEmpty(Skin.String(FadeNetflixPreview)) | String.IsEqual(Skin.String(FadeNetflixPreview),default)">Conditional</animation>
+            <animation effect="fade" end="30" start="30" time="0" condition="Integer.IsEqual(Skin.String(FadeNetflixPreview),30)">Conditional</animation>
+            <animation effect="fade" end="40" start="40" time="0" condition="Integer.IsEqual(Skin.String(FadeNetflixPreview),40)">Conditional</animation>
             <animation effect="fade" end="50" start="50" time="0" condition="Integer.IsEqual(Skin.String(FadeNetflixPreview),50)">Conditional</animation>
-            <animation effect="fade" end="60" start="60" time="0" condition="Integer.IsEqual(Skin.String(FadeNetflixPreview),60)">Conditional</animation>
+            <animation effect="fade" end="60" start="60" time="0" condition="Integer.IsEqual(Skin.String(FadeNetflixPreview),60) | String.IsEmpty(Skin.String(FadeNetflixPreview)) | String.IsEqual(Skin.String(FadeNetflixPreview),default)">Conditional</animation>
             <animation effect="fade" end="70" start="70" time="0" condition="Integer.IsEqual(Skin.String(FadeNetflixPreview),70)">Conditional</animation>
             <animation effect="fade" end="80" start="80" time="0" condition="Integer.IsEqual(Skin.String(FadeNetflixPreview),80)">Conditional</animation>
             <animation effect="fade" end="90" start="90" time="0" condition="Integer.IsEqual(Skin.String(FadeNetflixPreview),90)">Conditional</animation>
@@ -932,7 +933,6 @@
             <include>BackgroundFanartFadetime</include>
             <timeperimage>HomeTimePerImage</timeperimage>
             <randomize>true</randomize>
-            <aspectratio>scale</aspectratio>
             <include condition="Skin.HasSetting(homemenu.netflix.preview.fullscreen)">NetflixPreviewWindowFullscreen</include>
             <include condition="!Skin.HasSetting(homemenu.netflix.preview.fullscreen)">NetflixPreviewWindow</include>
             <include>Animation.Animate.Fanart</include>
@@ -3272,6 +3272,7 @@
     </include>
 
     <include name="NetflixPreviewWindowFullscreen">
+        <aspectratio aligny="top">scale</aspectratio>
         <width>1320</width>
         <height>680</height>
         <right>0</right>
@@ -3280,6 +3281,7 @@
     </include>
 
     <include name="NetflixPreviewWindow">
+        <aspectratio>scale</aspectratio>
         <include>Dimensions_Fullscreen</include>
         <imagepath background="true" diffuse="common/homediffuse510.png">$VAR[GlobalFanart]</imagepath>
     </include>
