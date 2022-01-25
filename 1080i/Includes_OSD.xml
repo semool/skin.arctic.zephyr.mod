@@ -884,7 +884,8 @@
                 <textcolor>$VAR[OSDPanelWhite70]</textcolor>
                 <label>$VAR[PlayerStatus]</label>
                 <label>$INFO[VideoPlayer.Tagline]</label>
-                <label>$INFO[VideoPlayer.Year]$INFO[VideoPlayer.Genre,  •  ,]$INFO[VideoPlayer.Writer,  •  ,]</label>
+                <label>$INFO[VideoPlayer.Genre]</label>
+                <label>$INFO[VideoPlayer.Writer]</label>
                 <label>$INFO[Player.FinishTime,$LOCALIZE[31013] ]</label>
             </control>
             <control type="fadelabel">
@@ -2691,8 +2692,7 @@
                 <control type="image">
                     <right>SidePad</right>
                     <bottom>110</bottom>
-                    <width>350</width>
-                    <height>197</height>
+                    <width>400</width>
                     <texture>$VAR[PlayerClearart]</texture>
                     <aspectratio align="right" aligny="bottom">keep</aspectratio>
                     <visible>Skin.HasSetting(ShowClearArtOSD)</visible>
@@ -3011,8 +3011,8 @@
                 <control type="image">
                     <right>SidePadNewOSD</right>
                     <bottom>200</bottom>
-                    <width>350</width>
-                    <height>197</height>
+                    <width>400</width>
+                    <height>225</height>
                     <texture>$VAR[PlayerClearart]</texture>
                     <aspectratio align="right" aligny="bottom">keep</aspectratio>
                     <visible>Skin.HasSetting(ShowClearArtOSD)</visible>
@@ -3253,8 +3253,8 @@
                     <control type="image">
                         <right>0</right>
                         <bottom>100</bottom>
-                        <width>350</width>
-                        <height>197</height>
+                        <width>400</width>
+                        <height>225</height>
                         <texture>$VAR[PlayerClearart]</texture>
                         <aspectratio align="right" aligny="bottom">keep</aspectratio>
                         <visible>Skin.HasSetting(ShowClearArtOSD)</visible>
@@ -3437,8 +3437,7 @@
                 <control type="image">
                     <right>SidePad</right>
                     <bottom>110</bottom>
-                    <width>350</width>
-                    <height>197</height>
+                    <width>400</width>
                     <texture>$VAR[PlayerClearart]</texture>
                     <aspectratio align="right" aligny="bottom">keep</aspectratio>
                     <visible>Skin.HasSetting(ShowClearArtOSD)</visible>
