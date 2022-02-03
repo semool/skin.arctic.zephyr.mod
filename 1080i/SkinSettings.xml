@@ -2062,17 +2062,15 @@
                             <param name="visible" value="ControlGroup(9100).HasFocus(9113)"/>
                             <param name="addonname" value="script.arctic.zephyr.mod.autocolors"/>
                         </include>
-                        
                         <include content="DefSkinAddons">
                             <param name="id" value="11022"/>
                             <param name="visible" value="ControlGroup(9100).HasFocus(9113)"/>
                             <param name="addonname" value="script.module.animated_artwork"/>
                         </include>
-                        
                         <include content="DefSkinAddons">
                             <param name="id" value="11023"/>
                             <param name="visible" value="ControlGroup(9100).HasFocus(9113)"/>
-                            <param name="addonname" value="script.skin.helper.service"/>
+                            <param name="addonname" value="resource.uisounds.arctic.zephyr.mod"/>
                         </include>
                         <include content="DefSkinAddons">
                             <param name="id" value="11024"/>
@@ -2390,22 +2388,6 @@
                             <label>31254</label>
                             <selected>Skin.HasSetting(furniture.overlayinfo)</selected>
                             <onclick>Skin.ToggleSetting(furniture.overlayinfo)</onclick>
-                        </control>
-                        <control type="radiobutton" id="9281">
-                            <width>1360</width>
-                            <visible>ControlGroup(9100).HasFocus(9106)</visible>
-                            <include>DefSettingsButtonGradientSkinSettings</include>
-                            <label>31002</label>
-                            <selected>Skin.HasSetting(furniture.animatedposters)</selected>
-                            <onclick>Skin.ToggleSetting(furniture.animatedposters)</onclick>
-                        </control>
-                        <control type="radiobutton" id="9282">
-                            <width>1360</width>
-                            <visible>ControlGroup(9100).HasFocus(9106)</visible>
-                            <include>DefSettingsButtonGradientSkinSettings</include>
-                            <label>31003</label>
-                            <selected>Skin.HasSetting(furniture.animatedfanarts)</selected>
-                            <onclick>Skin.ToggleSetting(furniture.animatedfanarts)</onclick>
                         </control>
                         <control type="radiobutton" id="9285">
                             <width>1360</width>
