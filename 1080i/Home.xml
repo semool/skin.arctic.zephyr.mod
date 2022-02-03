@@ -15,6 +15,7 @@
     <onunload condition="Skin.HasSetting(home.netflix.autoplay.trailer)">ClearProperty(listitem.trailer,home)</onunload>
     <onload condition="!Skin.HasSetting(furniture.animatedposters) + !Skin.HasSetting(furniture.animatedfanarts) + Skin.HasSetting(SkinHelper.EnableAnimatedPosters)">Skin.ToggleSetting(SkinHelper.EnableAnimatedPosters)</onload>
     <onload condition="[Skin.HasSetting(furniture.animatedposters) | Skin.HasSetting(furniture.animatedfanarts)] + !Skin.HasSetting(SkinHelper.EnableAnimatedPosters)">Skin.ToggleSetting(SkinHelper.EnableAnimatedPosters)</onload>
+    <onload condition="!Skin.HasSetting(furniture.animatedposters)">Skin.ToggleSetting(Skin_EnableAnimatedPosters)</onload>
     <controls>
         <include>GlobalBackground</include>
 
