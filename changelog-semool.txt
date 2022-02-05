@@ -7,6 +7,7 @@
 - Add HDR Logo for my own file naming (ListItem.Filenameandpath,_2160p,Filenameandpath,_SDR)
 - More Space for colored flags
 - Add resource.uisounds.arctic.zephyr.mod (https://github.com/semool/resource.uisounds.arctic.zephyr.mod) to Supportet Addons Menu
+- Add script.skin.helper.service (https://github.com/semool/script.skin.helper.service) to Supportet Addons Menu
 - Add script.skin.helper.skinbackup (https://github.com/semool/script.skin.helper.skinbackup) to Supportet Addons Menu
 - Removed unneded languages
 - Hide "Select Animated Art" in Contextmenu when Animated Posters and Fanarts are disabled in Settings
