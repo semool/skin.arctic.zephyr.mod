@@ -1,6 +1,7 @@
 [B]1.1.68[/B]
 Improved skin shortcuts implementation
 Improved widget info for episodes
+Fixed issues
 Code cleanup
 
 [B]1.1.67[/B]
