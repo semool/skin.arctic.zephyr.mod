@@ -110,10 +110,10 @@
         | [VideoPlayer.IsFullscreen + [String.IsEqual(VideoPlayer.HdrType, hdr10) | String.Contains(Player.FileNameAndPath,.hdr10.)]]
     </expression>
     <expression name="IsVideoHDR">
-        String.IsEmpty(ListItem.HdrType) + String.IsEmpty(VideoPlayer.HdrType) + [String.Contains(ListItem.FileNameAndPath,.hdr.)
-        | [String.Contains(ListItem.Filenameandpath,_2160p) + !String.Contains(ListItem.Filenameandpath,_SDR)]
+        String.IsEmpty(ListItem.HdrType) + String.IsEmpty(VideoPlayer.HdrType) + String.Contains(ListItem.FileNameAndPath,.hdr.)
+        | [VideoPlayer.IsFullscreen + String.Contains(Player.FileNameAndPath,.hdr.)]
         | [VideoPlayer.IsFullscreen + String.Contains(Player.Filenameandpath,_2160p) + !String.Contains(Player.Filenameandpath,_SDR)]
-        | [VideoPlayer.IsFullscreen + String.Contains(Player.FileNameAndPath,.hdr.)]]
+        | [String.Contains(ListItem.Filenameandpath,_2160p) + !String.Contains(ListItem.Filenameandpath,_SDR)]
     </expression>
     <expression name="IsVideoHLG">
         String.IsEqual(ListItem.HdrType, hlg) | String.Contains(ListItem.FileNameAndPath,.hlg.)
