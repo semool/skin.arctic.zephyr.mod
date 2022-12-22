@@ -1545,7 +1545,7 @@
                 <textcolor>Dark1</textcolor>
                 <visible>!Skin.HasSetting(furniture.flagicons) + !String.IsEmpty(ListItem.AudioCodec)</visible>
             </control>
-            <control type="image" description="HDR10+">
+            <!--<control type="image" description="HDR10+">
                 <width min="20" max="130">auto</width>
                 <height>60</height>
                 <centertop>50%</centertop>
@@ -1560,7 +1560,7 @@
                 <texture colordiffuse="Dark1" fallback="flags/fallback.png">flags/other/hdr10.png</texture>
                 <aspectratio align="center">keep</aspectratio>
                 <visible>Skin.HasSetting(furniture.flagicons) + !Skin.HasSetting(furniture.flags.hdr) + $EXP[IsVideoHDR10]</visible>
-            </control>
+            </control>-->
             <control type="image" description="HDR">
                 <width min="20" max="100">auto</width>
                 <height>60</height>
@@ -1577,14 +1577,14 @@
                 <aspectratio align="center">keep</aspectratio>
                 <visible>Skin.HasSetting(furniture.flagicons) + !Skin.HasSetting(furniture.flags.hdr) + $EXP[IsVideoHLG]</visible>
             </control>
-            <control type="image" description="Dolby Vision">
+            <!--<control type="image" description="Dolby Vision">
                 <width min="20" max="130">auto</width>
                 <height>60</height>
                 <centertop>50%</centertop>
                 <texture colordiffuse="Dark1" fallback="flags/fallback.png">flags/other/dolbyvision.png</texture>
                 <aspectratio align="center">keep</aspectratio>
                 <visible>Skin.HasSetting(furniture.flagicons) + !Skin.HasSetting(furniture.flags.hdr) + $EXP[IsVideoDolbyVision]</visible>
-            </control>
+            </control>-->
             <control type="image" description="MPAA">
                 <width min="20" max="100">auto</width>
                 <height>64</height>
