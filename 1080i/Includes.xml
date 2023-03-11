@@ -85,6 +85,7 @@
     <expression name="IsPVRAudio">Player.HasAudio + VideoPlayer.Content(livetv)</expression>
     <expression name="IsAudio">Player.HasAudio + !VideoPlayer.Content(livetv)</expression>
     <expression name="IsVideo">Player.HasVideo + !VideoPlayer.Content(livetv)</expression>
+    <expression name="MusicSeekbarIsVisible">!Window.IsVisible(musicosd) + [Player.ShowInfo | Player.Seeking | Player.HasPerformedSeek(3) | Player.Paused | Player.Forwarding | Player.Rewinding]</expression>
     <expression name="VideoOSDShort">!String.IsEmpty(Window(home).Property(osdshowinfo)) | [Player.ShowInfo | !String.IsEmpty(Window(home).Property(osdinfo))] | [Window.IsVisible(videoosd) + Window.IsVisible(DialogFullScreenInfo.xml)]</expression>
     <expression name="VideoOSDWide">String.IsEmpty(Window(home).Property(osdshowinfo)) + String.IsEmpty(Window(home).Property(osdinfo)) + !Player.ShowInfo + ![Window.IsVisible(videoosd) + Window.IsVisible(DialogFullScreenInfo.xml)]</expression>
     <expression name="TrailerWindowIsActive">Skin.HasSetting(home.netflix.autoplay.trailer) + [[Window.IsVisible(Home.xml) + [$EXP[HomeIsModernMultiWidgetsNetflix] | $EXP[HomeIsCleanMinimal] | $EXP[HomeIsVerticalMultiWidgetsNetflix]]] | Control.IsVisible(521) | Control.IsVisible(522) | Control.IsVisible(510)] + !Window.IsVisible(DialogVideoInfo.xml) + String.IsEqual(Window(home).Property(TrailerPath2),Player.FileNameAndPath) + !String.IsEmpty(Player.FileNameAndPath)</expression>
@@ -857,6 +858,26 @@
             <label>$INFO[ListItem.Art(fanart18)]</label>
             <label>$INFO[ListItem.Art(fanart19)]</label>
             <label>$INFO[ListItem.Art(fanart20)]</label>
+            <label>$INFO[ListItem.Art(artist.fanart1)]</label>
+            <label>$INFO[ListItem.Art(artist.fanart2)]</label>
+            <label>$INFO[ListItem.Art(artist.fanart3)]</label>
+            <label>$INFO[ListItem.Art(artist.fanart4)]</label>
+            <label>$INFO[ListItem.Art(artist.fanart5)]</label>
+            <label>$INFO[ListItem.Art(artist.fanart6)]</label>
+            <label>$INFO[ListItem.Art(artist.fanart7)]</label>
+            <label>$INFO[ListItem.Art(artist.fanart8)]</label>
+            <label>$INFO[ListItem.Art(artist.fanart9)]</label>
+            <label>$INFO[ListItem.Art(artist.fanart10)]</label>
+            <label>$INFO[ListItem.Art(artist.fanart11)]</label>
+            <label>$INFO[ListItem.Art(artist.fanart12)]</label>
+            <label>$INFO[ListItem.Art(artist.fanart13)]</label>
+            <label>$INFO[ListItem.Art(artist.fanart14)]</label>
+            <label>$INFO[ListItem.Art(artist.fanart15)]</label>
+            <label>$INFO[ListItem.Art(artist.fanart16)]</label>
+            <label>$INFO[ListItem.Art(artist.fanart17)]</label>
+            <label>$INFO[ListItem.Art(artist.fanart18)]</label>
+            <label>$INFO[ListItem.Art(artist.fanart19)]</label>
+            <label>$INFO[ListItem.Art(artist.fanart20)]</label>
             <label>$INFO[ListItem.Art(tvshow.fanart1)]</label>
             <label>$INFO[ListItem.Art(tvshow.fanart2)]</label>
             <label>$INFO[ListItem.Art(tvshow.fanart3)]</label>
