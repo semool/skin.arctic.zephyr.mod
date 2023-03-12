@@ -104,18 +104,12 @@
         | [VideoPlayer.IsFullscreen + [String.Contains(Player.FileNameAndPath,dts-x) | String.Contains(Player.FileNameAndPath,dtsx) | String.Contains(Player.FileNameAndPath,dts.x)]]
     </expression>
     <expression name="IsVideoHDR10Plus">
-        <!--String.IsEmpty(ListItem.HdrType) + String.IsEmpty(VideoPlayer.HdrType) + [String.Contains(ListItem.FileNameAndPath,hdr10plus)
-        | [VideoPlayer.IsFullscreen + String.Contains(Player.FileNameAndPath,hdr10plus)]]-->
         String.Contains(ListItem.FileNameAndPath,DisableThis)
     </expression>
     <expression name="IsVideoHDR10">
-        <!--String.IsEqual(ListItem.HdrType,hdr10) | String.Contains(ListItem.FileNameAndPath,hdr10)
-        | [VideoPlayer.IsFullscreen + [String.IsEqual(VideoPlayer.HdrType,hdr10) | String.Contains(Player.FileNameAndPath,hdr10)]]-->
         String.Contains(ListItem.FileNameAndPath,DisableThis)
     </expression>
     <expression name="IsVideoHDR">
-        <!--String.IsEmpty(ListItem.HdrType) + String.IsEmpty(VideoPlayer.HdrType) + [String.Contains(ListItem.FileNameAndPath,hdr)
-        | [VideoPlayer.IsFullscreen + String.Contains(Player.FileNameAndPath,hdr)]]-->
         [[[String.Contains(ListItem.Filenameandpath,_2160p) | String.Contains(ListItem.FileNameAndPath,.hdr.)] + !String.Contains(ListItem.Filenameandpath,_SDR)]
         | [VideoPlayer.IsFullscreen + [!String.IsEmpty(VideoPlayer.HdrType) | [String.Contains(ListItem.Filenameandpath,_2160p) + !String.Contains(ListItem.Filenameandpath,_SDR)]]]]
     </expression>
@@ -124,8 +118,6 @@
         | [VideoPlayer.IsFullscreen + [String.IsEqual(VideoPlayer.HdrType,hlg) | String.Contains(Player.FileNameAndPath,hlg)]]
     </expression>
     <expression name="IsVideoDolbyVision">
-        <!--String.IsEqual(ListItem.HdrType,dolbyvision) | String.Contains(ListItem.FileNameAndPath,.dv.) | String.Contains(ListItem.FileNameAndPath,dolbyvision) | String.Contains(ListItem.FileNameAndPath,dolby-vision) | String.Contains(ListItem.FileNameAndPath,dolby vision)
-        | [VideoPlayer.IsFullscreen + [String.IsEqual(VideoPlayer.HdrType, dolbyvision) | String.Contains(Player.FileNameAndPath,.dv.) | String.Contains(Player.FileNameAndPath,dolbyvision) | String.Contains(Player.FileNameAndPath,dolby-vision) | String.Contains(Player.FileNameAndPath,dolby vision)]]-->
         String.Contains(ListItem.FileNameAndPath,DisableThis)
     </expression>
     <expression name="HasNextAired">
