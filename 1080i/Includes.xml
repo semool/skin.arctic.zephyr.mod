@@ -1132,10 +1132,10 @@
     </include>
 
     <include name="buttondimensionsnumpad">
-        <width>186</width>
-        <height>89</height>
-        <radioposx>70</radioposx>
-        <radioposy>30</radioposy>
+        <width>89</width>
+        <height>186</height>
+        <radioposx>20</radioposx>
+        <radioposy>75</radioposy>
         <radiowidth>48</radiowidth>
     </include>
 
@@ -3636,7 +3636,7 @@
 
     <include name="ControlButtons">
         <control type="grouplist" id="6150">
-            <visible>Player.HasMedia</visible>
+            <visible>Player.HasMedia | Player.Playing</visible>
             <usecontrolcoords>true</usecontrolcoords>
             <top>10</top>
             <height>60</height>
