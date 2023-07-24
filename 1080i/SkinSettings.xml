@@ -2187,17 +2187,17 @@
                             <param name="addonname" value="script.wikipedia"/>
                         </include>
                         <include content="DefSkinAddons">
-                            <param name="id" value="11024"/>
+                            <param name="id" value="11025"/>
                             <param name="visible" value="ControlGroup(9100).HasFocus(9113)"/>
                             <param name="addonname" value="resource.uisounds.arctic.zephyr.mod"/>
                         </include>
                         <include content="DefSkinAddons">
-                            <param name="id" value="11025"/>
+                            <param name="id" value="11026"/>
                             <param name="visible" value="ControlGroup(9100).HasFocus(9113)"/>
                             <param name="addonname" value="script.skin.helper.skinbackup"/>
                         </include>
                         <include content="DefSkinAddons">
-                            <param name="id" value="11026"/>
+                            <param name="id" value="11027"/>
                             <param name="visible" value="ControlGroup(9100).HasFocus(9113)"/>
                             <param name="addonname" value="script.skin.helper.service"/>
                         </include>
