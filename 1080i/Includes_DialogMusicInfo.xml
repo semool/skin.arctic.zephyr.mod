@@ -113,8 +113,7 @@
                     <control type="image" description="clearlogo">
                         <visible>Skin.HasSetting(furniture.logo)</visible>
                         <top>-80</top>
-                        <height>ClearLogoMaxHeight</height>
-                        <width>ClearLogoMaxWidth</width>
+                        <height>102</height>
                         <aspectratio align="right" aligny="top">keep</aspectratio>
                         <texture background="true">$VAR[ClearLogoTopVar]</texture>
                         <animation effect="rotate" condition="true" start="360" end="350" loop="false" time="0" center="auto">Conditional</animation>

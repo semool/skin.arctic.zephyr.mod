@@ -3154,6 +3154,7 @@
         <fadetime>ClearArtFadetime</fadetime>
         <right>SidePad</right>
         <width>400</width>
+        <top>-195</top>
         <aspectratio scalediffuse="true" align="right" aligny="top">keep</aspectratio>
     </include>
 
@@ -3568,8 +3569,8 @@
                 <visible>Skin.HasSetting(furniture.logo)</visible>
                 <centertop>120</centertop>
                 <centerleft>50%</centerleft>
-                <height>ClearLogoMaxHeight</height>
-                <width>ClearLogoMaxWidth</width>
+                <width>400</width>
+                <height>100</height>
                 <aspectratio align="center">keep</aspectratio>
                 <texture background="true">$VAR[ClearLogoTopVar]</texture>
             </control>
@@ -3652,7 +3653,7 @@
             <visible>!Skin.HasSetting(furniture.markers.alternative)</visible>
             <right>$PARAM[right]</right>
             <top>$PARAM[top]</top>
-            <control type="label">
+            <!--<control type="label">
                 <align>center</align>
                 <aligny>center</aligny>
                 <width>50</width>
@@ -3663,7 +3664,7 @@
                 <font>SymbolPosterBackground</font>
                 <label>$VAR[WatchedBacking]</label>
                 <visible>$PARAM[indicatorbackground]</visible>
-            </control>
+            </control>-->
             <control type="label">
                 <align>center</align>
                 <aligny>center</aligny>
