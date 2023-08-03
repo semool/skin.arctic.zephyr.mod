@@ -180,7 +180,6 @@
                     <animation type="Focus" reversible="false">
                         <effect type="slide" start="0,0" end="0,-80" time="500" tween="cubic" delay="1000" />
                     </animation>
-                    <include>Animation.CDart</include>
                 </control>
                 <control type="group">
                     <height>264</height>
@@ -318,8 +317,9 @@
                 <width>580</width>
                 <control type="image" description="clearlogo">
                     <visible>Skin.HasSetting(ShowClearart510) + $EXP[TitleClearlogoAvailable]</visible>
-                    <top>-670</top>
-                    <width>275</width>
+                    <top>140</top>
+                    <height>ClearLogoMaxHeight</height>
+                    <width>ClearLogoMaxWidth</width>
                     <aspectratio scalediffuse="true" align="left">keep</aspectratio>
                     <texture background="true">$VAR[ClearLogoTopVar]</texture>
                 </control>

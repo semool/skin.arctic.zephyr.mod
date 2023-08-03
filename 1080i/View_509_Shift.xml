@@ -21,9 +21,10 @@
             <control type="image" description="clearlogo">
                 <animation effect="slide" start="0,0" end="-735,0" time="200" condition="Skin.HasSetting(509NoCenter)">Conditional</animation>
                 <visible>$EXP[TitleClearlogoAvailable] + Skin.HasSetting(509clearlogo)</visible>
-                <top>-550</top>
-                <width>275</width>
-                <left>815</left>
+                <top>220</top>
+                <height>ClearLogoMaxHeight</height>
+                <width>ClearLogoMaxWidth</width>
+                <centerleft>50%</centerleft>
                 <aspectratio scalediffuse="true" align="center">keep</aspectratio>
                 <texture background="true">$VAR[ClearLogoTopVar]</texture>
                 <fadetime>ClearArtFadetime</fadetime>

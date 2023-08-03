@@ -130,8 +130,8 @@
                     <include>Animation.WikiFadeOut</include>
                     <centertop>140</centertop>
                     <right>SidePad</right>
-                    <width>400</width>
-                    <height>100</height>
+                    <height>ClearLogoMaxHeight</height>
+                    <width>ClearLogoMaxWidth</width>
                     <aspectratio align="right" aligny="top">keep</aspectratio>
                     <texture background="true">$VAR[ClearLogoTopVar]</texture>
                 </control>
@@ -667,7 +667,7 @@
                         <texture background="true">$INFO[ListItem.Art(clearart)]</texture>
                         <visible>Skin.HasSetting(show.clearart)</visible>
                     </control>
-                    <!--<control type="image" description="Shadow">
+                    <control type="image" description="Shadow">
                         <width>350</width>
                         <right>5</right>
                         <height>1</height>
@@ -675,7 +675,7 @@
                         <texture flipy="true" colordiffuse="BoxHomerow">common/sch2.png</texture>
                         <visible>!String.IsEmpty(ListItem.Art(clearart))</visible>
                         <visible>Skin.HasSetting(show.clearart)</visible>
-                    </control>-->
+                    </control>
                     <control type="image">
                         <height>109</height>
                         <width>161</width>
