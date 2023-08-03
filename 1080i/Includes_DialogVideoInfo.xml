@@ -130,8 +130,8 @@
                     <include>Animation.WikiFadeOut</include>
                     <centertop>140</centertop>
                     <right>SidePad</right>
-                    <width>400</width>
-                    <height>100</height>
+                    <height>ClearLogoMaxHeight</height>
+                    <width>ClearLogoMaxWidth</width>
                     <aspectratio align="right" aligny="top">keep</aspectratio>
                     <texture background="true">$VAR[ClearLogoTopVar]</texture>
                 </control>
