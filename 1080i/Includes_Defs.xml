@@ -148,6 +148,11 @@
         <value condition="!String.IsEmpty(Skin.String(widgetTarget)) + String.IsEmpty(Skin.String(home.slideshowpath)) + !String.IsEqual(Skin.String(home.slideshowpath),pvr/background.jpg)">$INFO[Skin.String(widgetTarget)]</value>
         <value>videos</value>
     </variable>
+    
+    <variable name="DefBrowse">
+        <value condition="Skin.HasSetting(enable.morewidget)">auto</value>
+        <value>never</value>
+    </variable>
 
     <variable name="DefWidgetLimit">
         <value condition="!String.IsEmpty(Skin.String(WidgetLimit))">$INFO[Skin.String(WidgetLimit)]</value>
@@ -4098,7 +4103,6 @@
         <include content="IndicatorPoster" condition="!Skin.HasSetting(hide.markers)">
             <param name="indicatorbackground" value="$PARAM[indicatorbackground]" />
         </include>
-        <include condition="Skin.HasSetting(enable.morewidget)">more</include>
         </definition>
     </include>
 
@@ -4196,7 +4200,6 @@
         <include content="IndicatorPoster" condition="!Skin.HasSetting(hide.markers)">
             <param name="indicatorbackground" value="$PARAM[indicatorbackground]" />
         </include>
-        <include condition="Skin.HasSetting(enable.morewidget)">more</include>
     </include>
 
     <include name="def_widgetsquare_system">
@@ -4397,7 +4400,6 @@
         <include content="IndicatorPoster" condition="!Skin.HasSetting(hide.markers)">
             <param name="indicatorbackground" value="$PARAM[indicatorbackground]" />
         </include>
-        <include condition="Skin.HasSetting(enable.morewidget)">more</include>
         </definition>
     </include>
 
@@ -4512,7 +4514,6 @@
         <include content="IndicatorPoster" condition="!Skin.HasSetting(hide.markers)">
             <param name="indicatorbackground" value="$PARAM[indicatorbackground]" />
         </include>
-        <include condition="Skin.HasSetting(enable.morewidget)">more</include>
         </definition>
     </include>
 
@@ -4640,7 +4641,6 @@
         <include content="IndicatorPoster" condition="!Skin.HasSetting(hide.markers)">
             <param name="indicatorbackground" value="$PARAM[indicatorbackground]" />
         </include>
-        <include condition="Skin.HasSetting(enable.morewidget)">more</include>
         </definition>
     </include>
     
