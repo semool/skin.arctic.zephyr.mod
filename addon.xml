@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.arctic.zephyr.mod" version="21.0.0" name="Arctic: Zephyr - Reloaded" provider-name="jurialmunkey, beatmasterrs, semool">
+<addon id="skin.arctic.zephyr.mod" version="20.0.5" name="Arctic: Zephyr - Reloaded" provider-name="jurialmunkey, beatmasterrs, semool">
     <requires>
-        <import addon="xbmc.gui" version="5.17.0"/>
+        <import addon="xbmc.gui" version="5.16.0"/>
         <import addon="script.skinshortcuts" version="0.4.0"/>
         <import addon="script.globalsearch" version="5.0.0"/>
         <import addon="script.image.resource.select" version="0.0.5"/>
